@@ -1,0 +1,16 @@
+@media (max-width: 768px)
+    .wrapper
+        .container
+            .row, .col, .txt-wrapper
+                flex-direction: column
+                .col
+                    &:first-child
+                        justify-content: flex-end
+                        padding-bottom: 10px
+                    &:last-child
+                        justify-content: flex-start
+                        padding-top: 10px
+                    .txt-wrapper
+                        width: 80%
+                        a
+                            font-size: 1.7rem
