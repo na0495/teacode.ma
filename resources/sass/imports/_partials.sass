@@ -1,0 +1,55 @@
+.back
+    position: absolute
+    left: 20px
+    top: 20px
+    font-size: 1.6rem
+    transition: transform
+    z-index: 1
+    font-family: 'Caveat'
+    &:hover
+        animation: moveRight .3s ease forwards
+.resume, .links
+    position: absolute
+    top: 20px
+    right: 30px
+    font-family: 'Caveat'
+    font-size: 1.6rem
+    transition: transform
+    z-index: 1
+    &:hover
+        animation: moveLeft .3s ease forwards
+
+.message
+    position: absolute
+    .welcome
+        text-decoration: underline
+    .message-bluring
+        z-index: 2
+        position: absolute
+        filter: blur(10px)
+        background-color: #fff
+        opacity: 0.7
+    .message-wrapper
+        position: relative
+        z-index: 3
+        font-family: Harmattan
+        font-size: 1.8rem
+        text-align: center
+        background-color: #fff
+        border-radius: 10px
+        border: 2px solid #1DA1F3
+        width: 500px
+        height: 300px
+        min-height: 200px
+        min-width: 300px
+        padding: 30px
+        display: flex
+        flex-direction: column !important
+        justify-content: space-evenly
+        justify-content: center
+        align-items: center
+        .close
+            position: absolute
+            z-index: 4
+            top: 10px
+            right: 10px

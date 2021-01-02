@@ -19332,6 +19332,18 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+$(function () {
+  setTimeout(function () {
+    $('.message').removeClass('d-none');
+  }, 500);
+  $(document).on('click', '.close, .message-bluring', function () {
+    $('.message-wrapper').toggleClass('animate__rollIn animate__rollOut');
+    setTimeout(function () {
+      $('.message').addClass('d-none');
+    }, 1000);
+  });
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19384,8 +19396,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\laravel\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\laravel\resources\sass\app.sass */"./resources/sass/app.sass");
+__webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\resources\sass\app.sass */"./resources/sass/app.sass");
 
 
 /***/ })

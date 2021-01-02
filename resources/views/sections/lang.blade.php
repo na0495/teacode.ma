@@ -3,6 +3,7 @@
 @section('content')
 <div class="ar fullscreen">
     {{-- @include('partials.back-btn') --}}
+    @include('partials.message')
     <div class="row fullscreen">
         @foreach ($content['items'] as $item)
         <div class="col-md-4 col">
