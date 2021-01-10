@@ -2,6 +2,7 @@ require('./bootstrap');
 
 
 $(function(){
+
     setTimeout(() => {
         $('.message').removeClass('d-none');
     }, 500);

@@ -9,17 +9,26 @@ return  [
                 [
                     'classes' => ['discord'],
                     'text' => 'Discord',
-                    'link' => 'https://discord.gg/y9TwPcqdvm'
+                    'link' => 'https://discord.gg/y9TwPcqdvm',
+                    'img' => './assets/img/icons/discord.png'
                 ],
                 [
                     'classes' => ['youtube'],
                     'text' => 'Youtube',
-                    'link' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ'
+                    'link' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
+                    'img' => './assets/img/icons/youtube.png'
+                ],
+                [
+                    'classes' => ['facebook'],
+                    'text' => 'Facebook',
+                    'link' => 'https://facebook.com/groups/teacode.ma',
+                    'img' => './assets/img/icons/facebook.png'
                 ],
                 [
                     'classes' => ['podcast'],
                     'text' => 'Podcast',
-                    'link' => 'https://soundcloud.com/teacodema'
+                    'link' => 'https://soundcloud.com/teacodema',
+                    'img' => './assets/img/icons/podcast.png'
                 ],
             ]
         ],
@@ -29,12 +38,14 @@ return  [
                 [
                     'classes' => ['blog'],
                     'text' => 'Blog',
-                    'link' => 'https://blog.teacode.ma'
+                    'link' => 'https://blog.teacode.ma',
+                    'img' => ''
                 ],
                 [
                     'classes' => ['udemy'],
                     'text' => 'Courses',
-                    'link' => 'https://www.udemy.com/user/drssboumlik'
+                    'link' => 'https://www.udemy.com/user/drssboumlik',
+                    'img' => ''
                 ],
             ]
         ]

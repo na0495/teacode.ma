@@ -22,9 +22,9 @@
         <div class="wrapper">
             <div class="container">
                 @yield('content')
-                <div class="links">
+                {{-- <div class="links">
                     <a href="/links" class="text-capitalize">my links <i class="far fa-hand-point-right"></i></a>
-                </div>
+                </div> --}}
                 {{-- <div class="resume">
                     <a href="https://resume.teacode.ma" target="_blank">my resume <i class="far fa-hand-point-right"></i></a>
                 </div> --}}

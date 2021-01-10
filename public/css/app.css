@@ -90,6 +90,34 @@ body {
   height: 100%;
 }
 
+.txt-wrapper .item-link {
+  background-size: cover;
+  background-position: center center;
+}
+.txt-wrapper .item-link ._item-link-txt {
+  position: absolute;
+  bottom: -50px;
+  color: #000;
+}
+.txt-wrapper .item-link-txt {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.txt-wrapper img.icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  height: 100%;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+.txt-wrapper:hover img.icon {
+  transform: scale(1);
+}
+.txt-wrapper:hover .item-link-txt {
+  transform: scale(0);
+}
+
 .discord {
   background-color: #7289D9;
 }
@@ -97,8 +125,15 @@ body {
   background-color: #6b7fc9;
 }
 
+.facebook {
+  background-color: #3C5B9B;
+}
+.facebook:hover, .facebook:active, .facebook:focus {
+  background-color: #36528a;
+}
+
 .youtube {
-  background-color: #FE0000;
+  background-color: #e30000;
 }
 .youtube:hover, .youtube:active, .youtube:focus {
   background-color: #ee0a0a;
@@ -165,19 +200,19 @@ body {
   padding: 0;
   background-color: transparent;
   border-radius: 5px;
+  overflow: hidden;
   border: none;
 }
-.list-group .list-group-item .link {
-  transition: transform 0.3s ease;
+.list-group .list-group-item.link {
+  transition: all 0.3s ease;
   transform: scale(1);
 }
-.list-group .list-group-item .link:hover {
+.list-group .list-group-item.link:hover {
   transform: scale(1.1);
 }
 .list-group .list-group-item img {
   height: 100px;
   width: 100px;
-  border-radius: 5px;
   display: inline-block;
 }
 
@@ -295,6 +330,9 @@ body {
     padding: 15px;
   }
 
+  .wrapper .container .items-wrapper {
+    height: 100%;
+  }
   .wrapper .container .row, .wrapper .container .col, .wrapper .container .txt-wrapper {
     flex-direction: column;
   }
@@ -311,5 +349,8 @@ body {
   }
   .wrapper .container .row .col .txt-wrapper a, .wrapper .container .col .col .txt-wrapper a, .wrapper .container .txt-wrapper .col .txt-wrapper a {
     font-size: 1.7rem;
+  }
+  .wrapper .container .item-link .item-link-txt {
+    bottom: -40px;
   }
 }
