@@ -1,0 +1,27 @@
+[
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "title": "Workshop Techniques",
+        "description": "We do workshop about C, C++, Python, Javascript, Git ...etc"
+    },
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "title": "Communication",
+        "description": "We do workshop to practice communicating in English/French"
+    },
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "title": "Lives",
+        "description": "How to (Find a job / Internship, Build CV/Portfolio)"
+    },
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "title": "Mock Interview",
+        "description": "We do private sessions (2 persons in each room) to practice interviews"
+    },
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "title": "Pair Programming",
+        "description": "We do sessions (2 persons in each room) "
+    }
+]

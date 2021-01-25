@@ -8,13 +8,20 @@ class HomeController extends Controller
 {
     public function home(Request $request, $var = null)
     {
-        if($var) {
+        if ($var) {
             return redirect('/');
         }
         // FOR NOW
-        $content = config('data.content.ar');
-        return view('sections.lang', ['content' => $content]);
-        // return view('home');
+        return $this->content($request, 'ar');
+    }
+
+    public function index(Request $request)
+    {
+        $activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
+        $events = json_decode(\File::get(base_path() . '/database/data/events.json'));
+        $data = ['activities' => $activities, 'events' => $events];
+        // dd($data);
+        return view('index', ['data' => $data]);
     }
 
     public function content(Request $request, $lang)

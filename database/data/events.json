@@ -1,0 +1,22 @@
+[
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "date": "29-02-2020",
+        "time": "9 PM",
+        "type": "online",
+        "place": "<a href='https://discord.gg/y9TwPcqdvm' target='_blank'>Discord</a>",
+        "title": "Workshop : Communication in English - (Moroccan People Only)",
+        "description": "Planning :\n1- Kol wahd i9ddem rasso\n2- Nhdro chwya 3la domaine dyal kol wahd\n3- Kol wahd ihder lina 3la chno lli kaymotivih bach i9ra/ikhdem\n4- Lli 3ndo chi question (kif mma kant) igolha o njawboh b english\n5- Open discussion (nhdro 3la life, relations, interviews, .....etc)",
+        "reccurent": true
+    },
+    {
+        "img": "https://via.placeholder.com/400x250",
+        "date": "29-02-2020",
+        "time": "9 PM",
+        "type": "online",
+        "place": "<a href='https://discord.gg/y9TwPcqdvm' target='_blank'>Discord</a>",
+        "title": "Workshop: Communication en Français - (Marocains uniquement)",
+        "description": "Planning :\n1- Kol wahd i9ddem rasso\n2- Nhdro chwya 3la domaine dyal kol wahd\n3- Kol wahd ihder lina 3la chno lli kaymotivih bach i9ra/ikhdem\n4- Lli 3ndo chi question (kif mma kant) igolha o njawboh b english\n5- Open discussion (nhdro 3la life, relations, interviews, .....etc)",
+        "reccurent": true
+    }
+]

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'HomeController@index');
 Route::get('/links', 'HomeController@links');
 Route::get('/{lang}', 'HomeController@content');
 Route::any('/{var}', 'HomeController@home')->where('var', '.*');

@@ -74,20 +74,16 @@
   outline: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "IstokWeb" !important;
 }
 
-.wrapper {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.wrapper .container {
-  width: 100% !important;
-  height: 100%;
+a {
+  color: #1DA1F2;
 }
 
 .txt-wrapper .item-link {
@@ -168,6 +164,10 @@ body {
   transform: scale(1.1);
 }
 
+.ff-primary {
+  font-family: "IstokWeb" !important;
+}
+
 .fullscreen {
   display: flex;
   justify-content: center;
@@ -186,6 +186,29 @@ body {
 
 .w-auto {
   width: auto;
+}
+
+.square-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.square-75 {
+  width: 75px;
+  height: 75px;
+}
+
+.square-100 {
+  width: 100px;
+  height: 100px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
 }
 
 .list-group {
@@ -316,6 +339,51 @@ body {
   right: 10px;
 }
 
+.section {
+  padding: 50px 0;
+}
+.section:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.welcom-message-wrapper {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about {
+  margin-top: 56px;
+}
+
+.page-footer {
+  position: relative;
+  background-color: #222;
+  color: #FAFAFA;
+  font-size: 1.2rem;
+}
+.page-footer .container-fluid {
+  padding: 0 15px;
+}
+.page-footer .container-fluid .container {
+  padding: 10px 0;
+}
+.page-footer p {
+  margin: 0;
+}
+.page-footer i {
+  font-size: 1rem;
+}
+.page-footer .owner i.fa-heart {
+  color: #FF5050;
+}
+
 @media (max-width: 500px) {
   .message .message-wrapper {
     font-size: 1.4rem !important;
@@ -332,9 +400,6 @@ body {
 
   .wrapper .container .items-wrapper {
     height: 100%;
-  }
-  .wrapper .container .row, .wrapper .container .col, .wrapper .container .txt-wrapper {
-    flex-direction: column;
   }
   .wrapper .container .row .col:first-child, .wrapper .container .col .col:first-child, .wrapper .container .txt-wrapper .col:first-child {
     justify-content: flex-end;
