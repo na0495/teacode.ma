@@ -1,32 +1,32 @@
 [
     {
-        "img": "https://via.placeholder.com/400x250",
+        "img": "/assets/img/activities/ws.svg",
         "icon": "<i class='fas fa-code-branch'></i>",
-        "title": "Workshop Techniques",
-        "description": "We do workshop on C, C++, Python, Javascript, Git ...etc"
+        "title": "technical workshop",
+        "description": "workshop on different languages C, C++, Python, Javascript, Git ...etc"
     },
     {
-        "img": "https://via.placeholder.com/400x250",
+        "img": "/assets/img/activities/communication.svg",
         "icon": "<i class='fas fa-comments'></i>",
-        "title": "Communication",
-        "description": "We do workshop to practice communicating in English/French"
+        "title": "communication",
+        "description": "weekly meets to proactice communication in English/French"
     },
     {
-        "img": "https://via.placeholder.com/400x250",
+        "img": "/assets/img/activities/live.svg",
         "icon": "<i class='fas fa-video'></i>",
-        "title": "Lives",
-        "description": "How to (Find a job / Internship, Build CV/Portfolio)"
+        "title": "hangouts",
+        "description": "divers meets on ifferent subjects(How to Stay motivated, find a job / internship, Studies, ...etc)"
     },
     {
-        "img": "https://via.placeholder.com/400x250",
+        "img": "/assets/img/activities/mock-interview.svg",
         "icon": "<i class='fas fa-briefcase'></i>",
-        "title": "Mock Interview",
-        "description": "We do private sessions (2 persons in each room) to practice interviews"
+        "title": "mock interview",
+        "description": "practice interviews with anyone, You can start with a role interviewer/interviewee, then you can switch roles with your partner <span class='white-space-nowrap'>(2 persons in each room)</span>"
     },
     {
-        "img": "https://via.placeholder.com/400x250",
+        "img": "/assets/img/activities/pair-programming.svg",
         "icon": "<i class='fas fa-code'></i>",
-        "title": "Pair Programming",
-        "description": "We do sessions (2 persons in each room) "
+        "title": "pair programming",
+        "description": "we do sessions <span class='white-space-nowrap'>(2 persons in each room)</span>"
     }
 ]

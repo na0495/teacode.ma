@@ -1,26 +1,20 @@
-<div id="find_us" class="find_us section-wrapper">
+<div id="find_us" class="find_us section-wrapper py-80px">
     <div class="section">
         <div class="container">
             <div class="row align-items-center mainRow">
-                <div class="col-lg-6 col-md-7">
-                    <h2 class="text-capitalize">find us</h2>
-                    <p></p>
-                    <div class="find-us-wrapper mt-5">
-                        <ul class="list-group align-items-start">
+                <div class="col-12">
+                    <h3 class="text-capitalize text-center mb-5">find us</h3>
+                    <div class="find-us-wrapper mt-4">
+                        <ul class="list-group list-group-horizontal align-items-start">
                             @foreach ($data->find_us as $socialLink)
-                                <li class="list-group-item">
+                                <li class="list-group-item border-0 overflow-auto">
                                     <a href="{{ $socialLink->link }}" target="_blank" class="text-decoration-none">
-                                        <img src="{{ asset($socialLink->icon) }}" alt="" class="rounded-circle overflow-hidden square-50">
-                                        <span class="ml-2 text-capitalize">{{ $socialLink->title }}</span>
+                                        <img src="{{ asset($socialLink->icon) }}" alt="" class="overflow-hidden square-70">
+                                        {{-- <span class="ml-2 text-capitalize">{{ $socialLink->title }}</span> --}}
                                     </a>
                                 </li>
                             @endforeach
                         </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-5">
-                    <div class="img-wrapper">
-                        <img class="img-fluid" src="{{ asset('/assets/img/index/workshops.png') }}" alt="">
                     </div>
                 </div>
             </div>

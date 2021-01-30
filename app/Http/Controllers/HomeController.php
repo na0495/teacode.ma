@@ -12,36 +12,10 @@ class HomeController extends Controller
         if ($var) {
             return redirect('/');
         }
-        // FOR NOW
-        return $this->content($request, 'ar');
-    }
-
-    public function index(Request $request)
-    {
         $data = new stdClass;
-        $data->keys = json_decode(\File::get(base_path() . '/database/data/menu.json'));
-        foreach ($data->keys as $item) {
-            if (!$item->ignoreJson) {
-                $slug = $item->slug;
-                $data->$slug = json_decode(\File::get(base_path() . '/database/data/' . $slug . '.json'));
-            }
-        }
+        $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
+        $data->find_us = json_decode(\File::get(base_path() . '/database/data/find_us.json'));
+
         return view('index', ['data' => $data]);
-    }
-
-    public function content(Request $request, $lang)
-    {
-        // $lang = $lang ?? 'ar';
-        if (!inLanguages($lang)) {
-            return redirect('/');
-        }
-        $content = config('data.content.' . $lang);
-        return view('sections.lang', ['content' => $content]);
-    }
-
-    public function links(Request $request)
-    {
-        $links = config('data.links');
-        return view('sections.links', ['links' => $links]);
     }
 }
