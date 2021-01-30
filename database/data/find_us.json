@@ -1,0 +1,28 @@
+[
+
+    {
+        "icon": "assets/img/social/discord.jpg",
+        "link": "https://discord.gg/y9TwPcqdvm",
+        "title": "discord"
+    },
+    {
+        "icon": "assets/img/social/facebook.png",
+        "link": "https://facebook.com/teacodema",
+        "title": "facebook page"
+    },
+    {
+        "icon": "assets/img/social/facebook.png",
+        "link": "https://facebook.com/groups/teacodema",
+        "title": "facebook group"
+    },
+    {
+        "icon": "assets/img/social/instagram.png",
+        "link": "https://instagram.com/teacode.ma",
+        "title": "instagram"
+    },
+    {
+        "icon": "assets/img/social/twitter.png",
+        "link": "https://twitter.com/teacodema",
+        "title": "twitter"
+    }
+]

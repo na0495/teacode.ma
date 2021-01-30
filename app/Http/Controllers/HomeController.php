@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use stdClass;
 
 class HomeController extends Controller
 {
@@ -17,10 +18,14 @@ class HomeController extends Controller
 
     public function index(Request $request)
     {
-        $activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
-        $events = json_decode(\File::get(base_path() . '/database/data/events.json'));
-        $data = ['activities' => $activities, 'events' => $events];
-        // dd($data);
+        $data = new stdClass;
+        $data->keys = json_decode(\File::get(base_path() . '/database/data/menu.json'));
+        foreach ($data->keys as $item) {
+            if (!$item->ignoreJson) {
+                $slug = $item->slug;
+                $data->$slug = json_decode(\File::get(base_path() . '/database/data/' . $slug . '.json'));
+            }
+        }
         return view('index', ['data' => $data]);
     }
 
