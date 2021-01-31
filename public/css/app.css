@@ -176,14 +176,44 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
 }
 
+.square-20 {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.square-25 {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.square-30 {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.square-35 {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.square-40 {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.square-45 {
+  width: 45px !important;
+  height: 45px !important;
+}
+
 .square-50 {
   width: 50px !important;
   height: 50px !important;
 }
 
 .square-70 {
-  width: 70px !important;
-  height: 70px !important;
+  width: 50px !important;
+  height: 50px !important;
 }
 
 .square-75 {
@@ -271,6 +301,10 @@ h1, h2, h3, h4, h5, h6, p {
 .tc-grey-light-bg {
   color: #fff;
   background-color: #f9f9f9;
+}
+
+.py-50px {
+  padding: 50px 0;
 }
 
 .py-80px {
@@ -434,6 +468,15 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
+.link-wrapper a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-wrapper i {
+  font-size: 1.5rem;
+}
+
 .block-wrapper .block-header .icon {
   color: #1DA1F2;
 }
@@ -442,6 +485,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .block-wrapper .block-body-txt {
   font-size: 1rem;
+}
+
+.activity-wrapper .img-wrapper img {
+  max-height: 500px;
 }
 
 .page-footer {

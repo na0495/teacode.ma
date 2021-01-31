@@ -1,28 +1,38 @@
 [
 
     {
-        "icon": "assets/img/social/discord.jpg",
+        "img": "assets/img/social/discord.jpg",
+        "icon": "<i class='fab fa-discord'></i>",
         "link": "https://discord.gg/y9TwPcqdvm",
-        "title": "discord"
+        "title": "discord",
+        "color": "#6E85D3"
     },
     {
-        "icon": "assets/img/social/facebook.png",
+        "img": "assets/img/social/facebook.png",
+        "icon": "<i class='fab fa-facebook-square'></i>",
         "link": "https://facebook.com/teacodema",
-        "title": "facebook page"
+        "title": "facebook page",
+        "color": "#4867AA"
     },
     {
-        "icon": "assets/img/social/facebook.png",
+        "img": "assets/img/social/facebook.png",
+        "icon": "<i class='fab fa-facebook-square'></i>",
         "link": "https://facebook.com/groups/teacodema",
-        "title": "facebook group"
+        "title": "facebook group",
+        "color": "#4867AA"
     },
     {
-        "icon": "assets/img/social/instagram.png",
+        "img": "assets/img/social/instagram.png",
+        "icon": "<i class='fab fa-instagram-square'></i>",
         "link": "https://instagram.com/teacode.ma",
-        "title": "instagram"
+        "title": "instagram",
+        "color": "#B03699"
     },
     {
-        "icon": "assets/img/social/twitter.png",
+        "img": "assets/img/social/twitter.png",
+        "icon": "<i class='fab fa-twitter-square'></i>",
         "link": "https://twitter.com/teacodema",
-        "title": "twitter"
+        "title": "twitter",
+        "color": "#50ABF1"
     }
 ]
