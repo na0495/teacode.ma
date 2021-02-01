@@ -70,6 +70,28 @@
     transform: translateX(0);
   }
 }
+@-webkit-keyframes upAndDown {
+  0% {
+    transform: translateY(0%) translateX(-50%);
+  }
+  50% {
+    transform: translateY(-10%) translateX(-50%);
+  }
+  100% {
+    transform: translateY(10%) translateX(-50%);
+  }
+}
+@keyframes upAndDown {
+  0% {
+    transform: translateY(0%) translateX(-50%);
+  }
+  50% {
+    transform: translateY(-10%) translateX(-50%);
+  }
+  100% {
+    transform: translateY(10%) translateX(-50%);
+  }
+}
 * {
   outline: none;
 }
@@ -304,11 +326,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .py-50px {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .py-80px {
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .py-80px {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .list-group {
@@ -443,19 +473,6 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 0 !important;
 }
 
-.section-wrapper .activity-wrapper {
-  padding: 40px 0;
-}
-.section-wrapper .activity-wrapper:nth-child(odd) {
-  background-color: #f9f9f9;
-}
-.section-wrapper .activity-wrapper:nth-child(even) .activity-row {
-  flex-direction: row-reverse;
-}
-.section-wrapper .activity-wrapper:nth-child(even) .activity-row > [class*=col]:first-child {
-  padding-left: 50px;
-}
-
 .menu {
   position: fixed;
   top: 0;
@@ -466,6 +483,10 @@ h1, h2, h3, h4, h5, h6, p {
 .welcom-message-wrapper {
   font-size: 1.5rem;
   text-align: center;
+}
+
+.about {
+  position: relative;
 }
 
 .link-wrapper a {
@@ -487,8 +508,35 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 1rem;
 }
 
+.activity-wrapper {
+  padding: 40px 0;
+}
+@media (max-width: 768px) {
+  .activity-wrapper {
+    padding: 70px 0;
+  }
+}
+.activity-wrapper:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+.activity-wrapper:nth-child(even) .activity-row {
+  flex-direction: row-reverse;
+}
+.activity-wrapper:nth-child(even) .activity-row > [class*=col]:first-child {
+  padding-left: 50px;
+}
+@media (max-width: 768px) {
+  .activity-wrapper:nth-child(even) .activity-row > [class*=col]:first-child {
+    padding-left: 15px;
+  }
+}
 .activity-wrapper .img-wrapper img {
   max-height: 500px;
+}
+@media (max-width: 768px) {
+  .activity-wrapper .img-wrapper img {
+    max-height: 350px;
+  }
 }
 
 .page-footer {
@@ -511,6 +559,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .page-footer .owner i.fa-heart {
   color: #FF5050;
+}
+
+.mouse-icon-wrapper {
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  -webkit-animation: upAndDown 3s ease infinite alternate;
+          animation: upAndDown 3s ease infinite alternate;
+}
+.mouse-icon-wrapper img {
+  height: 60px;
 }
 
 @media (max-width: 500px) {

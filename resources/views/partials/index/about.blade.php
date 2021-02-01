@@ -35,5 +35,10 @@
             </div>
         </div>
     </div>
+    <div class="mouse-icon-wrapper">
+        <div class="mouse-icon">
+            <img src="{{ asset('/assets/img/index/mouse1.png') }}" alt="">
+        </div>
+    </div>
 </div>
 

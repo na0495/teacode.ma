@@ -7,6 +7,19 @@
     .block-body-txt
         font-size: 1rem
 .activity-wrapper
+    padding: 40px 0
+    @media (max-width: 768px)
+        padding: 70px 0
+    &:nth-child(odd)
+        background-color: $tc-grey-light
+    &:nth-child(even) .activity-row
+        flex-direction: row-reverse
+        > [class*='col']:first-child
+            padding-left: 50px
+            @media (max-width: 768px)
+                padding-left: 15px
     .img-wrapper
         img
             max-height: 500px
+            @media (max-width: 768px)
+                max-height: 350px

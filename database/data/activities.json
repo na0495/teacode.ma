@@ -24,7 +24,7 @@
         }
     },
     {
-        "img": "/assets/img/activities/various.svg",
+        "img": "/assets/img/activities/__various.svg",
         "icon": "<i class='fas fa-video'></i>",
         "title": "various subjects",
         "description": {
