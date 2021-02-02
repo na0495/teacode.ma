@@ -19333,14 +19333,8 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $(function () {
-  setTimeout(function () {
-    $('.message').removeClass('d-none');
-  }, 500);
-  $(document).on('click', '.close, .message-bluring', function () {
-    $('.message-wrapper').toggleClass('animate__rollIn animate__rollOut');
-    setTimeout(function () {
-      $('.message').addClass('d-none');
-    }, 1000);
+  particlesJS.load('particles-js', '/plugins/particles/particles.json', function () {
+    console.log('callback - particles.js config loaded');
   });
 });
 
@@ -19396,8 +19390,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\_Shortcuts\_Teacode\Brand\Code\website\teacode.ma\resources\sass\app.sass */"./resources/sass/app.sass");
+__webpack_require__(/*! E:\_Shortcuts\_TeaCode\Brand\Code\platform\teacode.ma\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\_Shortcuts\_TeaCode\Brand\Code\platform\teacode.ma\resources\sass\app.sass */"./resources/sass/app.sass");
 
 
 /***/ })

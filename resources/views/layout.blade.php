@@ -12,7 +12,11 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode.ico') }}">
         <script src="{{ asset('/js/jquery.min.js') }}"></script>
         <script src="{{ asset('/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('/plugins/particles/particles.js') }}"></script>
         <script src="{{ asset('/js/app.js') }}"></script>
+
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax-latest-beta.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script>
         <title>@yield('title')</title>
 
         <!-- Fonts -->
@@ -21,7 +25,6 @@
     </head>
     <body class="antialiased">
         <div class="wrapper">
-            <div class="container-fluid p-0">
                 @yield('content')
                 {{-- <div class="links">
                     <a href="/links" class="text-capitalize">my links <i class="far fa-hand-point-right"></i></a>
@@ -29,7 +32,6 @@
                 {{-- <div class="resume">
                     <a href="https://resume.teacode.ma" target="_blank">my resume <i class="far fa-hand-point-right"></i></a>
                 </div> --}}
-            </div>
         </div>
     </body>
 </html>

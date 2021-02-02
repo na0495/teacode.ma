@@ -1,16 +1,9 @@
 require('./bootstrap');
 
 
-$(function(){
+$(function () {
 
-    setTimeout(() => {
-        $('.message').removeClass('d-none');
-    }, 500);
-
-    $(document).on('click', '.close, .message-bluring', function () {
-        $('.message-wrapper').toggleClass('animate__rollIn animate__rollOut');
-        setTimeout(() => {
-            $('.message').addClass('d-none');
-        }, 1000);
+    particlesJS.load('particles-js', '/plugins/particles/particles.json', function () {
+        console.log('callback - particles.js config loaded');
     });
 });

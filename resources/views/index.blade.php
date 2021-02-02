@@ -4,9 +4,11 @@
 @endsection
 @section('content')
 
-    {{-- @include('partials.index.menu') --}}
-    @include('partials.index.about')
-    @include('partials.index.activities')
+    @include('partials.index.menu')
+    <div class="container-fluid p-0">
+        @include('partials.index.about')
+        @include('partials.index.activities')
+    </div>
     {{-- @include('partials.index.find_us') --}}
     {{-- @include('partials.index.events') --}}
     {{-- @include('partials.index.faq') --}}

@@ -6,8 +6,8 @@
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>workshop on different techs C, C++, Python, Javascript, Git ...etc</p>",
             "list": [
-                {"item": "Learn the basics of a language, framework or technology"},
-                {"item": "Build a project from scratch"}
+                "Learn the basics of a language, framework or technology",
+                "Build a project from scratch"
             ]
         }
     },
@@ -18,8 +18,8 @@
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>weekly meets to practice communication in English/French</p>",
             "list": [
-                {"item": "Practice communicating in english/french with other people"},
-                {"item": "Talking about different subjects"}
+                "Practice communicating in english/french with other people",
+                "Talking about different subjects"
             ]
         }
     },
@@ -30,12 +30,12 @@
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>meets around different subjects to answer questions such as: </p>",
             "list": [
-                {"item": "What shuol I learn to become a software developer ?"},
-                {"item": "It's hard for me to learn coding ?"},
-                {"item": "What to do after highschool ?"},
-                {"item": "I don't know how to look for get a jobas a software developer ?"},
-                {"item": "What are soft skills ?"},
-                {"item": "Do I need math to become a software developer"}
+                "What shuol I learn to become a software developer ?",
+                "It's hard for me to learn coding ?",
+                "What to do after highschool ?",
+                "I don't know how to look for get a jobas a software developer ?",
+                "What are soft skills ?",
+                "Do I need math to become a software developer"
             ]
         }
     },
@@ -47,10 +47,10 @@
             "text": "<p class='mb-2 capitalize-first-letter'>practice interviews with anyone, You can start with a role interviewer/interviewee, then you can switch roles with your partner <span class='white-space-nowrap'>(2 persons in each room)</span></p>",
             "listType": "<ol>-</ol>",
             "list": [
-                {"item": "Choose a job offer for example"},
-                {"item": "One will be play interviewer, the other will play interviewee"},
-                {"item": "You can switch roles after a period (20min for example)"},
-                {"item": "Start"}
+                "Choose a job offer for example",
+                "One will be play interviewer, the other will play interviewee",
+                "You can switch roles after a period (20min for example)",
+                "Start"
             ]
         }
     },
@@ -62,12 +62,12 @@
             "text": "<p class='mb-2 capitalize-first-letter'>practice sessions to train your mind and prepare for professional coding challenges</p>",
             "listType": "<ol>-</ol>",
             "list": [
-                {"item": "You will need a stable Internet connection 📡 and a working microphone 🎤 to join"},
-                {"item": "Access the practice sessions using Discord desktop app (for a better experience)"},
-                {"item": "Once you get in the discord server you can visit #challenges room to see the list of challenges"},
-                {"item": "You will be split into teams of two people — you and your coding partner"},
-                {"item": "One of you will start as the `Driver` 🚘(the person who codes), and the other person will be the `Navigator` 🧭(the person who helps)"},
-                {"item": "Once the first Driver finishes the challenge (with the help of the Navigator), you will switch roles — the previous Driver will now become the Navigator"}
+                "You will need a stable Internet connection 📡 and a working microphone 🎤 to join",
+                "Access the practice sessions using Discord desktop app (for a better experience)",
+                "Once you get in the discord server you can visit #challenges room to see the list of challenges",
+                "You will be split into teams of two people — you and your coding partner",
+                "One of you will start as the `Driver` 🚘 (the person who codes), and the other person will be the `Navigator` 🧭 (the person who helps)",
+                "Once the first Driver finishes the challenge (with the help of the Navigator), you will switch roles — the previous Driver will now become the Navigator"
             ]
         }
     }
