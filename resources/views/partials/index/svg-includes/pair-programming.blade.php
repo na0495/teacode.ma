@@ -14,7 +14,7 @@ viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="pres
 	#pair-programming .st7{fill:#FAFAFA;}
 	#pair-programming .st8{fill:#FFFFFF;}
 	#pair-programming .st9{fill:#EBEBEB;}
-	#pair-programming .st10{fill:#407BFF;}
+	#pair-programming .st10{fill:var(--tc-blue-dark-1);} /*#407BFF;}*/
 	#pair-programming .st11{opacity:0.8;fill:#FFFFFF;}
 	#pair-programming .st12{opacity:0.5;}
 	#pair-programming .st13{opacity:0.5;fill:#FFFFFF;}

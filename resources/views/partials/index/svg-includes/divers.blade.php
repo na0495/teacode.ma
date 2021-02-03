@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     id="divers"
-    viewBox="0 0 3710 3710" style="enable-background:new 0 0 3710 3710;" xml:space="preserve">
+	viewBox="0 0 3710 3710" style="enable-background:new 0 0 3710 3710;" xml:space="preserve">
 <style type="text/css">
 	#divers .st0{display:none;}
 	#divers .st1{display:inline;}
@@ -15,25 +15,25 @@
 	#divers .st8{fill:url(#divers_SVGID_4_);}
 	#divers .st9{opacity:0.3;}
 	#divers .st10{fill:url(#divers_SVGID_5_);}
-	#divers .st11{fill: var(--tc-blue-dark-1);}
-	#divers .st12{fill: var(--tc-blue-dark-2);}
-	#divers .st13{fill: var(--tc-blue-dark-1);}
-	#divers .st14{fill: var(--tc-blue);}
+	#divers .st11{fill:var(--tc-yellow);} /*url(#divers_SVGID_6_);}*/
+	#divers .st12{fill:url(#divers_SVGID_7_);}
+	#divers .st13{fill: var(--tc-yellow);}/*url(#divers_SVGID_8_);}*/
+	#divers .st14{fill: var(--tc-red-light);} /*url(#divers_SVGID_9_);}*/
 	#divers .st15{fill:url(#divers_SVGID_10_);}
-	#divers .st16{fill: var(--tc-grey);}
-	#divers .st17{opacity:1;fill: var(--tc-grey);}
+	#divers .st16{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_11_);}*/
+	#divers .st17{opacity:0.3;fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_12_);}*/
 	#divers .st18{fill:url(#divers_SVGID_13_);}
 	#divers .st19{fill:url(#divers_SVGID_14_);}
 	#divers .st20{fill:url(#divers_SVGID_15_);}
 	#divers .st21{fill:url(#divers_SVGID_16_);}
-	#divers .st22{fill: var(--tc-grey);}
-	#divers .st23{fill: var(--tc-grey);}
+	#divers .st22{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_17_);}*/
+	#divers .st23{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_18_);}*/
 	#divers .st24{fill:url(#divers_SVGID_19_);}
-	#divers .st25{opacity:0.3;fill: var(--tc-grey-dark);}
-	#divers .st26{fill: var(--tc-almost-black);}
+	#divers .st25{opacity:0.3;fill: var(--tc-blue-dark-2);} /* url(#divers_SVGID_20_);} */
+	#divers .st26{fill:var(--tc-blue);} /*url(#divers_SVGID_21_);}*/
 	#divers .st27{opacity:0.15;}
 	#divers .st28{fill:url(#divers_SVGID_22_);}
-	#divers .st29{fill: var(--tc-grey);}
+	#divers .st29{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_23_);}*/
 	#divers .st30{fill:url(#divers_SVGID_24_);}
 	#divers .st31{fill:url(#divers_SVGID_25_);}
 	#divers .st32{fill:url(#divers_SVGID_26_);}
@@ -62,42 +62,42 @@
 	#divers .st55{opacity:0.3;fill:#FFFFFF;}
 	#divers .st56{fill:url(#divers_SVGID_49_);}
 	#divers .st57{fill:url(#divers_SVGID_50_);}
-	#divers .st58{fill: var(--tc-blue);}
+	#divers .st58{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_51_);}*/
 	#divers .st59{fill:url(#divers_SVGID_52_);}
 	#divers .st60{fill:url(#divers_SVGID_53_);}
 	#divers .st61{fill:url(#divers_SVGID_54_);}
 	#divers .st62{fill:url(#divers_SVGID_55_);}
 	#divers .st63{fill:url(#divers_SVGID_56_);}
-	#divers .st64{fill: var(--tc-grey-dark);}
-	#divers .st65{opacity:0.3;fill: var(--tc-grey-dark);}
-	#divers .st66{fill: var(--tc-grey-dark);}
+	#divers .st64{fill:url(#divers_SVGID_57_);}
+	#divers .st65{opacity:0.3;fill:url(#divers_SVGID_58_);}
+	#divers .st66{fill:url(#divers_SVGID_59_);}
 	#divers .st67{fill:url(#divers_SVGID_60_);}
 	#divers .st68{fill:url(#divers_SVGID_61_);}
-	#divers .st69{fill: var(--tc-blue);}
-	#divers .st70{fill: var(--tc-blue-dark-1);}
+	#divers .st69{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_62_);}*/
+	#divers .st70{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_63_);}*/
 	#divers .st71{fill:url(#divers_SVGID_64_);}
 	#divers .st72{fill:url(#divers_SVGID_65_);}
 	#divers .st73{fill:url(#divers_SVGID_66_);}
 	#divers .st74{fill:#26264F;}
-	#divers .st75{fill: var(--tc-blue);}
+	#divers .st75{fill: var(--tc-blue-dark-1);} /* url(#divers_SVGID_67_);}*/
 	#divers .st76{fill:url(#divers_SVGID_68_);}
-	#divers .st77{fill:url(#divers_SVGID_69_);}
-	#divers .st78{fill:url(#divers_SVGID_70_);}
+	#divers .st77{fill:var(--tc-grey);} /*url(#divers_SVGID_69_);}*/
+	#divers .st78{fill:var(--tc-grey);} /*url(#divers_SVGID_70_);}*/
 	#divers .st79{fill:url(#divers_SVGID_71_);}
 	#divers .st80{fill:url(#divers_SVGID_72_);}
 	#divers .st81{fill:url(#divers_SVGID_73_);}
 	#divers .st82{fill:url(#divers_SVGID_74_);}
-	#divers .st83{fill: var(--tc-blue);}
-	#divers .st84{opacity:0.3;fill: var(--tc-blue-dark-1);}
-	#divers .st85{fill: var(--tc-blue);}
-	#divers .st86{fill:url(#divers_SVGID_78_);}
+	#divers .st83{fill:var(--tc-yellow);} /*url(#divers_SVGID_75_);}*/
+	#divers .st84{opacity:0.3;fill:var(--tc-yellow);} /*url(#divers_SVGID_76_);}*/
+	#divers .st85{fill: var(--tc-yellow);} /*url(#divers_SVGID_77_);} */
+	#divers .st86{fill: var(--tc-grey);} /* url(#divers_SVGID_78_);} */
 	#divers .st87{fill:url(#divers_SVGID_79_);}
 	#divers .st88{fill:url(#divers_SVGID_80_);}
 	#divers .st89{fill:url(#divers_SVGID_81_);}
 	#divers .st90{fill:url(#divers_SVGID_82_);}
 	#divers .st91{fill:url(#divers_SVGID_83_);}
-	#divers .st92{opacity:0.3;fill:url(#divers_SVGID_84_);}
-	#divers .st93{fill:url(#divers_SVGID_85_);}
+	#divers .st92{opacity:0.3;fill: var(--tc-grey-dark);} /* url(#divers_SVGID_84_);} */
+	#divers .st93{fill:var(--tc-grey);} /*url(#divers_SVGID_85_);}*/
 	#divers .st94{fill:url(#divers_SVGID_86_);}
 	#divers .st95{fill:url(#divers_SVGID_87_);}
 	#divers .st96{fill:url(#divers_SVGID_88_);}
