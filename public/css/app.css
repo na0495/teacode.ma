@@ -1,4 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah|Kalam:400,700|Caveat:400,700|Shadows+Into+Light&subset=devanagari,cyrillic,latin-ext);@import url(https://fonts.googleapis.com/css?family=Londrina+Shadow|Londrina+Sketch|Istok+Web);@font-face {
+@import url(https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah|Kalam:400,700|Caveat:400,700|Shadows+Into+Light&subset=devanagari,cyrillic,latin-ext);@import url(https://fonts.googleapis.com/css?family=Londrina+Shadow|Londrina+Sketch|Istok+Web);:root {
+  --tc-white: #ffffff;
+  --tc-blue: #1DA1F2;
+  --tc-blue-dark-1: #337AB7;
+  --tc-blue-dark-2: #00437D;
+  --tc-grey: #dfdfdf;
+  --tc-grey-light: #f9f9f9;
+  --tc-grey-dark: #b1b1b1;
+  --tc-almost-black: #313a3f;
+  --tc-almost-black-1: #2c2f33;
+  --navbar-height: 56px;
+}
+
+@font-face {
   font-family: "MyEpicSelfie";
   src: url("/assets/fonts/My Epic Selfie.woff2") format("woff2"), url("/assets/fonts/My Epic Selfie.woff") format("woff"), url("/assets/fonts/My Epic Selfie.ttf") format("truetype");
 }
@@ -160,6 +173,9 @@ body {
 
 a {
   color: #1DA1F2;
+}
+a:hover {
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -685,16 +701,18 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 15px;
   }
 }
+.activity-wrapper .activity-header {
+  color: #1DA1F2;
+  display: flex;
+  align-items: center;
+}
+.activity-wrapper .activity-header .activity-header-icon {
+  font-size: 1.2rem;
+}
+.activity-wrapper .activity-header .activity-header-txt {
+  margin-left: 0.5rem;
+}
 @media (max-width: 768px) {
-  .activity-wrapper .activity-img {
-    display: inline-block;
-    position: absolute;
-    transform: translate(30%, -20%);
-    top: 0;
-    right: 0;
-    left: unset;
-    width: auto;
-  }
   .activity-wrapper .activity-img img {
     height: 150px;
     opacity: 0.3;

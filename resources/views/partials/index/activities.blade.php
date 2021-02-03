@@ -1,13 +1,15 @@
 <div id="activities" class="activities section-wrapper">
     <div class="section">
         @foreach ($data->activities as $key => $activity)
-        <div class="activity-wrapper {{ $key % 2 != 0 ? '' : ' tc-blue-bg' }}">
+        <div class="activity-wrapper {{ $key % 2 != 0 ? '' : 'tc-grey-light-bg' }}">
             <div class="container">
                 <div class="row align-items-center activity-row">
                     <div class="col-lg-6 col-md-7">
-                        <h3 class="activity-header text-capitalize mb-2
-                        {{ $key % 2 != 0 ? ' tc-almost-black' : 'text-white' }}">{{ $activity->title }}</h3>
-                        <div class="description {{ $key % 2 != 0 ? ' tc-almost-black' : ' text-white' }}">
+                        <h3 class="activity-header text-capitalize mb-2 tc-almost-black">
+                            <span class="activity-header-icon">{!!  $activity->icon !!}</span>
+                            <span class="activity-header-txt">{{ $activity->title }}</span>
+                        </h3>
+                        <div class="description tc-almost-black">
                             {!! $activity->description->text !!}
                             @if (isset($activity->description->list))
                             @php $listType = explode('-', '<ul>-</ul>') @endphp
@@ -24,7 +26,9 @@
                     </div>
                     <div class="col-lg-6 col-md-5 activity-img">
                         <div class="img-wrapper">
-                            <img class="img-fluid" src="{{ asset($activity->img) }}" alt="">
+                            {{-- @php $activity->slug = 'mock-interview' @endphp --}}
+                            @include('partials.index.svg-includes.' . $activity->slug)
+                            {{-- <img class="img-fluid" src="{{ asset($activity->img) }}" alt=""> --}}
                         </div>
                     </div>
                 </div>
