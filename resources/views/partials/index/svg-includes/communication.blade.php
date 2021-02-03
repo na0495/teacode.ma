@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     id="communication"
@@ -20,11 +19,11 @@
 	#communication .st13{fill: var(--tc-blue-dark);} /* #37474F;} */
 	#communication .st14{fill:#263238;}
 	#communication .st15{opacity:0.35;}
-	#communication .st16{fill:#FFA8A7;}
+	#communication .st16{fill:#F1B287;}/*#FFA8A7;}*/
 	#communication .st17{fill:#F28F8F;}
 	#communication .st18{opacity:0.2;}
 	#communication .st19{opacity:0.5;}
-	#communication .st20{fill:#B16668;}
+	#communication .st20{fill:#d09a76;}/*#B16668;}*/
 	#communication .st21{opacity:0.6;fill:#263238;}
 	#communication .st22{opacity:0.6;}
 	#communication .st23{fill:#9A4A4D;}

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     id="pair-programming"
@@ -20,7 +19,7 @@ viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="pres
 	#pair-programming .st13{opacity:0.5;fill:#FFFFFF;}
 	#pair-programming .st14{opacity:0.4;fill:#FFFFFF;}
 	#pair-programming .st15{opacity:0.4;}
-	#pair-programming .st16{fill:#7F3E3B;}
+	#pair-programming .st16{fill:#d09a76;} /*#7F3E3B;}*/
 	#pair-programming .st17{opacity:0.2;enable-background:new    ;}
 	#pair-programming .st18{fill:#263238;}
 	#pair-programming .st19{fill:#630F0F;}
@@ -28,7 +27,7 @@ viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="pres
 	#pair-programming .st21{opacity:0.5;enable-background:new    ;}
 	#pair-programming .st22{opacity:0.7;fill:#FFFFFF;}
 	#pair-programming .st23{fill:#A02724;}
-	#pair-programming .st24{fill:#B55B52;}
+	#pair-programming .st24{fill:#F1B287;} /*#B55B52;}*/
 	#pair-programming .st25{opacity:0.2;}
 	#pair-programming .st26{opacity:0.3;}
 	#pair-programming .st27{opacity:0.4;enable-background:new    ;}

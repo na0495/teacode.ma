@@ -431,6 +431,11 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  .py-md-100px {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 .fixed {
   position: fixed;
@@ -664,6 +669,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .welcome-message .btn-action .btn-join-us {
   font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+.welcome-message .btn-action .btn-join-us:hover {
+  color: #ffffff;
+  transform: scale(1.1);
 }
 
 .link-wrapper a {
@@ -711,6 +721,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
 }
 .activity-wrapper .activity-header .activity-header-icon {
+  color: #337AB7;
   font-size: 1.2rem;
 }
 .activity-wrapper .activity-header .activity-header-txt {

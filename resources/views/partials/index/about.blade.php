@@ -1,4 +1,4 @@
-<div id="about" class="about section-wrapper py-md-80px py-50px">
+<div id="about" class="about section-wrapper py-md-100px py-50px">
     <div class="section blog-header">
         <div id="particles-js" class="particles-js"></div>
         <div class="container">
@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 offset-md-3">
+                <div class="col-10 col-md-8 offset-md-2">
                     <div class="welcome-message">
                         <div class="welcome-message-wrapper tc-almost-black">
                             {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}

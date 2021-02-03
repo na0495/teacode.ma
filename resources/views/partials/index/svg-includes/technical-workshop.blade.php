@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     id="technical-workshop"
@@ -63,15 +62,15 @@
 	#technical-workshop .st56{fill:url(#technical-workshop_SVGID_47_);}
 	#technical-workshop .st57{fill:url(#technical-workshop_SVGID_48_);}
 	#technical-workshop .st58{fill:url(#technical-workshop_SVGID_49_);}
-	#technical-workshop .st59{fill:url(#technical-workshop_SVGID_50_);}
+	#technical-workshop .st59{fill: var(--tc-blue-dark-1);} /* url(#technical-workshop_SVGID_50_);}*/
 	#technical-workshop .st60{fill: var(--tc-grey-light);}
 	#technical-workshop .st61{fill:url(#technical-workshop_SVGID_52_);}
-	#technical-workshop .st62{fill:url(#technical-workshop_SVGID_53_);}
+	#technical-workshop .st62{fill:#F1B287;} /*url(#technical-workshop_SVGID_53_);}*/
 	#technical-workshop .st63{fill:#26264F;}
 	#technical-workshop .st64{fill:url(#technical-workshop_SVGID_54_);}
 	#technical-workshop .st65{fill:url(#technical-workshop_SVGID_55_);}
 	#technical-workshop .st66{opacity:0.3;fill: var(--tc-grey);}
-	#technical-workshop .st67{fill:url(#technical-workshop_SVGID_57_);}
+	#technical-workshop .st67{fill:#F1B287;} /*url(#technical-workshop_SVGID_57_);}*/
 	#technical-workshop .st68{fill: var(--tc-grey-light);}
 	#technical-workshop .st69{display:inline;fill:url(#technical-workshop_SVGID_59_);}
 	#technical-workshop .st70{display:inline;fill:url(#technical-workshop_SVGID_60_);}
@@ -388,7 +387,7 @@
 			<path class="st37" d="M2853.2,3291.8c4.6,3.7,5.4,13.1,6,19.2c0.2,2.7,0.4,4.1,0.1,5c-2.2,7-15.8,7.8-37.2,9.9
 				c-33.7,3.4-43.8,6.1-46.4,1.1c-2.5-4.7,3.5-12.4,4.2-13.3c3.6-4.6,8.1-6.2,16.7-9.1c15.9-5.2,26.7-8.1,29.9-9
 				C2846.8,3290.3,2850.2,3289.4,2853.2,3291.8z"/>
-			<path class="st38" d="M2833.2,3261l-3.4,38.4c1,1.9,12.4,7.4,21.5,2.6l8.7-37.8L2833.2,3261z"/>
+			<path class="st62" d="M2833.2,3261l-3.4,38.4c1,1.9,12.4,7.4,21.5,2.6l8.7-37.8L2833.2,3261z"/>
 
 				<linearGradient id="technical-workshop_SVGID_31_" gradientUnits="userSpaceOnUse" x1="354.2167" y1="3630.8911" x2="443.506" y2="3630.8911" gradientTransform="matrix(0.9642 0.2651 -0.2651 0.9642 3123.7549 -308.9189)">
 				<stop  offset="0" style="stop-color:#311944"/>
@@ -396,7 +395,7 @@
 			</linearGradient>
 			<path class="st39" d="M2585.7,3286.9c5.5,6.1,6.8,17.3,2,22.8c-4.7,5.4-11.8,1.4-31.9,2c-21.5,0.6-27.1,5.7-41.7,1.7
 				c-5.9-1.6-16.3-5.6-16.1-9.8c0.1-3,5.4-4.5,23.2-10.4c25.2-8.4,25.1-8.9,30.4-9.8C2565,3281.1,2578.4,3278.9,2585.7,3286.9z"/>
-			<path class="st38" d="M2571.9,3251.8l-10.8,35.9c0.8,1.9,11.8,8.3,21.2,4.3l16-34.8L2571.9,3251.8z"/>
+			<path class="st62" d="M2571.9,3251.8l-10.8,35.9c0.8,1.9,11.8,8.3,21.2,4.3l16-34.8L2571.9,3251.8z"/>
 
 				<linearGradient id="technical-workshop_SVGID_32_" gradientUnits="userSpaceOnUse" x1="2784.5356" y1="3140.5554" x2="2546.3845" y2="2603.7058" gradientTransform="matrix(-1 0 0 1 5316.605 0)">
 				<stop  offset="0" style="stop-color:#311944"/>
@@ -457,7 +456,7 @@
 				<path class="st47" d="M2929.6,2439.8L2929.6,2439.8c0,7-4.4,13.3-11,15.7l-119.9,47l-0.5-32.6l118.2-40.1
 					C2923,2427.9,2929.6,2432.9,2929.6,2439.8z"/>
 			</g>
-			<path class="st2" d="M2871.8,2417.6c2.3-0.5-11.2-27.5-21.8-24.4c-10.6,3.1-62.6,33.2-67.3,45.6c-4.7,12.4-4.7,12.4-4.7,12.4
+			<path class="st62" d="M2871.8,2417.6c2.3-0.5-11.2-27.5-21.8-24.4c-10.6,3.1-62.6,33.2-67.3,45.6c-4.7,12.4-4.7,12.4-4.7,12.4
 				s22.7,1.8,36.7-2.9C2828.7,2443.5,2853,2421.7,2871.8,2417.6z"/>
 			<g>
 				<g>
@@ -485,10 +484,10 @@
 					l29.5,0.8c6.8,0.2,12.4,5.4,13.1,12.1l26.5,240.9c0.9,8.3-5.8,15.5-14.2,15.1l-393.1-18.6c-6.4-0.3-11.7-5-12.8-11.3l-5.5-32.3
 					c11.9-6.6,26.2-12.7,42.8-16C2480.6,2414.3,2508.9,2445.9,2548.4,2429.1z"/>
 			</g>
-			<path class="st2" d="M2373.7,2451.9c-0.6-1.9,0.7-3.9,2.8-4c8.3-0.4,27.6-0.6,38.2,5.9c13.8,8.5,31.7,23.9,16.6,31.7l-14,7.3
+			<path class="st62" d="M2373.7,2451.9c-0.6-1.9,0.7-3.9,2.8-4c8.3-0.4,27.6-0.6,38.2,5.9c13.8,8.5,31.7,23.9,16.6,31.7l-14,7.3
 				c-0.6,0.3-1.3,0.4-2.1,0.3c-5-1.1-26-5.8-28.3-6.9C2384.8,2485.1,2376.8,2461.3,2373.7,2451.9z"/>
 			<g>
-				<path class="st2" d="M2850.3,1953.5c-0.2,25,2.6,44.8,5.2,58.4c3,15.5,5.2,19.6,8,22.8c4.2,4.9,10.5,9,46.3,17.9
+				<path class="st62" d="M2850.3,1953.5c-0.2,25,2.6,44.8,5.2,58.4c3,15.5,5.2,19.6,8,22.8c4.2,4.9,10.5,9,46.3,17.9
 					c19.5,4.8,22,4.7,22.4,6.6c2.1,9.4-51,41.6-105.9,33.8c-33.6-4.7-64.2-23.9-62.3-34c1.9-10.1,35.4-4.7,45.4-23
 					c7-12.7-0.8-30.8-10.1-45.8C2808.4,1973.5,2841.4,1970.2,2850.3,1953.5z"/>
 				<g>
@@ -500,7 +499,7 @@
 					<path class="st51" d="M2788,1963.3c-7.9-10.5-8.4-28.9,0.7-40.5c7.9-10,20.2-11.4,27.6-12.3c21.5-2.5,48.5,6.5,58,26.2
 						c5.6,11.7-6.5,36-8.4,40.4c-2.1,4.9-6,6.6-9.6,10.4c-5,5.2-12.8,13.4-25.5,27.2c-1-4.1-2.5-9.1-4.9-14.6
 						c-0.9-2.1-4.6-10.3-10.2-17.1C2804.6,1969.4,2795.5,1973.3,2788,1963.3z"/>
-					<path class="st2" d="M2849,2003.2c0,0-14.1,23.1-42.2,21.3c-25.2-1.6-28.8-58-12.8-70c5.4-4,16.1-5.7,24.8-3.2
+					<path class="st62" d="M2849,2003.2c0,0-14.1,23.1-42.2,21.3c-25.2-1.6-28.8-58-12.8-70c5.4-4,16.1-5.7,24.8-3.2
 						c5.2,1.4,6.9,3.6,15.4,5.8c7.8,2,10,1.2,12.4,3.1c2.9,2.5,5.1,8.6,0.2,25.1c4.8-4.9,10.6-6.7,14.6-4.8c0.7,0.3,2.4,1.5,3.3,3.3
 						C2868.3,1990.2,2862.4,1998.4,2849,2003.2z"/>
 

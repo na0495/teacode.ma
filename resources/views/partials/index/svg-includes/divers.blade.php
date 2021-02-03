@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     id="divers"
@@ -34,8 +33,8 @@
 	#divers .st27{opacity:0.15;}
 	#divers .st28{fill:url(#divers_SVGID_22_);}
 	#divers .st29{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_23_);}*/
-	#divers .st30{fill:url(#divers_SVGID_24_);}
-	#divers .st31{fill:url(#divers_SVGID_25_);}
+	#divers .st30{fill:#F1B287;} /*url(#divers_SVGID_24_);}*/
+	#divers .st31{fill:#F1B287;} /*url(#divers_SVGID_25_);}*/
 	#divers .st32{fill:url(#divers_SVGID_26_);}
 	#divers .st33{fill:url(#divers_SVGID_27_);}
 	#divers .st34{fill:url(#divers_SVGID_28_);}
@@ -61,22 +60,22 @@
 	#divers .st54{fill:url(#divers_SVGID_48_);}
 	#divers .st55{opacity:0.3;fill:#FFFFFF;}
 	#divers .st56{fill:url(#divers_SVGID_49_);}
-	#divers .st57{fill:url(#divers_SVGID_50_);}
+	#divers .st57{fill:#d09a76;} /*url(#divers_SVGID_50_);}*/
 	#divers .st58{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_51_);}*/
 	#divers .st59{fill:url(#divers_SVGID_52_);}
 	#divers .st60{fill:url(#divers_SVGID_53_);}
-	#divers .st61{fill:url(#divers_SVGID_54_);}
+	#divers .st61{fill:#d09a76;} /*url(#divers_SVGID_54_);}*/
 	#divers .st62{fill:url(#divers_SVGID_55_);}
-	#divers .st63{fill:url(#divers_SVGID_56_);}
+	#divers .st63{fill:#d09a76;} /*url(#divers_SVGID_56_);}*/
 	#divers .st64{fill:var(--tc-grey);} /*url(#divers_SVGID_57_);}*/
 	#divers .st65{opacity:0.3;fill:var(--tc-grey);} /*url(#divers_SVGID_58_);}*/
 	#divers .st66{fill:var(--tc-grey);} /*url(#divers_SVGID_59_);}*/
 	#divers .st67{fill:url(#divers_SVGID_60_);}
-	#divers .st68{fill:url(#divers_SVGID_61_);}
+	#divers .st68{fill:#d09a76;} /*url(#divers_SVGID_61_);}*/
 	#divers .st69{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_62_);}*/
 	#divers .st70{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_63_);}*/
 	#divers .st71{fill:url(#divers_SVGID_64_);}
-	#divers .st72{fill:url(#divers_SVGID_65_);}
+	#divers .st72{fill:#d09a76;} /*url(#divers_SVGID_65_);}*/
 	#divers .st73{fill:url(#divers_SVGID_66_);}
 	#divers .st74{fill:#26264F;}
 	#divers .st75{fill: var(--tc-blue-dark-1);} /* url(#divers_SVGID_67_);}*/
@@ -91,7 +90,7 @@
 	#divers .st84{opacity:0.3;fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_76_);}*/
 	#divers .st85{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_77_);} */
 	#divers .st86{fill: var(--tc-grey);} /* url(#divers_SVGID_78_);} */
-	#divers .st87{fill:url(#divers_SVGID_79_);}
+	#divers .st87{fill:#F1B287;} /*url(#divers_SVGID_79_);}*/
 	#divers .st88{fill:url(#divers_SVGID_80_);}
 	#divers .st89{fill:url(#divers_SVGID_81_);}
 	#divers .st90{fill:url(#divers_SVGID_82_);}
