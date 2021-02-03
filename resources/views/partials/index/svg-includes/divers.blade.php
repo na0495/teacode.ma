@@ -15,10 +15,10 @@
 	#divers .st8{fill:url(#divers_SVGID_4_);}
 	#divers .st9{opacity:0.3;}
 	#divers .st10{fill:url(#divers_SVGID_5_);}
-	#divers .st11{fill:var(--tc-yellow);} /*url(#divers_SVGID_6_);}*/
-	#divers .st12{fill:url(#divers_SVGID_7_);}
-	#divers .st13{fill: var(--tc-yellow);}/*url(#divers_SVGID_8_);}*/
-	#divers .st14{fill: var(--tc-red-light);} /*url(#divers_SVGID_9_);}*/
+	#divers .st11{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_6_);}*/
+	#divers .st12{fill:var(--tc-blue);} /*url(#divers_SVGID_7_);}*/
+	#divers .st13{fill: var(--tc-grey);} /*url(#divers_SVGID_8_);}*/
+	#divers .st14{fill: var(--tc-grey-dark);} /*url(#divers_SVGID_9_);}*/
 	#divers .st15{fill:url(#divers_SVGID_10_);}
 	#divers .st16{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_11_);}*/
 	#divers .st17{opacity:0.3;fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_12_);}*/
@@ -68,9 +68,9 @@
 	#divers .st61{fill:url(#divers_SVGID_54_);}
 	#divers .st62{fill:url(#divers_SVGID_55_);}
 	#divers .st63{fill:url(#divers_SVGID_56_);}
-	#divers .st64{fill:url(#divers_SVGID_57_);}
-	#divers .st65{opacity:0.3;fill:url(#divers_SVGID_58_);}
-	#divers .st66{fill:url(#divers_SVGID_59_);}
+	#divers .st64{fill:var(--tc-grey);} /*url(#divers_SVGID_57_);}*/
+	#divers .st65{opacity:0.3;fill:var(--tc-grey);} /*url(#divers_SVGID_58_);}*/
+	#divers .st66{fill:var(--tc-grey);} /*url(#divers_SVGID_59_);}*/
 	#divers .st67{fill:url(#divers_SVGID_60_);}
 	#divers .st68{fill:url(#divers_SVGID_61_);}
 	#divers .st69{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_62_);}*/
@@ -87,9 +87,9 @@
 	#divers .st80{fill:url(#divers_SVGID_72_);}
 	#divers .st81{fill:url(#divers_SVGID_73_);}
 	#divers .st82{fill:url(#divers_SVGID_74_);}
-	#divers .st83{fill:var(--tc-yellow);} /*url(#divers_SVGID_75_);}*/
-	#divers .st84{opacity:0.3;fill:var(--tc-yellow);} /*url(#divers_SVGID_76_);}*/
-	#divers .st85{fill: var(--tc-yellow);} /*url(#divers_SVGID_77_);} */
+	#divers .st83{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_75_);}*/
+	#divers .st84{opacity:0.3;fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_76_);}*/
+	#divers .st85{fill: var(--tc-blue-dark-1);} /*url(#divers_SVGID_77_);} */
 	#divers .st86{fill: var(--tc-grey);} /* url(#divers_SVGID_78_);} */
 	#divers .st87{fill:url(#divers_SVGID_79_);}
 	#divers .st88{fill:url(#divers_SVGID_80_);}

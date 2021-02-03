@@ -11,7 +11,7 @@
 	#technical-workshop .st4{fill:#97A6B7;}
 	#technical-workshop .st5{fill:url(#technical-workshop_SVGID_1_);}
 	#technical-workshop .st6{opacity:0.3;fill:#D8DEE8;}
-	#technical-workshop .st7{fill:url(#technical-workshop_SVGID_2_);}
+	#technical-workshop .st7{fill:var(--tc-blue-dark-2);} /*url(#technical-workshop_SVGID_2_);}*/
 	#technical-workshop .st8{opacity:0.6;fill:#FFFFFF;}
 	#technical-workshop .st9{opacity:0.36;fill:#FFFFFF;}
 	#technical-workshop .st10{fill: var(--tc-white);}
@@ -89,9 +89,9 @@
 	#technical-workshop .st82{opacity:0.3;fill:url(#technical-workshop_SVGID_72_);}
 	#technical-workshop .st83{fill:url(#technical-workshop_SVGID_73_);}
 	#technical-workshop .st84{display:inline;fill:url(#technical-workshop_SVGID_74_);}
-	#technical-workshop .st85{fill:url(#technical-workshop_SVGID_75_);}
+	#technical-workshop .st85{fill: var(--tc-blue-dark-1);} /*url(#technical-workshop_SVGID_75_);}*/
 	#technical-workshop .st86{opacity:0.28;fill:#FFFFFF;}
-	#technical-workshop .st87{fill:url(#technical-workshop_SVGID_76_);}
+	#technical-workshop .st87{fill: var(--tc-blue-dark-1);} /*url(#technical-workshop_SVGID_76_);}*/
 	#technical-workshop .st88{fill: var(--tc-blue-dark-1);}
 	#technical-workshop .st89{fill: var(--tc-blue);}
 	#technical-workshop .st90{fill: var(--tc-blue-dark-1);}
@@ -101,7 +101,7 @@
 	#technical-workshop .st94{fill: var(--tc-almost-black);}
 	#technical-workshop .st95{fill: var(--tc-blue-dark-2);}
 	#technical-workshop .st96{fill: var(--tc-almost-black);}
-	#technical-workshop .st97{fill:url(#technical-workshop_SVGID_86_);}
+	#technical-workshop .st97{fill: var(--tc-blue);} /*url(#technical-workshop_SVGID_86_);}*/
 	#technical-workshop .st98{opacity:0.2;}
 	#technical-workshop .st99{fill:url(#technical-workshop_SVGID_87_);}
 </style>
