@@ -17,12 +17,12 @@
 	#mock-interview .st11{fill:#E8E8E8;}
 	#mock-interview .st12{fill:#898989;}
 	#mock-interview .st13{fill:#FFFFFF;}
-	#mock-interview .st14{fill:#0FB7B3;}
-	#mock-interview .st15{fill:#199B94;}
-	#mock-interview .st16{fill:#01A3A2;}
-	#mock-interview .st17{fill:#FF9C00;}
-	#mock-interview .st18{fill:#FFBA5F;}
-	#mock-interview .st19{fill:#FFAC33;}
+	#mock-interview .st14{fill:var(--tc-almost-black);} /*#0FB7B3;}*/
+	#mock-interview .st15{fill:var(--tc-almost-black);} /*#199B94;}*/
+	#mock-interview .st16{fill:var(--tc-almost-black);} /*#01A3A2;}*/
+	#mock-interview .st17{fill:var(--tc-blue);} /*#FF9C00;}*/
+	#mock-interview .st18{fill:var(--tc-blue-dark-1);} /*#FFBA5F;}*/
+	#mock-interview .st19{fill:var(--tc-blue);} /*#FFAC33;}*/
 	#mock-interview .st20{opacity:0.2;}
 	#mock-interview .st21{fill:#242626;}
 	#mock-interview .st22{fill:#3B3F3F;}
@@ -70,9 +70,9 @@
 	#mock-interview .st64{fill:#DFE5F3;}
 	#mock-interview .st65{fill:#AEB6BC;}
 	#mock-interview .st66{fill:#DCDCDC;}
-	#mock-interview .st67{fill:#6B4125;}
-	#mock-interview .st68{fill:#885937;}
-	#mock-interview .st69{fill:#AA814F;}
+	#mock-interview .st67{fill:var(--tc-grey);} /*#6B4125;}*/
+	#mock-interview .st68{fill:var(--tc-grey);} /*#885937;}*/
+	#mock-interview .st69{fill: var(--tc-grey-light);} /*#AA814F;}*/
 	#mock-interview .st70{fill:#C0C5D1;}
 	#mock-interview .st71{opacity:0.1;}
 	#mock-interview .st72{fill:#A9B5C4;}
@@ -88,8 +88,8 @@
 	#mock-interview .st82{fill:#CACACA;}
 	#mock-interview .st83{fill:#A8AAAA;}
 	#mock-interview .st84{fill:#9FB0BC;}
-	#mock-interview .st85{fill:#388852;}
-	#mock-interview .st86{fill:#2C7741;}
+	#mock-interview .st85{fill:var(--tc-blue-dark-1);} /*#388852;}*/
+	#mock-interview .st86{fill:var(--tc-blue);} /*#2C7741;}*/
 	#mock-interview .st87{fill:#E2E6ED;}
 	#mock-interview .st88{fill:#A5AAB4;}
 	#mock-interview .st89{fill:#354751;}
@@ -101,7 +101,7 @@
 	#mock-interview .st95{fill:#341C09;}
 	#mock-interview .st96{fill:#DEF0F9;}
 	#mock-interview .st97{fill:#1F5699;}
-	#mock-interview .st98{fill:#39844B;}
+	#mock-interview .st98{fill:var(--tc-blue);} /*#39844B;}*/
 	#mock-interview .st99{fill:#BDBDBD;}
 	#mock-interview .st100{fill:#F4F7F8;}
 	#mock-interview .st101{display:inline;fill:#0A404F;}
