@@ -19,7 +19,7 @@
                         </div>
                         <div class="btn-action mt-3">
                             <a href="https://discord.gg/y9TwPcqdvm" target="_blank"
-                            class="btn-join-us btn tc-blue-bg text-capitalize px-3 py-2">Join us</a>
+                            class="btn-join-us btn tc-blue-bg text-capitalize px-3 pt-2">Join us</a>
                         </div>
                     </div>
                     {{-- <div class="find-us-wrapper mt-5 d-none">
