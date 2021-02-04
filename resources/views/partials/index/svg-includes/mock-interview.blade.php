@@ -58,13 +58,13 @@
 	#mock-interview .st52{fill:#DB9669;}
 	#mock-interview .st53{fill:#F1B287;}
 	#mock-interview .st54{fill:#231202;}
-	#mock-interview .st55{fill:#45210C;}
-	#mock-interview .st56{fill:#8B4E29;}
-	#mock-interview .st57{fill:#673112;}
+	#mock-interview .st55{fill: var(--tc-blue-dark-1);} /*#45210C;}*/
+	#mock-interview .st56{fill: var(--tc-blue-dark-1);} /*#8B4E29;}*/
+	#mock-interview .st57{fill: var(--tc-blue-dark-1);} /*#673112;}*/
 	#mock-interview .st58{fill:#BB732C;}
 	#mock-interview .st59{fill:#FBC868;}
 	#mock-interview .st60{fill:#F4CD57;}
-	#mock-interview .st61{fill:#773717;}
+	#mock-interview .st61{fill: var(--tc-blue-dark-1);} /*#773717;}*/
 	#mock-interview .st62{fill:#4F260E;}
 	#mock-interview .st63{fill:#592A10;}
 	#mock-interview .st64{fill:#DFE5F3;}
