@@ -577,7 +577,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 15px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .message .message-wrapper {
     font-size: 1.6rem;
     width: 450px;
@@ -591,7 +591,7 @@ h1, h2, h3, h4, h5, h6, p {
   right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .wrapper .container .items-wrapper {
     height: 100%;
   }
@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 3rem;
   font-weight: bold;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .brand-slogan {
     font-size: 2rem;
     text-align: left;
@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6, p {
 .welcome-message * {
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .welcome-message * {
     text-align: left;
   }
@@ -704,7 +704,7 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   padding: 40px 15px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .activity-wrapper {
     padding: 50px 0;
   }
@@ -715,7 +715,7 @@ h1, h2, h3, h4, h5, h6, p {
 .activity-wrapper:nth-child(even) .activity-row > [class*=col]:first-child {
   padding-left: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .activity-wrapper:nth-child(even) .activity-row > [class*=col]:first-child {
     padding-left: 15px;
   }
@@ -732,21 +732,6 @@ h1, h2, h3, h4, h5, h6, p {
 .activity-wrapper .activity-header .activity-header-txt {
   margin-left: 0.5rem;
 }
-@media (max-width: 768px) {
-  .activity-wrapper .activity-img img {
-    height: 150px;
-    opacity: 0.3;
-  }
-}
-.activity-wrapper .img-wrapper img {
-  max-height: 500px;
-}
-@media (max-width: 768px) {
-  .activity-wrapper .img-wrapper img {
-    max-height: 350px;
-  }
-}
-
 .page-footer {
   position: relative;
   background-color: #222;

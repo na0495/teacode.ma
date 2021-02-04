@@ -9,7 +9,7 @@
 .activity-wrapper
     position: relative
     padding: 40px 15px
-    @media (max-width: 768px)
+    @media (max-width: 767px)
         padding: 50px 0
     // &:nth-child(odd)
     //     background-color: $tc-blue
@@ -17,7 +17,7 @@
         flex-direction: row-reverse
         > [class*='col']:first-child
             padding-left: 50px
-            @media (max-width: 768px)
+            @media (max-width: 767px)
                 padding-left: 15px
     .activity-header
         color: $tc-blue
@@ -29,7 +29,7 @@
         .activity-header-txt
             margin-left: 0.5rem
     .activity-img
-        @media (max-width: 768px)
+        @media (max-width: 767px)
             // display: inline-block
             // position: absolute
             // transform: translate(30%, -20%)
@@ -37,11 +37,14 @@
             // right: 0
             // left: unset
             // width: auto
-            img
-                height: 150px
-                opacity: .3
-    .img-wrapper
-        img
-            max-height: 500px
-            @media (max-width: 768px)
-                max-height: 350px
+            // .img-wrapper
+            //     max-width: 300px
+            //     margin: 0 auto
+    //         img
+    //             height: 150px
+    //             opacity: .3
+    // .img-wrapper
+    //     img
+    //         max-height: 500px
+    //         @media (max-width: 767px)
+    //             max-height: 350px
