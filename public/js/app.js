@@ -19333,9 +19333,7 @@ module.exports = function(module) {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 $(function () {
-  particlesJS.load('particles-js', '/plugins/particles/particles.json', function () {
-    console.log('callback - particles.js config loaded');
-  });
+  particlesJS.load('particles-js', '/plugins/particles/particles.json');
 });
 
 /***/ }),
