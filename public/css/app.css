@@ -732,6 +732,13 @@ h1, h2, h3, h4, h5, h6, p {
 .activity-wrapper .activity-header .activity-header-txt {
   margin-left: 0.5rem;
 }
+@media (max-width: 767px) {
+  .activity-wrapper .activity-img .img-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
 .page-footer {
   position: relative;
   background-color: #222;
