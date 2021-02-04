@@ -17,7 +17,7 @@
 	#communication .st11{opacity:0.55;fill:var(--tc-blue-dark-1);} /* #FFFFFF;} */
 	#communication .st12{opacity:0.85;fill:var(--tc-blue);} /* #FFFFFF;} */
 	#communication .st13{fill: var(--tc-blue-dark);} /* #37474F;} */
-	#communication .st14{fill:var(--tc-almost-black);} /*#263238;}*/
+	#communication .st14{fill:var(--tc-black-almost);} /*#263238;}*/
 	#communication .st15{opacity:0.35;}
 	#communication .st16{fill:#F1B287;}/*#FFA8A7;}*/
 	#communication .st17{fill:#F28F8F;}

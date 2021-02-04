@@ -97,9 +97,9 @@
 	.st91{fill: var(--tc-blue-dark-2);}
 	.st92{fill: var(--tc-blue-dark-1);}
 	.st93{fill: var(--tc-blue-dark-2);}
-	.st94{fill: var(--tc-almost-black);}
+	.st94{fill: var(--tc-black-almost);}
 	.st95{fill: var(--tc-blue-dark-2);}
-	.st96{fill: var(--tc-almost-black);}
+	.st96{fill: var(--tc-black-almost);}
 	.st97{fill:url(#SVGID_86_);}
 	.st98{opacity:0.2;}
 	.st99{fill:url(#SVGID_87_);}

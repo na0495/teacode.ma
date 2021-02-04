@@ -97,9 +97,9 @@
 	#technical-workshop .st91{fill: var(--tc-blue-dark-2);}
 	#technical-workshop .st92{fill: var(--tc-blue-dark-1);}
 	#technical-workshop .st93{fill: var(--tc-blue-dark-2);}
-	#technical-workshop .st94{fill: var(--tc-almost-black);}
+	#technical-workshop .st94{fill: var(--tc-black-almost);}
 	#technical-workshop .st95{fill: var(--tc-blue-dark-2);}
-	#technical-workshop .st96{fill: var(--tc-almost-black);}
+	#technical-workshop .st96{fill: var(--tc-black-almost);}
 	#technical-workshop .st97{fill: var(--tc-blue);} /*url(#technical-workshop_SVGID_86_);}*/
 	#technical-workshop .st98{opacity:0.2;}
 	#technical-workshop .st99{fill:url(#technical-workshop_SVGID_87_);}

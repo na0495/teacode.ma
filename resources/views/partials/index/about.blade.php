@@ -5,7 +5,7 @@
             <div class="row justify-content-center align-items-center mb-3">
                 <div class="col-12">
                     {{-- <h2 class="brand-txt mb-2">TeaCode</h2> --}}
-                    <h3 class="brand-slogan tc-almost-black">Turning <span>Tea</span> into <span>Code</span></h3>
+                    <h3 class="brand-slogan tc-black-almost">Turning <span>Tea</span> into <span>Code</span></h3>
                     {{-- <img src="{{ asset('/assets/img/teacode/teacode.png') }}"
                     class="img-fluid rounded-circle square-75 ml-2" alt=""> --}}
                 </div>
@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-10 col-md-8 offset-md-2">
                     <div class="welcome-message">
-                        <div class="welcome-message-wrapper tc-almost-black">
+                        <div class="welcome-message-wrapper tc-black-almost">
                             {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
                             <div class="txt">Whether you are learning to code, thinking about learning, looking for an internship or looking for a job in software development</div>
                         </div>

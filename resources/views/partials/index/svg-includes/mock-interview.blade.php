@@ -17,9 +17,9 @@
 	#mock-interview .st11{fill:#E8E8E8;}
 	#mock-interview .st12{fill:#898989;}
 	#mock-interview .st13{fill:#FFFFFF;}
-	#mock-interview .st14{fill:var(--tc-almost-black);} /*#0FB7B3;}*/
-	#mock-interview .st15{fill:var(--tc-almost-black);} /*#199B94;}*/
-	#mock-interview .st16{fill:var(--tc-almost-black);} /*#01A3A2;}*/
+	#mock-interview .st14{fill:var(--tc-black-almost);} /*#0FB7B3;}*/
+	#mock-interview .st15{fill:var(--tc-black-almost);} /*#199B94;}*/
+	#mock-interview .st16{fill:var(--tc-black-almost);} /*#01A3A2;}*/
 	#mock-interview .st17{fill:var(--tc-blue);} /*#FF9C00;}*/
 	#mock-interview .st18{fill:var(--tc-blue-dark-1);} /*#FFBA5F;}*/
 	#mock-interview .st19{fill:var(--tc-blue);} /*#FFAC33;}*/
@@ -27,7 +27,7 @@
 	#mock-interview .st21{fill:#242626;}
 	#mock-interview .st22{fill:#3B3F3F;}
 	#mock-interview .st23{fill:#111114;}
-	#mock-interview .st24{fill:#29383D;}
+	#mock-interview .st24{fill: var(--tc-black-almost-1);} /*#29383D;}*/
 	#mock-interview .st25{fill:#243135;}
 	#mock-interview .st26{fill:#8FB6D7;}
 	#mock-interview .st27{fill:#558299;}
@@ -47,8 +47,8 @@
 	#mock-interview .st41{fill:#184C9F;}
 	#mock-interview .st42{fill:#0B357C;}
 	#mock-interview .st43{fill:#1A4789;}
-	#mock-interview .st44{fill:#231D21;}
-	#mock-interview .st45{fill:#31282E;}
+	#mock-interview .st44{fill: var(--tc-black-almost-1);} /*#231D21;}*/
+	#mock-interview .st45{fill: var(--tc-black-almost);} /*#31282E;}*/
 	#mock-interview .st46{fill:#EFB185;}
 	#mock-interview .st47{fill:#D7D3D0;}
 	#mock-interview .st48{fill:#C3BBB7;}
@@ -92,9 +92,9 @@
 	#mock-interview .st86{fill:var(--tc-blue);} /*#2C7741;}*/
 	#mock-interview .st87{fill:#E2E6ED;}
 	#mock-interview .st88{fill:#A5AAB4;}
-	#mock-interview .st89{fill:#354751;}
-	#mock-interview .st90{fill:#304047;}
-	#mock-interview .st91{fill:#3B5059;}
+	#mock-interview .st89{fill: var(--tc-black-almost);} /*#354751;}*/
+	#mock-interview .st90{fill: var(--tc-black-almost-1);} /*#304047;}*/
+	#mock-interview .st91{fill: var(--tc-black-almost);} /*#3B5059;}*/
 	#mock-interview .st92{fill:#DD9569;}
 	#mock-interview .st93{fill:#E6A376;}
 	#mock-interview .st94{fill:#221101;}

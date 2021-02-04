@@ -5,11 +5,11 @@
             <div class="container">
                 <div class="row align-items-center activity-row">
                     <div class="col-lg-6 col-md-7">
-                        <h3 class="activity-header text-capitalize mb-2 tc-almost-black">
+                        <h3 class="activity-header text-capitalize mb-2 tc-black-almost">
                             <span class="activity-header-icon">{!!  $activity->icon !!}</span>
                             <span class="activity-header-txt">{{ $activity->title }}</span>
                         </h3>
-                        <div class="description tc-almost-black">
+                        <div class="description tc-black-almost">
                             {!! $activity->description->text !!}
                             @if (isset($activity->description->list))
                             @php $listType = explode('-', '<ul>-</ul>') @endphp
