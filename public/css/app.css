@@ -424,6 +424,11 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #2c2f33;
 }
 
+.key-word {
+  color: #ffffff;
+  background-color: #337AB7;
+}
+
 .py-50px {
   padding-top: 50px;
   padding-bottom: 50px;
