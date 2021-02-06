@@ -5,12 +5,28 @@
         "title": "technical workshop",
         "slug": "technical-workshop",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents techs</span> (C, C++, Python, Javascript, Git, docker ...etc), here is the details :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents techs</span> (C, C++, Python, Javascript, Git, docker ...etc), here is the details :</p>",
             "list": [
-                "Learn the <span class='key-word white-space-nowrap px-1'>basics</span> of a language, framework or technology.",
-                "Work/collaborate around problems to <span class='key-word white-space-nowrap px-1'>sharp</span> your problem solving skills.",
-                "Build a <span class='key-word white-space-nowrap px-1'>project</span> from <span class='key-word white-space-nowrap px-1'>scratch</span>.",
-                "<span class='key-word white-space-nowrap px-1'>Review</span> solutions for coding challenges."
+                "learn the <span class='key-word white-space-nowrap px-1'>basics</span> of a language, framework or technology.",
+                "work/collaborate with other members to <span class='key-word white-space-nowrap px-1'>sharp</span> your problem solving skills.",
+                "build <span class='key-word white-space-nowrap px-1'>projects</span> from <span class='key-word white-space-nowrap px-1'>scratch</span>.",
+                "<span class='key-word white-space-nowrap px-1'>review</span> solutions for coding challenges."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/communication.svg",
+        "icon": "<i class='fas fa-comments'></i>",
+        "title": "communication",
+        "slug": "communication",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap px-1'>every week</span>, here is why :</p>",
+            "list": [
+                "ability to communicate with the language <span class='key-word px-1'>itself</span>.",
+                "create <span class='key-word px-1'>connections</span> with other new people.",
+                "increase the chances to land an <span class='key-word white-space-nowrap px-1'>interview/job</span>.",
+                "new doors opened for <span class='key-word px-1'>more</span> knowledge.",
+                "don't underestimate yourself, because <span class='key-word white-space-nowrap px-1'>we don't</span>."
             ]
         }
     },
@@ -22,12 +38,12 @@
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>meets around different subjects to answer questions such as: </p>",
             "list": [
-                "What <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a software developer ?",
-                "It's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
-                "What to do <span class='key-word white-space-nowrap px-1'>after highschool ?</span>",
-                "I don't know how to <span class='key-word white-space-nowrap px-1'>look for a job</span> as a software developer ?",
-                "What are <span class='key-word white-space-nowrap px-1'>soft skills</span> ?",
-                "<span class='key-word white-space-nowrap px-1'>Do I need math</span> to become a software developer ?"
+                "what <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a software developer ?",
+                "it's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
+                "what to do <span class='key-word white-space-nowrap px-1'>after highschool ?</span>",
+                "i don't know how to <span class='key-word white-space-nowrap px-1'>look for a job</span> as a software developer ?",
+                "what are <span class='key-word white-space-nowrap px-1'>soft skills</span> ?",
+                "<span class='key-word white-space-nowrap px-1'>do I need math</span> to become a software developer ?"
             ]
         }
     },
@@ -38,26 +54,13 @@
         "slug": "pair-programming",
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>practice sessions to train your mind and prepare for professional coding challenges</p>",
-            "listType": "<ol>-</ol>",
+            "listType": "ol",
             "list": [
-                "Access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
-                "Once you get in the discord server you can visit <span class='key-word white-space-nowrap px-1'>#📝-challenges</span> room to see the current list of the challenges.",
-                "You will be split into teams of <span class='key-word white-space-nowrap px-1'>two people</span> — you and your coding partner.",
-                "One of you will start as the <span class='key-word white-space-nowrap px-1'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap px-1'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
-                "Once the first Driver <span class='key-word white-space-nowrap px-1'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap px-1'>switch</span> roles."
-            ]
-        }
-    },
-    {
-        "img": "/assets/img/activities/communication.svg",
-        "icon": "<i class='fas fa-comments'></i>",
-        "title": "communication",
-        "slug": "communication",
-        "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>weekly meets to practice communication in English/French</p>",
-            "list": [
-                "Practice communicating in english/french with other people",
-                "Talking about different subjects"
+                "access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
+                "once you get in the discord server you can visit <span class='key-word white-space-nowrap px-1'>#📝-challenges</span> room to see the current list of the challenges.",
+                "you will be split into teams of <span class='key-word white-space-nowrap px-1'>two people</span> — you and your coding partner.",
+                "one of you will start as the <span class='key-word white-space-nowrap px-1'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap px-1'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
+                "once the first Driver <span class='key-word white-space-nowrap px-1'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap px-1'>switch</span> roles."
             ]
         }
     },
@@ -67,13 +70,13 @@
         "title": "mock interview",
         "slug": "mock-interview",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>practice interviews with anyone, You can start with a role interviewer/interviewee, then you can switch roles with your partner <span class='white-space-nowrap'>(2 persons in each room)</span></p>",
-            "listType": "<ol>-</ol>",
+            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a practice interview that allows the interviewee to create effective responses, work on nonverbal communication skills and become familiar with interview settings, here is how :</p>",
+            "listType": "ol",
             "list": [
-                "Choose a job offer as an example",
-                "One will be play interviewer, the other will play interviewee",
-                "You can switch roles after a period (20min for example)",
-                "Start"
+                "choose the right interviewer <span class='key-word white-space-nowrap px-1'>by asking</span> the server members.",
+                "choose a job offer as example and <span class='key-word white-space-nowrap px-1'>start</span> the interview.",
+                "take your time <span class='key-word white-space-nowrap px-1'>answering</span> questions.",
+                "the interviewer will <span class='key-word white-space-nowrap px-1'>review</span> the mock interview with you at the end."
             ]
         }
     }
