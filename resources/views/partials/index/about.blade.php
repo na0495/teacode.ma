@@ -11,11 +11,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-10 col-md-8 offset-md-2">
+                <div class="col-11 col-md-8 offset-md-2">
                     <div class="welcome-message">
                         <div class="welcome-message-wrapper tc-black-almost">
                             {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
-                            <div class="txt">Whether you are learning to code, thinking about learning, looking for an internship or looking for a job in software development</div>
+                            <div class="txt">
+                                <div class="capitalize-first-letter">whether you are learning to code, thinking about it,
+                                    looking for an internship or looking for a job in software development.</div>
+                                <div class="capitalize-first-letter">we are here to help, so join us by clicking down below</div>
+                            </div>
                         </div>
                         <div class="btn-action mt-3">
                             <a href="https://discord.gg/y9TwPcqdvm" target="_blank"
