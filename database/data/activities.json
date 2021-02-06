@@ -5,27 +5,29 @@
         "title": "technical workshop",
         "slug": "technical-workshop",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>workshop on different techs C, C++, Python, Javascript, Git ...etc</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents techs</span> (C, C++, Python, Javascript, Git, docker ...etc), here is the details :</p>",
             "list": [
-                "Learn the basics of a language, framework or technology",
-                "Build a project from scratch"
+                "Learn the <span class='key-word white-space-nowrap px-1'>basics</span> of a language, framework or technology.",
+                "Work/collaborate around problems to <span class='key-word white-space-nowrap px-1'>sharp</span> your problem solving skills.",
+                "Build a <span class='key-word white-space-nowrap px-1'>project</span> from <span class='key-word white-space-nowrap px-1'>scratch</span>.",
+                "<span class='key-word white-space-nowrap px-1'>Review</span> solutions for coding challenges."
             ]
         }
     },
     {
         "img": "/assets/img/activities/__various.svg",
-        "icon": "<i class='fas fa-video'></i>",
-        "title": "various subjects",
+        "icon": "<i class='fas fa-mug-hot'></i>",
+        "title": "hangouts",
         "slug": "divers",
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>meets around different subjects to answer questions such as: </p>",
             "list": [
-                "What should I learn to become a software developer ?",
-                "It's hard for me to learn coding ?",
-                "What to do after highschool ?",
-                "I don't know how to look for a job as a software developer ?",
-                "What are soft skills ?",
-                "Do I need math to become a software developer ?"
+                "What <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a software developer ?",
+                "It's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
+                "What to do <span class='key-word white-space-nowrap px-1'>after highschool ?</span>",
+                "I don't know how to <span class='key-word white-space-nowrap px-1'>look for a job</span> as a software developer ?",
+                "What are <span class='key-word white-space-nowrap px-1'>soft skills</span> ?",
+                "<span class='key-word white-space-nowrap px-1'>Do I need math</span> to become a software developer ?"
             ]
         }
     },
@@ -38,12 +40,11 @@
             "text": "<p class='mb-2 capitalize-first-letter'>practice sessions to train your mind and prepare for professional coding challenges</p>",
             "listType": "<ol>-</ol>",
             "list": [
-                "You will need a stable Internet connection 📡 and a working microphone 🎤 to join",
-                "Access the practice sessions using Discord desktop app (for a better experience)",
-                "Once you get in the discord server you can visit #challenges room to see the list of challenges",
-                "You will be split into teams of two people — you and your coding partner",
-                "One of you will start as the `Driver` 🚘 (the person who codes), and the other person will be the `Navigator` 🧭 (the person who helps)",
-                "Once the first Driver finishes the challenge (with the help of the Navigator), you will switch roles — the previous Driver will now become the Navigator"
+                "Access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
+                "Once you get in the discord server you can visit <span class='key-word white-space-nowrap px-1'>#📝-challenges</span> room to see the current list of the challenges.",
+                "You will be split into teams of <span class='key-word white-space-nowrap px-1'>two people</span> — you and your coding partner.",
+                "One of you will start as the <span class='key-word white-space-nowrap px-1'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap px-1'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
+                "Once the first Driver <span class='key-word white-space-nowrap px-1'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap px-1'>switch</span> roles."
             ]
         }
     },
