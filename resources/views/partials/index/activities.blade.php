@@ -12,15 +12,15 @@
                         <div class="description tc-black-almost">
                             {!! $activity->description->text !!}
                             @if (isset($activity->description->list))
-                            @php $listType = explode('-', '<ul>-</ul>') @endphp
+                            @php $listType = 'ul' @endphp
                                 @if (isset($activity->description->listType))
-                                    @php $listType = explode('-', $activity->description->listType) @endphp
+                                    @php $listType = $activity->description->listType @endphp
                                 @endif
-                                {!! $listType[0] !!}
+                                <{!! $listType !!}>
                                 @foreach ($activity->description->list as $listItem)
-                                <li>{!! $listItem !!}</li>
+                                <li class="capitalize-first-letter">{!! $listItem !!}</li>
                                 @endforeach
-                                {!! $listType[1] !!}
+                                </{!! $listType !!}>
                             @endif
                         </div>
                     </div>

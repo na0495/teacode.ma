@@ -729,9 +729,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 .activity-wrapper .activity-header {
-  color: #1DA1F2;
   display: flex;
   align-items: center;
+}
+.activity-wrapper .activity-header * {
+  color: #337AB7;
 }
 .activity-wrapper .activity-header .activity-header-icon {
   color: #337AB7;
