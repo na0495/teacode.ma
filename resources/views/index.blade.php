@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-    TeaCode
+    TeaCode - Turning Tea into Code
 @endsection
 @section('content')
 
