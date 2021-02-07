@@ -18,7 +18,7 @@
                             <div class="txt">
                                 <div class="capitalize-first-letter">whether you are learning to code, thinking about it,
                                     looking for an internship or looking for a job in software development.</div>
-                                <div class="capitalize-first-letter">we are here to help, so join us by clicking down below</div>
+                                <div class="capitalize-first-letter">join other moroccan developers who can help by clicking down below</div>
                             </div>
                         </div>
                         <div class="btn-action mt-3">
