@@ -20,5 +20,5 @@
 </script>
 
 <!-- Your Chat Plugin code -->
-<div class="fb-customerchat" attribution=setup_tool page_id="1791512734443618" theme_color="#00437D">
+<div class="fb-customerchat" attribution="setup_tool" page_id="1791512734443618" theme_color="#1DA1F2">
 </div>
