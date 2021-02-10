@@ -1,5 +1,5 @@
 <footer class="page-footer">
-    <div class="container-fluid footer text-center not">
+    <div class="container-fluid footer text-center p-0">
         <div class="container w-100 py-3">
             <div class="row">    <!-- row-eq-height"> -->
                 <div class="col-md-6 col-sm-6 copyright-txt">
