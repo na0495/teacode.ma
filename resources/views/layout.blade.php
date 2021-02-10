@@ -30,10 +30,6 @@
                     <a href="https://resume.teacode.ma" target="_blank">my resume <i class="far fa-hand-point-right"></i></a>
                 </div> --}}
         </div>
-        <div class="loader-wrapper">
-            <div class="loader">
-                <img src="{{ asset('/assets/img/teacode/teacode.png') }}" alt="">
-            </div>
-        </div>
+        @include('partials.loader')
     </body>
 </html>
