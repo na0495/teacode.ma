@@ -20,5 +20,7 @@
 </script>
 
 <!-- Your Chat Plugin code -->
-<div class="fb-customerchat" attribution="setup_tool" page_id="1791512734443618" theme_color="#1DA1F2">
+<div class="fb-customerchat" attribution="setup_tool" page_id="1791512734443618" theme_color="#1DA1F2"
+    logged_in_greeting="Salamo alikom, Merhba bik m3ana f TeaCode"
+    logged_out_greeting="Salamo alikom, Merhba bik m3ana f TeaCode">
 </div>
