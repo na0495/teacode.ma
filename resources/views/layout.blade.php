@@ -31,5 +31,6 @@
                 </div> --}}
         </div>
         {{-- @include('partials.loader') --}}
+        @include('partials.fb-btn')
     </body>
 </html>

@@ -16,5 +16,4 @@
     {{-- @include('partials.index.staff') --}}
 
     @include('partials.index.footer')
-    @include('partials.fb-btn')
 @endsection
