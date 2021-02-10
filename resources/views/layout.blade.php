@@ -30,6 +30,6 @@
                     <a href="https://resume.teacode.ma" target="_blank">my resume <i class="far fa-hand-point-right"></i></a>
                 </div> --}}
         </div>
-        @include('partials.loader')
+        {{-- @include('partials.loader') --}}
     </body>
 </html>
