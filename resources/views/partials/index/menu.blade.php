@@ -7,11 +7,11 @@
                 <a href="/" class="d-flex align-items-center">
                     <div class="logo position-relative">
                         <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}"
-                        class="logo-brackets img-fluid rounded-circle square-50" alt="">
+                        class="logo-brackets img-fluid rounded-circle square-40" alt="">
                         <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}"
-                        class="logo-cup img-fluid rounded-circle square-50 position-absolute left-0" alt="">
+                        class="logo-cup img-fluid rounded-circle square-40 position-absolute left-0" alt="">
                     </div>
-                    <h4 class="brand-txt ml-2 d-inline-block ">TeaCode</h4>
+                    <h4 class="brand-txt ml-1 d-inline-block ">TeaCode</h4>
                 </a>
             </div>
             <nav class="nav d-flex justify-content-center">
