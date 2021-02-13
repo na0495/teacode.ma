@@ -27,7 +27,7 @@
 	#divers .st21{fill:url(#divers_SVGID_16_);}
 	#divers .st22{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_17_);}*/
 	#divers .st23{fill:var(--tc-blue-dark-1);} /*url(#divers_SVGID_18_);}*/
-	#divers .st24{fill:url(#divers_SVGID_19_);}
+	#divers .st24{fill: var(--tc-black-almost);}/*url(#divers_SVGID_19_);}*/
 	#divers .st25{opacity:0.3;fill: var(--tc-blue-dark-2);} /* url(#divers_SVGID_20_);} */
 	#divers .st26{fill:var(--tc-blue);} /*url(#divers_SVGID_21_);}*/
 	#divers .st27{opacity:0.15;}
@@ -77,7 +77,7 @@
 	#divers .st71{fill:url(#divers_SVGID_64_);}
 	#divers .st72{fill:#d09a76;} /*url(#divers_SVGID_65_);}*/
 	#divers .st73{fill:url(#divers_SVGID_66_);}
-	#divers .st74{fill:#26264F;}
+	#divers .st74{fill: var(--tc-black-almost);}/*#26264F;}*/
 	#divers .st75{fill: var(--tc-blue-dark-1);} /* url(#divers_SVGID_67_);}*/
 	#divers .st76{fill:url(#divers_SVGID_68_);}
 	#divers .st77{fill:var(--tc-grey);} /*url(#divers_SVGID_69_);}*/
