@@ -1,0 +1,62 @@
+{
+    "teacode": [
+        {
+            "img": "assets/img/social/discord.png",
+            "icon": "<i class='fab fa-discord'></i>",
+            "link": "https://discord.gg/y9TwPcqdvm",
+            "title": "discord",
+            "color": "#6E85D3"
+        },
+        {
+            "img": "assets/img/social/facebook.png",
+            "icon": "<i class='fab fa-facebook-f'></i>",
+            "link": "https://facebook.com/groups/teacodema",
+            "title": "facebook group",
+            "color": "#D32322"
+        },
+        {
+            "img": "assets/img/social/instagram.png",
+            "icon": "<i class='fab fa-instagram'></i>",
+            "link": "https://instagram.com/teacode.ma",
+            "title": "instagram",
+            "color": "#B03699"
+        },
+        {
+            "img": "assets/img/social/twitter.png",
+            "icon": "<i class='fab fa-twitter'></i>",
+            "link": "https://twitter.com/teacodema",
+            "title": "twitter",
+            "color": "#50ABF1"
+        },
+        {
+            "img": "assets/img/social/Youtube.png",
+            "icon": "<i class='fab fa-youtube'></i>",
+            "link": "https://www.youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ",
+            "title": "youtube",
+            "color": "#4867AA"
+        }
+    ],
+    "mine": [
+        {
+            "img": "assets/img/social/facebook.png",
+            "icon": "<i class='fab fa-facebook-f'></i>",
+            "link": "https://facebook.com/drissboumlik",
+            "title": "facebook",
+            "color": "#D32322"
+        },
+        {
+            "img": "assets/img/social/instagram.png",
+            "icon": "<i class='fab fa-instagram'></i>",
+            "link": "https://instagram.com/drissboumlik",
+            "title": "instagram",
+            "color": "#B03699"
+        },
+        {
+            "img": "assets/img/social/twitter.png",
+            "icon": "<i class='fab fa-twitter'></i>",
+            "link": "https://twitter.com/drissboumlik",
+            "title": "twitter",
+            "color": "#50ABF1"
+        }
+    ]
+}
