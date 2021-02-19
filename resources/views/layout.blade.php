@@ -6,14 +6,14 @@
         <meta name="description"
         content="Join other moroccan developers who can help you in your leaning journey. ">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159372011-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159372011-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'UA-159372011-1');
-        </script> --}}
+        </script>
 
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode.ico') }}">
 
