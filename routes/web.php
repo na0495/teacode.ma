@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'HomeController@home');
+Route::get('/privacy', 'HomeController@privacy');
+Route::get('/terms', 'HomeController@terms');
 Route::any('/{var}', 'HomeController@home')->where('var', '.*');

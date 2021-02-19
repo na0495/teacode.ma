@@ -14,8 +14,20 @@ class HomeController extends Controller
         }
         $data = new stdClass;
         $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
-        $data->find_us = json_decode(\File::get(base_path() . '/database/data/find_us.json'));
+        $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+        $title = 'TeaCode - Turning Tea into Code';
+        return view('index', ['data' => $data, 'title' => $title]);
+    }
 
-        return view('index', ['data' => $data]);
+    public function privacy(Request $request)
+    {
+        $title = 'TeaCode Privacy Policy';
+        return view('privacy', ['title' => $title]);
+    }
+
+    public function terms(Request $request)
+    {
+        $title = 'TeaCode Terms of Use';
+        return view('terms', ['title' => $title]);
     }
 }
