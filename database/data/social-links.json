@@ -1,37 +1,37 @@
 {
     "teacode": [
         {
-            "img": "assets/img/social/discord.png",
-            "icon": "<i class='fab fa-discord'></i>",
-            "link": "https://discord.gg/y9TwPcqdvm",
-            "title": "discord",
-            "color": "#6E85D3"
-        },
-        {
             "img": "assets/img/social/facebook.png",
             "icon": "<i class='fab fa-facebook-f'></i>",
-            "link": "https://facebook.com/groups/teacodema",
+            "link": "/facebook-group",
             "title": "facebook group",
             "color": "#D32322"
         },
         {
             "img": "assets/img/social/instagram.png",
             "icon": "<i class='fab fa-instagram'></i>",
-            "link": "https://instagram.com/teacode.ma",
+            "link": "/instagram",
             "title": "instagram",
             "color": "#B03699"
         },
         {
             "img": "assets/img/social/twitter.png",
             "icon": "<i class='fab fa-twitter'></i>",
-            "link": "https://twitter.com/teacodema",
+            "link": "/twitter",
             "title": "twitter",
             "color": "#50ABF1"
         },
         {
+            "img": "assets/img/social/linkedin.png",
+            "icon": "<i class='fab fa-linkedin'></i>",
+            "link": "/linkedin",
+            "title": "linkedin",
+            "color": "#6E85D3"
+        },
+        {
             "img": "assets/img/social/Youtube.png",
             "icon": "<i class='fab fa-youtube'></i>",
-            "link": "https://www.youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ",
+            "link": "/youtube",
             "title": "youtube",
             "color": "#4867AA"
         }
@@ -39,17 +39,10 @@
     "mine": [
         {
             "img": "assets/img/social/facebook.png",
-            "icon": "<i class='fab fa-facebook-f'></i>",
-            "link": "https://facebook.com/drissboumlik",
-            "title": "facebook",
+            "icon": "<i class='fab fa-github'></i>",
+            "link": "https://github.com/drissboumlik",
+            "title": "github",
             "color": "#D32322"
-        },
-        {
-            "img": "assets/img/social/instagram.png",
-            "icon": "<i class='fab fa-instagram'></i>",
-            "link": "https://instagram.com/drissboumlik",
-            "title": "instagram",
-            "color": "#B03699"
         },
         {
             "img": "assets/img/social/twitter.png",

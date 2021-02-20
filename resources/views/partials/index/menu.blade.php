@@ -16,7 +16,7 @@
             </div>
             <nav class="nav d-flex justify-content-center">
                 <a class="menu-item p-2 text-dark text-capitalize" rel="noopener"
-                href="https://discord.gg/y9TwPcqdvm" target="_blank">
+                href="/discord" target="_blank">
                     <span class="mr-1">join us</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>

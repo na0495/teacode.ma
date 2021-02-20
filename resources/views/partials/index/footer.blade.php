@@ -15,7 +15,7 @@
                                     <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}" width="40" height="40"
                                     class="logo-cup img-fluid rounded-circle square-30 position-absolute left-0" alt="Logo Cup">
                                 </div>
-                                <span>TeaCode.ma</span>
+                                <span class="ml-1">TeaCode.ma</span>
                             </a>
                         </div>
                     </div>
