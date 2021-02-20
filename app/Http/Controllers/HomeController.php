@@ -21,13 +21,17 @@ class HomeController extends Controller
 
     public function privacy(Request $request)
     {
+        $data = new stdClass;
+        $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
         $title = 'TeaCode Privacy Policy';
-        return view('privacy', ['title' => $title]);
+        return view('privacy', ['data' => $data, 'title' => $title]);
     }
 
     public function terms(Request $request)
     {
+        $data = new stdClass;
+        $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
         $title = 'TeaCode Terms of Use';
-        return view('terms', ['title' => $title]);
+        return view('terms', ['data' => $data, 'title' => $title]);
     }
 }
