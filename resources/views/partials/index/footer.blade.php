@@ -1,5 +1,5 @@
 <footer class="page-footer tc-black-bg">
-    <div class="container-fluid footer text-center p-0">
+    <div class="container-fluid footer text-center">
         <div class="container w-100 py-3">
             <div class="row">
                 <div class="col-md-6 col-sm-6 copyright-txt">
