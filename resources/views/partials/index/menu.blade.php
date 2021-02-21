@@ -20,7 +20,8 @@
                     <span class="mr-1">join us</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
-                {{-- <a class="p-2 text-light text-capitalize" href="/">Home</a> --}}
+                <a class="p-2 text-dark text-capitalize" href="/privacy">Privacy</a>
+                <a class="p-2 text-dark text-capitalize" href="/terms">Terms</a>
                 {{-- <a class="p-2 text-light text-capitalize" href="/resources">Resources</a> --}}
                 {{-- <a class="menu-item p-2 text-dark text-capitalize" href="/code-of-conduct" target="_blank">RodeMaps</a> --}}
                 {{-- <a class="menu-item p-2 text-dark text-capitalize" href="/code-of-conduct" target="_blank">Resources</a> --}}
