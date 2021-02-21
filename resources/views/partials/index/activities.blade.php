@@ -16,7 +16,7 @@
                                 @if (isset($activity->description->listType))
                                     @php $listType = $activity->description->listType @endphp
                                 @endif
-                                <{!! $listType !!}>
+                                <{!! $listType !!} class="pl-4 m-0">
                                 @foreach ($activity->description->list as $listItem)
                                 <li class="capitalize-first-letter">{!! $listItem !!}</li>
                                 @endforeach
