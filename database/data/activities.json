@@ -2,15 +2,15 @@
     {
         "img": "/assets/img/activities/ws.svg",
         "icon": "<i class='fas fa-code-branch'></i>",
-        "title": "technical workshop",
+        "title": "workshops",
         "slug": "technical-workshop",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents techs</span> (C, C++, Python, Javascript, Git, docker ...etc), here is the details :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents subjects</span> (Project management, Programming, DevOps ...etc), here is the details :</p>",
             "list": [
                 "learn the <span class='key-word white-space-nowrap px-1'>basics</span> of a language, framework or technology.",
                 "work/collaborate with other members to <span class='key-word white-space-nowrap px-1'>sharp</span> your problem solving skills.",
                 "build <span class='key-word white-space-nowrap px-1'>projects</span> from <span class='key-word white-space-nowrap px-1'>scratch</span>.",
-                "<span class='key-word white-space-nowrap px-1'>review</span> solutions for coding challenges."
+                "<span class='key-word white-space-nowrap px-1'>solve</span> coding challenges together."
             ]
         }
     },
@@ -36,14 +36,15 @@
         "title": "hangouts",
         "slug": "divers",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>meets around different subjects to answer questions such as: </p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to answer questions such as: </p>",
             "list": [
-                "what <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a software developer ?",
+                "what <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a good software developer ?",
                 "it's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
                 "what to do <span class='key-word white-space-nowrap px-1'>after highschool ?</span>",
                 "i don't know how to <span class='key-word white-space-nowrap px-1'>look for a job</span> as a software developer ?",
                 "what are <span class='key-word white-space-nowrap px-1'>soft skills</span> ?",
-                "<span class='key-word white-space-nowrap px-1'>do I need math</span> to become a software developer ?"
+                "<span class='key-word white-space-nowrap px-1'>do I need math</span> to become a software developer ?",
+                "And any <span class='key-word white-space-nowrap px-1'>other</span> subjects related to <span class='key-word white-space-nowrap px-1'>studies/career</span>."
             ]
         }
     },
@@ -53,7 +54,7 @@
         "title": "pair programming",
         "slug": "pair-programming",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>practice sessions to train your mind and prepare for professional coding challenges</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to train your mind and prepare for professional coding challenges.</p>",
             "listType": "ol",
             "list": [
                 "access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
@@ -70,11 +71,12 @@
         "title": "mock interview",
         "slug": "mock-interview",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a practice interview that allows the interviewee to create effective responses, work on nonverbal communication skills and become familiar with interview settings, here is how :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to work on verbal/nonverbal communication skills and become familiar with interview settings, here is how :</p>",
             "listType": "ol",
             "list": [
-                "choose the right interviewer <span class='key-word white-space-nowrap px-1'>by asking</span> the server members.",
-                "choose a job offer as example and <span class='key-word white-space-nowrap px-1'>start</span> the interview.",
+                "choose an interviewer <span class='key-word white-space-nowrap px-1'>by asking</span> the server members.",
+                "choose/share a <span class='key-word white-space-nowrap px-1'>job offer</span> as example with the interviewer and <span class='key-word white-space-nowrap px-1'>start</span> the interview.",
+                "share your <span class='key-word white-space-nowrap px-1'>resume</span> with the interviewer (use screen sharing, shared link ... etc).",
                 "take your time <span class='key-word white-space-nowrap px-1'>answering</span> questions.",
                 "the interviewer will <span class='key-word white-space-nowrap px-1'>review</span> the mock interview with you at the end."
             ]
