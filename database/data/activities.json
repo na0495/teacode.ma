@@ -36,7 +36,7 @@
         "title": "hangouts",
         "slug": "divers",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to answer questions such as: </p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to <span class='key-word white-space-nowrap px-1'>answer</span> questions such as: </p>",
             "list": [
                 "what <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a good software developer ?",
                 "it's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
@@ -54,7 +54,7 @@
         "title": "pair programming",
         "slug": "pair-programming",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to train your mind and prepare for professional coding challenges.</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap px-1'>train</span> your mind and prepare for professional coding challenges.</p>",
             "listType": "ol",
             "list": [
                 "access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
@@ -71,7 +71,7 @@
         "title": "mock interview",
         "slug": "mock-interview",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to work on verbal/nonverbal communication skills and become familiar with interview settings, here is how :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to <span class='key-word white-space-nowrap px-1'>work</span> on verbal/nonverbal communication skills and become <span class='key-word white-space-nowrap px-1'>familiar</span> with interview settings, here is how :</p>",
             "listType": "ol",
             "list": [
                 "choose an interviewer <span class='key-word white-space-nowrap px-1'>by asking</span> the server members.",
