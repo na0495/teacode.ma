@@ -15,7 +15,7 @@ require('laravel-mix-purgecss');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.sass', 'public/css')
-    .purgeCss()
+    // .purgeCss()
     /* Tools */
     .browserSync('localhost:8000')
     .disableNotifications()
