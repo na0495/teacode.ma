@@ -1,7 +1,7 @@
 <div class="extra-links-wrapper container w-100 pt-5 pb-md-5 pb-4">
     <div class="row">
         <div class="col-12 col-md-6">
-            <div class="teacode-header mb-2">
+            <div class="teacode-header brand mb-2 d-inline-block">
                 <span class="text-uppercase brand-text">teac</span>
                 <div class="logo logo-brand position-relative d-inline-block">
                     <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"

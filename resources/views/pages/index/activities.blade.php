@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row align-items-center activity-row">
                     <div class="col-lg-6 col-md-7">
-                        <h3 class="activity-header text-capitalize mb-2 tc-black-almost">
+                        <h3 class="activity-header text-capitalize mb-md-2 mb-4 tc-black-almost">
                             <span class="activity-header-icon">{!!  $activity->icon !!}</span>
                             <span class="activity-header-txt">{{ $activity->title }}</span>
                         </h3>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5 activity-img">
-                        <div class="img-wrapper">
+                        <div class="img-wrapper mt-5 mt-md-0">
                             {{-- @php $activity->slug = 'mock-interview' @endphp --}}
                             @include('pages.index.svg-includes.' . $activity->slug)
                             {{-- <img class="img-fluid" src="{{ asset($activity->img) }}" alt=""> --}}
