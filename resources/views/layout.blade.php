@@ -3,17 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description"
-        content="Join other moroccan developers who can help you in your leaning journey. ">
+        <meta name="description" content="Join other moroccan developers who can help you in your leaning journey.">
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159372011-1"></script>
+        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159372011-1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'UA-159372011-1');
-        </script>
+        </script> --}}
 
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode.ico') }}">
 
@@ -34,13 +33,13 @@
 
         {{-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax-latest-beta.js"></script> --}}
         {{-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script> --}}
-        <title>{{ $title ?? 'TeaCode - Turning Tea into Code' }}</title>
+        <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased">
         <div class="wrapper">
                 @yield('content')
         </div>
         {{-- @include('partials.loader') --}}
-        @include('partials.fb-btn')
+        {{-- @include('partials.fb-btn') --}}
     </body>
 </html>

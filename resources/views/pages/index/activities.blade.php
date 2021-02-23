@@ -23,7 +23,7 @@
                     <div class="col-lg-6 col-md-5 activity-img">
                         <div class="img-wrapper">
                             {{-- @php $activity->slug = 'mock-interview' @endphp --}}
-                            @include('partials.index.svg-includes.' . $activity->slug)
+                            @include('pages.index.svg-includes.' . $activity->slug)
                             {{-- <img class="img-fluid" src="{{ asset($activity->img) }}" alt=""> --}}
                         </div>
                     </div>

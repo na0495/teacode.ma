@@ -22,7 +22,7 @@ Route::redirect('/linkedin', 'https://www.linkedin.com/company/teacodema');
 Route::redirect('/youtube', 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ');
 Route::redirect('/twitter', 'https://twitter.com/teacodema');
 Route::redirect('/instagram', 'https://instagram.com/teacode.ma');
-// Route::redirect('/blog', 'https://blog.teacode.ma/');
+Route::redirect('/blog', 'https://blog.teacode.ma/');
 // Route::redirect('/resume', 'https://resume.teacode.ma/');
 Route::get('/privacy', 'HomeController@privacy');
 Route::get('/terms', 'HomeController@terms');

@@ -1,14 +1,14 @@
 @extends('layout')
 
 @section('content')
-    @include('partials.index.menu')
+    @include('partials.menu')
 
     <div class="container-fluid p-0 privacy-policy">
         <section class="p-5">
             <div class="container">
                 <div class="row">
                     <div class="col-10 offset-1">
-                        <h1 class="text-center">Terms of Services</h1>
+                        <h1 class="text-center">Terms of use</h1>
                         <p>
                             By accessing this web site, you are agreeing to be bound by these
                             web site Terms and Conditions of Use, all applicable laws and regulations,
@@ -87,5 +87,5 @@
         </section>
     </div>
 
-    @include('partials.index.footer')
+    @include('partials.footer')
 @endsection
