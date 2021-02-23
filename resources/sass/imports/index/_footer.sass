@@ -8,22 +8,42 @@
         padding: 0 15px
         // .container
         //     padding: 10px 0
-        .brand-text
-            font-weight: bold
-            letter-spacing: 5px
-            font-size: 1.5rem
-        .logo-brand
-            margin: 0 -5px 0 -8px
-            top: -3px
-        .text-body
-            p
-                font-size: 1rem
-                text-align: left
-        .extra-links-list
-            .extra-links-item a
-                color: $tc-grey-dark
-                &:hover
-                    color: $tc-white
+        .extra-links-wrapper
+            text-align: left
+            .brand-text
+                font-weight: bold
+                letter-spacing: 5px
+                font-size: 1.5rem
+            .logo-brand
+                margin: 0 -5px 0 -8px
+                top: -3px
+            .text-body
+                p
+                    font-size: 1rem
+            .extra-links-list
+                .extra-links-item a
+                    display: inline-block
+                    color: $tc-grey-dark
+                    &:hover
+                        color: $tc-white
+            @media (max-width: 767px)
+                .row
+                    text-align: center
+                    flex-direction: column
+                    .extra-links
+                        margin-top: 3rem
+                        .extra-links-item
+                            display: inline-block
+                            &:not(:last-child):after
+                                content: " \B7"
+                                color: $tc-grey-dark
+                                font-size: 1.5rem
+                                // line-height: 1
+                                vertical-align: sub
+                                margin-left: 2px
+                                margin-right: 4px
+
+
     .footer-separator
         border-top: 1px solid $tc-grey-dark
         margin: 0 auto 1.5rem

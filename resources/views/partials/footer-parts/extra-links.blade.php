@@ -1,7 +1,7 @@
-<div class="container w-100 py-5">
+<div class="extra-links-wrapper container w-100 pt-5 pb-4">
     <div class="row">
-        <div class="col-md-6 col-sm-6">
-            <div class="teacode-header mb-2 text-left">
+        <div class="col-12 col-md-6">
+            <div class="teacode-header mb-2">
                 <span class="text-uppercase brand-text">teac</span>
                 <div class="logo logo-brand position-relative d-inline-block">
                     <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"
@@ -20,7 +20,7 @@
             </div>
 
             <div class="social-icons-wrapper">
-                <ul class="list-group list-group-horizontal align-items-start justify-content-start">
+                <ul class="list-group list-group-horizontal align-items-start">
                     @foreach ($data->socialLinks->teacode as $socialLink)
                         <li class="list-group-item border-0 overflow-auto my-0 mx-2">
                             <a href="{{ $socialLink->link }}" target="_blank" rel="noopener"
@@ -33,13 +33,13 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-4 col-sm-4 offset-2">
-            <div class="extra-links text-left">
+        <div class="col-12 col-md-4 offset-md-2">
+            <div class="extra-links">
                 <h4 class="text-uppercase mb-3">extras</h4>
                 <ul class="list-unstyled extra-links-list">
-                    <li class="extra-links-item"><a href="/privacy" class="capitalize-first-letter d-block">privacy</a></li>
-                    <li class="extra-links-item"><a href="/terms" class="capitalize-first-letter d-block">terms</a></li>
-                    <li class="extra-links-item"><a href="/blog" class="capitalize-first-letter d-block">blog</a></li>
+                    <li class="extra-links-item"><a href="/blog" class="capitalize-first-letter">blog</a></li>
+                    <li class="extra-links-item"><a href="/privacy" class="capitalize-first-letter">privacy</a></li>
+                    <li class="extra-links-item"><a href="/terms" class="capitalize-first-letter">terms</a></li>
                     {{-- <li class="extra-links-item"><a href="#" class="text-uppercase d-block">faq</a></li> --}}
                     {{-- <li class="extra-links-item"><a href="#" class="text-capitalize d-block">code of conduct</a></li> --}}
                 </ul>
