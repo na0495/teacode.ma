@@ -43,10 +43,21 @@
                                 margin-left: 2px
                                 margin-right: 4px
 
+        .copy-right-wrapper
+            .copyright-txt
+                text-align: left
+            .owner
+                text-align: right
+            @media (max-width: 767px)
+                .owner
+                    margin-top: 0.5rem
+                .copyright-txt, .owner
+                    text-align: center
 
     .footer-separator
-        border-top: 1px solid $tc-grey-dark
-        margin: 0 auto 1.5rem
+        border-top: 1px solid $tc-black-light
+        margin: 0 auto
+        // margin: 0 auto 1.5rem
         width: 40%
         // height: 0%
 

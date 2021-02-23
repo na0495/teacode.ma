@@ -1,6 +1,6 @@
 <div class="copy-right-wrapper container w-100 py-3">
     <div class="row">
-        <div class="col-md-6 col-sm-6 copyright-txt">
+        <div class="col-md-6 col-12 copyright-txt">
             <div class="copy-right">
                 <span class="copy-right-txt">
                     Copyright <i class="fas fa-copyright"></i> {{ now()->year }} |
@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 owner">
+        <div class="col-md-6 col-12 owner">
             <p>Made with <span class="heart-icon"><i class="fas fa-heart"></i></span> by <span class="bold">Driss Boumlik</span></p>
 
             <div class="social-icons-wrapper d-none">
