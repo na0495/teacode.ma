@@ -1,4 +1,4 @@
-<div class="extra-links-wrapper container w-100 pt-5 pb-4">
+<div class="extra-links-wrapper container w-100 pt-5 pb-md-5 pb-4">
     <div class="row">
         <div class="col-12 col-md-6">
             <div class="teacode-header mb-2">
@@ -13,9 +13,9 @@
             </div>
             <div class="text-body">
                 <p>
-                    Nine out of ten doctors recommend Laracasts over competing brands.
-                    Come inside, see for yourself, and massively level up your development
-                    skills in the process.
+                    As human being, we like bringing value to ourselves or to others.
+                    Join us and level up your development skills in the process,
+                    or give 15 to 30min of your time to help others who need it, a value is added in both ways.
                 </p>
             </div>
 
