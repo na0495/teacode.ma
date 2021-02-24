@@ -1,24 +1,13 @@
-<div class="copy-right-wrapper container w-100 py-3">
+<div class="copy-right-wrapper container w-100 py-2">
     <div class="row">
-        <div class="col-md-6 col-12 copyright-txt">
+        <div class="col-lg-6 offset-lg-3 col-12 copyright-txt">
             <div class="copy-right">
                 <span class="copy-right-txt">
-                    Copyright <i class="fas fa-copyright"></i> {{ now()->year }} |
+                    © Teacode {{ now()->year }}. All rights reserved
                 </span>
-                <div class="brand turn-trigger d-inline-block">
-                    <a href="/" class="d-flex align-items-center">
-                        <div class="logo position-relative">
-                            <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"
-                            class="logo-brackets img-fluid rounded-circle square-30" alt="Logo Brackets">
-                            <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}" width="40" height="40"
-                            class="logo-cup turn img-fluid rounded-circle square-30 position-absolute left-0" alt="Logo Cup">
-                        </div>
-                        <span class="ml-1">TeaCode.ma</span>
-                    </a>
-                </div>
             </div>
         </div>
-        <div class="col-md-6 col-12 owner">
+        <div class="col-lg-6 offset-lg-3 col-12 owner">
             <p>Made with <span class="heart-icon"><i class="fas fa-heart"></i></span> by <span class="bold">Driss Boumlik</span></p>
 
             <div class="social-icons-wrapper d-none">
