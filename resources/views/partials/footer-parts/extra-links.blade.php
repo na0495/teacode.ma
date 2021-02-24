@@ -35,7 +35,7 @@
             <div class="extra-links">
                 <h4 class="text-uppercase mb-3">extras</h4>
                 <ul class="list-unstyled extra-links-list">
-                    <li class="extra-links-item"><a href="/blog" class="capitalize-first-letter">blog</a></li>
+                    {{-- <li class="extra-links-item"><a href="/blog" class="capitalize-first-letter">blog</a></li> --}}
                     <li class="extra-links-item"><a href="/privacy" class="capitalize-first-letter">privacy</a></li>
                     <li class="extra-links-item"><a href="/terms" class="capitalize-first-letter">terms</a></li>
                     {{-- <li class="extra-links-item"><a href="#" class="text-uppercase d-block">faq</a></li> --}}
