@@ -34,4 +34,16 @@ class HomeController extends Controller
         $title = 'TeaCode | Terms of Use';
         return view('pages.terms', ['data' => $data, 'title' => $title]);
     }
+
+    public function sitemap(Request $request)
+    {
+        $filePath = public_path() . '\storage\sitemap.xml';
+        $filename = 'sitemap.xml';
+        return \Response::make(file_get_contents($filePath), 200, [
+            'Content-Type' => 'application/xml',
+            'Content-Disposition' => 'inline; filename="'.$filename.'"',
+            // 'Content-Transfer-Encoding'=> 'binary',
+            // 'Accept-Ranges'=> 'bytes'
+        ]);
+    }
 }

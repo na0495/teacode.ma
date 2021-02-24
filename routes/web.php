@@ -26,4 +26,12 @@ Route::redirect('/blog', 'https://blog.teacode.ma/');
 // Route::redirect('/resume', 'https://resume.teacode.ma/');
 Route::get('/privacy', 'HomeController@privacy');
 Route::get('/terms', 'HomeController@terms');
+Route::get('/sitemap', 'HomeController@sitemap');
+/*
+Route::get('/getSite', function (){
+    $path = public_path('/sitemap.xml');
+    \Spatie\Sitemap\SitemapGenerator::create('https://teacode.ma')->writeToFile($path);
+    return $path;
+});
+*/
 Route::any('/{var}', 'HomeController@home')->where('var', '.*');
