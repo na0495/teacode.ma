@@ -1,7 +1,7 @@
 [
     {
         "img": "/assets/img/activities/ws.svg",
-        "icon": "<i class='fas fa-code-branch'></i>",
+        "icon": "<i class='fas fa-laptop'></i>",
         "title": "workshops",
         "slug": "technical-workshop",
         "description": {
