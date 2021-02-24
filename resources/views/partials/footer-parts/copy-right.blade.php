@@ -5,13 +5,13 @@
                 <span class="copy-right-txt">
                     Copyright <i class="fas fa-copyright"></i> {{ now()->year }} |
                 </span>
-                <div class="brand d-inline-block">
+                <div class="brand turn-trigger d-inline-block">
                     <a href="/" class="d-flex align-items-center">
                         <div class="logo position-relative">
                             <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"
                             class="logo-brackets img-fluid rounded-circle square-30" alt="Logo Brackets">
                             <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}" width="40" height="40"
-                            class="logo-cup img-fluid rounded-circle square-30 position-absolute left-0" alt="Logo Cup">
+                            class="logo-cup turn img-fluid rounded-circle square-30 position-absolute left-0" alt="Logo Cup">
                         </div>
                         <span class="ml-1">TeaCode.ma</span>
                     </a>

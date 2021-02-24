@@ -5,6 +5,7 @@
         font-size: 1.2rem
 
     .container-fluid
+        background-image: radial-gradient(circle at 1% 100%, $tc-blue,$tc-blue-dark-2)
         padding: 0 15px
         // .container
         //     padding: 10px 0
@@ -13,17 +14,18 @@
             .brand-text
                 font-weight: bold
                 letter-spacing: 5px
-                font-size: 1.5rem
+                font-size: 1.7rem
             .logo-brand
-                margin: 0 -5px 0 -10px
-                top: -3px
+                transform: scale(.9)
+                margin: 0 -2px 0 -7px
+                top: -4.5px
             .text-body
                 p
                     font-size: 1rem
             .extra-links-list
                 .extra-links-item a
                     display: inline-block
-                    color: $tc-grey-dark
+                    color: $tc-grey
                     &:hover
                         color: $tc-white
             @media (max-width: 767px)
@@ -57,7 +59,7 @@
                     text-align: center
 
     .footer-separator
-        border-top: 1px solid $tc-black-light
+        border-top: 1px solid $tc-grey
         margin: 0 auto
         // margin: 0 auto 1.5rem
         width: 40%

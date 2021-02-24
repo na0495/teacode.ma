@@ -1,7 +1,7 @@
 <div class="menu nav-scroller py-2">
     <div class="container">
         <div class="menu-blocks d-flex justify-content-between align-items-center">
-            <div class="brand">
+            <div class="brand turn-trigger">
                 {{-- <img src="{{ asset('/assets/img/teacode/teacode.png') }}"
                 class="img-fluid rounded-circle square-50" alt=""> --}}
                 <a href="/" class="d-flex align-items-center">
@@ -9,7 +9,7 @@
                         <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"
                         class="logo-brackets img-fluid rounded-circle square-40" alt="Logo Brackets">
                         <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}" width="40" height="40"
-                        class="logo-cup img-fluid rounded-circle square-40 position-absolute left-0" alt="Logo Cup">
+                        class="logo-cup turn img-fluid rounded-circle square-40 position-absolute left-0" alt="Logo Cup">
                     </div>
                     <h4 class="brand-txt ml-1 d-inline-block ">TeaCode</h4>
                 </a>
