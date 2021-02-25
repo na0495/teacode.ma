@@ -5,11 +5,9 @@
                 {{-- <img src="{{ asset('/assets/img/teacode/teacode.png') }}"
                 class="img-fluid rounded-circle square-50" alt=""> --}}
                 <a href="/" class="d-flex align-items-center">
-                    <div class="logo position-relative">
-                        <img src="{{ asset('/assets/img/teacode/tc-brackets.png') }}" width="40" height="40"
-                        class="logo-brackets img-fluid rounded-circle square-40" alt="Logo Brackets">
-                        <img src="{{ asset('/assets/img/teacode/tc-cup.png') }}" width="40" height="40"
-                        class="logo-cup turn img-fluid rounded-circle square-40 position-absolute left-0" alt="Logo Cup">
+                    <div class="logo logo-brand position-relative d-inline-block">
+                        <img src="{{ asset('/assets/img/teacode/teacode_white_bg.png') }}" width="30" height="30"
+                        class="logo turn img-fluid rounded-circle square-35" alt="Logo">
                     </div>
                     <h4 class="brand-txt ml-1 d-inline-block ">TeaCode</h4>
                 </a>
