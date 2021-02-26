@@ -30,7 +30,6 @@
         <link href="{{ asset('/css/externals.css') }}" rel="stylesheet">
         <link href="{{ asset('/css/app.css') }}" rel="preload" as="style">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-        <script defer src="{{ asset('/js/jquery.min.js') }}"></script>
         <script defer src="{{ asset('/js/app.js') }}"></script>
 
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>

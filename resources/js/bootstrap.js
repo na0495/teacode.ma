@@ -1,2 +1,3 @@
 // window._ = require('lodash');
-require('particles.js')
+require('particles.js');
+window.$ = require( "jquery" );
