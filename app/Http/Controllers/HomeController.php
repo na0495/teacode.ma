@@ -41,7 +41,7 @@ class HomeController extends Controller
 
     public function sitemap(Request $request)
     {
-        $filePath = public_path() . '\storage\sitemap.xml';
+        $filePath = public_path() . '/storage/sitemap.xml';
         $filename = 'sitemap.xml';
         return \Response::make(file_get_contents($filePath), 200, [
             'Content-Type' => 'application/xml',
