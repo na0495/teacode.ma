@@ -6,7 +6,7 @@
         <meta name="description" content="join a moroccan developers community who can help you in your learning journey.">
         <meta name="keywords" content="teacode, teacodema, javascript, php, laravel, discord, html, css, learn, programming, nodejs, web, development, programmers, developers, bugs, debug, debugging, programmer, coding, developer, bug, code, webdesign, software">
         <meta name="author" content="Driss Boumlik">
-        <meta http-equiv="refresh" content="60">
+        {{-- <meta http-equiv="refresh" content="60"> --}}
         {{-- <meta name="robots" content="index, follow"> --}}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4QVF4NRJ"></script>
