@@ -50,4 +50,11 @@ class HomeController extends Controller
             // 'Accept-Ranges'=> 'bytes'
         ]);
     }
+
+    public function generateSitemap(Request $request)
+    {
+        $path = public_path('/sitemap.xml');
+        \Spatie\Sitemap\SitemapGenerator::create('https://teacode.ma')->writeToFile($path);
+        return response(['path' => $path], 200);
+    }
 }
