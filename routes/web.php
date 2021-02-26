@@ -12,26 +12,24 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// 6months => max_age = 60 * 60 * 24 * 183
+Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
+    Route::get('/', 'HomeController@home');
+    Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
+    Route::redirect('/facebook-page', 'https://facebook.com/teacode.ma');
+    Route::redirect('/facebook-group', 'https://facebook.com/groups/teacode.ma');
+    Route::redirect('/linkedin', 'https://www.linkedin.com/company/teacodema');
+    Route::redirect('/youtube', 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ');
+    Route::redirect('/twitter', 'https://twitter.com/teacodema');
+    Route::redirect('/instagram', 'https://instagram.com/teacode.ma');
+    Route::redirect('/blog', 'https://blog.teacode.ma/');
+    // Route::redirect('/resume', 'https://resume.teacode.ma/');
+    Route::get('/privacy', 'HomeController@privacy');
+    Route::get('/terms', 'HomeController@terms');
+    Route::get('/sitemap', 'HomeController@sitemap');
 
-Route::get('/', 'HomeController@home');
-Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
-Route::redirect('/facebook-page', 'https://facebook.com/teacode.ma');
-Route::redirect('/facebook-group', 'https://facebook.com/groups/teacode.ma');
-Route::redirect('/linkedin', 'https://www.linkedin.com/company/teacodema');
-Route::redirect('/youtube', 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ');
-Route::redirect('/twitter', 'https://twitter.com/teacodema');
-Route::redirect('/instagram', 'https://instagram.com/teacode.ma');
-Route::redirect('/blog', 'https://blog.teacode.ma/');
-// Route::redirect('/resume', 'https://resume.teacode.ma/');
-Route::get('/privacy', 'HomeController@privacy');
-Route::get('/terms', 'HomeController@terms');
-Route::get('/sitemap', 'HomeController@sitemap');
-/*
-Route::get('/getSite', function (){
-    $path = public_path('/sitemap.xml');
-    \Spatie\Sitemap\SitemapGenerator::create('https://teacode.ma')->writeToFile($path);
-    return $path;
+    // Route::get('/generateSitemap', 'HomeController@generateSitemap');
+
+    Route::any('/{var}', 'HomeController@home')->where('var', '.*');
 });
-*/
-Route::any('/{var}', 'HomeController@home')->where('var', '.*');
