@@ -20,5 +20,10 @@
         "resolve-url-loader": "^3.1.0",
         "sass-loader": "^8.0.2",
         "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "bootstrap": "^4.6.0",
+        "particles.js": "^2.0.0"
     }
 }

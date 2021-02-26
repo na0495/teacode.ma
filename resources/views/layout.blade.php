@@ -3,7 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Join other moroccan developers who can help you in your leaning journey.">
+        <meta name="description" content="join a moroccan developers community who can help you in your learning journey.">
+        <meta name="keywords" content="teacode, teacodema, javascript, php, laravel, discord, html, css, learn, programming, nodejs, web, development, programmers, developers, bugs, debug, debugging, programmer, coding, developer, bug, code, webdesign, software">
+        <meta name="author" content="Driss Boumlik">
+        <meta http-equiv="refresh" content="60">
+        {{-- <meta name="robots" content="index, follow"> --}}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4QVF4NRJ"></script>
         <script>
@@ -17,22 +21,13 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode.ico') }}">
 
         <!-- Fonts -->
-        {{-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> --}}
-        <link href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" rel="preload" as="style">
-        <link  href="{{ asset('/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('/assets/fontawesome/css/all.min.css') }}" rel="preload" as="style">
-        <link href="{{ asset('/assets/fontawesome/css/all.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/externals.css') }}" rel="preload" as="style">
+        <link href="{{ asset('/css/externals.css') }}" rel="stylesheet">
         <link href="{{ asset('/css/app.css') }}" rel="preload" as="style">
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-        {{-- <link href="{{ asset('/css/animate.min.css') }}" rel="preload" as="style">
-        <link href="{{ asset('/css/animate.min.css') }}" rel="stylesheet"> --}}
         <script defer src="{{ asset('/js/jquery.min.js') }}"></script>
-        <script defer src="{{ asset('/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script defer src="{{ asset('/plugins/particles/particles.min.js') }}"></script>
         <script defer src="{{ asset('/js/app.js') }}"></script>
 
-        {{-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/TweenMax-latest-beta.js"></script> --}}
-        {{-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin.min.js"></script> --}}
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased">
@@ -40,6 +35,6 @@
                 @yield('content')
         </div>
         {{-- @include('partials.loader') --}}
-        {{-- @include('partials.fb-btn') --}}
+        @include('partials.fb-btn')
     </body>
 </html>
