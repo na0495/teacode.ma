@@ -16,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
     Route::get('/', 'HomeController@home');
+    Route::get('/privacy', 'HomeController@privacy');
+    Route::get('/terms', 'HomeController@terms');
+    Route::get('/sitemap', 'HomeController@sitemap');
+
+    // Route::get('/generateSitemap', 'HomeController@generateSitemap');
+
+    // External
     Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
     Route::redirect('/facebook-page', 'https://facebook.com/teacode.ma');
     Route::redirect('/facebook-group', 'https://facebook.com/groups/teacode.ma');
@@ -25,11 +32,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::redirect('/instagram', 'https://instagram.com/teacode.ma');
     Route::redirect('/blog', 'https://blog.teacode.ma/');
     // Route::redirect('/resume', 'https://resume.teacode.ma/');
-    Route::get('/privacy', 'HomeController@privacy');
-    Route::get('/terms', 'HomeController@terms');
-    Route::get('/sitemap', 'HomeController@sitemap');
-
-    // Route::get('/generateSitemap', 'HomeController@generateSitemap');
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
 });
