@@ -7,7 +7,7 @@
         <section class="p-md-5 py-5 px-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-10 offset-lg-1 col-12 bg-dark">
+                    <div class="col-lg-10 offset-lg-1 col-12">
                         <h1 class="text-center">Privacy Policy</h1>
                         <p>This privacy policy discloses the privacy practices for teacode.ma.
                             This privacy policy applies solely to information collected by this web site.
