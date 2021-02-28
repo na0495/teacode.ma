@@ -7,7 +7,7 @@
         <section class="p-md-5 py-5 px-4">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 offset-md-1 col-12">
+                    <div class="col-lg-10 offset-lg-1 col-12 bg-dark">
                         <h1 class="text-center">Terms of use</h1>
                         <p>
                             By accessing this web site, you are agreeing to be bound by these
