@@ -25,7 +25,9 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // External
     Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
     Route::redirect('/discord/workshops', 'https://discord.gg/acVUjZ74PU');
-    Route::redirect('/discord/communication', 'https://discord.gg/rSeFZZvjDY');
+    Route::redirect('/discord/communication', '/discord/communication/en');
+    Route::redirect('/discord/communication/en', 'https://discord.gg/rSeFZZvjDY');
+    Route::redirect('/discord/communication/fr', 'https://discord.gg/RTycrq2Hfk');
     Route::redirect('/discord/hangouts', 'https://discord.gg/cC7kuBqJsy');
     Route::redirect('/discord/pair-programming', 'https://discord.gg/7d3mDvVFvs');
     Route::redirect('/discord/mock-interview', 'https://discord.gg/F5rBCKj2ah');
