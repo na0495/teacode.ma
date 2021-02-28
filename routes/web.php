@@ -24,6 +24,11 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     // External
     Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
+    Route::redirect('/discord/workshops', 'https://discord.gg/acVUjZ74PU');
+    Route::redirect('/discord/communication', 'https://discord.gg/rSeFZZvjDY');
+    Route::redirect('/discord/hangouts', 'https://discord.gg/cC7kuBqJsy');
+    Route::redirect('/discord/pair-programming', 'https://discord.gg/7d3mDvVFvs');
+    Route::redirect('/discord/mock-interview', 'https://discord.gg/F5rBCKj2ah');
     Route::redirect('/facebook-page', 'https://facebook.com/teacode.ma');
     Route::redirect('/facebook-group', 'https://facebook.com/groups/teacode.ma');
     Route::redirect('/linkedin', 'https://www.linkedin.com/company/teacodema');

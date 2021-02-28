@@ -1,32 +1,32 @@
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    id="communication"
+    id="_communication"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	#communication .st0{display:none;}
-	#communication .st1{display:inline;fill:#F5F5F5;}
-	#communication .st2{fill:#E0E0E0;}
-    #communication .st3{fill: var(--tc-blue);} /* #27DEBF;} */
-	#communication .st4{opacity:0.3;}
-	#communication .st5{opacity:0.1;}
-	#communication .st6{fill: var(--tc-grey);} /* #455A64;} */
-	#communication .st7{opacity:0.3;fill:#FFFFFF;}
-	#communication .st8{opacity:0.55;}
-	#communication .st9{fill:var(--tc-blue-dark-2);} /*#FFFFFF;}*/
-	#communication .st10{opacity:0.7;fill: var(--tc-blue-dark-1);} /* #FFFFFF;} */
-	#communication .st11{opacity:0.55;fill:var(--tc-blue-dark-1);} /* #FFFFFF;} */
-	#communication .st12{opacity:0.85;fill:var(--tc-blue);} /* #FFFFFF;} */
-	#communication .st13{fill: var(--tc-blue-dark);} /* #37474F;} */
-	#communication .st14{fill:var(--tc-black-almost);} /*#263238;}*/
-	#communication .st15{opacity:0.35;}
-	#communication .st16{fill:#F1B287;}/*#FFA8A7;}*/
-	#communication .st17{fill:#F28F8F;}
-	#communication .st18{opacity:0.2;}
-	#communication .st19{opacity:0.5;}
-	#communication .st20{fill:#d09a76;}/*#B16668;}*/
-	#communication .st21{opacity:0.6;fill:#263238;}
-	#communication .st22{opacity:0.6;}
-	#communication .st23{fill:#9A4A4D;}
+	#_communication .st0{display:none;}
+	#_communication .st1{display:inline;fill:#F5F5F5;}
+	#_communication .st2{fill:#E0E0E0;}
+    #_communication .st3{fill: var(--tc-blue);} /* #27DEBF;} */
+	#_communication .st4{opacity:0.3;}
+	#_communication .st5{opacity:0.1;}
+	#_communication .st6{fill: var(--tc-grey);} /* #455A64;} */
+	#_communication .st7{opacity:0.3;fill:#FFFFFF;}
+	#_communication .st8{opacity:0.55;}
+	#_communication .st9{fill:var(--tc-blue-dark-2);} /*#FFFFFF;}*/
+	#_communication .st10{opacity:0.7;fill: var(--tc-blue-dark-1);} /* #FFFFFF;} */
+	#_communication .st11{opacity:0.55;fill:var(--tc-blue-dark-1);} /* #FFFFFF;} */
+	#_communication .st12{opacity:0.85;fill:var(--tc-blue);} /* #FFFFFF;} */
+	#_communication .st13{fill: var(--tc-blue-dark);} /* #37474F;} */
+	#_communication .st14{fill:var(--tc-black-almost);} /*#263238;}*/
+	#_communication .st15{opacity:0.35;}
+	#_communication .st16{fill:#F1B287;}/*#FFA8A7;}*/
+	#_communication .st17{fill:#F28F8F;}
+	#_communication .st18{opacity:0.2;}
+	#_communication .st19{opacity:0.5;}
+	#_communication .st20{fill:#d09a76;}/*#B16668;}*/
+	#_communication .st21{opacity:0.6;fill:#263238;}
+	#_communication .st22{opacity:0.6;}
+	#_communication .st23{fill:#9A4A4D;}
 </style>
 <g id="Floor" class="st0">
 	<path id="Floor_3_" class="st1" d="M421.3,250.3c91,52.5,91,137.7,0,190.3s-238.5,52.5-329.5,0c-91-52.5-91-137.7,0-190.3

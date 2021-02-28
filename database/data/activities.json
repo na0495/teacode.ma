@@ -3,7 +3,7 @@
         "img": "/assets/img/activities/ws.svg",
         "icon": "<i class='fas fa-laptop'></i>",
         "title": "workshops",
-        "slug": "technical-workshop",
+        "slug": "workshops",
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents subjects</span> (Project management, Programming, DevOps ...etc), here is the details :</p>",
             "list": [
@@ -34,7 +34,7 @@
         "img": "/assets/img/activities/__various.svg",
         "icon": "<i class='fas fa-mug-hot'></i>",
         "title": "hangouts",
-        "slug": "divers",
+        "slug": "hangouts",
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to <span class='key-word white-space-nowrap px-1'>answer</span> questions such as: </p>",
             "list": [

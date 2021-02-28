@@ -1,110 +1,110 @@
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    id="mock-interview"
+    id="_mock-interview"
 	viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	#mock-interview .st0{display:none;}
-	#mock-interview .st1{display:inline;fill:#33ADE3;}
-	#mock-interview .st2{display:inline;opacity:0.2;}
-	#mock-interview .st3{fill:#CFCFCF;}
-	#mock-interview .st4{display:inline;fill:#2294BC;}
-	#mock-interview .st5{display:inline;}
-	#mock-interview .st6{fill:#6DBBD9;}
-	#mock-interview .st7{enable-background:new    ;}
-	#mock-interview .st8{fill:#D8D8D8;}
-	#mock-interview .st9{fill:#DBDBDB;}
-	#mock-interview .st10{fill:#C5C5C5;}
-	#mock-interview .st11{fill:#E8E8E8;}
-	#mock-interview .st12{fill:#898989;}
-	#mock-interview .st13{fill:#FFFFFF;}
-	#mock-interview .st14{fill:var(--tc-black-almost);} /*#0FB7B3;}*/
-	#mock-interview .st15{fill:var(--tc-black-almost);} /*#199B94;}*/
-	#mock-interview .st16{fill:var(--tc-black-almost);} /*#01A3A2;}*/
-	#mock-interview .st17{fill:var(--tc-blue);} /*#FF9C00;}*/
-	#mock-interview .st18{fill:var(--tc-blue-dark-1);} /*#FFBA5F;}*/
-	#mock-interview .st19{fill:var(--tc-blue);} /*#FFAC33;}*/
-	#mock-interview .st20{opacity:0.2;}
-	#mock-interview .st21{fill:#242626;}
-	#mock-interview .st22{fill:#3B3F3F;}
-	#mock-interview .st23{fill:#111114;}
-	#mock-interview .st24{fill: var(--tc-black-almost-1);} /*#29383D;}*/
-	#mock-interview .st25{fill:#243135;}
-	#mock-interview .st26{fill:#8FB6D7;}
-	#mock-interview .st27{fill:#558299;}
-	#mock-interview .st28{clip-path:url(#SVGID_2_);enable-background:new    ;}
-	#mock-interview .st29{fill:#123468;}
-	#mock-interview .st30{fill:#113365;}
-	#mock-interview .st31{fill:#113163;}
-	#mock-interview .st32{fill:#103060;}
-	#mock-interview .st33{fill:#102F5E;}
-	#mock-interview .st34{fill:#0F2E5B;}
-	#mock-interview .st35{fill:#0F2C58;}
-	#mock-interview .st36{fill:#0F2B56;}
-	#mock-interview .st37{fill:#0E2A53;}
-	#mock-interview .st38{fill:#0E2851;}
-	#mock-interview .st39{fill:#0D274E;}
-	#mock-interview .st40{fill:#3F3F3F;}
-	#mock-interview .st41{fill:#184C9F;}
-	#mock-interview .st42{fill:#0B357C;}
-	#mock-interview .st43{fill:#1A4789;}
-	#mock-interview .st44{fill: var(--tc-black-almost-1);} /*#231D21;}*/
-	#mock-interview .st45{fill: var(--tc-black-almost);} /*#31282E;}*/
-	#mock-interview .st46{fill:#EFB185;}
-	#mock-interview .st47{fill:#D7D3D0;}
-	#mock-interview .st48{fill:#C3BBB7;}
-	#mock-interview .st49{fill:#E7E3E2;}
-	#mock-interview .st50{fill:#301806;}
-	#mock-interview .st51{fill:#E8A476;}
-	#mock-interview .st52{fill:#DB9669;}
-	#mock-interview .st53{fill:#F1B287;}
-	#mock-interview .st54{fill:#231202;}
-	#mock-interview .st55{fill: var(--tc-blue-dark-1);} /*#45210C;}*/
-	#mock-interview .st56{fill: var(--tc-blue-dark-1);} /*#8B4E29;}*/
-	#mock-interview .st57{fill: var(--tc-blue-dark-1);} /*#673112;}*/
-	#mock-interview .st58{fill:#BB732C;}
-	#mock-interview .st59{fill:#FBC868;}
-	#mock-interview .st60{fill:#F4CD57;}
-	#mock-interview .st61{fill: var(--tc-blue-dark-1);} /*#773717;}*/
-	#mock-interview .st62{fill:#4F260E;}
-	#mock-interview .st63{fill:#592A10;}
-	#mock-interview .st64{fill:#DFE5F3;}
-	#mock-interview .st65{fill:#AEB6BC;}
-	#mock-interview .st66{fill:#DCDCDC;}
-	#mock-interview .st67{fill:var(--tc-grey);} /*#6B4125;}*/
-	#mock-interview .st68{fill:var(--tc-grey);} /*#885937;}*/
-	#mock-interview .st69{fill: var(--tc-grey-light);} /*#AA814F;}*/
-	#mock-interview .st70{fill:#C0C5D1;}
-	#mock-interview .st71{opacity:0.1;}
-	#mock-interview .st72{fill:#A9B5C4;}
-	#mock-interview .st73{fill:#C3C5C5;}
-	#mock-interview .st74{fill:#E6E7EC;}
-	#mock-interview .st75{opacity:0.5;}
-	#mock-interview .st76{fill:#939599;}
-	#mock-interview .st77{fill:#D5DFE6;}
-	#mock-interview .st78{fill:#C8D2DB;}
-	#mock-interview .st79{fill:#E1EAEF;}
-	#mock-interview .st80{fill:#F5F3F2;}
-	#mock-interview .st81{fill:#E4E4E4;}
-	#mock-interview .st82{fill:#CACACA;}
-	#mock-interview .st83{fill:#A8AAAA;}
-	#mock-interview .st84{fill:#9FB0BC;}
-	#mock-interview .st85{fill:var(--tc-blue-dark-1);} /*#388852;}*/
-	#mock-interview .st86{fill:var(--tc-blue);} /*#2C7741;}*/
-	#mock-interview .st87{fill:#E2E6ED;}
-	#mock-interview .st88{fill:#A5AAB4;}
-	#mock-interview .st89{fill: var(--tc-black-almost);} /*#354751;}*/
-	#mock-interview .st90{fill: var(--tc-black-almost-1);} /*#304047;}*/
-	#mock-interview .st91{fill: var(--tc-black-almost);} /*#3B5059;}*/
-	#mock-interview .st92{fill:#DD9569;}
-	#mock-interview .st93{fill:#E6A376;}
-	#mock-interview .st94{fill:#221101;}
-	#mock-interview .st95{fill:#341C09;}
-	#mock-interview .st96{fill:#DEF0F9;}
-	#mock-interview .st97{fill:#1F5699;}
-	#mock-interview .st98{fill:var(--tc-blue);} /*#39844B;}*/
-	#mock-interview .st99{fill:#BDBDBD;}
-	#mock-interview .st100{fill:#F4F7F8;}
-	#mock-interview .st101{display:inline;fill:#0A404F;}
+	#_mock-interview .st0{display:none;}
+	#_mock-interview .st1{display:inline;fill:#33ADE3;}
+	#_mock-interview .st2{display:inline;opacity:0.2;}
+	#_mock-interview .st3{fill:#CFCFCF;}
+	#_mock-interview .st4{display:inline;fill:#2294BC;}
+	#_mock-interview .st5{display:inline;}
+	#_mock-interview .st6{fill:#6DBBD9;}
+	#_mock-interview .st7{enable-background:new    ;}
+	#_mock-interview .st8{fill:#D8D8D8;}
+	#_mock-interview .st9{fill:#DBDBDB;}
+	#_mock-interview .st10{fill:#C5C5C5;}
+	#_mock-interview .st11{fill:#E8E8E8;}
+	#_mock-interview .st12{fill:#898989;}
+	#_mock-interview .st13{fill:#FFFFFF;}
+	#_mock-interview .st14{fill:var(--tc-black-almost);} /*#0FB7B3;}*/
+	#_mock-interview .st15{fill:var(--tc-black-almost);} /*#199B94;}*/
+	#_mock-interview .st16{fill:var(--tc-black-almost);} /*#01A3A2;}*/
+	#_mock-interview .st17{fill:var(--tc-blue);} /*#FF9C00;}*/
+	#_mock-interview .st18{fill:var(--tc-blue-dark-1);} /*#FFBA5F;}*/
+	#_mock-interview .st19{fill:var(--tc-blue);} /*#FFAC33;}*/
+	#_mock-interview .st20{opacity:0.2;}
+	#_mock-interview .st21{fill:#242626;}
+	#_mock-interview .st22{fill:#3B3F3F;}
+	#_mock-interview .st23{fill:#111114;}
+	#_mock-interview .st24{fill: var(--tc-black-almost-1);} /*#29383D;}*/
+	#_mock-interview .st25{fill:#243135;}
+	#_mock-interview .st26{fill:#8FB6D7;}
+	#_mock-interview .st27{fill:#558299;}
+	#_mock-interview .st28{clip-path:url(#SVGID_2_);enable-background:new    ;}
+	#_mock-interview .st29{fill:#123468;}
+	#_mock-interview .st30{fill:#113365;}
+	#_mock-interview .st31{fill:#113163;}
+	#_mock-interview .st32{fill:#103060;}
+	#_mock-interview .st33{fill:#102F5E;}
+	#_mock-interview .st34{fill:#0F2E5B;}
+	#_mock-interview .st35{fill:#0F2C58;}
+	#_mock-interview .st36{fill:#0F2B56;}
+	#_mock-interview .st37{fill:#0E2A53;}
+	#_mock-interview .st38{fill:#0E2851;}
+	#_mock-interview .st39{fill:#0D274E;}
+	#_mock-interview .st40{fill:#3F3F3F;}
+	#_mock-interview .st41{fill:#184C9F;}
+	#_mock-interview .st42{fill:#0B357C;}
+	#_mock-interview .st43{fill:#1A4789;}
+	#_mock-interview .st44{fill: var(--tc-black-almost-1);} /*#231D21;}*/
+	#_mock-interview .st45{fill: var(--tc-black-almost);} /*#31282E;}*/
+	#_mock-interview .st46{fill:#EFB185;}
+	#_mock-interview .st47{fill:#D7D3D0;}
+	#_mock-interview .st48{fill:#C3BBB7;}
+	#_mock-interview .st49{fill:#E7E3E2;}
+	#_mock-interview .st50{fill:#301806;}
+	#_mock-interview .st51{fill:#E8A476;}
+	#_mock-interview .st52{fill:#DB9669;}
+	#_mock-interview .st53{fill:#F1B287;}
+	#_mock-interview .st54{fill:#231202;}
+	#_mock-interview .st55{fill: var(--tc-blue-dark-1);} /*#45210C;}*/
+	#_mock-interview .st56{fill: var(--tc-blue-dark-1);} /*#8B4E29;}*/
+	#_mock-interview .st57{fill: var(--tc-blue-dark-1);} /*#673112;}*/
+	#_mock-interview .st58{fill:#BB732C;}
+	#_mock-interview .st59{fill:#FBC868;}
+	#_mock-interview .st60{fill:#F4CD57;}
+	#_mock-interview .st61{fill: var(--tc-blue-dark-1);} /*#773717;}*/
+	#_mock-interview .st62{fill:#4F260E;}
+	#_mock-interview .st63{fill:#592A10;}
+	#_mock-interview .st64{fill:#DFE5F3;}
+	#_mock-interview .st65{fill:#AEB6BC;}
+	#_mock-interview .st66{fill:#DCDCDC;}
+	#_mock-interview .st67{fill:var(--tc-grey);} /*#6B4125;}*/
+	#_mock-interview .st68{fill:var(--tc-grey);} /*#885937;}*/
+	#_mock-interview .st69{fill: var(--tc-grey-light);} /*#AA814F;}*/
+	#_mock-interview .st70{fill:#C0C5D1;}
+	#_mock-interview .st71{opacity:0.1;}
+	#_mock-interview .st72{fill:#A9B5C4;}
+	#_mock-interview .st73{fill:#C3C5C5;}
+	#_mock-interview .st74{fill:#E6E7EC;}
+	#_mock-interview .st75{opacity:0.5;}
+	#_mock-interview .st76{fill:#939599;}
+	#_mock-interview .st77{fill:#D5DFE6;}
+	#_mock-interview .st78{fill:#C8D2DB;}
+	#_mock-interview .st79{fill:#E1EAEF;}
+	#_mock-interview .st80{fill:#F5F3F2;}
+	#_mock-interview .st81{fill:#E4E4E4;}
+	#_mock-interview .st82{fill:#CACACA;}
+	#_mock-interview .st83{fill:#A8AAAA;}
+	#_mock-interview .st84{fill:#9FB0BC;}
+	#_mock-interview .st85{fill:var(--tc-blue-dark-1);} /*#388852;}*/
+	#_mock-interview .st86{fill:var(--tc-blue);} /*#2C7741;}*/
+	#_mock-interview .st87{fill:#E2E6ED;}
+	#_mock-interview .st88{fill:#A5AAB4;}
+	#_mock-interview .st89{fill: var(--tc-black-almost);} /*#354751;}*/
+	#_mock-interview .st90{fill: var(--tc-black-almost-1);} /*#304047;}*/
+	#_mock-interview .st91{fill: var(--tc-black-almost);} /*#3B5059;}*/
+	#_mock-interview .st92{fill:#DD9569;}
+	#_mock-interview .st93{fill:#E6A376;}
+	#_mock-interview .st94{fill:#221101;}
+	#_mock-interview .st95{fill:#341C09;}
+	#_mock-interview .st96{fill:#DEF0F9;}
+	#_mock-interview .st97{fill:#1F5699;}
+	#_mock-interview .st98{fill:var(--tc-blue);} /*#39844B;}*/
+	#_mock-interview .st99{fill:#BDBDBD;}
+	#_mock-interview .st100{fill:#F4F7F8;}
+	#_mock-interview .st101{display:inline;fill:#0A404F;}
 </style>
 <g class="st0">
 	<path class="st1" d="M160.4,33.1h2.6v13.6c0,5.4-2.6,7-6.1,7c-1,0-2.1-0.2-2.8-0.5l0.4-2.2c0.5,0.2,1.3,0.4,2.2,0.4

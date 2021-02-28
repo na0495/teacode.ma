@@ -1,7 +1,7 @@
 <div id="activities" class="activities section-wrapper">
     <div class="section">
         @foreach ($data->activities as $key => $activity)
-        <div class="activity-wrapper {{ $key % 2 != 0 ? '' : 'tc-grey-light-bg' }}">
+        <div id="{{ $activity->slug }}" class="activity-wrapper {{ $key % 2 != 0 ? '' : 'tc-grey-light-bg' }}">
             <div class="container">
                 <div class="row align-items-center activity-row">
                     <div class="col-lg-6 col-md-7">
@@ -9,7 +9,7 @@
                             <span class="activity-header-icon">{!!  $activity->icon !!}</span>
                             <span class="activity-header-txt">{{ $activity->title }}</span>
                         </h3>
-                        <div class="description tc-black-almost">
+                        <div class="activity-body description tc-black-almost">
                             {!! $activity->description->text !!}
                             @if (isset($activity->description->list))
                                 <{!! $activity->description->listType ?? 'ul' !!} class="pl-4 m-0">
@@ -18,6 +18,14 @@
                                 @endforeach
                                 </{!! $activity->description->listType ?? 'ul' !!}>
                             @endif
+                            <div class="capitalize-first-letter btn-join-us">
+                                <a href='/discord/{{ $activity->slug }}' target='_black'>
+                                    <span class='d-inline-block capitalize-first-letter'>
+                                        <span class='mr-1'>click to join</span>
+                                        <i class='fas fa-chevron-right'></i>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5 activity-img">

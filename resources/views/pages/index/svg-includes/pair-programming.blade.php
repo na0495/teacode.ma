@@ -1,36 +1,36 @@
 <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    id="pair-programming"
+    id="_pair-programming"
 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	#pair-programming .st0{fill:#F5F5F5;}
-	#pair-programming .st1{display:none;}
-	#pair-programming .st2{display:inline;}
-	#pair-programming .st3{fill:#E6E6E6;}
-	#pair-programming .st4{fill:#E0E0E0;}
-	#pair-programming .st5{fill:#F0F0F0;}
-	#pair-programming .st6{opacity:0.4;fill:#E0E0E0;enable-background:new    ;}
-	#pair-programming .st7{fill:#FAFAFA;}
-	#pair-programming .st8{fill:#FFFFFF;}
-	#pair-programming .st9{fill:#EBEBEB;}
-	#pair-programming .st10{fill:var(--tc-blue-dark-1);} /*#407BFF;}*/
-	#pair-programming .st11{opacity:0.8;fill:#FFFFFF;}
-	#pair-programming .st12{opacity:0.5;}
-	#pair-programming .st13{opacity:0.5;fill:#FFFFFF;}
-	#pair-programming .st14{opacity:0.4;fill:#FFFFFF;}
-	#pair-programming .st15{opacity:0.4;}
-	#pair-programming .st16{fill:#d09a76;} /*#7F3E3B;}*/
-	#pair-programming .st17{opacity:0.2;enable-background:new    ;}
-	#pair-programming .st18{fill:#263238;}
-	#pair-programming .st19{fill:#630F0F;}
-	#pair-programming .st20{opacity:0.1;fill:#FFFFFF;}
-	#pair-programming .st21{opacity:0.5;enable-background:new    ;}
-	#pair-programming .st22{opacity:0.7;fill:#FFFFFF;}
-	#pair-programming .st23{fill:#A02724;}
-	#pair-programming .st24{fill:#F1B287;} /*#B55B52;}*/
-	#pair-programming .st25{opacity:0.2;}
-	#pair-programming .st26{opacity:0.3;}
-	#pair-programming .st27{opacity:0.4;enable-background:new    ;}
+	#_pair-programming .st0{fill:#F5F5F5;}
+	#_pair-programming .st1{display:none;}
+	#_pair-programming .st2{display:inline;}
+	#_pair-programming .st3{fill:#E6E6E6;}
+	#_pair-programming .st4{fill:#E0E0E0;}
+	#_pair-programming .st5{fill:#F0F0F0;}
+	#_pair-programming .st6{opacity:0.4;fill:#E0E0E0;enable-background:new    ;}
+	#_pair-programming .st7{fill:#FAFAFA;}
+	#_pair-programming .st8{fill:#FFFFFF;}
+	#_pair-programming .st9{fill:#EBEBEB;}
+	#_pair-programming .st10{fill:var(--tc-blue-dark-1);} /*#407BFF;}*/
+	#_pair-programming .st11{opacity:0.8;fill:#FFFFFF;}
+	#_pair-programming .st12{opacity:0.5;}
+	#_pair-programming .st13{opacity:0.5;fill:#FFFFFF;}
+	#_pair-programming .st14{opacity:0.4;fill:#FFFFFF;}
+	#_pair-programming .st15{opacity:0.4;}
+	#_pair-programming .st16{fill:#d09a76;} /*#7F3E3B;}*/
+	#_pair-programming .st17{opacity:0.2;enable-background:new    ;}
+	#_pair-programming .st18{fill:#263238;}
+	#_pair-programming .st19{fill:#630F0F;}
+	#_pair-programming .st20{opacity:0.1;fill:#FFFFFF;}
+	#_pair-programming .st21{opacity:0.5;enable-background:new    ;}
+	#_pair-programming .st22{opacity:0.7;fill:#FFFFFF;}
+	#_pair-programming .st23{fill:#A02724;}
+	#_pair-programming .st24{fill:#F1B287;} /*#B55B52;}*/
+	#_pair-programming .st25{opacity:0.2;}
+	#_pair-programming .st26{opacity:0.3;}
+	#_pair-programming .st27{opacity:0.4;enable-background:new    ;}
 </style>
 <g id="Shadows_1_">
 	<g id="Shadow--inject-214">
