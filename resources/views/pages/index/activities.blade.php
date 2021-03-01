@@ -1,10 +1,10 @@
 <div id="activities" class="activities section-wrapper">
     <div class="section">
         @foreach ($data->activities as $key => $activity)
-        <div id="{{ $activity->slug }}" class="activity-wrapper {{ $key % 2 != 0 ? '' : 'tc-grey-light-bg' }}">
+        <div id="{{ $activity->slug }}" class="activity-wrapper">
             <div class="container">
                 <div class="row align-items-center activity-row">
-                    <div class="col-lg-6 col-md-7">
+                    <div class="col-lg-6 col-md-7 activity-description">
                         <h3 class="activity-header text-capitalize mb-md-2 mb-4 tc-black-almost">
                             <span class="activity-header-icon">{!!  $activity->icon !!}</span>
                             <span class="activity-header-txt">{{ $activity->title }}</span>
