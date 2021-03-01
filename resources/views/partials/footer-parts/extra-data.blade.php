@@ -11,7 +11,7 @@
             </div>
             <div class="text-body">
                 <p>
-                    As human being, we love bringing value to ourselves and to others.
+                    As human beings, we love bringing value to ourselves and to others.
                     Join us and level up your development skills in the process,
                     or give 15 to 30 min of your time to help others who need it, a value is added in both ways.
                 </p>
