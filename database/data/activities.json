@@ -5,12 +5,12 @@
         "title": "workshops",
         "slug": "workshops",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap px-1'>differents subjects</span> (Project management, Programming, DevOps ...etc), here is the details :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>attend workshops (run by professionals/students) on <span class='key-word white-space-nowrap'>differents subjects</span> (Project management, Programming, DevOps ...etc), here is the details :</p>",
             "list": [
-                "learn the <span class='key-word white-space-nowrap px-1'>basics</span> of a language, framework or technology.",
-                "work/collaborate with other members to <span class='key-word white-space-nowrap px-1'>sharp</span> your problem solving skills.",
-                "build <span class='key-word white-space-nowrap px-1'>projects</span> from <span class='key-word white-space-nowrap px-1'>scratch</span>.",
-                "<span class='key-word white-space-nowrap px-1'>solve</span> coding challenges together."
+                "learn the <span class='key-word white-space-nowrap'>basics</span> of a language, framework or technology.",
+                "work/collaborate with other members to <span class='key-word white-space-nowrap'>sharp</span> your problem solving skills.",
+                "build <span class='key-word white-space-nowrap'>projects</span> from <span class='key-word white-space-nowrap'>scratch</span>.",
+                "<span class='key-word white-space-nowrap'>solve</span> coding challenges together."
             ]
         }
     },
@@ -20,13 +20,13 @@
         "title": "communication",
         "slug": "communication",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap px-1'>every week</span>, here is why :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap'>every week</span>, here is why :</p>",
             "list": [
-                "ability to communicate with the language <span class='key-word px-1'>itself</span>.",
-                "create <span class='key-word px-1'>connections</span> with other new people.",
-                "increase the chances to land an <span class='key-word white-space-nowrap px-1'>interview/job</span>.",
-                "new doors opened for <span class='key-word px-1'>more</span> knowledge.",
-                "don't underestimate yourself, because <span class='key-word white-space-nowrap px-1'>we don't</span>."
+                "ability to communicate with the language <span class='key-word'>itself</span>.",
+                "create <span class='key-word'>connections</span> with other new people.",
+                "increase the chances to land an <span class='key-word white-space-nowrap'>interview/job</span>.",
+                "new doors opened for <span class='key-word'>more</span> knowledge.",
+                "don't underestimate yourself, because <span class='key-word white-space-nowrap'>we don't</span>."
             ]
         }
     },
@@ -36,15 +36,15 @@
         "title": "hangouts",
         "slug": "hangouts",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to <span class='key-word white-space-nowrap px-1'>answer</span> questions such as: </p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>discussions about different subjects to <span class='key-word white-space-nowrap'>answer</span> questions such as: </p>",
             "list": [
-                "what <span class='key-word white-space-nowrap px-1'>should I learn</span> to become a good software developer ?",
-                "it's <span class='key-word white-space-nowrap px-1'>hard</span> for me to learn coding.",
-                "what to do <span class='key-word white-space-nowrap px-1'>after highschool ?</span>",
-                "i don't know how to <span class='key-word white-space-nowrap px-1'>look for a job</span> as a software developer ?",
-                "what are <span class='key-word white-space-nowrap px-1'>soft skills</span> ?",
-                "<span class='key-word white-space-nowrap px-1'>do I need math</span> to become a software developer ?",
-                "And any <span class='key-word white-space-nowrap px-1'>other</span> subjects related to <span class='key-word white-space-nowrap px-1'>studies/career</span>."
+                "what <span class='key-word white-space-nowrap'>should I learn</span> to become a good software developer ?",
+                "it's <span class='key-word white-space-nowrap'>hard</span> for me to learn coding.",
+                "what to do <span class='key-word white-space-nowrap'>after highschool ?</span>",
+                "i don't know how to <span class='key-word white-space-nowrap'>look for a job</span> as a software developer ?",
+                "what are <span class='key-word white-space-nowrap'>soft skills</span> ?",
+                "<span class='key-word white-space-nowrap'>do I need math</span> to become a software developer ?",
+                "And any <span class='key-word white-space-nowrap'>other</span> subjects related to <span class='key-word white-space-nowrap'>studies/career</span>."
             ]
         }
     },
@@ -54,14 +54,14 @@
         "title": "pair programming",
         "slug": "pair-programming",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap px-1'>train</span> your mind and prepare for professional coding challenges.</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap'>train</span> your mind and prepare for professional coding challenges.</p>",
             "listType": "ol",
             "list": [
-                "access the <span class='key-word white-space-nowrap px-1'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
-                "once you get in the discord server you can visit <span class='key-word white-space-nowrap px-1'>#📝-challenges</span> room to see the current list of the challenges.",
-                "you will be split into teams of <span class='key-word white-space-nowrap px-1'>two people</span> — you and your coding partner.",
-                "one of you will start as the <span class='key-word white-space-nowrap px-1'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap px-1'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
-                "once the first Driver <span class='key-word white-space-nowrap px-1'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap px-1'>switch</span> roles."
+                "access the <span class='key-word white-space-nowrap'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
+                "once you get in the discord server you can visit <span class='key-word white-space-nowrap'>#📝-challenges</span> room to see the current list of the challenges.",
+                "you will be split into teams of <span class='key-word white-space-nowrap'>two people</span> — you and your coding partner.",
+                "one of you will start as the <span class='key-word white-space-nowrap'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
+                "once the first Driver <span class='key-word white-space-nowrap'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap'>switch</span> roles."
             ]
         }
     },
@@ -71,14 +71,14 @@
         "title": "mock interview",
         "slug": "mock-interview",
         "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to <span class='key-word white-space-nowrap px-1'>work</span> on verbal/nonverbal communication skills and become <span class='key-word white-space-nowrap px-1'>familiar</span> with interview settings, here is how :</p>",
+            "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to <span class='key-word white-space-nowrap'>work</span> on verbal/nonverbal communication skills and become <span class='key-word white-space-nowrap'>familiar</span> with interview settings, here is how :</p>",
             "listType": "ol",
             "list": [
-                "choose an interviewer <span class='key-word white-space-nowrap px-1'>by asking</span> the server members.",
-                "choose/share a <span class='key-word white-space-nowrap px-1'>job offer</span> as example with the interviewer and <span class='key-word white-space-nowrap px-1'>start</span> the interview.",
-                "share your <span class='key-word white-space-nowrap px-1'>resume</span> with the interviewer (use screen sharing, shared link ... etc).",
-                "take your time <span class='key-word white-space-nowrap px-1'>answering</span> questions.",
-                "the interviewer will <span class='key-word white-space-nowrap px-1'>review</span> the mock interview with you at the end."
+                "choose an interviewer <span class='key-word white-space-nowrap'>by asking</span> the server members.",
+                "choose/share a <span class='key-word white-space-nowrap'>job offer</span> as example with the interviewer and <span class='key-word white-space-nowrap'>start</span> the interview.",
+                "share your <span class='key-word white-space-nowrap'>resume</span> with the interviewer (use screen sharing, shared link ... etc).",
+                "take your time <span class='key-word white-space-nowrap'>answering</span> questions.",
+                "the interviewer will <span class='key-word white-space-nowrap'>review</span> the mock interview with you at the end."
             ]
         }
     }
