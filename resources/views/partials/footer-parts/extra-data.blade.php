@@ -1,11 +1,11 @@
-<div class="extra-links-wrapper container w-100 pt-5 pb-md-5 pb-4">
+<div class="extra-data-wrapper container w-100 pt-5 pb-md-5 pb-4">
     <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 col-lg-8 offset-md-3 offset-lg-2">
             <div class="teacode-header brand turn-trigger mb-2 d-inline-block">
                 <span class="text-uppercase brand-text">teac</span>
                 <div class="logo logo-brand position-relative d-inline-block">
-                    <img src="{{ asset('/assets/img/teacode/teacode_white_bg.png') }}" width="30" height="30"
-                    class="logo turn img-fluid rounded-circle square-25" alt="Logo">
+                    <img src="{{ asset('/assets/img/teacode/teacode_circle.png') }}" width="30" height="30"
+                    class="logo turn img-fluid square-25" alt="Logo">
                 </div>
                 <span class="text-uppercase brand-text">de</span>
             </div>
@@ -28,18 +28,6 @@
                             </a>
                         </li>
                     @endforeach
-                </ul>
-            </div>
-        </div>
-        <div class="col-12 col-md-4 offset-md-2">
-            <div class="extra-links">
-                <h4 class="text-uppercase mb-3">extras</h4>
-                <ul class="list-unstyled extra-links-list">
-                    {{-- <li class="extra-links-item"><a href="/blog" class="capitalize-first-letter">blog</a></li> --}}
-                    <li class="extra-links-item"><a href="/privacy" class="capitalize-first-letter">privacy</a></li>
-                    <li class="extra-links-item"><a href="/terms" class="capitalize-first-letter">terms</a></li>
-                    {{-- <li class="extra-links-item"><a href="#" class="text-uppercase d-block">faq</a></li> --}}
-                    {{-- <li class="extra-links-item"><a href="#" class="text-capitalize d-block">code of conduct</a></li> --}}
                 </ul>
             </div>
         </div>
