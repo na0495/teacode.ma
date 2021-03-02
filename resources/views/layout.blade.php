@@ -18,7 +18,7 @@
             gtag('config', 'G-1W4QVF4NRJ');
         </script>
 
-        <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode.ico') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
 
         <!-- Fonts -->
         <link rel="preload" href="{{ asset('/webfonts/fa-solid-900.woff2') }}" as="font" type="font/woff2" crossorigin>
