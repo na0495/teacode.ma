@@ -24,13 +24,13 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     // External
     Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
-    Route::redirect('/discord/workshops', 'https://discord.gg/acVUjZ74PU');
-    Route::redirect('/discord/communication', '/discord/communication/en');
-    Route::redirect('/discord/communication/en', 'https://discord.gg/rSeFZZvjDY');
-    Route::redirect('/discord/communication/fr', 'https://discord.gg/RTycrq2Hfk');
-    Route::redirect('/discord/hangouts', 'https://discord.gg/cC7kuBqJsy');
-    Route::redirect('/discord/pair-programming', 'https://discord.gg/7d3mDvVFvs');
-    Route::redirect('/discord/mock-interview', 'https://discord.gg/F5rBCKj2ah');
+    Route::redirect('/activities/workshops', 'https://discord.gg/acVUjZ74PU');
+    Route::redirect('/activities/communication', '/activities/communication/en');
+    Route::redirect('/activities/communication/en', 'https://discord.gg/rSeFZZvjDY');
+    Route::redirect('/activities/communication/fr', 'https://discord.gg/RTycrq2Hfk');
+    Route::redirect('/activities/hangouts', 'https://discord.gg/cC7kuBqJsy');
+    Route::redirect('/activities/pair-programming', 'https://discord.gg/7d3mDvVFvs');
+    Route::redirect('/activities/mock-interview', 'https://discord.gg/F5rBCKj2ah');
     Route::redirect('/facebook-page', 'https://facebook.com/teacode.ma');
     Route::redirect('/facebook-group', 'https://facebook.com/groups/teacode.ma');
     Route::redirect('/linkedin', 'https://www.linkedin.com/company/teacodema');
