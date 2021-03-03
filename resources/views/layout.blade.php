@@ -38,7 +38,6 @@
         <div class="wrapper">
                 @yield('content')
         </div>
-        <input type="hidden" class="key-word">
         {{-- @include('partials.loader') --}}
         @include('partials.fb-btn')
     </body>
