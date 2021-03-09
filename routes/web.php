@@ -23,7 +23,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // Route::get('/generateSitemap', 'HomeController@generateSitemap');
 
     // External
-    Route::redirect('/discord', 'https://discord.gg/y9TwPcqdvm');
+    Route::redirect('/discord', 'https://discord.gg/vKu2fkPqjY');
     Route::redirect('/activities/workshops', 'https://discord.gg/acVUjZ74PU');
     Route::redirect('/activities/communication', '/activities/communication/en');
     Route::redirect('/activities/communication/en', 'https://discord.gg/rSeFZZvjDY');
