@@ -9,7 +9,7 @@
                         <img src="{{ asset('/assets/img/teacode/teacode_circle_bordred.png') }}" width="30" height="30"
                         class="logo turn img-fluid rounded-circle square-35" alt="Logo">
                     </div>
-                    <h4 class="brand-txt ml-1 d-inline-block ">TeaCode</h4>
+                    <h4 class="brand-txt ml-2 d-inline-block ">TeaCode</h4>
                 </a>
             </div>
             <nav class="nav d-flex justify-content-center">

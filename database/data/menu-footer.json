@@ -1,0 +1,16 @@
+[
+    {
+        "title": "resources",
+        "slug": "resources"
+    },
+    {
+        "title": "road maps",
+        "slug": "roadmaps",
+        "hidden": true
+    },
+    {
+        "title": "privacy",
+        "slug": "privacy"
+    }
+
+]

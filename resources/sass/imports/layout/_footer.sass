@@ -4,7 +4,7 @@
         color: #FAFAFA
         font-size: 1.2rem
 
-    .container-fluid
+    > .container-fluid
         background-image: radial-gradient(circle at 1% 100%, $tc-blue,$tc-blue-dark-2)
         padding: 0 15px
         // .container
@@ -58,6 +58,13 @@
             //     .copyright-txt, .owner
             //         text-align: center
 
+    .footer-menu-wrapper
+        .footer-menu
+            .footer-menu-item a
+                color: $tc-white
+                &:hover
+                    color: $tc-white
+                    text-decoration: underline
     .footer-separator
         border-top: 1px solid rgba($tc-grey, 0.15)
         margin: 0 auto

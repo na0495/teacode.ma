@@ -19,14 +19,25 @@ class HomeController extends Controller
         $data = new stdClass;
         $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+        $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
         $title = 'TeaCode | Turning Tea into Code';
         return view('pages.index', ['data' => $data, 'title' => $title]);
+    }
+
+    public function resources(Request $request)
+    {
+        $data = new stdClass;
+        $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+        $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
+        $title = 'TeaCode | Privacy Policy';
+        return view('pages.resources', ['data' => $data, 'title' => $title]);
     }
 
     public function privacy(Request $request)
     {
         $data = new stdClass;
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+        $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
         $title = 'TeaCode | Privacy Policy';
         return view('pages.privacy', ['data' => $data, 'title' => $title]);
     }
@@ -35,6 +46,7 @@ class HomeController extends Controller
     {
         $data = new stdClass;
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+        $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
         $title = 'TeaCode | Terms of Use';
         return view('pages.terms', ['data' => $data, 'title' => $title]);
     }

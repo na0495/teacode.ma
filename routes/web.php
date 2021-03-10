@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
     Route::get('/', 'HomeController@home');
+    Route::get('/resources', 'HomeController@resources');
     Route::get('/privacy', 'HomeController@privacy');
     Route::get('/terms', 'HomeController@terms');
     Route::get('/sitemap', 'HomeController@sitemap');

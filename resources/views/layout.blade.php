@@ -8,15 +8,7 @@
         <meta name="author" content="Driss Boumlik">
         {{-- <meta http-equiv="refresh" content="60"> --}}
         {{-- <meta name="robots" content="index, follow"> --}}
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1W4QVF4NRJ"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-1W4QVF4NRJ');
-        </script>
+        @include('addons.google-analytics')
 
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
 
@@ -39,6 +31,6 @@
                 @yield('content')
         </div>
         {{-- @include('partials.loader') --}}
-        @include('partials.fb-btn')
+        @include('addons.fb-btn')
     </body>
 </html>
