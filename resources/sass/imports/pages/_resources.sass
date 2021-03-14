@@ -1,0 +1,52 @@
+.resources
+    border-top: $tc-grey-light solid 1px
+    background-color: $tc-white
+    position: relative
+    .section
+        .section-header *
+            font-size: 1.25rem
+            font-weight: bold
+            font-family: Segoe UI
+        .section-body
+            .section-block
+                .section-block-header *
+                    font-size: 1.1rem
+                    font-weight: bold
+                    font-family: Segoe UI
+                .section-block-body
+                    counter-increment: a
+                    .list-links
+                        padding: 0
+                        margin: 0
+                        counter-reset: b
+                        margin-bottom: 24px
+                        list-style-type: none
+                        column-gap: 10px
+                        columns: 3
+                        @media ( max-width: 768px )
+                            columns: 2
+                        .list-link
+                            list-style-type: none
+                            counter-increment: b
+                            counter-increment: b
+                            break-inside: avoid
+                            margin: 0
+                            &::before
+                                content: ''
+                            .list-link-txt
+                                position: relative
+                                padding-left: 2.3rem
+                                margin-bottom: 5px
+                                a
+                                    color: $tc-blue-dark-1
+                                    &:hover
+                                        text-decoration: underline
+                                        color: $tc-blue-dark-1
+                                &::before
+                                    position: absolute
+                                    top: 4px
+                                    left: 0
+                                    font-family: Consolas,Lucida Console,Menlo,Monaco,monospace
+                                    font-size: 0.9rem
+                                    line-height: 16px
+                                    content: counter(a) "." counter(b)

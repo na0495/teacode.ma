@@ -1,0 +1,50 @@
+[
+    {
+        "title": "front end development",
+        "slug": "front-end-development",
+        "items": [
+            {
+                "title": "html/css",
+                "slug": "html-css",
+                "links": [
+                    {
+                        "title": "css diner",
+                        "slug": "",
+                        "href": "https://flukeout.github.io/"
+                    },
+                    {
+                        "title": "flexBox froggy",
+                        "slug": "",
+                        "href": "https://flexboxfroggy.com/"
+                    },
+                    {
+                        "title": "css tricks",
+                        "slug": "",
+                        "href": "https://css-tricks.com/"
+                    }
+                ]
+            },
+            {
+                "title": "javascript",
+                "slug": "javascript",
+                "links": [
+                    {
+                        "title": "freecodecamp",
+                        "slug": "",
+                        "href": "https://freecodecamp.org/"
+                    },
+                    {
+                        "title": "modern js tutorial",
+                        "slug": "",
+                        "href": "https://javascript.info/"
+                    },
+                    {
+                        "title": "untrusted javascript",
+                        "slug": "",
+                        "href": "https://alexnisnevich.github.io/untrusted/"
+                    }
+                ]
+            }
+        ]
+    }
+]
