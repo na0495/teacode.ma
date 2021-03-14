@@ -3,35 +3,35 @@
         {
             "img": "assets/img/social/facebook.png",
             "icon": "<i class='fab fa-facebook-f'></i>",
-            "link": "/facebook-group",
+            "link": "facebook-group",
             "title": "facebook group",
             "color": "#D32322"
         },
         {
             "img": "assets/img/social/Youtube.png",
             "icon": "<i class='fab fa-youtube'></i>",
-            "link": "/youtube",
+            "link": "youtube",
             "title": "youtube",
             "color": "#4867AA"
         },
         {
             "img": "assets/img/social/instagram.png",
             "icon": "<i class='fab fa-instagram'></i>",
-            "link": "/instagram",
+            "link": "instagram",
             "title": "instagram",
             "color": "#B03699"
         },
         {
             "img": "assets/img/social/twitter.png",
             "icon": "<i class='fab fa-twitter'></i>",
-            "link": "/twitter",
+            "link": "twitter",
             "title": "twitter",
             "color": "#50ABF1"
         },
         {
             "img": "assets/img/social/linkedin.png",
             "icon": "<i class='fab fa-linkedin'></i>",
-            "link": "/linkedin",
+            "link": "linkedin",
             "title": "linkedin",
             "color": "#6E85D3"
         }

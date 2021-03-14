@@ -20,7 +20,7 @@
                                         </{!! $activity->description->listType ?? 'ul' !!}>
                                     @endif
                                     <div class="capitalize-first-letter btn-join-us">
-                                        <a href='/activities/{{ $activity->slug }}' target='_blank'>
+                                        <a href='/{{ $activity->slug }}' target='_blank'>
                                             <span class='d-inline-block capitalize-first-letter'>
                                                 <span class='mr-1'>click to join</span>
                                                 <i class='fas fa-chevron-right'></i>

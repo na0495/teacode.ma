@@ -7,6 +7,8 @@ use stdClass;
 
 class HomeController extends Controller
 {
+    private $home = '/';
+
     public function home(Request $request, $var = null)
     {
         $baseUrl = $request->getBaseUrl();
@@ -27,10 +29,36 @@ class HomeController extends Controller
     public function resources(Request $request)
     {
         $data = new stdClass;
+        $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
         $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
-        $title = 'TeaCode | Privacy Policy';
+        $title = 'TeaCode | Resources';
         return view('pages.resources', ['data' => $data, 'title' => $title]);
+    }
+
+    public function gotoExternalLink(Request $request, $link)
+    {
+        $links = [
+            'workshops' => 'https://discord.gg/acVUjZ74PU',
+            'communication' => 'https://discord.gg/rSeFZZvjDY',
+            'communication-en' => 'https://discord.gg/rSeFZZvjDY',
+            'communication-fr' => 'https://discord.gg/RTycrq2Hfk',
+            'hangouts' => 'https://discord.gg/cC7kuBqJsy',
+            'pair-programming' => 'https://discord.gg/7d3mDvVFvs',
+            'mock-interview' => 'https://discord.gg/F5rBCKj2ah',
+
+            'facebook-page' => 'https://facebook.com/teacode.ma',
+            'facebook-group' => 'https://facebook.com/groups/teacode.ma',
+            'linkedin' => 'https://www.linkedin.com/company/teacodema',
+            'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
+            'twitter' => 'https://twitter.com/teacodema',
+            'instagram' => 'https://instagram.com/teacode.ma',
+        ];
+        $url = $this->home;
+        if ($link && array_key_exists($link, $links)) {
+            $url = $links[$link];
+        }
+        return redirect($url);
     }
 
     public function privacy(Request $request)
@@ -65,8 +93,8 @@ class HomeController extends Controller
 
     public function generateSitemap(Request $request)
     {
-        $path = public_path('/sitemap.xml');
-        \Spatie\Sitemap\SitemapGenerator::create('https://teacode.ma')->writeToFile($path);
-        return response(['path' => $path], 200);
+        $path = public_path() . '/storage/sitemap.xml';
+        \Spatie\Sitemap\SitemapGenerator::create('https://teacode.ma')->getSitemap()->writeToFile($path);
+        return redirect('/sitemap');
     }
 }
