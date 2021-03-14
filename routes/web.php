@@ -25,7 +25,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     // External
     Route::get('/{link}', 'HomeController@gotoExternalLink');
-    Route::redirect('/discord', 'https://discord.gg/vKu2fkPqjY');
 
 
 //    Route::redirect('/blog', 'https://blog.teacode.ma/');

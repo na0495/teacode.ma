@@ -39,6 +39,9 @@ class HomeController extends Controller
     public function gotoExternalLink(Request $request, $link)
     {
         $links = [
+
+            'discord' => 'https://discord.gg/vKu2fkPqjY',
+
             'workshops' => 'https://discord.gg/acVUjZ74PU',
             'communication' => 'https://discord.gg/rSeFZZvjDY',
             'communication-en' => 'https://discord.gg/rSeFZZvjDY',
