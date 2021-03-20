@@ -152,6 +152,28 @@
                         "href": "https://www.freecodecamp.org/learn/apis-and-microservices/basic-node-and-express/"
                     }
                 ]
+            },
+            {
+                "title": "java",
+                "slug": "java",
+                "links": [
+                    {
+                        "title": "codegym",
+                        "slug": "",
+                        "href": "https://codegym.cc/"
+                    }
+                ]
+            },
+            {
+                "title": "python",
+                "slug": "python",
+                "links": [
+                    {
+                        "title": "NeuralNine",
+                        "slug": "",
+                        "href": "https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
+                    }
+                ]
             }
         ]
     }
