@@ -16,7 +16,7 @@
                                 </div>
                                 <div class="section-body">
                                     @foreach ($resource->items as $item)
-                                        <div class="section-block mb-3">
+                                        <div class="section-block mb-4">
                                             <div class="section-block-header mb-3">
                                                 <h5 class="text-capitalize">{{ $item->title }}</h5>
                                             </div>

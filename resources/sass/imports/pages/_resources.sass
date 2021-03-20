@@ -8,6 +8,7 @@
             font-weight: bold
             font-family: Segoe UI
         .section-body
+            padding-left: 1rem
             .section-block
                 .section-block-header *
                     font-size: 1.1rem
@@ -27,6 +28,8 @@
                         columns: 3
                         @media ( max-width: 768px )
                             columns: 2
+                        @media ( max-width: 460px )
+                            columns: 1
                         .list-link
                             list-style-type: none
                             counter-increment: b
