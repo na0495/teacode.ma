@@ -3,8 +3,8 @@
         {
             "img": "assets/img/social/facebook.png",
             "icon": "<i class='fab fa-facebook-f'></i>",
-            "link": "facebook-group",
-            "title": "facebook group",
+            "link": "facebook",
+            "title": "facebook",
             "color": "#D32322"
         },
         {
