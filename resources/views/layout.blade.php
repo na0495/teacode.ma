@@ -9,6 +9,7 @@
         {{-- <meta http-equiv="refresh" content="60"> --}}
         {{-- <meta name="robots" content="index, follow"> --}}
         @include('addons.google-analytics')
+        @include('addons.google-tag-manager-head')
 
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
 
@@ -27,6 +28,7 @@
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased">
+        @include('addons.google-tag-manager-body')
         <div class="wrapper">
                 @yield('content')
         </div>
