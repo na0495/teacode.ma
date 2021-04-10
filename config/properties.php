@@ -7,7 +7,7 @@ return [
         'workshops' => 'https://discord.gg/acVUjZ74PU',
         'communication' => 'https://discord.gg/rSeFZZvjDY',
         'communication-en' => 'https://discord.gg/rSeFZZvjDY',
-        'communication-fr' => 'https://discord.gg/RTycrq2Hfk',
+        'communication-fr' => 'https://discord.gg/rSeFZZvjDY',
         'hangouts' => 'https://discord.gg/cC7kuBqJsy',
         'pair-programming' => 'https://discord.gg/7d3mDvVFvs',
         'mock-interview' => 'https://discord.gg/F5rBCKj2ah',
