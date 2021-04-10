@@ -51,17 +51,18 @@
     {
         "img": "/assets/img/activities/pair-programming.svg",
         "icon": "<i class='fas fa-code'></i>",
-        "title": "pair programming",
-        "slug": "pair-programming",
+        "title": "coding challenges",
+        "slug": "coding-challenges",
         "description": {
             "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap'>train</span> your mind and prepare for professional coding challenges.</p>",
             "listType": "ol",
             "list": [
-                "access the <span class='key-word white-space-nowrap'>#🧩 Pair Programming</span> using Discord desktop app (for a better experience).",
-                "once you get in the discord server you can visit <span class='key-word white-space-nowrap'>#📝-challenges</span> room to see the current list of the challenges.",
-                "you will be split into teams of <span class='key-word white-space-nowrap'>two people</span> — you and your coding partner.",
-                "one of you will start as the <span class='key-word white-space-nowrap'>Driver</span> 🚘 (<span class='font-italic'>the person who codes</span>), and the other person will be the <span class='key-word white-space-nowrap'>Navigator</span> 🧭 (<span class='font-italic'>the person who helps</span>)",
-                "once the first Driver <span class='key-word white-space-nowrap'>finishes</span> the challenge (with the help of the Navigator), you will <span class='key-word white-space-nowrap'>switch</span> roles."
+                "Enhances Problem-solving Skills.",
+                "It's Guaranteed Brain Exercise.",
+                "It's a way to Practice Fast Coding.",
+                "More Attractive to Major Companies.",
+                "Provides a Significant Technical Edge during Job Interviews.",
+                "It's a way to Focus on the Fundamentals."
             ]
         }
     },
