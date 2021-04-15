@@ -10,6 +10,7 @@ return [
         'communication-fr' => 'https://discord.gg/rSeFZZvjDY',
         'hangouts' => 'https://discord.gg/cC7kuBqJsy',
         'pair-programming' => 'https://discord.gg/7d3mDvVFvs',
+        'coding-challenges' => 'https://discord.gg/7d3mDvVFvs',
         'mock-interview' => 'https://discord.gg/F5rBCKj2ah',
 
         'facebook' => 'https://facebook.com/teacode.ma',
