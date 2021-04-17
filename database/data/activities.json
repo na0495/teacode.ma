@@ -15,22 +15,6 @@
         }
     },
     {
-        "img": "/assets/img/activities/communication.svg",
-        "icon": "<i class='fas fa-comments'></i>",
-        "title": "communication",
-        "slug": "communication",
-        "description": {
-            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap'>every week</span>, here is why :</p>",
-            "list": [
-                "ability to communicate with the language <span class='key-word'>itself</span>.",
-                "create <span class='key-word'>connections</span> with other new people.",
-                "increase the chances to land an <span class='key-word white-space-nowrap'>interview/job</span>.",
-                "new doors opened for <span class='key-word'>more</span> knowledge.",
-                "don't underestimate yourself, because <span class='key-word white-space-nowrap'>we don't</span>."
-            ]
-        }
-    },
-    {
         "img": "/assets/img/activities/__various.svg",
         "icon": "<i class='fas fa-mug-hot'></i>",
         "title": "hangouts",
@@ -45,6 +29,22 @@
                 "what are <span class='key-word white-space-nowrap'>soft skills</span> ?",
                 "<span class='key-word white-space-nowrap'>do I need math</span> to become a software developer ?",
                 "And any <span class='key-word white-space-nowrap'>other</span> subjects related to <span class='key-word white-space-nowrap'>studies/career</span>."
+            ]
+        }
+    },
+    {
+        "img": "/assets/img/activities/communication.svg",
+        "icon": "<i class='fas fa-comments'></i>",
+        "title": "communication",
+        "slug": "communication",
+        "description": {
+            "text": "<p class='mb-2 capitalize-first-letter'>join the online meetings to practice communication in English/French <span class='key-word white-space-nowrap'>every week</span>, here is why :</p>",
+            "list": [
+                "ability to communicate with the language <span class='key-word'>itself</span>.",
+                "create <span class='key-word'>connections</span> with other new people.",
+                "increase the chances to land an <span class='key-word white-space-nowrap'>interview/job</span>.",
+                "new doors opened for <span class='key-word'>more</span> knowledge.",
+                "don't underestimate yourself, because <span class='key-word white-space-nowrap'>we don't</span>."
             ]
         }
     },
