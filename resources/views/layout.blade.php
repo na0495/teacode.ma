@@ -25,6 +25,7 @@
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
         <script defer src="{{ asset('/js/app.js') }}"></script>
 
+        @laravelPWA
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased">
