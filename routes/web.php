@@ -23,6 +23,9 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     Route::get('/generateSitemap', 'HomeController@generateSitemap');
 
+    Route::get('/offline', function () {
+        return view('vendor/laravelpwa/offline');
+    });
     // External
     Route::get('/{link}', 'HomeController@gotoExternalLink');
 
