@@ -21,11 +21,10 @@
 
         <link href="{{ asset('/css/externals.css') }}" rel="preload" as="style">
         <link href="{{ asset('/css/externals.css') }}" rel="stylesheet">
-        <link href="{{ asset('/css/app.css') }}" rel="preload" as="style">
-        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+        <link id="app-css-preload" href="{{ asset('/css/app.css') }}" rel="preload" as="style">
+        <link id="app-css" href="{{ asset('/css/app.css') }}" rel="stylesheet">
         <script defer src="{{ asset('/js/app.js') }}"></script>
 
-        @laravelPWA
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased">
@@ -35,5 +34,6 @@
         </div>
         {{-- @include('addons.loader') --}}
         {{-- @include('addons.fb-btn') --}}
+        @include('addons.toggle-darkmode')
     </body>
 </html>
