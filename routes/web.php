@@ -23,9 +23,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     Route::get('/generateSitemap', 'HomeController@generateSitemap');
 
-    Route::get('/offline', function () {
-        return view('vendor/laravelpwa/offline');
-    });
     // External
     Route::get('/{link}', 'HomeController@gotoExternalLink');
 
@@ -33,5 +30,5 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 //    Route::redirect('/blog', 'https://blog.teacode.ma/');
 //    Route::redirect('/resume', 'https://resume.teacode.ma/');
 
-     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
+    Route::any('/{var}', 'HomeController@home')->where('var', '.*');
 });
