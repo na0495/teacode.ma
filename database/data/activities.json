@@ -57,12 +57,12 @@
             "text": "<p class='mb-2 capitalize-first-letter'>join our practice sessions to <span class='key-word white-space-nowrap'>train</span> your mind and prepare for professional coding challenges.</p>",
             "listType": "ol",
             "list": [
-                "Enhances Problem-solving Skills.",
-                "It's Guaranteed Brain Exercise.",
-                "It's a way to Practice Fast Coding.",
-                "More Attractive to Major Companies.",
-                "Provides a Significant Technical Edge during Job Interviews.",
-                "It's a way to Focus on the Fundamentals."
+                "<span class='key-word white-space-nowrap'>Enhances</span> problem-solving skills.",
+                "It's <span class='key-word white-space-nowrap'>guaranteed</span> brain exercise.",
+                "It's a way to <span class='key-word white-space-nowrap'>practice</span> fast coding.",
+                "More <span class='key-word white-space-nowrap'>attractive</span> to major companies.",
+                "Provides a significant technical <span class='key-word white-space-nowrap'>edge</span> during job interviews.",
+                "It's a way to <span class='key-word white-space-nowrap'>focus</span> on the fundamentals."
             ]
         }
     },
