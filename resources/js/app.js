@@ -3,22 +3,32 @@ require('particles.js');
 window.$ = require( 'jquery' );
 
 
-let _isActive = localStorage.getItem('isDarkModeActive');
 let _body = $(document.body);
-let _button = $('.toggle-dark-mode');
-toggleDarkMode(_button, _isActive);
+let _isActive = !_body.hasClass('dark-mode');
 
 function toggleDarkMode(button, isActive) {
+    console.log(_isActive);
     if (isActive) {
         _body.addClass('dark-mode');
-        button.addClass('active');
-        localStorage.setItem('isDarkModeActive', true);
+        button.addClass('dark-mode');
+        setCookie('mode', 'dark');
+        console.log('dark');
     } else {
         _body.removeClass('dark-mode');
-        button.removeClass('active');
-        localStorage.removeItem('isDarkModeActive');
+        button.removeClass('dark-mode');
+        setCookie('mode', 'light');
+        console.log('light');
     }
+    console.log(document.cookie);
 }
+
+function setCookie(name, value) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
+
 
 $(function () {
 
@@ -32,7 +42,7 @@ $(function () {
 
         $(document).on('click', '.toggle-dark-mode', function () {
             let _this = $(this);
-            let _isActive = !_this.hasClass('active')
+            let _isActive = !_body.hasClass('dark-mode');
             // let _isActive = localStorage.getItem('isDarkModeActive');
             _this.addClass('pushed');
             setTimeout(() => {

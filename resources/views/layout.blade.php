@@ -27,7 +27,7 @@
 
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
-    <body class="antialiased">
+    <body class="antialiased {{ $mode . '-mode' }}">
         {{-- @include('addons.google-tag-manager-body') --}}
         <div class="wrapper">
                 @yield('content')

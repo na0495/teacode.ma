@@ -1,25 +1,26 @@
-body.dark-mode
-    // background-color: $tc-blue-dark-3
-    *
-        color: $tc-white
-    .particles-js
-        background-image: linear-gradient(rgba($tc-blue-dark-3, 0.8), rgba($tc-blue-dark-3, 1))
-    .brand-slogan
-        color: $tc-white
-    .activity-wrapper:nth-child(odd)
-        background-color: $tc-blue-dark-3
-    .activity-wrapper:nth-child(even)
-        background-color: $tc-blue-dark-4
-    .key-word
-        color: $tc-blue
-        // text-decoration: underline $tc-blue
-        // background-color: $tc-blue
-    .activity-wrapper
-        .activity-header *
+body
+    transition: color .3s linear, background-color .1s linear
+    &.dark-mode // background-color: $tc-blue-dark-3
+        *
+            color: $tc-white
+        .particles-js
+            background-image: linear-gradient(rgba($tc-blue-dark-3, 0.8), rgba($tc-blue-dark-3, 1))
+        .brand-slogan
+            color: $tc-white
+        .activity-wrapper:nth-child(odd)
+            background-color: $tc-blue-dark-3
+        .activity-wrapper:nth-child(even)
+            background-color: $tc-blue-dark-4
+        .key-word
             color: $tc-blue
-        .activity-body .btn-join-us
-            *
-                color: $tc-white
-            &:hover a
-                background-color: $tc-blue-dark-2
-                box-shadow: -5px -5px 10px rgba($tc-blue, 0.5), 5px 5px 10px rgba($tc-blue, 0.5), -5px 5px 10px rgba($tc-blue, 0.5), 5px -5px 10px rgba($tc-blue, 0.5)
+            // text-decoration: underline $tc-blue
+            // background-color: $tc-blue
+        .activity-wrapper
+            .activity-header *
+                color: $tc-blue
+            .activity-body .btn-join-us
+                *
+                    color: $tc-white
+                &:hover a
+                    background-color: $tc-blue-dark-2
+                    box-shadow: -5px -5px 10px rgba($tc-blue, 0.5), 5px 5px 10px rgba($tc-blue, 0.5), -5px 5px 10px rgba($tc-blue, 0.5), 5px -5px 10px rgba($tc-blue, 0.5)
