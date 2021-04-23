@@ -34,6 +34,13 @@
             "link": "linkedin",
             "title": "linkedin",
             "color": "#6E85D3"
+        },
+        {
+            "img": "assets/img/social/linkedin.png",
+            "icon": "<i class='fab fa-patreon'></i>",
+            "link": "patreon",
+            "title": "patreon",
+            "color": "#EE6551"
         }
     ],
     "mine": [
