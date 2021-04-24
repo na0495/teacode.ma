@@ -19,8 +19,16 @@
     font-size: 1.3rem
     top: 2px
     position: relative
+    font-family: "Font Awesome 5 Free"
+    font-weight: 900
+    -webkit-font-smoothing: antialiased
+    display: inline-block
+    font-style: normal
+    font-variant: normal
+    text-rendering: auto
+    line-height: 1
     &:before
-        content: '\f186'
+        content: '\f0eb'
 
 
 .wrapper-dark-mode .toggle-dark-mode.dark-mode
@@ -31,8 +39,9 @@
 .wrapper-dark-mode .toggle-dark-mode.dark-mode i.icon-mode
     color: $tc-blue-dark-3
     font-size: 1.7rem
-    &:before
-        content: '\f185'
+    // font-weight: 400
+    // &:before
+    //     content: '\f0eb'
 
 .toggle-dark-mode.pushed
     animation: pushed .3s linear
