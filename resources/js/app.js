@@ -7,19 +7,15 @@ let _body = $(document.body);
 let _isActive = !_body.hasClass('dark-mode');
 
 function toggleDarkMode(button, isActive) {
-    console.log(_isActive);
     if (isActive) {
         _body.addClass('dark-mode');
         button.addClass('dark-mode');
         setCookie('mode', 'dark');
-        console.log('dark');
     } else {
         _body.removeClass('dark-mode');
         button.removeClass('dark-mode');
         setCookie('mode', 'light');
-        console.log('light');
     }
-    console.log(document.cookie);
 }
 
 function setCookie(name, value) {
