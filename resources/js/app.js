@@ -4,16 +4,17 @@ window.$ = require( 'jquery' );
 
 
 let _body = $(document.body);
-let _isActive = !_body.hasClass('dark-mode');
 
 function toggleDarkMode(button, isActive) {
     if (isActive) {
         _body.addClass('dark-mode').removeClass('light-mode');
         button.addClass('dark-mode').removeClass('light-mode');
+        $('.icon-mode').addClass('dark-mode').removeClass('light-mode');
         setCookie('mode', 'dark');
     } else {
         _body.removeClass('dark-mode').addClass('light-mode');
         button.removeClass('dark-mode').addClass('light-mode');
+        $('.icon-mode').removeClass('dark-mode').addClass('light-mode');
         setCookie('mode', 'light');
     }
 }
