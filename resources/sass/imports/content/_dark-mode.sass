@@ -1,10 +1,8 @@
 body
-    transition: color .3s linear, background-color .1s linear
     &.dark-mode // background-color: $tc-blue-dark-3
+        background-color: rgba($tc-blue-dark-3, 1)
         *
             color: $tc-white
-        // .menu
-        //     background-color: rgba($tc-blue-dark-3, 1)
         .resources
             background-color: $tc-blue-dark-3
             border-top: $tc-blue-dark-3 solid 1px
@@ -13,7 +11,7 @@ body
         .privacy-policy
             background-color: $tc-blue-dark-3
         .particles-js
-            background-image: linear-gradient(rgba($tc-blue-dark-3, 1), rgba($tc-blue-dark-3, 0.8))
+            background-image: linear-gradient(rgba($tc-blue-dark-3, 1), rgba($tc-white, 0.2))
         .brand-slogan
             color: $tc-white
         .activity-wrapper:nth-child(odd)
