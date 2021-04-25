@@ -3,12 +3,12 @@
 @section('content')
     @include('layouts.menu')
 
-    <div class="container-fluid p-0">
-        @include('pages.index-parts.about')
-        <div class="resources py-5">
+    <div class="container-fluid p-0 resources">
+        <section class="p-md-5 my-5 py-5 px-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
+                        <h1 class="text-center mb-5">Resources</h1>
                         @foreach ($data->resources as $resource)
                             <div class="section mb-5">
                                 <div class="section-header mb-4">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     @include('layouts.footer')

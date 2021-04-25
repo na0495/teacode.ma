@@ -4,11 +4,11 @@
     @include('layouts.menu')
 
     <div class="container-fluid p-0 privacy-policy">
-        <section class="p-md-5 py-5 px-4">
+        <section class="p-md-5 my-5 py-5 px-4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 col-12">
-                        <h1 class="text-center">Privacy Policy</h1>
+                        <h1 class="text-center mb-5">Privacy Policy</h1>
                         <p>This privacy policy discloses the privacy practices for teacode.ma.
                             This privacy policy applies solely to information collected by this web site.
                             Here is what we do:</p>
