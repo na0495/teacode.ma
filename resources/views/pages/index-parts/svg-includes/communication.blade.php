@@ -16,7 +16,7 @@
 	#_communication .st10{opacity:0.7;fill: var(--tc-blue-dark-1);} /* #FFFFFF;} */
 	#_communication .st11{opacity:0.55;fill:var(--tc-blue-dark-1);} /* #FFFFFF;} */
 	#_communication .st12{opacity:0.85;fill:var(--tc-blue);} /* #FFFFFF;} */
-	#_communication .st13{fill: var(--tc-blue-dark);} /* #37474F;} */
+	#_communication .st13{fill: var(--tc-blue-dark-3);} /* #37474F;} */
 	#_communication .st14{fill:var(--tc-black-almost);} /*#263238;}*/
 	#_communication .st15{opacity:0.35;}
 	#_communication .st16{fill:#F1B287;}/*#FFA8A7;}*/
