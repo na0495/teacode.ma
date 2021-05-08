@@ -6,7 +6,7 @@
                 class="img-fluid rounded-circle square-50" alt=""> --}}
                 <a href="/" class="d-flex align-items-center">
                     <div class="logo logo-brand position-relative d-inline-block">
-                        <img src="{{ asset('/assets/img/teacode/teacode_circle_bordred.png') }}" width="30" height="30"
+                        <img src="{{ asset('/assets/img/teacode/teacode_circle_bordred_200.png') }}" width="30" height="30"
                         class="logo turn img-fluid rounded-circle square-35" alt="Logo">
                     </div>
                     <h4 class="brand-txt ml-2 d-inline-block ">TeaCode</h4>

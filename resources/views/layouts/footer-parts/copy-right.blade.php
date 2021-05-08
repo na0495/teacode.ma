@@ -13,7 +13,7 @@
                 <span class="heart-icon"><i class="fas fa-heart"></i></span>
                 by
                 <span class="bold">
-                    <a class="link-undecorated" href="https://linkedin.com/in/drissboumlik" target="_blank">Driss Boumlik</a>
+                    <a class="link-undecorated" href="https://linkedin.com/in/drissboumlik" target="_blank" rel="noopener">Driss Boumlik</a>
                 </span>
             </p>
 
