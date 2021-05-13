@@ -1,33 +1,35 @@
-body
-    &.dark-mode // background-color: $tc-blue-dark-3
-        background-color: rgba($tc-blue-dark-3, 1)
-        *
-            color: $tc-white
-        .resources
-            background-color: $tc-blue-dark-3
-            border-top: $tc-blue-dark-3 solid 1px
-            .list-link-txt a
-                color:  $tc-white !important
-        .privacy-policy
-            background-color: $tc-blue-dark-3
-        .particles-js
-            background-image: linear-gradient(rgba($tc-blue-dark-3, 1), rgba($tc-white, 0.2))
-        .brand-slogan
-            color: $tc-white
-        .activity-wrapper:nth-child(odd)
-            background-color: $tc-blue-dark-3
-        .activity-wrapper:nth-child(even)
-            background-color: $tc-blue-dark-4
-        .key-word
+body.dark-mode // background-color: $tc-blue-dark-3
+    background-color: rgba($tc-blue-dark-3, 1)
+    *
+        color: $tc-white
+    .resources
+        background-color: $tc-blue-dark-3
+        border-top: $tc-blue-dark-3 solid 1px
+        .list-link-txt a
+            color:  $tc-white !important
+    .privacy-policy
+        background-color: $tc-blue-dark-3
+    .particles-js
+        background-image: linear-gradient(rgba($tc-blue-dark-3, 1), rgba($tc-white, 0.2))
+    .brand-slogan
+        color: $tc-white
+    .activity-wrapper:nth-child(odd)
+        background-color: $tc-blue-dark-3
+    .activity-wrapper:nth-child(even)
+        background-color: $tc-blue-dark-4
+    .key-word
+        color: $tc-blue
+        // text-decoration: underline $tc-blue
+        // background-color: $tc-blue
+    .activity-wrapper
+        .activity-header *
             color: $tc-blue
-            // text-decoration: underline $tc-blue
-            // background-color: $tc-blue
-        .activity-wrapper
-            .activity-header *
-                color: $tc-blue
-            .activity-body .btn-join-us
-                *
-                    color: $tc-white
-                &:hover a
-                    background-color: $tc-blue-dark-2
-                    box-shadow: -5px -5px 10px rgba($tc-blue, 0.5), 5px 5px 10px rgba($tc-blue, 0.5), -5px 5px 10px rgba($tc-blue, 0.5), 5px -5px 10px rgba($tc-blue, 0.5)
+        .activity-body .btn-join-us
+            *
+                color: $tc-white
+            &:hover a
+                background-color: $tc-blue-dark-2
+                box-shadow: -5px -5px 10px rgba($tc-blue, 0.5), 5px 5px 10px rgba($tc-blue, 0.5), -5px 5px 10px rgba($tc-blue, 0.5), 5px -5px 10px rgba($tc-blue, 0.5)
+
+    #videos
+        background-color: $tc-blue-dark-4

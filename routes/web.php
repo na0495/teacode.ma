@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::prefix('_api')->group(function () {
+    Route::get('youtube/{videoId?}', 'ApiController@youtube');
+});
+
 // 6months => max_age = 60 * 60 * 24 * 183
 Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
