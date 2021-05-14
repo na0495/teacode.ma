@@ -1,5 +1,9 @@
 [
     {
+        "title": "videos",
+        "slug": "videos"
+    },
+    {
         "title": "resources",
         "slug": "resources"
     },
