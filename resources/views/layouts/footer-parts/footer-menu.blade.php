@@ -6,7 +6,7 @@
                     @foreach ($data->menuFooter as $link)
                         @if (!isset($link->hidden) || !$link->hidden)
                             <li class="footer-menu-item list-group-item border-0 overflow-auto my-0 mx-3">
-                                <a href="{{ $link->slug }}" target="_blank" rel="noopener"
+                                <a href="/{{ $link->slug }}" target="_blank" rel="noopener"
                                     aria-label="{{ $link->title }}" class="text-capitalize">
                                     {{ $link->title }}
                                 </a>
