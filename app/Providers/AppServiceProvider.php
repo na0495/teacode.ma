@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if($this->app->environment('production')) {
+            \URL::forceScheme('https');
+        }
         view()->composer('*', function ($view) {
             $mode = \Cookie::get('mode');
             if ($mode != 'dark' && $mode != 'light') {
