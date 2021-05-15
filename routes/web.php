@@ -14,22 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::prefix('')->group(function () {
-    Route::get('videos/{videoId?}', 'ApiController@index');
+    Route::get('videos/{videoId?}', 'ApiController@youtube');
+    Route::get('contributors', 'PageController@getContributors');
 });
 
 // 6months => max_age = 60 * 60 * 24 * 183
 Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
     Route::get('/', 'HomeController@home');
-    Route::get('/resources', 'HomeController@resources');
-    Route::get('/privacy', 'HomeController@privacy');
+    Route::get('/resources', 'PageController@resources');
+    Route::get('/privacy', 'PageController@privacy');
 //    Route::get('/terms', 'HomeController@terms');
-    Route::get('/sitemap', 'HomeController@sitemap');
+    Route::get('/sitemap', 'SitemapController@sitemap');
 
-    Route::get('/generateSitemap', 'HomeController@generateSitemap');
+    Route::get('/generateSitemap', 'SitemapController@generateSitemap');
 
     // External
-    Route::get('/{link}', 'HomeController@gotoExternalLink');
+    Route::get('/{link}', 'GotoController@gotoExternalLink');
 
 
 //    Route::redirect('/blog', 'https://blog.teacode.ma/');

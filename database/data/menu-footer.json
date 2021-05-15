@@ -8,6 +8,10 @@
         "slug": "resources"
     },
     {
+        "title": "contributors",
+        "slug": "contributors"
+    },
+    {
         "title": "road maps",
         "slug": "roadmaps",
         "hidden": true

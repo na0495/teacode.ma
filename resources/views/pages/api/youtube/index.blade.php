@@ -1,11 +1,11 @@
 @extends('layout')
 
 @section('content')
-
     @include('layouts.menu')
-    <div class="container-fluid p-0">
-        {{-- @include('pages.index-parts.about') --}}
-        <div id="videos" class="py-5 px-4">
+
+    <div class="container-fluid p-0 videos">
+        @include('pages.index-parts.about')
+        <section class="py-5 px-4 page">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-7">
@@ -33,15 +33,7 @@
                                     <a href="/videos/{{ $result->videoId }}">
                                         <div class="video-data">
                                             <div class="video-cover align-items-start">
-                                                {{-- <div class="video-duration">
-                                                    <span>{{ $result->videoDuration }}</span>
-                                                </div> --}}
-                                                {{-- <img src="{{ $result->cover->maxres->url }}" 
-                                                style="width: 100px; height: 56px"
-                                                width="{{ $result->cover->standard->width }}" height="{{ $result->cover->standard->height }}"
-                                                alt=""> --}}
                                                 <div class="video-icon">
-                                                    {{-- <i class="fab fa-youtube"></i> --}}
                                                     <i class="fas fa-play"></i>
                                                 </div>
                                             </div>
@@ -62,7 +54,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     @include('layouts.footer')

@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 
 class ApiController extends Controller
 {
-    public function index(Request $request, $videoId = null)
+    
+    
+    public function youtube(Request $request, $videoId = null)
     {
         $data = new \stdClass;
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
