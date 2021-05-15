@@ -41,7 +41,8 @@
                                                 width="{{ $result->cover->standard->width }}" height="{{ $result->cover->standard->height }}"
                                                 alt=""> --}}
                                                 <div class="video-icon">
-                                                    <i class="fab fa-youtube"></i>
+                                                    {{-- <i class="fab fa-youtube"></i> --}}
+                                                    <i class="fas fa-play"></i>
                                                 </div>
                                             </div>
                                             <div class="video-metadata ml-2">
