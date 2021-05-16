@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::prefix('')->group(function () {
     Route::get('videos/{videoId?}', 'ApiController@youtube');
-    Route::get('contributors', 'PageController@getContributors');
+    Route::get('contributors', 'PageController@contributors');
 });
 
 // 6months => max_age = 60 * 60 * 24 * 183
