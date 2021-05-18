@@ -7,18 +7,18 @@
         @include('pages.index-parts.about')
         <section class="p-md-5 py-5 px-4 page">
             <div class="container">
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-12">
                         <h2 class="text-center mb-5">Contributors</h2>
                     </div>
                 </div>
-                <div class="row mt-3">
+                <div class="row mt-3 mb-5">
                     @foreach ($data->contributors as $contributor)
                         <div class="col-lg-2 col-md-3 col-4 mb-4">
                             <div class="contributor d-flex flex-column justify-content-center align-items-center">
                                 <div class="image mb-2">
-                                    <img class="w-100 m-auto d-block rounded-circle" 
-                                    src="{{ $contributor->image }}" alt="">
+                                    <img class="square-100 m-auto d-block rounded-circle"
+                                    src="{{ $contributor->image }}" alt="" loading="lazy">
                                 </div>
                                 <div class="text-data text-center">
                                     <div class="fullname text-capitalize">{{ $contributor->fullname }}</div>

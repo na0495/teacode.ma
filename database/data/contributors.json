@@ -1,82 +1,82 @@
 [
     {
         "fullname": "driss boumlik",
-        "role": "founder",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "☕ Founder",
+        "slug": "drissboumlik"
     },
     {
         "fullname": "abdelhalim",
-        "role": "staff team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥈 Staff Team",
+        "slug": "461dou"
     },
     {
         "fullname": "lamyaa",
-        "role": "staff team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥈 Staff Team",
+        "slug": "lamyaa"
     },
     {
         "fullname": "tariq",
-        "role": "staff team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥈 Staff Team",
+        "slug": "Odachi"
     },
     {
         "fullname": "meryem",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "BoufalahMeryem"
     },
     {
         "fullname": "khalid",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "khalidtamine"
     },
     {
         "fullname": "lamyaa",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "AYMALMikassa"
     },
     {
         "fullname": "asmae",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "Asmae"
     },
     {
         "fullname": "mohammed",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "mymik"
     },
     {
         "fullname": "essalhi",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "essalhi"
     },
     {
         "fullname": "anas",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "Alesley"
     },
     {
-        "fullname": "mohammed",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "fullname": "Ahmed",
+        "role": "🥉 Helpers Team",
+        "slug": "uranus"
     },
     {
         "fullname": "taha",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "Satisfy"
     },
     {
         "fullname": "hamza",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "CTLKimo"
     },
     {
         "fullname": "hatim",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "XxDσɾҽɱσɳxX"
     },
     {
         "fullname": "ayoub",
-        "role": "helpers team",
-        "image": "https://en.gravatar.com/userimage/29351841/aedf0aa276f7e34300db62b34fa5806f.jpeg"
+        "role": "🥉 Helpers Team",
+        "slug": "ayoubmahdaoui"
     }
 ]
