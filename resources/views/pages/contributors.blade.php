@@ -12,7 +12,7 @@
                         <h2 class="text-center mb-5">Contributors</h2>
                     </div>
                 </div>
-                <div class="row mt-3 mb-5">
+                <div class="row mt-3 mb-5 justify-content-center">
                     @foreach ($data->contributors as $contributor)
                         <div class="col-lg-2 col-md-3 col-4 mb-4">
                             <div class="contributor d-flex flex-column justify-content-center align-items-center">
