@@ -5,8 +5,8 @@
                 <ul class="footer-menu list-group list-group-horizontal align-items-start">
                     @foreach ($data->menuFooter as $link)
                         @if (!isset($link->hidden) || !$link->hidden)
-                            <li class="footer-menu-item list-group-item border-0 overflow-auto my-0 mx-3">
-                                <a href="/{{ $link->slug }}" target="_blank" rel="noopener"
+                            <li class="footer-menu-item list-group-item border-0 overflow-auto my-sm-0 my-2 mx-3">
+                                <a href="/{{ $link->slug }}" rel="noopener" target="{{ $link->target ?? '_self' }}"
                                     aria-label="{{ $link->title }}" class="text-capitalize">
                                     {{ $link->title }}
                                 </a>

@@ -1,7 +1,8 @@
 [
     {
         "title": "videos",
-        "slug": "videos"
+        "slug": "videos",
+        "target": "_blank"
     },
     {
         "title": "resources",
@@ -18,7 +19,8 @@
     },
     {
         "title": "privacy",
-        "slug": "privacy"
+        "slug": "privacy",
+        "hidden": true
     }
 
 ]
