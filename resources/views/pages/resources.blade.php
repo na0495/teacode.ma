@@ -7,9 +7,13 @@
         @include('pages.index-parts.about')
         <section class="p-md-5 py-5 px-4 page">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 offset-lg-1 col-12">
+                <div class="row mt-5">
+                    <div class="col-12">
                         <h2 class="text-center mb-5">Resources</h2>
+                    </div>
+                </div>
+                <div class="row mt-3 mb-5">
+                    <div class="col-lg-10 offset-lg-1 col-12">
                         @foreach ($data->resources as $resource)
                             <div class="section mb-5">
                                 <div class="section-header mb-4">

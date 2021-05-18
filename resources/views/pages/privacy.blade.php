@@ -6,7 +6,7 @@
     <div class="container-fluid p-0 privacy-policy">
         <section class="p-md-5 my-5 py-5 px-4">
             <div class="container">
-                <div class="row">
+                <div class="row my-5">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         <h1 class="text-center mb-5">Privacy Policy</h1>
                         <p>This privacy policy discloses the privacy practices for teacode.ma.
