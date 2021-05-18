@@ -20,14 +20,9 @@
         "slug": "Odachi"
     },
     {
-        "fullname": "meryem",
+        "fullname": "taha",
         "role": "🥉 Helpers Team",
-        "slug": "BoufalahMeryem"
-    },
-    {
-        "fullname": "khalid",
-        "role": "🥉 Helpers Team",
-        "slug": "khalidtamine"
+        "slug": "Satisfy"
     },
     {
         "fullname": "lamyaa",
@@ -35,14 +30,19 @@
         "slug": "AYMALMikassa"
     },
     {
+        "fullname": "meryem",
+        "role": "🥉 Helpers Team",
+        "slug": "BoufalahMeryem"
+    },
+    {
         "fullname": "asmae",
         "role": "🥉 Helpers Team",
         "slug": "Asmae"
     },
     {
-        "fullname": "mohammed",
+        "fullname": "hamza",
         "role": "🥉 Helpers Team",
-        "slug": "mymik"
+        "slug": "CTLKimo"
     },
     {
         "fullname": "essalhi",
@@ -50,24 +50,19 @@
         "slug": "essalhi"
     },
     {
+        "fullname": "mohammed",
+        "role": "🥉 Helpers Team",
+        "slug": "mymik"
+    },
+    {
+        "fullname": "khalid",
+        "role": "🥉 Helpers Team",
+        "slug": "khalidtamine"
+    },
+    {
         "fullname": "anas",
         "role": "🥉 Helpers Team",
         "slug": "Alesley"
-    },
-    {
-        "fullname": "Ahmed",
-        "role": "🥉 Helpers Team",
-        "slug": "uranus"
-    },
-    {
-        "fullname": "taha",
-        "role": "🥉 Helpers Team",
-        "slug": "Satisfy"
-    },
-    {
-        "fullname": "hamza",
-        "role": "🥉 Helpers Team",
-        "slug": "CTLKimo"
     },
     {
         "fullname": "hatim",
@@ -78,5 +73,10 @@
         "fullname": "ayoub",
         "role": "🥉 Helpers Team",
         "slug": "ayoubmahdaoui"
+    },
+    {
+        "fullname": "Ahmed",
+        "role": "🥉 Helpers Team",
+        "slug": "uranus"
     }
 ]
