@@ -17,7 +17,7 @@
                         <div class="col-lg-2 col-md-3 col-4 mb-4">
                             <div class="contributor d-flex flex-column justify-content-center align-items-center">
                                 <div class="image mb-2">
-                                    <img class="square-100 m-auto d-block rounded-circle"
+                                    <img class="w-100 m-auto d-block rounded-circle"
                                     src="{{ $contributor->image }}" alt="" loading="lazy">
                                 </div>
                                 <div class="text-data text-center">

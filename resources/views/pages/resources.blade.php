@@ -12,7 +12,7 @@
                         <h2 class="text-center mb-5">Resources</h2>
                     </div>
                 </div>
-                <div class="row mt-3 mb-5">
+                <div class="row my-3">
                     <div class="col-lg-10 offset-lg-1 col-12">
                         @foreach ($data->resources as $resource)
                             <div class="section mb-5">
