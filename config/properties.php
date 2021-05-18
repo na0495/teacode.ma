@@ -18,6 +18,7 @@ return [
         'facebook-page' => 'https://facebook.com/teacode.ma',
         'facebook-group' => 'https://facebook.com/groups/teacode.ma',
         'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
+        'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
         'instagram' => 'https://instagram.com/teacode.ma',
         'twitter' => 'https://twitter.com/teacodema',
         'linkedin' => 'https://www.linkedin.com/company/teacodema',
