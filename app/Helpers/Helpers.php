@@ -1,5 +1,18 @@
 <?php
 
+if (!function_exists('getColorRole')) {
+    function getColorRole($role)
+    {
+        $roleSlug = \Str::slug($role);
+        $colors = [
+            'founder' => '#1da1f2',
+            'staff-team' => '#3ac3e2',
+            'helpers-members' => '#16c60c',
+            'contributors-members' => '#e85b00'
+        ];
+        return $colors[$roleSlug];
+    }
+}
 
 if (!function_exists('getContributorImage')) {
     function getContributorImage($contributor, $key)
