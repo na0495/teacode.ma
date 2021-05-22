@@ -17,12 +17,12 @@
                         <div class="col-lg-2 col-md-3 col-4 mb-4">
                             <div class="contributor d-flex flex-column justify-content-center align-items-center">
                                 <div class="image mb-2">
-                                    <img class="w-100 m-auto d-block rounded-circle"
+                                    <img class="w-100 m-auto d-block"
                                     src="{{ $contributor->image }}" alt="" loading="lazy">
                                 </div>
                                 <div class="text-data text-center">
                                     <div class="fullname text-capitalize">{{ $contributor->fullname }}</div>
-                                    <div class="role text-capitalize">{{ $contributor->role }}</div>
+                                    <div class="role text-capitalize tc-blue-dark-3">{{ $contributor->role }}</div>
                                 </div>
                             </div>
                         </div>

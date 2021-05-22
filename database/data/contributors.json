@@ -1,82 +1,87 @@
 [
     {
         "fullname": "driss boumlik",
-        "role": "☕ Founder",
+        "role": "Founder",
         "slug": "drissboumlik"
     },
     {
         "fullname": "abdelhalim",
-        "role": "🥈 Staff Team",
+        "role": "Staff Team",
         "slug": "461dou"
     },
     {
+        "fullname": "tariq",
+        "role": "Staff Team",
+        "slug": "odachi"
+    },
+    {
         "fullname": "lamyaa",
-        "role": "🥈 Staff Team",
+        "role": "Staff Team",
         "slug": "lamyaa"
     },
     {
-        "fullname": "tariq",
-        "role": "🥈 Staff Team",
-        "slug": "Odachi"
-    },
-    {
         "fullname": "taha",
-        "role": "🥉 Helpers Team",
-        "slug": "Satisfy"
+        "role": "Helper",
+        "slug": "satisfy"
     },
     {
         "fullname": "lamyaa",
-        "role": "🥉 Helpers Team",
-        "slug": "AYMALMikassa"
+        "role": "Helper",
+        "slug": "aymalmikassa"
     },
     {
         "fullname": "meryem",
-        "role": "🥉 Helpers Team",
-        "slug": "BoufalahMeryem"
+        "role": "Helper",
+        "slug": "boufalahmeryem"
     },
     {
         "fullname": "asmae",
-        "role": "🥉 Helpers Team",
-        "slug": "Asmae"
+        "role": "Helper",
+        "slug": "asmae"
     },
     {
         "fullname": "hamza",
-        "role": "🥉 Helpers Team",
-        "slug": "CTLKimo"
+        "role": "Helper",
+        "slug": "ctlkimo"
     },
     {
         "fullname": "essalhi",
-        "role": "🥉 Helpers Team",
+        "role": "Helper",
         "slug": "essalhi"
     },
     {
         "fullname": "mohammed",
-        "role": "🥉 Helpers Team",
+        "role": "Helper",
         "slug": "mymik"
     },
     {
         "fullname": "khalid",
-        "role": "🥉 Helpers Team",
+        "role": "Helper",
         "slug": "khalidtamine"
     },
     {
         "fullname": "anas",
-        "role": "🥉 Helpers Team",
-        "slug": "Alesley"
+        "role": "Helper",
+        "slug": "alesley"
     },
     {
         "fullname": "hatim",
-        "role": "🥉 Helpers Team",
-        "slug": "XxDσɾҽɱσɳxX"
+        "role": "Helper",
+        "slug": "hatim"
     },
     {
         "fullname": "ayoub",
-        "role": "🥉 Helpers Team",
+        "role": "Helper",
         "slug": "ayoubmahdaoui"
     },
     {
-        "fullname": "Ahmed",
-        "role": "🥉 Helpers Team",
+        "fullname": "ahmed",
+        "role": "Helper",
         "slug": "uranus"
+    },
+    {
+        "fullname": "Salah",
+        "role": "Contributor",
+        "slug": "salah"
     }
 ]
