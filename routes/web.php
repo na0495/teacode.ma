@@ -18,7 +18,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     Route::get('/', 'HomeController@home');
 
-    // Pages    
+    // Pages
     Route::get('contributors', 'PageController@contributors');
     Route::get('/resources', 'PageController@resources');
     Route::get('/privacy', 'PageController@privacy');
@@ -27,7 +27,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // SiteMap
     Route::get('/sitemap', 'SitemapController@sitemap');
     Route::get('/generateSitemap', 'SitemapController@generateSitemap');
-        
+
     // External
     Route::get('/{link}', 'GotoController@gotoExternalLink');
 

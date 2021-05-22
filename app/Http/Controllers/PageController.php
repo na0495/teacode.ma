@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    
+
     public function contributors(Request $request)
     {
         $data = new \stdClass;
@@ -14,16 +14,17 @@ class PageController extends Controller
         $data->socialLinks = json_decode(\File::get(base_path() . '/database/data/social-links.json'));
         $data->menuFooter = json_decode(\File::get(base_path() . '/database/data/menu-footer.json'));
         $title = 'TeaCode | Contributors';
-        
+
         $data->contributors = collect($data->contributors)
                                     ->map(function ($contributor, $key) {
+                                        // $contributor->color =  getColorRole($contributor->role);
                                         $contributor->image = getContributorImage($contributor, $key);
                                         return $contributor;
                                     })->values();
-        
+
         return view('pages.contributors', ['data' => $data, 'title' => $title]);
     }
-    
+
     public function resources(Request $request)
     {
         $data = new \stdClass;
