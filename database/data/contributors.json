@@ -80,6 +80,21 @@
         "slug": "uranus"
     },
     {
+        "fullname": "amine",
+        "role": "host",
+        "slug": "harradi"
+    },
+    {
+        "fullname": "larbi",
+        "role": "host",
+        "slug": "gouzal"
+    },
+    {
+        "fullname": "hamza",
+        "role": "Helper",
+        "slug": "hzmhi"
+    },
+    {
         "fullname": "Salah",
         "role": "Contributor",
         "slug": "salah"
