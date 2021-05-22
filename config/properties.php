@@ -3,6 +3,8 @@
 return [
     "links" => [
         'how-to' => 'https://youtu.be/uNFwkNjNkYc',
+        'howto' => 'https://youtu.be/uNFwkNjNkYc',
+        'about' => 'https://youtu.be/uNFwkNjNkYc',
         'discord' => 'https://discord.gg/vKu2fkPqjY',
 
         'workshops' => 'https://discord.gg/acVUjZ74PU',
