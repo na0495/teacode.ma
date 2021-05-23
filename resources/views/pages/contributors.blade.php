@@ -22,7 +22,7 @@
                                 </div>
                                 <div class="text-data text-center">
                                     <div class="fullname text-capitalize">{{ $contributor->fullname }}</div>
-                                    <div class="role text-capitalize tc-blue-dark-3">{{ $contributor->role }}</div>
+                                    <div class="role text-capitalize tc-blue-dark-3 white-space-nowrap">{{ $contributor->role }}</div>
                                 </div>
                             </div>
                         </div>
