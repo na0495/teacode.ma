@@ -4,7 +4,7 @@
     @include('layouts.menu')
 
     <div class="container-fluid p-0 privacy-policy">
-        <section class="p-md-5 my-5 py-5 px-4">
+        <section class="p-md-5 my-5 py-5 px-4" id="privacy-policy">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">

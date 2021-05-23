@@ -5,7 +5,7 @@
 
     <div class="container-fluid p-0 resources">
         @include('pages.index-parts.about')
-        <section class="p-md-5 py-5 px-4 page">
+        <section class="p-md-5 py-5 px-4 page" id="resources">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
