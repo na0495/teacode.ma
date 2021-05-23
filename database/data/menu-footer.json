@@ -5,6 +5,11 @@
         "target": "_blank"
     },
     {
+        "title": "events",
+        "slug": "events",
+        "target": "_blank"
+    },
+    {
         "title": "resources",
         "slug": "resources"
     },

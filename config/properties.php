@@ -21,6 +21,7 @@ return [
         'facebook-group' => 'https://facebook.com/groups/teacode.ma',
         'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
         'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
+        'events' => 'https://facebook.com/teacode.ma/events',
         'instagram' => 'https://instagram.com/teacode.ma',
         'twitter' => 'https://twitter.com/teacodema',
         'linkedin' => 'https://www.linkedin.com/company/teacodema',
