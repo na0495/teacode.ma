@@ -1,5 +1,19 @@
 <?php
 
+if (!function_exists('getSocialLinks')) {
+    function getSocialLinks()
+    {
+        return json_decode(\File::get(base_path() . '/database/data/social-links.json'));
+    }
+}
+
+if (!function_exists('getFooterMenu')) {
+    function getFooterMenu()
+    {
+        return json_decode(\File::get(base_path() . '/database/data/footer-menu.json'));
+    }
+}
+
 if (!function_exists('getColorRole')) {
     function getColorRole($role)
     {
@@ -25,7 +39,7 @@ if (!function_exists('getContributorImage')) {
             $path = \Storage::disk('public')->path('images/logos');
             $filesCount = count(glob($path . '/*.png'));
             $index = $key < $filesCount ? $key : ($key % $filesCount);
-            
+
             $image = '/storage/images/logos/default ('. $index .').png';
         }
         return $image;
