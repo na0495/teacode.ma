@@ -3,13 +3,13 @@
         <div class="col-lg-6 offset-lg-3 col-12 copyright-txt">
             <div class="copy-right">
                 <span class="copy-right-txt">
-                    © Teacode {{ now()->year }}. All rights reserved
+                    <i class="far fa-copyright"></i> TeaCode {{ now()->year }}. All rights reserved
                 </span>
             </div>
         </div>
         <div class="col-lg-6 offset-lg-3 col-12 owner">
             <p>
-                Made with 
+                Made with
                 <span class="heart-icon"><i class="fas fa-heart"></i></span>
                 by
                 <span class="bold">
