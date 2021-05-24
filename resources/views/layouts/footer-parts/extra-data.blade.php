@@ -2,12 +2,14 @@
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
             <div class="teacode-header brand turn-trigger mb-2 d-inline-block">
-                <span class="text-uppercase brand-text">teac</span>
-                <div class="logo logo-brand position-relative d-inline-block">
-                    <img src="{{ asset('/assets/img/teacode/teacode_circle_200.png') }}" width="30" height="30"
-                    class="logo turn img-fluid square-25" alt="Logo">
-                </div>
-                <span class="text-uppercase brand-text">de</span>
+                <a href="/">
+                    <span class="text-uppercase brand-text">teac</span>
+                    <div class="logo logo-brand position-relative d-inline-block">
+                        <img src="{{ asset('/assets/img/teacode/teacode_circle_200.png') }}" width="30" height="30"
+                        class="logo turn img-fluid square-25" alt="Logo">
+                    </div>
+                    <span class="text-uppercase brand-text">de</span>
+                </a>
             </div>
             <div class="text-body">
                 <p>
