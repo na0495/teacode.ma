@@ -5,6 +5,10 @@
         "target": "_blank"
     },
     {
+        "title": "podcast",
+        "slug": "coming-soon"
+    },
+    {
         "title": "events",
         "slug": "events",
         "target": "_blank"
@@ -18,9 +22,10 @@
         "slug": "contributors"
     },
     {
-        "title": "road maps",
+        "title": "developer roadmaps",
         "slug": "roadmaps",
-        "hidden": true
+        "target": "_blank",
+        "hidden": false
     },
     {
         "title": "privacy",
