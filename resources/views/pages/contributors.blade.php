@@ -21,8 +21,7 @@
                                     src="{{ $contributor->image }}" alt="" loading="lazy">
                                 </div>
                                 <div class="text-data text-center">
-                                    <div class="fullname text-capitalize">{{ $contributor->fullname }}</div>
-                                    <div class="role text-capitalize tc-blue-dark-3 white-space-nowrap">{{ $contributor->role }}</div>
+                                    <div class="fullname text-capitalize white-space-nowrap">{{ $contributor->fullname }}</div>
                                 </div>
                             </div>
                         </div>
