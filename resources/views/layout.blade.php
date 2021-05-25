@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+
+        @include('addons.brand-text')
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="join a moroccan developers community who can help you in your learning journey.">
@@ -25,7 +27,6 @@
         <link id="app-css-preload" href="{{ asset('/css/app.css') }}" rel="preload" as="style">
         <link id="app-css" href="{{ asset('/css/app.css') }}" rel="stylesheet">
         <script defer src="{{ asset('/js/app.js') }}"></script>
-
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased {{ $mode . '-mode' }}">
