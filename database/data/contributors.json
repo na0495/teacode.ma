@@ -1,82 +1,82 @@
 [
     {
         "fullname": "driss boumlik",
-        "role": "Founder",
+        "role": "founder",
         "slug": "drissboumlik"
     },
     {
         "fullname": "abdelhalim",
-        "role": "Staff Team",
+        "role": "staff team",
         "slug": "461dou"
     },
     {
         "fullname": "tariq",
-        "role": "Staff Team",
+        "role": "staff team",
         "slug": "odachi"
     },
     {
         "fullname": "lamyaa",
-        "role": "Staff Team",
+        "role": "staff team",
         "slug": "lamyaa"
     },
     {
         "fullname": "taha",
-        "role": "Helper",
+        "role": "helper",
         "slug": "satisfy"
     },
     {
         "fullname": "lamyaa",
-        "role": "Helper",
+        "role": "helper",
         "slug": "aymalmikassa"
     },
     {
         "fullname": "meryem",
-        "role": "Helper",
+        "role": "helper",
         "slug": "boufalahmeryem"
     },
     {
         "fullname": "asmae",
-        "role": "Helper",
+        "role": "helper",
         "slug": "asmae"
     },
     {
         "fullname": "hamza",
-        "role": "Helper",
+        "role": "helper",
         "slug": "ctlkimo"
     },
     {
         "fullname": "essalhi",
-        "role": "Helper",
+        "role": "helper",
         "slug": "essalhi"
     },
     {
         "fullname": "mohammed",
-        "role": "Helper",
+        "role": "helper",
         "slug": "mymik"
     },
     {
         "fullname": "khalid",
-        "role": "Helper",
+        "role": "helper",
         "slug": "khalidtamine"
     },
     {
         "fullname": "anas",
-        "role": "Helper",
+        "role": "helper",
         "slug": "alesley"
     },
     {
         "fullname": "hatim",
-        "role": "Helper",
+        "role": "helper",
         "slug": "hatim"
     },
     {
         "fullname": "ayoub",
-        "role": "Helper",
+        "role": "helper",
         "slug": "ayoubmahdaoui"
     },
     {
         "fullname": "ahmed",
-        "role": "Helper",
+        "role": "helper",
         "slug": "uranus"
     },
     {
@@ -91,12 +91,12 @@
     },
     {
         "fullname": "hamza",
-        "role": "Helper",
+        "role": "supporter",
         "slug": "hzmhi"
     },
     {
         "fullname": "Salah",
-        "role": "Contributor",
+        "role": "contributor",
         "slug": "salah"
     }
 ]
