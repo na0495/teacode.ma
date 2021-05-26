@@ -26,10 +26,10 @@ function setCookie(name, value) {
     document.cookie = name + "=" + value + ";" + expires + ";path=/";
 }
 
-function drawBrand() {
+function drawBrandText() {
     let text = `
-     /$$                                                   /$$          
-    | $$                                                  | $$          
+     /$$                                                   /$$
+    | $$                                                  | $$
    /$$$$$$    /$$$$$$   /$$$$$$   /$$$$$$$  /$$$$$$   /$$$$$$$  /$$$$$$ 
   |_  $$_/   /$$__  $$ |____  $$ /$$_____/ /$$__  $$ /$$__  $$ /$$__  $$
     | $$    | $$$$$$$$  /$$$$$$$| $$      | $$  \\ $$| $$  | $$| $$$$$$$$
@@ -43,7 +43,7 @@ function drawBrand() {
 $(function () {
 
     try {
-        drawBrand();
+        drawBrandText();
         if($('#particles-js').length) {
             // setTimeout(() => {
             //     $('.loader-wrapper').addClass('disappear');
