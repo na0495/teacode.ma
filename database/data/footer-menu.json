@@ -6,7 +6,8 @@
     },
     {
         "title": "podcast",
-        "slug": "coming-soon"
+        "slug": "coming-soon",
+        "hidden": true
     },
     {
         "title": "events",
@@ -15,17 +16,23 @@
     },
     {
         "title": "resources",
-        "slug": "resources"
-    },
-    {
-        "title": "contributors",
-        "slug": "contributors"
+        "slug": "resources",
+        "hidden": true
     },
     {
         "title": "developer roadmaps",
         "slug": "roadmaps",
         "target": "_blank",
-        "hidden": false
+        "hidden": true
+    },
+    {
+        "title": "patreon",
+        "slug": "patreon",
+        "target": "_blank"
+    },
+    {
+        "title": "contributors",
+        "slug": "contributors"
     },
     {
         "title": "privacy",
