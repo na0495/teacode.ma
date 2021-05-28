@@ -28,7 +28,8 @@
     {
         "title": "patreon",
         "slug": "patreon",
-        "target": "_blank"
+        "target": "_blank",
+        "hidden": true
     },
     {
         "title": "contributors",
