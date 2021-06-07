@@ -23,6 +23,8 @@ mix.js('resources/js/app.js', 'public/js')
     })
     // .postCss()
 
+    .sourceMaps(true, 'source-map')
+    
     /* Tools */
     .browserSync('localhost:8000')
     .disableNotifications()
@@ -30,8 +32,8 @@ mix.js('resources/js/app.js', 'public/js')
     .options({
         processCssUrls: false
     });
-    
-    
+
+
 if (mix.inProduction()) {
     mix.version();
 }
