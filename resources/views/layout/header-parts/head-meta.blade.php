@@ -1,7 +1,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="join a moroccan developers community who can help you in your learning journey.">
+<meta name="description" content="As human beings, we love bringing value to ourselves and to others. Join us and level up your development skills in the process, or give 15 to 30 min of your time to help others who need it, a value is added in both ways.">
 <meta name="keywords" content="teacode, teacodema, javascript, php, laravel, discord, html, css, learn, programming, nodejs, web, development, programmers, developers, bugs, debug, debugging, programmer, coding, developer, bug, code, webdesign, software">
 <meta name="author" content="Driss Boumlik">
 {{-- <meta http-equiv="refresh" content="60"> --}}
@@ -19,5 +19,5 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="Main picture">
 
-<link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/square-600.ico') }}">
-<link rel="apple-touch-icon" href="{{ asset('/assets/img/teacode/square-600.ico') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
+<link rel="apple-touch-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
