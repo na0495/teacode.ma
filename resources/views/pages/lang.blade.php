@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('app')
 @section('title') TeaCode @endsection
 @section('content')
 <div class="ar fullscreen">

@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('app')
 
 @section('content')
-    @include('layouts.menu')
+    @include('layout.menu')
 
     <div class="container-fluid p-0 resources">
         @include('pages.index-parts.about')
@@ -48,5 +48,5 @@
         </section>
     </div>
 
-    @include('layouts.footer')
+    @include('layout.footer')
 @endsection

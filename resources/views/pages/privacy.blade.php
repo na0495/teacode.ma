@@ -1,7 +1,7 @@
-@extends('layout')
+@extends('app')
 
 @section('content')
-    @include('layouts.menu')
+    @include('layout.menu')
 
     <div class="container-fluid p-0 privacy-policy">
         <section class="p-md-5 my-5 py-5 px-4" id="privacy-policy">
@@ -53,5 +53,5 @@
         </section>
     </div>
 
-    @include('layouts.footer')
+    @include('layout.footer')
 @endsection

@@ -19,7 +19,7 @@
                 </p>
             </div>
 
-            @include('layouts.footer-parts.social-links')
+            @include('layout.footer-parts.social-links')
         </div>
     </div>
 </div>
