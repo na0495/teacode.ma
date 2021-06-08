@@ -1,4 +1,4 @@
-<div class="extra-data-wrapper container w-100 pt-5 pb-md-5 pb-4">
+<div class="extra-data-wrapper container w-100 py-md-5 py-4">
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
             <div class="teacode-header brand turn-trigger mb-2 d-inline-block">
