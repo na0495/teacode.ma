@@ -6,8 +6,6 @@
 <meta name="author" content="Driss Boumlik">
 {{-- <meta http-equiv="refresh" content="60"> --}}
 {{-- <meta name="robots" content="index, follow"> --}}
-@include('addons.google-analytics')
-{{-- @include('addons.google-tag-manager-head') --}}
 
 <link rel="canonical" href="https://www.teacode.ma/">
 <meta name="og:image" content="{{ asset('/assets/img/teacode/square-600.jpg') }}">

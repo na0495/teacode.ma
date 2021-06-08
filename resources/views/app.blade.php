@@ -4,6 +4,10 @@
 
         @include('addons.brand-text')
         @include('layout.header-parts.head-meta')
+
+        @include('addons.google-analytics')
+        {{-- @include('addons.google-tag-manager-head') --}}
+
         @include('layout.header-parts.assets')
         <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
