@@ -1,4 +1,4 @@
-<div class="social-icons-wrapper">
+<div class="social-icons-wrapper mt-3">
     <ul class="list-group list-group-horizontal align-items-start">
         @foreach ($data->socialLinks->teacode as $socialLink)
             <li class="list-group-item border-0 overflow-auto my-0 mx-2">
