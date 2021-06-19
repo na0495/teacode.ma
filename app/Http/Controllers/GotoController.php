@@ -10,7 +10,7 @@ class GotoController extends Controller
 
     public function gotoExternalLink(Request $request, $link)
     {
-        $links = config('properties.links');
+        $links = getLinks();
         $url = $this->home;
         if ($link && array_key_exists($link, $links)) {
             $url = $links[$link];

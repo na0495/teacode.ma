@@ -1,5 +1,45 @@
 <?php
 
+
+if (!function_exists('getLinks')) {
+    function getLinks()
+    {
+        $links = [
+            'how-to' => 'https://youtu.be/uNFwkNjNkYc',
+            'howto' => 'https://youtu.be/uNFwkNjNkYc',
+            'about' => 'https://youtu.be/uNFwkNjNkYc',
+            'discord' => 'https://discord.gg/vKu2fkPqjY',
+
+            // Activities
+            'workshops' => 'https://discord.gg/acVUjZ74PU',
+            'communication' => 'https://discord.gg/rSeFZZvjDY',
+            'communication-en' => 'https://discord.gg/rSeFZZvjDY',
+            'communication-fr' => 'https://discord.gg/rSeFZZvjDY',
+            'hangouts' => 'https://discord.gg/cC7kuBqJsy',
+            'pair-programming' => 'https://discord.gg/7d3mDvVFvs',
+            'coding-challenges' => 'https://discord.gg/7d3mDvVFvs',
+            'mock-interview' => 'https://discord.gg/F5rBCKj2ah',
+
+            // Social links
+            'facebook' => 'https://facebook.com/teacode.ma',
+            'facebook-page' => 'https://facebook.com/teacode.ma',
+            'facebook-group' => 'https://facebook.com/groups/teacode.ma',
+            'instagram' => 'https://instagram.com/teacode.ma',
+            'twitter' => 'https://twitter.com/teacodema',
+            'linkedin' => 'https://www.linkedin.com/company/teacodema',
+            'patreon' => 'https://www.patreon.com/teacodema',
+
+            // Specific links
+            'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
+            'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
+            'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
+            'events' => 'https://facebook.com/teacode.ma/events',
+            'roadmaps' => 'https://roadmap.sh'
+        ];
+        return $links;
+    }
+}
+
 if (!function_exists('getSocialLinks')) {
     function getSocialLinks()
     {
