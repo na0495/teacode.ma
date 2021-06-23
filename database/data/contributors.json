@@ -95,13 +95,23 @@
         "slug": "maryam"
     },
     {
+        "fullname": "oumaima",
+        "role": "host",
+        "slug": "oumaima"
+    },
+    {
         "fullname": "hamza",
         "role": "supporter",
         "slug": "hzmhi"
     },
     {
-        "fullname": "Salah",
+        "fullname": "salah",
         "role": "contributor",
         "slug": "salah"
+    },
+    {
+        "fullname": "ahmed",
+        "role": "contributor",
+        "slug": "ahmed"
     }
 ]
