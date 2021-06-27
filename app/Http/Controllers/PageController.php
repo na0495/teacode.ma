@@ -19,6 +19,7 @@ class PageController extends Controller
                                     ->map(function ($contributor, $key) {
                                         // $contributor->color =  getColorRole($contributor->role);
                                         $contributor->image = getContributorImage($contributor, $key);
+                                        $contributor->badge = getContributorBadge($contributor);
                                         return $contributor;
                                     })->values();
 

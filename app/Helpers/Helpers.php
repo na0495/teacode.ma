@@ -68,6 +68,22 @@ if (!function_exists('getColorRole')) {
     }
 }
 
+
+if (!function_exists('getContributorBadge')) {
+    function getContributorBadge($contributor)
+    {
+        $badges = [
+            'founder' => '☕',
+            'staff team' => '🥈',
+            'host' => '🎥',
+            'helper' => '🥉',
+            'guest' => '💠',
+            'contributor' => '🔰'
+        ];
+        return $badges[$contributor->role];
+    }
+}
+
 if (!function_exists('getContributorImage')) {
     function getContributorImage($contributor, $key)
     {

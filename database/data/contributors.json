@@ -81,12 +81,12 @@
     },
     {
         "fullname": "amine",
-        "role": "supporter",
+        "role": "guest",
         "slug": "harradi"
     },
     {
         "fullname": "larbi",
-        "role": "supporter",
+        "role": "guest",
         "slug": "gouzal"
     },
     {
@@ -100,18 +100,38 @@
         "slug": "oumaima"
     },
     {
+        "fullname": "yasser",
+        "role": "helper",
+        "slug": "takashi"
+    },
+    {
+        "fullname": "mohammed",
+        "role": "helper",
+        "slug": "escaper01"
+    },
+    {
+        "fullname": "ahmed",
+        "role": "helper",
+        "slug": "ahmedmechrir"
+    },
+    {
+        "fullname": "amine",
+        "role": "host",
+        "slug": "amine"
+    },
+    {
+        "fullname": "nawfal",
+        "role": "host",
+        "slug": "nawfal"
+    },
+    {
         "fullname": "hamza",
-        "role": "supporter",
+        "role": "helper",
         "slug": "hzmhi"
     },
     {
         "fullname": "salah",
         "role": "contributor",
         "slug": "salah"
-    },
-    {
-        "fullname": "ahmed",
-        "role": "contributor",
-        "slug": "ahmed"
     }
 ]

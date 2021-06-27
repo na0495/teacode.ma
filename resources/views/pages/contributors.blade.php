@@ -16,9 +16,12 @@
                     @foreach ($data->contributors as $contributor)
                         <div class="col-lg-2 col-md-3 col-4 mb-4">
                             <div class="contributor d-flex flex-column justify-content-center align-items-center">
-                                <div class="image mb-2">
-                                    <img class="w-100 m-auto d-block"
-                                    src="{{ $contributor->image }}" alt="" loading="lazy">
+                                <div class="feature-img mb-2">
+                                    <div class="image">
+                                        <img class="w-100 m-auto d-block"
+                                        src="{{ $contributor->image }}" alt="" title={{  $contributor->slug }} loading="lazy">
+                                    </div>
+                                    <div class="contributor-badge">{{ $contributor->badge }}</div>
                                 </div>
                                 <div class="text-data text-center">
                                     <div class="fullname text-capitalize white-space-nowrap">{{ $contributor->fullname }}</div>
