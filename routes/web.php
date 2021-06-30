@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 // 6months => max_age = 60 * 60 * 24 * 183
 Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function () {
 
+    Route::group(['prefix' => 'admin'], function () {
+        Voyager::routes();
+    });
+
     Route::get('/', 'HomeController@home');
 
     // Pages
