@@ -75,7 +75,7 @@ if (!function_exists('getContributorBadge')) {
         $badges = [
             'founder' => '☕',
             'staff team' => '🥈',
-            'host' => '🎥',
+            'host' => '📺',
             'helper' => '🥉',
             'guest' => '💠',
             'contributor' => '🔰'
