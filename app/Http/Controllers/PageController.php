@@ -12,7 +12,7 @@ class PageController extends Controller
         $data = new \stdClass;
         $data->contributors = json_decode(\File::get(base_path() . '/database/data/contributors.json'));
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Contributors';
 
         $data->contributors = collect($data->contributors)
@@ -31,7 +31,7 @@ class PageController extends Controller
         $data = new \stdClass;
         $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Resources';
         return view('pages.resources', ['data' => $data, 'title' => $title]);
     }
@@ -40,7 +40,7 @@ class PageController extends Controller
     {
         $data = new \stdClass;
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Privacy Policy';
         return view('pages.privacy', ['data' => $data, 'title' => $title]);
     }
@@ -49,7 +49,7 @@ class PageController extends Controller
     {
         $data = new \stdClass;
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Terms of Use';
         return view('pages.terms', ['data' => $data, 'title' => $title]);
     }
@@ -59,7 +59,7 @@ class PageController extends Controller
         $data = new \stdClass;
         $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Coming Soon ...';
         return view('pages.coming-soon', ['data' => $data, 'title' => $title]);
     }

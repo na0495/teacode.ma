@@ -19,7 +19,7 @@ class HomeController extends Controller
         $data = new \stdClass;
         $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
         $data->socialLinks = getSocialLinks();
-        $data->menuFooter = getFooterMenu();
+        $data->footerMenu = getFooterMenu();
         $title = 'TeaCode | Turning Tea into Code';
         return view('pages.index', ['data' => $data, 'title' => $title]);
     }
