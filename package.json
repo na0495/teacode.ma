@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.2",
-        "bootstrap": "^4.6.0",
+        "bootstrap": "^5.0.1",
         "jquery": "^3.5.1",
         "particles.js": "^2.0.0"
     }
