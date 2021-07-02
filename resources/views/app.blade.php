@@ -9,7 +9,7 @@
         {{-- @include('addons.google-tag-manager-head') --}}
 
         @include('layout.header-parts.assets')
-        <title>{{ $title ?? 'TeaCode | Turning Tea into Code' }}</title>
+        <title>{{ $data->title ?? 'TeaCode | Turning Tea into Code' }}</title>
     </head>
     <body class="antialiased {{ $mode . '-mode' }}">
         {{-- @include('addons.google-tag-manager-body') --}}
