@@ -29,6 +29,12 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/coming-soon', 'PageController@comingSoon');
 //    Route::get('/terms', 'HomeController@terms');
 
+    // Blog
+    Route::get('/category/{category}', 'PostController@getPostsByCategory');
+    Route::get('/tags/{tag}', 'PostController@getPostsByTag');
+    Route::get('blog', 'PostController@index');
+    Route::get('blog/{slug}', 'PostController@show');
+
     // SiteMap
     Route::get('/sitemap', 'SitemapController@sitemap');
     Route::get('/generateSitemap', 'SitemapController@generateSitemap');

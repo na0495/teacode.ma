@@ -2,10 +2,39 @@ body.dark-mode // background-color: $tc-blue-dark-3
     background-color: rgba($tc-blue-dark-3, 1)
     *
         color: $tc-white
-    
+
+    .posts
+        border-top: 1px solid $tc-blue
+        background-color: $tc-blue-dark-4
+
+    .pagination-wrapper
+        display: flex
+        .page-item
+            &.disabled .page-link
+                color: $tc-grey
+            &.active .page-link
+                color: $tc-white
+                // border-color: $tc-white
+                // background-color: $tc-blue
+            .page-link
+                background-color: $tc-blue-dark-4
+                &:hover
+                    color: $tc-blue
+
+    .post
+        .post-title h2, .btn-read-more a
+            color: $tc-grey-light
+    .post-form
+        background-color: $tc-blue-dark-3
+        .post-body-wrapper
+            svg
+                color: $tc-white
+            *
+                color: $tc-black-almost
+
     .page
         background-color: $tc-blue-dark-3
-        
+
     .resources
         background-color: $tc-blue-dark-3
         border-top: $tc-blue-dark-3 solid 1px
@@ -52,4 +81,3 @@ body.dark-mode // background-color: $tc-blue-dark-3
                 background-color: $tc-grey-light
                 i
                     color: $tc-blue-dark-2
-                
