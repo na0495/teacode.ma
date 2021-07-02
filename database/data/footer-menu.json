@@ -32,6 +32,10 @@
         "hidden": true
     },
     {
+        "title": "blog",
+        "slug": "blog"
+    },
+    {
         "title": "contributors",
         "slug": "contributors"
     },
