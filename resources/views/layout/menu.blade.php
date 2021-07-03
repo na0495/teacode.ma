@@ -9,13 +9,13 @@
                         <img src="{{ asset('/assets/img/teacode/teacode_circle_bordred_200.png') }}" width="30" height="30"
                         class="logo turn img-fluid rounded-circle square-35" alt="Logo">
                     </div>
-                    <h4 class="brand-txt ml-2 d-inline-block ">TeaCode</h4>
+                    <h4 class="brand-txt ms-2 d-inline-block ">TeaCode</h4>
                 </a>
             </div>
             <nav class="nav d-flex justify-content-center">
                 <a class="menu-item p-2 text-dark text-capitalize" rel="noopener"
                 href="/discord" target="_blank">
-                    <span class="mr-1">join us</span>
+                    <span class="me-1">join us</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
                 {{-- <a class="p-2 text-dark text-capitalize" href="/privacy">Privacy</a> --}}

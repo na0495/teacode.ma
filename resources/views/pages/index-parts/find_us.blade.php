@@ -10,7 +10,7 @@
                                     <a href="{{ $socialLink->link }}" target="_blank" class="text-decoration-none">
                                         <img src="{{ asset($socialLink->img) }}" alt="" class="overflow-hidden square-30">
                                         {{-- <span class="social-icon">{!! $socialLink->icon !!}</span> --}}
-                                        {{-- <span class="ml-2 text-capitalize">{{ $socialLink->title }}</span> --}}
+                                        {{-- <span class="ms-2 text-capitalize">{{ $socialLink->title }}</span> --}}
                                     </a>
                                 </li>
                             @endforeach

@@ -7,7 +7,7 @@
                     {{-- <h2 class="brand-txt mb-2">TeaCode</h2> --}}
                     <h3 class="brand-slogan tc-black-almost">Turning <span>Tea</span> into <span>Code</span></h3>
                     {{-- <img src="{{ asset('/assets/img/teacode/teacode.png') }}"
-                    class="img-fluid rounded-circle square-75 ml-2" alt=""> --}}
+                    class="img-fluid rounded-circle square-75 ms-2" alt=""> --}}
                 </div>
             </div>
             <div class="row">
@@ -31,11 +31,11 @@
                         <ul class="list-group list-group-horizontal align-items-start">
                             @foreach ($data->find_us as $socialLink)
                                 <li class="list-group-item border-0 overflow-auto">
-                                    <span class="link-wrapper d-inline-block ml-3">
+                                    <span class="link-wrapper d-inline-block ms-3">
                                         <a href="{{ $socialLink->link }}" target="_blank" class="text-decoration-none" style="color: {!! $socialLink->color !!}">
                                             {{-- <img src="{{ asset($socialLink->icon) }}" alt="" class="rounded-circle overflow-hidden square-40"> --}}
                                             {{-- {!! $socialLink->icon !!} --}}
-                                            {{-- <span class="ml-1 text-capitalize">{{ $socialLink->title }}</span>
+                                            {{-- <span class="ms-1 text-capitalize">{{ $socialLink->title }}</span>
                                         </a>
                                     </span>
                                 </li>

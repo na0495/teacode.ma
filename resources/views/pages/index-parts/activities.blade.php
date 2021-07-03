@@ -13,7 +13,7 @@
                                 <div class="activity-body description tc-black-almost">
                                     {!! $activity->description->text !!}
                                     @if (isset($activity->description->list))
-                                        <{!! $activity->description->listType ?? 'ul' !!} class="pl-4 m-0">
+                                        <{!! $activity->description->listType ?? 'ul' !!} class="ps-4 m-0">
                                         @foreach ($activity->description->list as $listItem)
                                         <li class="capitalize-first-letter">{!! $listItem !!}</li>
                                         @endforeach
@@ -22,7 +22,7 @@
                                     <div class="capitalize-first-letter btn-join-us">
                                         <a href='/{{ $activity->slug }}' target='_blank'>
                                             <span class='d-inline-block capitalize-first-letter'>
-                                                <span class='mr-1'>click to join</span>
+                                                <span class='me-1'>click to join</span>
                                                 <i class='fas fa-chevron-right'></i>
                                             </span>
                                         </a>
