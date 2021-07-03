@@ -14,6 +14,7 @@
     <body class="antialiased {{ $mode . '-mode' }}">
         {{-- @include('addons.google-tag-manager-body') --}}
         <div class="wrapper">
+                @include('addons.banner')
                 @yield('content')
         </div>
         {{-- @include('addons.loader') --}}

@@ -51,6 +51,10 @@ $(function () {
             particlesJS.load('particles-js', '/plugins/particles/particles.min.json');
         }
 
+        $('.banner-close').on('click', function (){
+            $('.banner').remove();
+        });
+
         $(document).on('click', '.toggle-dark-mode', function () {
             let _this = $(this);
             let _isActive = !_body.hasClass('dark-mode');
