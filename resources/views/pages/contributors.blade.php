@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
-                        <h2 class="text-center mb-5">Contributors</h2>
+                        <h2 class="text-center tc-blue-dark-1 mb-5">Contributors</h2>
                     </div>
                 </div>
                 <div class="row mt-3 mb-5 justify-content-center">
@@ -21,7 +21,7 @@
                                         <img class="w-100 m-auto d-block"
                                         src="{{ $contributor->image }}" alt="" title={{  $contributor->slug }} loading="lazy">
                                     </div>
-                                    <div class="contributor-badge">{{ $contributor->badge }}</div>
+                                    {{-- <div class="contributor-badge">{{ $contributor->badge }}</div> --}}
                                 </div>
                                 <div class="text-data text-center">
                                     <div class="fullname text-capitalize white-space-nowrap">{{ $contributor->fullname }}</div>
