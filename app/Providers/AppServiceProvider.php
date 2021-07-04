@@ -32,7 +32,15 @@ class AppServiceProvider extends ServiceProvider
             if ($mode != 'dark' && $mode != 'light') {
                 $mode = 'light';
             }
-            $view->with('mode', $mode);
+            if (!$view->data) {
+                $view->data = new \stdClass;
+            }
+            $view->data->banner = json_decode(\File::get(base_path() . '/database/data/banner.json'));
+            $x = $view->data->banner;
+
+            $view->data->socialLinks = getSocialLinks();
+            $view->data->footerMenu = getFooterMenu();
+            $view->with(['mode' => $mode]);
         });
 
         Paginator::useBootstrap();
