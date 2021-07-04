@@ -7,7 +7,7 @@
                     <a href="https://www.facebook.com/events/756671968335663"
                         target="_blank" class="link-decorated">Introduction to Laravel</a>
                 </span>
-                <span>(July 8, 2021 | 9PM +1)</span>
+                <span class="meta-data">(July 8, 2021 | 9PM +1)</span>
             </p>
         </div>
     </div>
