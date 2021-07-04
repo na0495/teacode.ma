@@ -42,7 +42,9 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // External
     Route::get('/{link}', 'GotoController@gotoExternalLink');
 
-    Route::post('/banner/update', 'ApiController@updateBanner');
+    Route::group(['prefix' => 'api'], function () {
+        Route::post('/banner/update', 'ApiController@updateBanner');
+    });
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
 });
