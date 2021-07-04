@@ -42,8 +42,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // External
     Route::get('/{link}', 'GotoController@gotoExternalLink');
 
-//    Route::redirect('/blog', 'https://blog.teacode.ma/');
-//    Route::redirect('/resume', 'https://resume.teacode.ma/');
+    Route::post('/banner/update', 'ApiController@updateBanner');
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
 });

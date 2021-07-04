@@ -7,5 +7,15 @@ use Illuminate\Http\Request;
 
 class ApiController extends Controller
 {
-    
+    public function updateBanner(Request $request)
+    {
+        try {
+            $data = $request->all();
+            \File::put(base_path() . '/database/data/banner.json', json_encode($data));
+            return 'OK';
+        } catch (\Throwable $th) {
+            \File::put(base_path() . '/database/data/banner.json', null);
+            return 'NOK';
+        }
+    }
 }
