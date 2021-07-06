@@ -8,7 +8,6 @@
                         rel="noopener" aria-label="Banner Title"
                         target="_blank" class="link-decorated">{{ $data->banner->title }}</a>
                 </span>
-                <span class="meta-data">{{ $data->banner->date }}</span>
             </p>
         </div>
     </div>
