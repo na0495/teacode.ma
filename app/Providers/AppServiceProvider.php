@@ -36,7 +36,6 @@ class AppServiceProvider extends ServiceProvider
                 $view->data = new \stdClass;
             }
             $view->data->banner = json_decode(\File::get(base_path() . '/database/data/banner.json'));
-            $x = $view->data->banner;
 
             $view->data->socialLinks = getSocialLinks();
             $view->data->footerMenu = getFooterMenu();

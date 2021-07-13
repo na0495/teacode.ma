@@ -1,4 +1,4 @@
-<div class="extra-data-wrapper container w-100 py-md-5 py-4">
+<div class="footer-part extra-data-wrapper container w-100 py-4">
     <div class="row">
         <div class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-3">
             <div class="teacode-header brand turn-trigger mb-2 d-inline-block">
@@ -13,9 +13,9 @@
             </div>
             <div class="text-body">
                 <p>
-                    As human beings, we love bringing value to ourselves and to others.
-                    Join us and level up your development skills in the process,
-                    or give 15 to 30 min of your time to help others who need it, a value is added in both ways.
+                    Whether you are learning to code, thinking about it,
+                    looking for a job in software development,
+                    Join a moroccan developers community who can help you in your learning journey.
                 </p>
             </div>
 

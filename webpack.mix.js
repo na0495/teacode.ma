@@ -16,15 +16,15 @@ require('laravel-mix-purgecss');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/externals.sass', 'public/css')
     .sass('resources/sass/app.sass', 'public/css')
-    // .purgeCss({
-    //     extend: {
-    //         content: [path.join(__dirname, 'database/data/**/*.json')],
-    //     },
-    // })
+    .purgeCss({
+        extend: {
+            content: [path.join(__dirname, 'database/data/**/*.json')],
+        },
+    })
     // .postCss()
 
     .sourceMaps(true, 'source-map')
-    
+
     /* Tools */
     .browserSync('localhost:8000')
     .disableNotifications()

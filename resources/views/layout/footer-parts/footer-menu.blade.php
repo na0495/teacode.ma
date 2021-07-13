@@ -1,4 +1,4 @@
-<div class="footer-menu-wrapper container w-100 py-3">
+<div class="footer-part footer-menu-wrapper container w-100">
     <div class="row">
         <div class="col-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
             <div>
