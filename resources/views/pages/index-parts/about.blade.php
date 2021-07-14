@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-11 col-md-8 offset-md-2">
+                <div class="col-11 col-md-12 col-lg-8 offset-lg-2">
                     <div class="welcome-message">
                         <div class="welcome-message-wrapper tc-black-almost">
                             {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
