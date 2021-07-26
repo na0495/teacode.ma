@@ -3,9 +3,9 @@
 @section('content')
     @include('layout.menu')
 
-    <div class="container-fluid p-0 resources">
+    <div class="container-fluid p-0">
         @include('pages.index-parts.about')
-        <section class="p-md-5 py-5 px-4 page" id="resources">
+        <section class="p-md-5 py-5 px-4 page resources" id="resources">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
