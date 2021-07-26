@@ -15,11 +15,6 @@
         "target": "_blank"
     },
     {
-        "title": "resources",
-        "slug": "resources",
-        "hidden": true
-    },
-    {
         "title": "developer roadmaps",
         "slug": "roadmaps",
         "target": "_blank",
@@ -33,11 +28,16 @@
     },
     {
         "title": "blog",
-        "slug": "blog"
+        "slug": "blog",
+        "hidden": true
     },
     {
         "title": "contributors",
         "slug": "contributors"
+    },
+    {
+        "title": "resources",
+        "slug": "resources"
     },
     {
         "title": "privacy",
