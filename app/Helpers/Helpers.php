@@ -11,14 +11,15 @@ if (!function_exists('getLinks')) {
             'discord' => 'https://discord.gg/vKu2fkPqjY',
 
             // Activities
-            'workshops' => 'https://discord.gg/acVUjZ74PU',
-            'communication' => 'https://discord.gg/rSeFZZvjDY',
-            'communication-en' => 'https://discord.gg/rSeFZZvjDY',
-            'communication-fr' => 'https://discord.gg/rSeFZZvjDY',
-            'hangouts' => 'https://discord.gg/cC7kuBqJsy',
-            'pair-programming' => 'https://discord.gg/7d3mDvVFvs',
-            'coding-challenges' => 'https://discord.gg/7d3mDvVFvs',
-            'mock-interview' => 'https://discord.gg/F5rBCKj2ah',
+            'workshops' => 'https://discord.gg/vKu2fkPqjY',
+            'communication' => 'https://discord.gg/vKu2fkPqjY',
+            'communication-en' => 'https://discord.gg/vKu2fkPqjY',
+            'communication-fr' => 'https://discord.gg/vKu2fkPqjY',
+            'hangouts' => 'https://discord.gg/vKu2fkPqjY',
+            'pair-programming' => 'https://discord.gg/vKu2fkPqjY',
+            'coding-challenges' => 'https://discord.gg/vKu2fkPqjY',
+            'mock-interview' => 'https://discord.gg/vKu2fkPqjY',
+            'bot-project' => 'https://teacodema.notion.site/24eed2b9e3b04433b7275d7ad406581e',
 
             // Social links
             'facebook' => 'https://facebook.com/teacode.ma',
@@ -26,7 +27,7 @@ if (!function_exists('getLinks')) {
             'facebook-group' => 'https://facebook.com/groups/teacode.ma',
             'instagram' => 'https://instagram.com/teacode.ma',
             'twitter' => 'https://twitter.com/teacodema',
-            'linkedin' => 'https://www.linkedin.com/company/teacodema',
+            'linkedin' => 'https://www.linkedin.com/company/teacode.ma',
             'patreon' => 'https://www.patreon.com/teacodema',
 
             // Specific links
