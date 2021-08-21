@@ -60,11 +60,6 @@
         "slug": "khalidtamine"
     },
     {
-        "fullname": "anas",
-        "role": "helper",
-        "slug": "alesley"
-    },
-    {
         "fullname": "hatim",
         "role": "helper",
         "slug": "hatim"
@@ -93,6 +88,11 @@
         "fullname": "maryam",
         "role": "host",
         "slug": "maryam"
+    },
+    {
+        "fullname": "oumaima",
+        "role": "contributor",
+        "slug": "oumaima"
     },
     {
         "fullname": "yasser",
