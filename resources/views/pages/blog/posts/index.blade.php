@@ -6,7 +6,7 @@
     @include('layout.menu')
     <div class="container-fluid p-0">
         @include('pages.index-parts.about')
-        <div class="posts">
+        <div class="posts page">
             <div class="section py-5">
                 <div class="container">
 {{--                    <div class="row section-header d-none">--}}
