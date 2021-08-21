@@ -29,9 +29,11 @@ if (!function_exists('getLinks')) {
             'twitter' => 'https://twitter.com/teacodema',
             'linkedin' => 'https://www.linkedin.com/company/teacode.ma',
             'patreon' => 'https://www.patreon.com/teacodema',
+            'github' => 'https://www.github.com/teacodema',
 
             // Specific links
             'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
+            // 'email' => 'mailto:info@spatie.be?subject=A%20good%20match%21&body=Tell%20us%20as%20much%20as%20you%20can%20about%0A-%20your%20online%20project%0A-%20your%20planning%0A-%20your%20budget%0A-%20%E2%80%A6%0A%0AAnything%20that%20helps%20us%20to%20start%20straightforward%21',
             'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
             'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
             'events' => 'https://facebook.com/teacode.ma/events',
