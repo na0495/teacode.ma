@@ -4,7 +4,7 @@
             <p>
                 Next Event :
                 <span class="title">
-                    <a href="https://www.facebook.com/events/756671968335663"
+                    <a href="{{ $data->banner->link }}"
                         rel="noopener" aria-label="Banner Title"
                         target="_blank" class="link-decorated">{{ $data->banner->title }}</a>
                 </span>
