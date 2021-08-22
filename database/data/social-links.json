@@ -43,6 +43,12 @@
             "color": "#EE6551"
         },
         {
+            "icon": "<i class='fab fa-paypal'></i>",
+            "link": "paypal",
+            "title": "paypal",
+            "color": "#EE6551"
+        },
+        {
             "icon": "<i class='fab fa-patreon'></i>",
             "link": "patreon",
             "title": "patreon",

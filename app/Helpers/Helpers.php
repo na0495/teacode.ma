@@ -28,8 +28,9 @@ if (!function_exists('getLinks')) {
             'instagram' => 'https://instagram.com/teacode.ma',
             'twitter' => 'https://twitter.com/teacodema',
             'linkedin' => 'https://www.linkedin.com/company/teacode.ma',
-            'patreon' => 'https://www.patreon.com/teacodema',
             'github' => 'https://www.github.com/teacodema',
+            'patreon' => 'https://www.patreon.com/teacodema',
+            'paypal' => 'https://www.paypal.me/drissboumlik',
 
             // Specific links
             'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
