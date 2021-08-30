@@ -19,6 +19,10 @@ if (!function_exists('getLinks')) {
             'pair-programming' => 'https://discord.gg/vKu2fkPqjY',
             'coding-challenges' => 'https://discord.gg/vKu2fkPqjY',
             'mock-interview' => 'https://discord.gg/vKu2fkPqjY',
+
+            // Bot Project
+            'teabot' => 'https://replit.com/@drissboumlik/teabot',
+            'teabottest' => 'https://replit.com/@drissboumlik/TeaBotTest',
             'bot-project' => 'https://teacodema.notion.site/24eed2b9e3b04433b7275d7ad406581e',
 
             // Social links
