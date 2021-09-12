@@ -32,6 +32,13 @@ class PageController extends Controller
         return view('pages.resources', ['data' => $data]);
     }
 
+    public function rules(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Rules';
+        return view('pages.rules', ['data' => $data]);
+    }
+
     public function privacy(Request $request)
     {
         $data = new \stdClass;

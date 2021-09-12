@@ -37,7 +37,12 @@
     },
     {
         "title": "resources",
-        "slug": "resources"
+        "slug": "resources",
+        "hidden": true
+    },
+    {
+        "title": "rules",
+        "slug": "rules"
     },
     {
         "title": "privacy",
