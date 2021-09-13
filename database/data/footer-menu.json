@@ -45,6 +45,10 @@
         "slug": "rules"
     },
     {
+        "title": "FAQ",
+        "slug": "faq"
+    },
+    {
         "title": "privacy",
         "slug": "privacy",
         "hidden": true
