@@ -11,15 +11,12 @@
                         <h1 class="text-center mb-5">Frequently Asked Questions (FAQs)</h1>
                     </div>
                 </div>
-                @include('pages.faq.how-to-use')
-                <hr class="separator">
-                @include('pages.faq.post-code')
-                <hr class="separator">
-                @include('pages.faq.how-to-benefit')
-                <hr class="separator">
-                @include('pages.faq.how-to-help')
-                <hr class="separator">
-                @include('pages.faq.how-to-ask-for-help')
+                @foreach (getFaqSections() as $key => $faqSection)
+                    @if ($key)
+                        <hr class="separator">
+                    @endif
+                    @include('pages.faq.' . $faqSection)
+                @endforeach
             </div>
         </section>
     </div>
