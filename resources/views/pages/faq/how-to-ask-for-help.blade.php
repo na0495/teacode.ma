@@ -1,7 +1,7 @@
 <div class="row my-3" id="how-to-ask-for-help">
     <div class="col-lg-10 offset-lg-1 col-12">
         <div class="faq-section">
-            <p class="mb-3 faq-question">How to Ask for Help ?</p>
+            <p class="mb-3 faq-question">{{ $index + 1 }} - How to Ask for Help ?</p>
             <blockquote>
                 <ol>
                     <li> Do not contact members by private message, the questions you have and the answers given can benefit everyone and you will be more likely to have a quick answer.</li>

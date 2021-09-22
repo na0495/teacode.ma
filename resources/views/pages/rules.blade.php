@@ -17,7 +17,7 @@
                         Any violations of the code of conduct may result in a kick or temporary ban at the moderators discretion.</p>
                         <blockquote>
                             <ol>
-                                <li> Follow the Discord Community Guidelines (<a href="https://discord.com/guidelines">https://discord.com/guidelines</a>).</li>
+                                <li> Follow the Discord Community Guidelines (<a href="https://discord.com/guidelines" target="_blank">https://discord.com/guidelines</a>).</li>
                                 <li> Be kind, Be respectful, Be considerate, think about how your contribution will affect others in the community.</li>
                                 <li> Treat everyone with respect. Absolutely no harassment, sexism, racism, or hate speech will be tolerated.</li>
                                 <li> No spam or self-promotion (server invites, advertisements, etc) without permission from a <strong class="tc-red">@Moderators</strong>. This includes DMing fellow members.</li>

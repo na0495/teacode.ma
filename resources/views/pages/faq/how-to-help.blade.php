@@ -1,7 +1,7 @@
 <div class="row my-3" id="how-to-help">
     <div class="col-lg-10 offset-lg-1 col-12">
         <div class="faq-section">
-            <p class="mb-3 faq-question">How to Help ?</p>
+            <p class="mb-3 faq-question">{{ $index + 1 }} - How to Help ?</p>
             <blockquote>
                 <ol>
                     <li> If someone contacts you by private message, tell them to post their question inside the group so everyone can benefit.</li>

@@ -12,10 +12,7 @@
                     </div>
                 </div>
                 @foreach (getFaqSections() as $key => $faqSection)
-                    @if ($key)
-                        <hr class="separator">
-                    @endif
-                    @include('pages.faq.' . $faqSection)
+                    @include('pages.faq.' . $faqSection, ['index' => $key])
                 @endforeach
             </div>
         </section>

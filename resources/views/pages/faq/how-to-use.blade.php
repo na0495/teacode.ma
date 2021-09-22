@@ -1,7 +1,7 @@
 <div class="row my-3">
     <div class="col-lg-10 offset-lg-1 col-12">
         <div class="faq-section">
-            <p class="mb-3 faq-question">How to use the server ?</p>
+            <p class="mb-3 faq-question">{{ $index + 1 }} - How to use the server ?</p>
             <blockquote>
                 <ul>
                     <li>Updates are posted on <span class="text-decoration-underline">#announcements</span></li>
