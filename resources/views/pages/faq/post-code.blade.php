@@ -8,7 +8,7 @@
                     <code class="py-4 ps-4 d-block">
                         <pre class="m-0">```py<br/><br/><span class="ms-3">// python code</span><br/><br/>```</pre>
                     </code>
-                    <p>You can find more informations on message formatting
+                    <p class="mb-2">You can find more informations on message formatting
                         <a href="https://support.discord.com/hc/en-us/articles/210298617-Bases-de-la-mise-en-forme-de-texte-Markdown-mise-en-forme-du-chat-gras-italique-soulign%C3%A9-">here</a></p>
                     <img src="https://cdn.discordapp.com/attachments/805147852237570078/828265039621914754/markdown_code.gif"
                     class="w-100" alt="">

@@ -4,14 +4,14 @@
             <p class="mb-3 faq-question">How to use the server ?</p>
             <blockquote>
                 <ul>
-                    <li>Updates are posted on <strong>#announcements</strong></li>
-                    <li>You can get your role(s) by voting here <strong>#get-roles</strong></li>
-                    <li>You can introduce yourself briefly here <strong>#introduce-yourself</strong></li>
-                    <li>Ask help in <strong>#Help › Text</strong></li>
-                    <li>If your asking about non-It stuff use <strong>#general-help</strong></li>
-                    <li><strong>#Hangout</strong> is used for general Hangouts, Communication & Mock Interview</li>
-                    <li><strong>#Streaming</strong> is used for Streaming, Live Coding & Coding Challenges</li>
-                    <li><strong>#Stage</strong> is used for main Voice Only Events</li>
+                    <li>Updates are posted on <span class="text-decoration-underline">#announcements</span></li>
+                    <li>You can get your role(s) by voting here <span class="text-decoration-underline">#get-roles</span></li>
+                    <li>You can introduce yourself briefly here <span class="text-decoration-underline">#introduce-yourself</span></li>
+                    <li>Ask help in <span class="text-decoration-underline">#Help › Text</span></li>
+                    <li>If your asking about non-It stuff use <span class="text-decoration-underline">#general-help</span></li>
+                    <li><span class="text-decoration-underline">#Hangout</span> is used for general Hangouts, Communication & Mock Interview</li>
+                    <li><span class="text-decoration-underline">#Streaming</span> is used for Streaming, Live Coding & Coding Challenges</li>
+                    <li><span class="text-decoration-underline">#Stage</span> is used for main Voice Only Events</li>
                 </ul>
                 <p><i class="fas fa-info-circle"></i> Check <strong>#planning</strong> for any events</p>
                 <p><i class="fas fa-exclamation-triangle"></i> Events/Workshops are <strong>recorded</strong> 🔴 and <strong>published</strong> on youtube</p>
