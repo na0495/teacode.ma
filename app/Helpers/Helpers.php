@@ -1,6 +1,36 @@
 <?php
 
 
+if (!function_exists('getFaqSections')) {
+    function getFaqSections()
+    {
+        $sections = [
+            'how-to-use',
+            'post-code',
+            'how-to-benefit',
+            'how-to-help',
+            'how-to-ask-for-help',
+        ];
+        return $sections;
+    }
+}
+
+if (!function_exists('getPages')) {
+    function getPages()
+    {
+        $links = [
+            'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
+            'events' => 'https://facebook.com/teacode.ma/events',
+            'contributors' => 'contributors',
+            'resources' => 'resources',
+            'rules' => 'rules',
+            'faq' => 'faq',
+            'privacy' => 'privacy',
+            'coming-soon' => 'comingSoon',
+        ];
+    }
+}
+
 if (!function_exists('getLinks')) {
     function getLinks()
     {
@@ -9,6 +39,7 @@ if (!function_exists('getLinks')) {
             'howto' => 'https://youtu.be/uNFwkNjNkYc',
             'about' => 'https://youtu.be/uNFwkNjNkYc',
             'discord' => 'https://discord.gg/vKu2fkPqjY',
+            'join' => 'https://discord.gg/vKu2fkPqjY',
 
             // Activities
             'workshops' => 'https://discord.gg/vKu2fkPqjY',
