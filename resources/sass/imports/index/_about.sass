@@ -19,6 +19,7 @@
     font-family: Untitled-Sans
     font-size: 3rem
     font-weight: bold
+    color: $tc-black-almost
     @media (max-width: 767px)
         font-size: 2rem
         text-align: left
@@ -36,8 +37,15 @@
         transition: transform .3s ease
         &:hover
             color: $tc-white
-            transform: scale(1.1)
+            transform: scale(1.05)
 
+    .btn-actions
+        display: flex
+        justify-content: center
+        *
+            color: $tc-white
+        @media (max-width: 767px)
+            justify-content: start
 .link-wrapper
     a
         display: flex

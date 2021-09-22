@@ -5,7 +5,7 @@
             <div class="row justify-content-center align-items-center mb-3">
                 <div class="col-12">
                     {{-- <h2 class="brand-txt mb-2">TeaCode</h2> --}}
-                    <h3 class="brand-slogan tc-black-almost">Turning <span>Tea</span> into <span>Code</span></h3>
+                    <h3 class="brand-slogan">Turning <span>Tea</span> into <span>Code</span></h3>
                     {{-- <img src="{{ asset('/assets/img/teacode/teacode.png') }}"
                     class="img-fluid rounded-circle square-75 ms-2" alt=""> --}}
                 </div>
@@ -24,9 +24,17 @@
                                 <div class="capitalize-first-letter">join a moroccan developers community who can help you in your learning journey.</div> --}}
                             </div>
                         </div>
-                        <div class="btn-action mt-3">
-                            <a href="/discord" target="_blank" rel="noopener"
-                            class="btn-join-us btn tc-blue-bg text-capitalize px-3 pt-2">Join us</a>
+                        <div class="btn-actions mt-3">
+                            <div class="btn-action me-2">
+                                <a href="/discord" target="_blank" rel="noopener"
+                                class="btn-join-us btn tc-blue-bg text-capitalize px-3 pt-2">
+                                <i class="fab fa-discord"></i><span class="ms-2">Join us</span></a>
+                            </div>
+                            <div class="btn-action">
+                                <a href="/howto" target="_blank" rel="noopener"
+                                class="btn-join-us btn tc-blue-dark-2-bg text-capitalize px-3 pt-2">
+                                <i class="fab fa-youtube"></i><span class="ms-2">How To</span></a>
+                            </div>
                         </div>
                     </div>
                     {{-- <div class="find-us-wrapper mt-5 d-none">
