@@ -6,6 +6,25 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
+    private $gotoController;
+    public function __construct(GotoController $gotoController) {
+        $this->gotoController = $gotoController;
+    }
+
+    public function getPage(Request $request, $page)
+    {
+        return $this->$page($request, $page);
+    }
+
+    public function videos(Request $request, $page)
+    {
+        return $this->gotoController->gotoExternalLink($request, $page);
+    }
+
+    public function events(Request $request, $page)
+    {
+        return $this->gotoController->gotoExternalLink($request, $page);
+    }
 
     public function contributors(Request $request)
     {

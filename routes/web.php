@@ -23,12 +23,13 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/', 'HomeController@home');
 
     // Pages
-    Route::get('/contributors', 'PageController@contributors');
-    Route::get('/resources', 'PageController@resources');
-    Route::get('/rules', 'PageController@rules');
-    Route::get('/faq', 'PageController@faq');
-    Route::get('/privacy', 'PageController@privacy');
-    Route::get('/coming-soon', 'PageController@comingSoon');
+    Route::get('/pages/{page}', 'PageController@getPage');
+    // Route::get('/contributors', 'PageController@contributors');
+    // Route::get('/resources', 'PageController@resources');
+    // Route::get('/rules', 'PageController@rules');
+    // Route::get('/faq', 'PageController@faq');
+    // Route::get('/privacy', 'PageController@privacy');
+    // Route::get('/coming-soon', 'PageController@comingSoon');
 //    Route::get('/terms', 'HomeController@terms');
 
     // Blog
