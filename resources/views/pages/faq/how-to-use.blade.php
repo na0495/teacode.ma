@@ -8,7 +8,7 @@
                     <li>You can get your role(s) by voting here <span class="text-decoration-underline">#get-roles</span></li>
                     <li>You can introduce yourself briefly here <span class="text-decoration-underline">#introduce-yourself</span></li>
                     <li>Ask help in <span class="text-decoration-underline">#Help › Text</span></li>
-                    <li>If your asking about non-It stuff use <span class="text-decoration-underline">#general-help</span></li>
+                    <li>If your asking about non-IT stuff use <span class="text-decoration-underline">#general-help</span></li>
                     <li><span class="text-decoration-underline">#Hangout</span> is used for general Hangouts, Communication & Mock Interview</li>
                     <li><span class="text-decoration-underline">#Streaming</span> is used for Streaming, Live Coding & Coding Challenges</li>
                     <li><span class="text-decoration-underline">#Stage</span> is used for main Voice Only Events</li>

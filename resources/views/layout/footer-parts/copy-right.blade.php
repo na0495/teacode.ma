@@ -13,23 +13,9 @@
                 <span class="heart-icon"><i class="fas fa-heart"></i></span>
                 by
                 <span class="bold">
-                    <a class="link-undecorated" href="https://linkedin.com/in/drissboumlik" target="_blank" rel="noopener">Driss Boumlik</a>
+                    <a class="link-undecorated tc-white" href="https://linkedin.com/in/drissboumlik" target="_blank" rel="noopener">Driss Boumlik</a>
                 </span>
             </p>
-
-            <div class="social-icons-wrapper d-none">
-                <ul class="list-group list-group-horizontal align-items-start">
-                    @foreach ($data->socialLinks->mine as $socialLink)
-                        <li class="list-group-item border-0 overflow-auto my-0 mx-2">
-                            <a href="{{ $socialLink->link }}" target="_blank" rel="noopener"
-                                aria-label="{{ $socialLink->title }}"
-                                class="text-decoration-none">
-                                <span class="social-icon">{!! $socialLink->icon !!}</span>
-                            </a>
-                        </li>
-                    @endforeach
-                </ul>
-            </div>
         </div>
     </div>
 </div>
