@@ -6,10 +6,10 @@ if (!function_exists('getFaqSections')) {
     {
         $sections = [
             'how-to-use',
-            'post-code',
             'how-to-benefit',
-            'how-to-help',
             'how-to-ask-for-help',
+            'how-to-help',
+            'post-code',
         ];
         return $sections;
     }
