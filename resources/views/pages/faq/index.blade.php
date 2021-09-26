@@ -4,7 +4,7 @@
     @include('layout.menu')
 
     <div class="container-fluid p-0 faq">
-        <section class="p-md-5 mt-5 py-5 px-4" id="faq">
+        <section class="p-md-5 mt-5 py-5" id="faq">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-12">
