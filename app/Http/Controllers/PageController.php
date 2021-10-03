@@ -86,4 +86,9 @@ class PageController extends Controller
         $data->title = 'TeaCode | Coming Soon ...';
         return view('pages.coming-soon', ['data' => $data]);
     }
+
+    public function feedback(Request $request)
+    {
+        return view('pages.feedback');
+    }
 }

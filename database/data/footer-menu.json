@@ -52,6 +52,11 @@
         "title": "privacy",
         "slug": "privacy",
         "hidden": true
+    },
+    {
+        "title": "feedback",
+        "slug": "feedback",
+        "hidden": false
     }
 
 ]
