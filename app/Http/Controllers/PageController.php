@@ -13,7 +13,11 @@ class PageController extends Controller
 
     public function getPage(Request $request, $page)
     {
-        return $this->$page($request, $page);
+        try {
+            return $this->$page($request, $page);
+        } catch (\Throwable $th) {
+            return redirect('/');
+        }
     }
 
     public function videos(Request $request, $page)
