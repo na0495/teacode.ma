@@ -17,7 +17,7 @@
                             {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
                             <div class="txt">
                                 As human beings, we love bringing value to ourselves and to others.
-                                Join us and level up your development skills in the process,
+                                Join us and level up your programming skills in the process,
                                 or give 15 to 30 min of your time to help others who need it, a value is added in both ways.
                                 {{-- <div class="capitalize-first-letter">whether you are learning to code, thinking about it,
                                     looking for an internship or looking for a job in software development,</div>
