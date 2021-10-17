@@ -20,6 +20,7 @@
                     <li> You should chat using <span class="text-decoration-underline">#help-chat</span> when you are connected to the <span class="text-decoration-underline">#Help › Voice</span>.</li>
                     <li> Please, feel free to share the solution in case you found on your own.</li>
                     <li> Do Not Ask for help in exchange for money or Ask for money in exchange for help.</li>
+                    <li> <a href="https://dontasktoask.com/" target="_blank">https://dontasktoask.com/</a></li>
                 </ol>
             </blockquote>
         </div>
