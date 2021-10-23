@@ -47,26 +47,29 @@ class PageController extends Controller
         return view('pages.contributors', ['data' => $data]);
     }
 
-    public function resources(Request $request)
+    public function resources(Request $request, $page)
     {
-        $data = new \stdClass;
-        $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
-        $data->title = 'TeaCode | Resources';
-        return view('pages.resources', ['data' => $data]);
+        // $data = new \stdClass;
+        // $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
+        // $data->title = 'TeaCode | Resources';
+        // return view('pages.resources', ['data' => $data]);
+        return $this->gotoController->gotoExternalLink($request, $page);
     }
 
-    public function rules(Request $request)
+    public function rules(Request $request, $page)
     {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | Rules';
-        return view('pages.rules', ['data' => $data]);
+        // $data = new \stdClass;
+        // $data->title = 'TeaCode | Rules';
+        // return view('pages.rules', ['data' => $data]);
+        return $this->gotoController->gotoExternalLink($request, $page);
     }
 
-    public function faq(Request $request)
+    public function faq(Request $request, $page)
     {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | FAQ';
-        return view('pages.faq.index', ['data' => $data]);
+        // $data = new \stdClass;
+        // $data->title = 'TeaCode | FAQ';
+        // return view('pages.faq.index', ['data' => $data]);
+        return $this->gotoController->gotoExternalLink($request, $page);
     }
 
     public function privacy(Request $request)

@@ -70,6 +70,8 @@ if (!function_exists('getLinks')) {
             // Specific links
             'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
             // 'email' => 'mailto:info@spatie.be?subject=A%20good%20match%21&body=Tell%20us%20as%20much%20as%20you%20can%20about%0A-%20your%20online%20project%0A-%20your%20planning%0A-%20your%20budget%0A-%20%E2%80%A6%0A%0AAnything%20that%20helps%20us%20to%20start%20straightforward%21',
+            'rules' => 'https://teacodema.notion.site/d1fdafdd0baa483a891f2b00d1719566',
+            'faq' => 'https://teacodema.notion.site/e1151faed70b4f768da2688b026b2ac6',
             'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
             'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
             'events' => 'https://facebook.com/teacode.ma/events',

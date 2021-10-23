@@ -42,11 +42,13 @@
     },
     {
         "title": "rules",
-        "slug": "rules"
+        "slug": "rules",
+        "target": "_blank"
     },
     {
         "title": "FAQ",
-        "slug": "faq"
+        "slug": "faq",
+        "target": "_blank"
     },
     {
         "title": "privacy",
