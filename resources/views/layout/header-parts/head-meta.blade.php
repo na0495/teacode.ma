@@ -8,7 +8,7 @@
 {{-- <meta name="robots" content="index, follow"> --}}
 
 <link rel="canonical" href="https://www.teacode.ma/">
-<meta name="og:image" content="{{ asset('/assets/img/teacode/square-600.jpg') }}">
+<meta name="og:image" content="{{ asset('/assets/img/teacode/cover-2560x1440.png') }}">
 <meta name="twitter:image" content="{{ asset('/assets/img/teacode/square-600.jpg') }}">
 <meta name="og:image:width" content="1200">
 <meta name="twitter:image:width" content="1200">
