@@ -10,14 +10,14 @@
         "slug": "461dou"
     },
     {
+        "fullname": "saad",
+        "role": "helper",
+        "slug": "egon"
+    },
+    {
         "fullname": "tariq",
         "role": "staff team",
         "slug": "odachi"
-    },
-    {
-        "fullname": "lamyaa",
-        "role": "staff team",
-        "slug": "lamyaa"
     },
     {
         "fullname": "taha",
@@ -25,74 +25,18 @@
         "slug": "satisfy"
     },
     {
-        "fullname": "lamyaa",
-        "role": "helper",
-        "slug": "aymalmikassa"
-    },
-    {
-        "fullname": "meryem",
-        "role": "helper",
-        "slug": "boufalahmeryem"
-    },
-    {
-        "fullname": "asmae",
-        "role": "helper",
-        "slug": "asmae"
-    },
-    {
-        "fullname": "hamza",
-        "role": "helper",
-        "slug": "ctlkimo"
-    },
-    {
-        "fullname": "essalhi",
-        "role": "helper",
-        "slug": "essalhi"
-    },
-    {
-        "fullname": "mohammed",
-        "role": "helper",
-        "slug": "mymik"
-    },
-    {
-        "fullname": "khalid",
-        "role": "helper",
-        "slug": "khalidtamine"
-    },
-    {
-        "fullname": "hatim",
-        "role": "helper",
-        "slug": "hatim"
-    },
-    {
         "fullname": "ayoub",
         "role": "helper",
         "slug": "ayoubmahdaoui"
     },
     {
-        "fullname": "ahmed",
+        "fullname": "essalhi",
         "role": "helper",
-        "slug": "uranus"
-    },
-    {
-        "fullname": "amine",
-        "role": "guest",
-        "slug": "harradi"
-    },
-    {
-        "fullname": "larbi",
-        "role": "guest",
-        "slug": "gouzal"
-    },
-    {
-        "fullname": "maryam",
-        "role": "host",
-        "slug": "maryam"
-    },
-    {
-        "fullname": "oumaima",
-        "role": "contributor",
-        "slug": "oumaima"
+        "slug": "essalhi"
+    },  {
+        "fullname": "mohammed",
+        "role": "helper",
+        "slug": "mymik"
     },
     {
         "fullname": "yasser",
@@ -108,11 +52,6 @@
         "fullname": "ahmed",
         "role": "helper",
         "slug": "ahmedmechrir"
-    },
-    {
-        "fullname": "saad",
-        "role": "helper",
-        "slug": "egon"
     },
     {
         "fullname": "oussama",
@@ -133,15 +72,5 @@
         "fullname": "karim",
         "role": "contributor",
         "slug": "karim"
-    },
-    {
-        "fullname": "hamza",
-        "role": "helper",
-        "slug": "hzmhi"
-    },
-    {
-        "fullname": "salah",
-        "role": "contributor",
-        "slug": "salah"
     }
 ]
