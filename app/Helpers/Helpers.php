@@ -53,7 +53,7 @@ if (!function_exists('getLinks')) {
 
             // Bot Project
             'teabot' => 'https://replit.com/@drissboumlik/teabot',
-            'teabottest' => 'https://replit.com/@drissboumlik/TeaBotTest',
+            'teabot-test' => 'https://replit.com/@drissboumlik/teabot-test',
             'bot-project' => 'https://teacodema.notion.site/24eed2b9e3b04433b7275d7ad406581e',
 
             // Social links
@@ -72,6 +72,8 @@ if (!function_exists('getLinks')) {
             // 'email' => 'mailto:info@spatie.be?subject=A%20good%20match%21&body=Tell%20us%20as%20much%20as%20you%20can%20about%0A-%20your%20online%20project%0A-%20your%20planning%0A-%20your%20budget%0A-%20%E2%80%A6%0A%0AAnything%20that%20helps%20us%20to%20start%20straightforward%21',
             'rules' => 'https://teacodema.notion.site/d1fdafdd0baa483a891f2b00d1719566',
             'faq' => 'https://teacodema.notion.site/e1151faed70b4f768da2688b026b2ac6',
+            'howtohelp' => 'https://teacodema.notion.site/3-How-To-Help-15909b9d5d7c4b8fa3f18624d9e9ab8d',
+            'howtoaskforhelp' => 'https://teacodema.notion.site/4-How-To-Ask-For-Help-23e05e4888754f2a9cc5d983e4fc8085',
             'youtube' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ',
             'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
             'events' => 'https://facebook.com/teacode.ma/events',
@@ -140,32 +142,5 @@ if (!function_exists('getContributorImage')) {
             $image = '/storage/images/logos/default ('. $index .').png';
         }
         return $image;
-    }
-}
-
-
-if (!function_exists('formatDescription')) {
-    function formatDescription($description)
-    {
-        dd($description);
-        // if (is_array())
-    }
-}
-
-if (!function_exists('getLanguages')) {
-    function getLanguages()
-    {
-        return ['ar', 'en'];
-        // return ['ar']; // FOR NOW
-    }
-}
-
-if (!function_exists('inLanguages')) {
-    function inLanguages($lang = null)
-    {
-        if ($lang) {
-            return in_array($lang, getLanguages());
-        }
-        return false;
     }
 }

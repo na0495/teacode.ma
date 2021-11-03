@@ -14,6 +14,7 @@ class PageController extends Controller
     public function getPage(Request $request, $page)
     {
         try {
+            $page = str_replace('-', '', $page);
             return $this->$page($request, $page);
         } catch (\Throwable $th) {
             return redirect('/');
@@ -69,6 +70,16 @@ class PageController extends Controller
         // $data = new \stdClass;
         // $data->title = 'TeaCode | FAQ';
         // return view('pages.faq.index', ['data' => $data]);
+        return $this->gotoController->gotoExternalLink($request, $page);
+    }
+
+    public function howtohelp(Request $request, $page)
+    {
+        return $this->gotoController->gotoExternalLink($request, $page);
+    }
+
+    public function howtoaskforhelp(Request $request, $page)
+    {
         return $this->gotoController->gotoExternalLink($request, $page);
     }
 
