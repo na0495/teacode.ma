@@ -21,15 +21,6 @@ class PageController extends Controller
         }
     }
 
-    public function videos(Request $request, $page)
-    {
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
-
-    public function events(Request $request, $page)
-    {
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
 
     public function contributors(Request $request)
     {
@@ -48,39 +39,19 @@ class PageController extends Controller
         return view('pages.contributors', ['data' => $data]);
     }
 
+    public function calendar(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Calendar';
+        return view('pages.calendar', ['data' => $data]);
+    }
+
     public function resources(Request $request, $page)
     {
-        // $data = new \stdClass;
-        // $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
-        // $data->title = 'TeaCode | Resources';
-        // return view('pages.resources', ['data' => $data]);
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
-
-    public function rules(Request $request, $page)
-    {
-        // $data = new \stdClass;
-        // $data->title = 'TeaCode | Rules';
-        // return view('pages.rules', ['data' => $data]);
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
-
-    public function faq(Request $request, $page)
-    {
-        // $data = new \stdClass;
-        // $data->title = 'TeaCode | FAQ';
-        // return view('pages.faq.index', ['data' => $data]);
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
-
-    public function howtohelp(Request $request, $page)
-    {
-        return $this->gotoController->gotoExternalLink($request, $page);
-    }
-
-    public function howtoaskforhelp(Request $request, $page)
-    {
-        return $this->gotoController->gotoExternalLink($request, $page);
+        $data = new \stdClass;
+        $data->resources = json_decode(\File::get(base_path() . '/database/data/resources.json'));
+        $data->title = 'TeaCode | Resources';
+        return view('pages.resources', ['data' => $data]);
     }
 
     public function privacy(Request $request)
@@ -94,7 +65,7 @@ class PageController extends Controller
     {
         $data = new \stdClass;
         $data->title = 'TeaCode | Terms of Use';
-        return view('pages.terms', ['data' => $data]);
+        return view('pages.terms-of-use', ['data' => $data]);
     }
 
     public function comingSoon(Request $request)
@@ -107,6 +78,8 @@ class PageController extends Controller
 
     public function feedback(Request $request)
     {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Feedback';
         return view('pages.feedback');
     }
 }
