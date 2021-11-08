@@ -1,37 +1,20 @@
 // window._ = require('lodash');
 require('particles.js');
-window.$ = require( 'jquery' );
-functions = require('./functions.js');
-
-
+window.$ = require('jquery');
+// let functions = require('./js');
+import { drawBrandText, initDarkMode, initParticlesJS, initCalendar } from "./functions";
 
 $(function () {
 
     try {
-        functions.drawBrandText();
-        if($('#particles-js').length) {
-            // setTimeout(() => {
-            //     $('.loader-wrapper').addClass('disappear');
-            // }, 500);
-            particlesJS.load('particles-js', '/plugins/particles/particles.min.json');
-        }
-
-        $('.banner-close').on('click', function (){
+        initCalendar();
+        drawBrandText();
+        initParticlesJS();
+        $('.banner-close').on('click', function () {
             $('.banner').remove();
         });
-        let _body = $(document.body);
-        $(document).on('click', '.toggle-dark-mode', function () {
-            let _this = $(this);
-            let _isActive = !_body.hasClass('dark-mode');
-            // let _isActive = localStorage.getItem('isDarkModeActive');
-            _this.addClass('pushed');
-            setTimeout(() => {
-                _this.removeClass('pushed');
-            }, 300);
-            functions.toggleDarkMode(_this, _isActive, _body);
-        });
-
+        initDarkMode();
     } catch (error) {
-
+        console.log(error);
     }
 });

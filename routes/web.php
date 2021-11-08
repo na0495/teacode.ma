@@ -24,13 +24,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     // Pages
     Route::get('/pages/{page}', 'PageController@getPage');
-    // Route::get('/contributors', 'PageController@contributors');
-    // Route::get('/resources', 'PageController@resources');
-    // Route::get('/rules', 'PageController@rules');
-    // Route::get('/faq', 'PageController@faq');
-    // Route::get('/privacy', 'PageController@privacy');
-    // Route::get('/coming-soon', 'PageController@comingSoon');
-//    Route::get('/terms', 'HomeController@terms');
 
     // Blog
     Route::get('/category/{category}', 'PostController@getPostsByCategory');
@@ -46,6 +39,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/{link}', 'GotoController@gotoExternalLink');
 
     Route::group(['prefix' => 'api'], function () {
+        Route::get('/events', 'ApiController@getEvents');
         Route::post('/banner/update', 'ApiController@updateBanner');
     });
 

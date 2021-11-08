@@ -33,7 +33,11 @@
     },
     {
         "title": "contributors",
-        "slug": "contributors"
+        "slug": "pages/contributors"
+    },
+    {
+        "title": "calendar",
+        "slug": "pages/calendar"
     },
     {
         "title": "resources",
@@ -58,7 +62,7 @@
     {
         "title": "feedback",
         "slug": "feedback",
-        "hidden": false
+        "hidden": true
     }
 
 ]

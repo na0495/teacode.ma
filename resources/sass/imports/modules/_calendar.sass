@@ -1,0 +1,47 @@
+#calendar .container
+    @media (max-width: 900px)
+        max-width: 100%
+        padding: 0
+
+#calendar-wrapper
+    .fc-button:first-letter
+        text-transform: capitalize
+    &.fullscreen
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+    @media (max-width: 700px)
+        .fc-header-toolbar .fc-toolbar-chunk:nth-child(3)
+            display: none
+
+#event-detail
+    .modal-content
+        border: none
+        box-shadow: 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%), 0px 11px 15px -7px rgb(0 0 0 / 20%)
+
+    .modal-header
+        padding: 0.5rem 1rem
+
+    .close
+        padding: 0
+        display: inline-flex
+        font-size: 1.2rem
+        border: none
+        background-color: transparent
+    .event-title .event-text
+        font-size: 1.5rem
+    .event-info
+        display: flex
+        align-items: center
+    .event-icon
+        width: 30px
+        min-width: 30px
+        display: flex
+        align-self: stretch
+        align-items: center
+    .event-description
+        .event-icon
+            align-items: start
+            margin-top: 5px

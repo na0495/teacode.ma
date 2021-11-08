@@ -18,4 +18,10 @@ class ApiController extends Controller
             return 'NOK';
         }
     }
+
+    public function getEvents(Request $request)
+    {
+        $events = json_decode(\File::get(base_path() . '/database/data/events.json'));
+        return $events;
+    }
 }
