@@ -30,10 +30,10 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-5 activity-img">
-                                <div class="img-wrapper mt-5 mt-md-0">
+                                <div class="img-wrapper mt-5">
                                     {{-- @php $activity->slug = 'mock-interview' @endphp --}}
-                                    @include('pages.index-parts.svg-includes.' . $activity->slug)
-                                    {{-- <img class="img-fluid" src="{{ asset($activity->img) }}" alt=""> --}}
+                                    {{-- @include('pages.index-parts.svg-includes.' . $activity->slug) --}}
+                                    <img class="img-fluid w-75 m-auto d-block" src="{{ asset('/assets/img/activities/' . $activity->slug . '.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
