@@ -2,5 +2,5 @@
 
 This the official website
 
-Visit: teacode.ma/join
+Visit: [teacode.ma/join](teacode.ma/join)
 
