@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         @include('addons.google-analytics')
+        @include('addons.hotjar')
 
         @include('addons.brand-text')
         @include('layout.header-parts.head-meta')
