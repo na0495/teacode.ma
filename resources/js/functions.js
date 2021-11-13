@@ -98,7 +98,7 @@ function initCalendar() {
                 }
                 dom += `<div class="event-info event-description mb-2">
                             <div class="event-icon"><i class="far fa-file-alt"></i></div>
-                            <div class="event-text"><span>${event.extendedProps.description.replaceAll('\n', '<br/>') || 'No description'}</span></div>
+                            <div class="event-text"><span>${event.extendedProps?.description?.replaceAll('\n', '<br/>') || 'No description'}</span></div>
                         </div>`;
                 $('#event-detail .modal-body').append(dom);
                 $('#event-detail').addClass('d-block show in animate__fadeIn').removeClass('animate__fadeOut');
