@@ -72,34 +72,31 @@ function initCalendar() {
                 info.jsEvent.preventDefault();
                 let event = info.event
                 $('#event-detail .modal-body').empty();
-                let date = event.start.toLocaleDateString() + ' ' + event.start.toLocaleTimeString().replace(/^(?:00:)?0?/, '') + ' - ';
-                if (event.start.toLocaleDateString() == event.end.toLocaleDateString()) {
-                    date += event.end.toLocaleTimeString().replace(/^(?:00:)?0?/, '');;
-                } else {
-                    date += event.end.toLocaleDateString() + ' ' + event.end.toLocaleTimeString().replace(/^(?:00:)?0?/, '') + ' - ';
-                }
-                let dom = `<div class="event-info event-title mb-2">
+                let date = event.start.toLocaleString([], {day: 'numeric', weekday: 'short', year: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'});
+                let dom = `<div class="event-info event-title">
                                 <div class="event-icon"><i class="fas fa-dot-circle"></i></div>
                                 <div class="event-text"><span>${event.title}</span></div>
                             </div>
-                            <div class="event-info event-date mb-2">
+                            <div class="event-info event-date">
                                 <div class="event-icon"><i class="fas fa-calendar-alt"></i></div>
                                 <div class="event-text"><span>${date}</span></div>
                             </div>
-                            <div class="event-info event-url mb-2">
+                            <div class="event-info event-url">
                                 <div class="event-icon"><i class="fas fa-link"></i></div>
                                 <div class="event-text"><span><a href="${event.url}" target="_blank">${event.url}</a></span></div>
                             </div>`;
                 if (event.extendedProps.video) {
-                    dom += `<div class="event-info event-video mb-2">
+                    dom += `<div class="event-info event-video">
                                 <div class="event-icon"><i class="fab fa-youtube"></i></div>
                                 <div class="event-text"><span><a href="${event.extendedProps.video}" target="_blank">Watch the record</a></span></div>
                             </div>`;
                 }
-                dom += `<div class="event-info event-description mb-2">
-                            <div class="event-icon"><i class="far fa-file-alt"></i></div>
-                            <div class="event-text"><span>${event.extendedProps?.description?.replaceAll('\n', '<br/>') || 'No description'}</span></div>
-                        </div>`;
+                if (event.extendedProps?.description) {
+                    dom += `<div class="event-info event-description">
+                                <div class="event-icon"><i class="far fa-file-alt"></i></div>
+                                <div class="event-text"><span>${event.extendedProps.description.replaceAll('\n', '<br/>')}</span></div>
+                            </div>`;
+                }
                 $('#event-detail .modal-body').append(dom);
                 $('#event-detail').addClass('d-block show in animate__fadeIn').removeClass('animate__fadeOut');
             },
