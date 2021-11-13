@@ -4,8 +4,7 @@
             <p>
                 Next Event :
                 <span class="title">
-                    <a href="{{ $data->banner->link }}"
-                        rel="noopener" aria-label="Banner Title"
+                    <a href="{{ $data->banner->url }}" rel="noopener" aria-label="Banner Title"
                         target="_blank" class="link-decorated">{{ $data->banner->title }}</a>
                 </span>
             </p>

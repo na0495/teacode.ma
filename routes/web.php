@@ -40,7 +40,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');
-        Route::post('/banner/update', 'ApiController@updateBanner');
     });
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
