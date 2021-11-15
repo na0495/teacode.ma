@@ -46,11 +46,11 @@ function initCalendar() {
             headerToolbar: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+                right: 'dayGridMonth,timeGridWeek,listMonth'
             },
             // titleFormat: { year: 'numeric', month: 'short', day: 'numeric'  },
             themeSystem: 'standard',
-            initialDate:  '2021-12-01', //new Date().toISOString(),
+            initialDate:  new Date().toISOString(),
             nowIndicator: true,
             navLinks: true, // can click day/week names to navigate views
             allDaySlot: false,
