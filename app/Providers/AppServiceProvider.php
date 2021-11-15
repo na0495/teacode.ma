@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Event;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
 
@@ -36,12 +37,7 @@ class AppServiceProvider extends ServiceProvider
                 $view->data = new \stdClass;
             }
 
-            $view->data->events = collect(json_decode(\File::get(base_path() . '/database/data/events.json')));
-            $view->data->banner = $view->data->events->filter(function ($e, $i){
-                $e->date = explode(' ', ($e->start ?? $e->startRecur))[0];
-                $diff = now()->diffInDays(\Carbon\Carbon::createFromFormat('Y-m-d', $e->date), false);
-                return $diff >= 0;
-            })->sortBy('date')->values();
+            $view->data->banner = Event::where('start_date', '>=', now())->get();
             $view->data->banner = (count($view->data->banner) > 0) ? $view->data->banner[0] : null;
 
             $view->data->socialLinks = getSocialLinks();

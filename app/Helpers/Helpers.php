@@ -1,6 +1,23 @@
 <?php
 
 
+if (!function_exists('getActions')) {
+    function getActions()
+    {
+        $actions = [
+            [
+                'slug' => 'event',
+                'header' => 'Event Form',
+            ],
+            [
+                'slug' => 'contributor',
+                'header' => 'Contributor Form',
+            ]
+        ];
+        return $actions;
+    }
+}
+
 if (!function_exists('getFaqSections')) {
     function getFaqSections()
     {
@@ -21,6 +38,7 @@ if (!function_exists('getPages')) {
         $links = [
             'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
             'events' => 'https://facebook.com/teacode.ma/events',
+            'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
             'contributors' => 'contributors',
             'resources' => 'resources',
             'rules' => 'rules',

@@ -50,7 +50,7 @@ function initCalendar() {
             },
             // titleFormat: { year: 'numeric', month: 'short', day: 'numeric'  },
             themeSystem: 'standard',
-            initialDate: new Date().toISOString(),
+            initialDate:  '2021-12-01', //new Date().toISOString(),
             nowIndicator: true,
             navLinks: true, // can click day/week names to navigate views
             allDaySlot: false,
@@ -94,7 +94,7 @@ function initCalendar() {
                 if (event.extendedProps?.description) {
                     dom += `<div class="event-info event-description">
                                 <div class="event-icon"><i class="far fa-file-alt"></i></div>
-                                <div class="event-text"><span>${event.extendedProps.description.replaceAll('\n', '<br/>')}</span></div>
+                                <div class="event-text"><span>${event.extendedProps.description.replaceAll('\\n', '<br/>').replaceAll('\n', '<br/>')}</span></div>
                             </div>`;
                 }
                 $('#event-detail .modal-body').append(dom);

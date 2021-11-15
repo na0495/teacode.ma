@@ -6,6 +6,8 @@
 <meta name="author" content="Driss Boumlik">
 {{-- <meta http-equiv="refresh" content="60"> --}}
 {{-- <meta name="robots" content="index, follow"> --}}
+<!-- CSRF Token -->
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <link rel="canonical" href="https://www.teacode.ma/">
 <meta name="og:image" content="{{ asset('/assets/img/teacode/cover-2560x1440.png') }}">
