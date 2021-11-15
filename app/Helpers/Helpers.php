@@ -38,7 +38,6 @@ if (!function_exists('getPages')) {
         $links = [
             'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
             'events' => 'https://facebook.com/teacode.ma/events',
-            'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
             'contributors' => 'contributors',
             'resources' => 'resources',
             'rules' => 'rules',
@@ -84,6 +83,8 @@ if (!function_exists('getLinks')) {
             'github' => 'https://www.github.com/teacodema',
             'patreon' => 'https://www.patreon.com/teacodema',
             'paypal' => 'https://www.paypal.me/drissboumlik',
+
+            'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
 
             // Specific links
             'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
