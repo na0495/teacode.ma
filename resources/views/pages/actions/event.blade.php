@@ -30,10 +30,10 @@
             @endif
         </div>
         <div class="btn-actions">
-            <button type="submit" class="form-control btn btn-primary">Submit</button>
+            <button type="submit" class="form-control btn tc-blue-bg">Submit</button>
             @isset($event)
-                <button type="button" class="form-control btn btn-info update-event" data-id="{{ $event->id }}">Update</button>
-                <button type="button" class="form-control btn btn-danger delete-event" data-id="{{ $event->id }}">Delete</button>
+                <button type="button" class="form-control btn tc-blue-dark-2-bg update-event" data-id="{{ $event->id }}">Update</button>
+                <button type="button" class="form-control btn tc-red-light-bg delete-event" data-id="{{ $event->id }}">Delete</button>
             @endisset
         </div>
     </form>
