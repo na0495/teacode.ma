@@ -15,14 +15,14 @@
             <nav class="nav d-flex justify-content-center">
                 @guest
                     @if (Route::has('login'))
-                        <a class="menu-item p-2 text-dark text-capitalize" href="{{ route('login') }}">
+                        <a class="menu-item p-2 text-capitalize" href="{{ route('login') }}">
                             Login
                         </a>
                     @endif
                 @else
-                    <a class="menu-item p-2 text-dark text-capitalize" href="{{ route('logout') }}" onclick="event.preventDefault();
+                    <a class="menu-item p-2 text-capitalize" href="{{ route('logout') }}" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
-                        Logout <i class="fas fa-power-off"></i>
+                        Logout <i class="fas fa-power-off fs-6"></i>
                     </a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                         @csrf
