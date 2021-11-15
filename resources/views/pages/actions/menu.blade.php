@@ -15,20 +15,18 @@
             <nav class="nav d-flex justify-content-center">
                 @guest
                     @if (Route::has('login'))
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        </li>
+                        <a class="menu-item p-2 text-dark text-capitalize" href="{{ route('login') }}">
+                            Login
+                        </a>
                     @endif
                 @else
-                    <div class="" aria-labelledby="navbarDropdown">
-                        <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                            Logout <i class="fas fa-power-off"></i>
-                        </a>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                            @csrf
-                        </form>
-                    </div>
+                    <a class="menu-item p-2 text-dark text-capitalize" href="{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">
+                        Logout <i class="fas fa-power-off"></i>
+                    </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
                 @endguest
             </nav>
         </div>
