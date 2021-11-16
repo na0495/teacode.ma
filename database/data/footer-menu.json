@@ -1,34 +1,34 @@
 [
     {
         "title": "videos",
-        "slug": "videos",
+        "slug": "goto/videos",
         "target": "_blank"
     },
     {
         "title": "podcast",
-        "slug": "coming-soon",
+        "slug": "pages/coming-soon",
         "hidden": true
     },
     {
         "title": "events",
-        "slug": "events",
+        "slug": "goto/events",
         "target": "_blank"
     },
     {
         "title": "developer roadmaps",
-        "slug": "roadmaps",
+        "slug": "goto/roadmaps",
         "target": "_blank",
         "hidden": true
     },
     {
         "title": "patreon",
-        "slug": "patreon",
+        "slug": "goto/patreon",
         "target": "_blank",
         "hidden": true
     },
     {
         "title": "blog",
-        "slug": "blog",
+        "slug": "pages/blog",
         "hidden": true
     },
     {
@@ -37,31 +37,32 @@
     },
     {
         "title": "calendar",
-        "slug": "pages/calendar"
+        "slug": "pages/calendar",
+        "hidden": true
     },
     {
         "title": "resources",
-        "slug": "resources",
+        "slug": "pages/resources",
         "hidden": true
     },
     {
         "title": "rules",
-        "slug": "rules",
+        "slug": "goto/rules",
         "target": "_blank"
     },
     {
         "title": "FAQ",
-        "slug": "faq",
+        "slug": "goto/faq",
         "target": "_blank"
     },
     {
         "title": "privacy",
-        "slug": "privacy",
+        "slug": "pages/privacy",
         "hidden": true
     },
     {
         "title": "feedback",
-        "slug": "feedback",
+        "slug": "pages/feedback",
         "hidden": true
     }
 

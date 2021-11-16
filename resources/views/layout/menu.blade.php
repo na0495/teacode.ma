@@ -14,16 +14,10 @@
             </div>
             <nav class="nav d-flex justify-content-center">
                 <a class="menu-item p-2 text-dark text-capitalize" rel="noopener"
-                href="/discord" target="_blank">
+                href="/goto/discord" target="_blank">
                     <span class="me-1">join us</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
-                {{-- <a class="p-2 text-dark text-capitalize" href="/privacy">Privacy</a> --}}
-                {{-- <a class="p-2 text-dark text-capitalize" href="/terms">Terms</a> --}}
-                {{-- <a class="p-2 text-light text-capitalize" href="/resources">Resources</a> --}}
-                {{-- <a class="menu-item p-2 text-dark text-capitalize" href="/code-of-conduct" target="_blank">RodeMaps</a> --}}
-                {{-- <a class="menu-item p-2 text-dark text-capitalize" href="/code-of-conduct" target="_blank">Resources</a> --}}
-                {{-- <a class="menu-item p-2 text-dark text-capitalize" href="/code-of-conduct" target="_blank">Code of conduct</a> --}}
             </nav>
         </div>
     </div>

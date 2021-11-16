@@ -32,21 +32,6 @@ if (!function_exists('getFaqSections')) {
     }
 }
 
-if (!function_exists('getPages')) {
-    function getPages()
-    {
-        $links = [
-            'videos' => 'https://youtube.com/channel/UCss61diIS1kW_TRsHMMwtwQ/videos',
-            'events' => 'https://facebook.com/teacode.ma/events',
-            'contributors' => 'contributors',
-            'resources' => 'resources',
-            'rules' => 'rules',
-            'faq' => 'faq',
-            'privacy' => 'privacy',
-            'coming-soon' => 'comingSoon',
-        ];
-    }
-}
 
 if (!function_exists('getLinks')) {
     function getLinks()

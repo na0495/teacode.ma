@@ -26,12 +26,12 @@
                         </div>
                         <div class="btn-actions mt-3">
                             <div class="btn-action">
-                                <a href="/discord" target="_blank" rel="noopener"
+                                <a href="/goto/discord" target="_blank" rel="noopener"
                                 class="btn-join-us btn tc-blue-bg text-capitalize px-3 pt-2">
                                 <i class="fab fa-discord"></i><span class="ms-2">Join us</span></a>
                             </div>
                             <div class="btn-action">
-                                <a href="/howto" target="_blank" rel="noopener"
+                                <a href="/goto/howto" target="_blank" rel="noopener"
                                 class="btn-join-us btn tc-blue-dark-2-bg text-capitalize px-3 pt-2">
                                 <i class="fab fa-youtube"></i><span class="ms-2">How To</span></a>
                             </div>

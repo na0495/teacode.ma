@@ -55,7 +55,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/generateSitemap', 'SitemapController@generateSitemap');
 
     // External
-    Route::get('/{link}', 'GotoController@gotoExternalLink');
+    Route::get('/goto/{link}', 'GotoController@gotoExternalLink');
 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');
