@@ -54,7 +54,7 @@ class ActionController extends Controller
     public function addEvent(Request $request)
     {
         $data = $request->all();
-        if ($data['extended_props']) {
+        if (isset($data['extended_props']) && $data['extended_props']) {
             $extended_props = [];
             foreach ($data['extended_props'] as $prop) {
                 $x = str_replace('\n', '\\n', $prop[1]);
