@@ -25,11 +25,11 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::group(['middleware' => 'auth'], function() {
         Route::get('/actions', 'ActionController@getActions');
         Route::get('/insert', 'ApiController@insert');
-        Route::get('/pages/events', 'ActionController@getEvents');
-        Route::post('/pages/events', 'ActionController@addEvent');
-        Route::put('/pages/events/{event}', 'ActionController@updateEvent');
-        Route::delete('/pages/events/{event}', 'ActionController@destroyEvent');
-        Route::get('/pages/events/{event}', 'ActionController@getEvent');
+        Route::get('/events', 'ActionController@getEvents');
+        Route::post('/events', 'ActionController@addEvent');
+        Route::put('/events/{event}', 'ActionController@updateEvent');
+        Route::delete('/events/{event}', 'ActionController@destroyEvent');
+        Route::get('/events/{event}', 'ActionController@getEvent');
         Route::post('/contributors', 'ActionController@addContributor');
         Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
     });

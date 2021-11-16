@@ -32,13 +32,15 @@ $(function () {
             let data = $('.event form').serializeArray();
             $.ajax({
                 method: 'PUT',
-                url: '/pages/events/' + $(this).data('id'),
+                url: '/events/' + $(this).data('id'),
                 data: data,
                 success: function (response) {
                     console.log(response);
+                    alert('Updated');
                 },
                 error: function (jqXHR, textStatus, errorThrown){
                     console.log(jqXHR, textStatus, errorThrown);
+                    alert('Error');
                 }
             });
         });
@@ -46,12 +48,15 @@ $(function () {
             // e.preventDefault();
             $.ajax({
                 method: 'DELETE',
-                url: '/pages/events/' + $(this).data('id'),
+                url: '/events/' + $(this).data('id'),
                 success: function (response) {
                     console.log(response);
+                    history.back();
+                    alert('Deleted');
                 },
                 error: function (jqXHR, textStatus, errorThrown){
                     console.log(jqXHR, textStatus, errorThrown);
+                    alert('Error');
                 }
             });
         });

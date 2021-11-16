@@ -3,9 +3,8 @@
         @foreach ($data->socialLinks->teacode as $socialLink)
             @if (!isset($socialLink->hidden) || !$socialLink->hidden)
                 <li class="list-group-item border-0 overflow-auto my-0 mx-2">
-                    <a href="{{ $socialLink->link }}" target="_blank" rel="noopener"
-                        aria-label="{{ $socialLink->title }}"
-                        class="text-decoration-none">
+                    <a href="/{{ $socialLink->link }}" target="_blank" rel="noopener"
+                        aria-label="{{ $socialLink->title }}" class="text-decoration-none">
                         <span class="social-icon">{!! $socialLink->icon !!}</span>
                     </a>
                 </li>

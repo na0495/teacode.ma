@@ -2,55 +2,55 @@
     "teacode": [
         {
             "icon": "<i class='fab fa-facebook-f'></i>",
-            "link": "/goto/facebook",
+            "link": "goto/facebook",
             "title": "facebook",
             "color": "#D32322"
         },
         {
             "icon": "<i class='fab fa-youtube'></i>",
-            "link": "/goto/youtube",
+            "link": "goto/youtube",
             "title": "youtube",
             "color": "#4867AA"
         },
         {
             "icon": "<i class='fab fa-instagram'></i>",
-            "link": "/goto/instagram",
+            "link": "goto/instagram",
             "title": "instagram",
             "color": "#B03699"
         },
         {
             "icon": "<i class='fab fa-twitter'></i>",
-            "link": "/goto/twitter",
+            "link": "goto/twitter",
             "title": "twitter",
             "color": "#50ABF1"
         },
         {
             "icon": "<i class='fab fa-linkedin'></i>",
-            "link": "/goto/linkedin",
+            "link": "goto/linkedin",
             "title": "linkedin",
             "color": "#6E85D3"
         },
         {
             "icon": "<i class='fab fa-github'></i>",
-            "link": "/goto/github",
+            "link": "goto/github",
             "title": "github",
             "color": "#6E85D3"
         },
         {
             "icon": "<i class='fas fa-at'></i>",
-            "link": "/goto/email",
+            "link": "goto/email",
             "title": "email",
             "color": "#EE6551"
         },
         {
             "icon": "<i class='fab fa-paypal'></i>",
-            "link": "/goto/paypal",
+            "link": "goto/paypal",
             "title": "paypal",
             "color": "#EE6551"
         },
         {
             "icon": "<i class='fab fa-patreon'></i>",
-            "link": "/goto/patreon",
+            "link": "goto/patreon",
             "title": "patreon",
             "color": "#EE6551"
         }
