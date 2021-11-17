@@ -34,7 +34,7 @@ class PageController extends Controller
                                         $contributor->image = getContributorImage($contributor, $key);
                                         $contributor->badge = getContributorBadge($contributor);
                                         return $contributor;
-                                    })->values();
+                                    })->shuffle()->values();
 
         return view('pages.contributors', ['data' => $data]);
     }
