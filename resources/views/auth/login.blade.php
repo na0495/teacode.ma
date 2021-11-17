@@ -28,18 +28,16 @@
                                     </span>
                                 @enderror
                             </div>
-                            <div class="form-outline mb-2">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
-                            </div>
                             <div class="d-flex justify-content-between align-items-center">
                                 <!-- Checkbox -->
-                                <div class="form-check mb-0">
+                                <div class="form-check mb-2">
                                     <input class="form-check-input me-2" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }} />
                                     <label class="form-check-label" for="form2Example3">Remember me</label>
                                 </div>
-                                <a href="" class="">Forgot password?</a>
+                                <a href="" class="d-none">Forgot password?</a>
+                            </div>
+                            <div class="form-outline mb-0">
+                                <button type="submit" class="btn btn-primary">Login</button>
                             </div>
                         </form>
                     </div>
