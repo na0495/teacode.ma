@@ -19,19 +19,22 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     // \Auth::routes();
 
 
-    Route::get('/login', 'Auth\LoginController@showLoginForm');
-    Route::post('/login', 'Auth\LoginController@login')->name('login');
+    Route::group(['prefix' => '_admin'], function () {
 
-    Route::group(['middleware' => 'auth'], function() {
-        Route::get('/actions', 'ActionController@getActions');
-        Route::get('/insert', 'ApiController@insert');
-        Route::get('/events', 'ActionController@getEvents');
-        Route::post('/events', 'ActionController@addEvent');
-        Route::put('/events/{event}', 'ActionController@updateEvent');
-        Route::delete('/events/{event}', 'ActionController@destroyEvent');
-        Route::get('/events/{event}', 'ActionController@getEvent');
-        Route::post('/contributors', 'ActionController@addContributor');
-        Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+        Route::get('/login', 'Auth\LoginController@showLoginForm');
+        Route::post('/login', 'Auth\LoginController@login')->name('login');
+
+        Route::group(['middleware' => 'auth'], function() {
+            Route::get('/actions', 'ActionController@getActions')->name('actions');
+            // Route::get('/insert', 'ApiController@insert');
+            Route::get('/events', 'ActionController@getEvents')->name('events.index');
+            Route::get('/events/{event}', 'ActionController@getEvent')->name('events.get');
+            Route::post('/events', 'ActionController@addEvent')->name('events.store');
+            Route::put('/events/{event}', 'ActionController@updateEvent')->name('events.update');
+            Route::delete('/events/{event}', 'ActionController@destroyEvent')->name('events.delete');
+            // Route::post('/contributors', 'ActionController@addContributor');
+            Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+        });
     });
 
 
@@ -55,7 +58,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/generateSitemap', 'SitemapController@generateSitemap');
 
     // External
-    Route::get('/goto/{link}', 'GotoController@gotoExternalLink');
+    Route::get('/{link}', 'GotoController@goto');
 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');

@@ -1,7 +1,7 @@
 [
     {
         "title": "videos",
-        "slug": "goto/videos",
+        "slug": "videos",
         "target": "_blank"
     },
     {
@@ -11,18 +11,18 @@
     },
     {
         "title": "events",
-        "slug": "goto/events",
+        "slug": "events",
         "target": "_blank"
     },
     {
         "title": "developer roadmaps",
-        "slug": "goto/roadmaps",
+        "slug": "roadmaps",
         "target": "_blank",
         "hidden": true
     },
     {
         "title": "patreon",
-        "slug": "goto/patreon",
+        "slug": "patreon",
         "target": "_blank",
         "hidden": true
     },
@@ -47,12 +47,12 @@
     },
     {
         "title": "rules",
-        "slug": "goto/rules",
+        "slug": "rules",
         "target": "_blank"
     },
     {
         "title": "FAQ",
-        "slug": "goto/faq",
+        "slug": "faq",
         "target": "_blank"
     },
     {

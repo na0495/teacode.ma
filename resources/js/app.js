@@ -32,7 +32,7 @@ $(function () {
             let data = $('.event form').serializeArray();
             $.ajax({
                 method: 'PUT',
-                url: '/events/' + $(this).data('id'),
+                url: '/_admin/events/' + $(this).data('id'),
                 data: data,
                 success: function (response) {
                     console.log(response);
@@ -48,7 +48,7 @@ $(function () {
             // e.preventDefault();
             $.ajax({
                 method: 'DELETE',
-                url: '/events/' + $(this).data('id'),
+                url: '/_admin/events/' + $(this).data('id'),
                 success: function (response) {
                     console.log(response);
                     history.back();

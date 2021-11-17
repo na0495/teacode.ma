@@ -7,7 +7,7 @@
             <div class="col-12 col-md-10">
                 <ul class="list-group align-items-start">
                     @foreach ($events as $e)
-                        <li class="list-group-item"><a href="/events/{{ $e->id }}" target="_blank">{{ $e->title }}</a></li>
+                        <li class="list-group-item"><a href="{{ route('events.get', $e->id) }}" target="_blank">{{ $e->title }}</a></li>
                     @endforeach
                 </ul>
             </div>

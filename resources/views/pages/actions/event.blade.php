@@ -1,5 +1,5 @@
 <div class="event">
-    <form action="/events" method="post">
+    <form action="{{ route('events.store') }}" method="post">
         @csrf
         <input type="text" class="form-control" id="title" name="title" placeholder="Titre" required value="{{ $event->title ?? old('title') }}"/>
         <input type="text" class="form-control" id="url" name="url" placeholder="Url" required value="{{ $event->url ?? old('url') }}"/>
@@ -14,7 +14,7 @@
         <label for="exampleColorInput" class="form-label">Background Color picker</label>
         <input type="color" class="form-control" id="background_color" name="background_color" value="{{ $event->background_color ?? old('background_color') }}"/>
         <label for="exampleColorInput" class="form-label">Color picker</label>
-        <input type="color" class="form-control" id="text_color" name="text_color" value="{{ $event->background_color ?? old('text_color') }}"/>
+        <input type="color" class="form-control" id="text_color" name="text_color" value="{{ $event->text_color ?? old('text_color') }}"/>
         <input type="text" class="form-control" id="days_of_week" name="days_of_week" placeholder="Days of week" value="{{ $event->days_of_week ?? old('days_of_week') }}" />
         <div class="extended_props_wrapper">
             <label for="extended_props" class="form-label">Extended Props <button type="button" class="p-0 ms-2 btn btn-default add-extended_props fs-4"><i class="fas fa-plus-circle"></i></button></label>
