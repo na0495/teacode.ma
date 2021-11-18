@@ -37,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
                 $view->data = new \stdClass;
             }
 
-            $view->data->banner = Event::whereDate('start_date', '>=', now())->get();
+            $view->data->banner = Event::whereDate('start_date', '>', now())->get();
             $view->data->banner = (count($view->data->banner) > 0) ? $view->data->banner[0] : null;
 
             $view->data->socialLinks = getSocialLinks();
