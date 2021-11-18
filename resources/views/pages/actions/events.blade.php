@@ -3,6 +3,11 @@
 @section('content')
     @include('pages.actions.menu')
     <div class="container my-5 actions">
+        <div class="row mt-5">
+            <div class="col-12">
+                <h1 class="text-center mb-5">Events</h1>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-12 col-md-10">
                 <ul class="list-group align-items-start">
