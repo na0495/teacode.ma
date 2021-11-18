@@ -73,6 +73,7 @@ function initCalendar() {
                 let event = info.event
                 $('#event-detail .modal-body').empty();
                 let date = event.start.toLocaleString([], {day: 'numeric', weekday: 'short', year: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'});
+                let url = event.url.length <= 50 ?  event.url : event.url.substring(0, 50) + '...';
                 let dom = `<div class="event-info event-title">
                                 <div class="event-icon"><i class="fas fa-dot-circle"></i></div>
                                 <div class="event-text"><span>${event.title}</span></div>
@@ -83,7 +84,7 @@ function initCalendar() {
                             </div>
                             <div class="event-info event-url">
                                 <div class="event-icon"><i class="fas fa-link"></i></div>
-                                <div class="event-text"><span><a href="${event.url}" target="_blank">${event.url}</a></span></div>
+                                <div class="event-text"><span><a href="${event.url}" target="_blank">${url}</a></span></div>
                             </div>`;
                 if (event.extendedProps.video) {
                     dom += `<div class="event-info event-video">
