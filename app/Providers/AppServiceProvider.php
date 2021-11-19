@@ -37,8 +37,14 @@ class AppServiceProvider extends ServiceProvider
                 $view->data = new \stdClass;
             }
 
-            $view->data->banner = Event::whereDate('start_date', '>', now())->get();
-            $view->data->banner = (count($view->data->banner) > 0) ? $view->data->banner[0] : null;
+            $view->data->banner = Event::whereDate('start_date', '>=', now())->get();
+            if (count($view->data->banner) > 0) {
+                $view->data->banner = $view->data->banner[0];
+                $view->data->banner->title = strlen($view->data->banner->title) > 40 ? \Str::substr($view->data->banner->title, 0, 40).'...' : $view->data->banner->title;
+            } else {
+                $view->data->banner = null;
+            }
+
 
             $view->data->socialLinks = getSocialLinks();
             $view->data->footerMenu = getFooterMenu();

@@ -2,9 +2,9 @@
     <div class="banner-wrapper">
         <div class="banner-text">
             <p>
-                Next Event :
+                <span class="pre-title">Next :</span>
                 <span class="title">
-                    <a href="{{ $data->banner->url }}" rel="noopener" aria-label="Banner Title"
+                    <a href="{{ $data->banner->url }}" rel="noopener" aria-label="Banner Title" title="{{ $data->banner->title }}"
                         target="_blank" class="link-decorated">{{ $data->banner->title }}</a>
                 </span>
             </p>
