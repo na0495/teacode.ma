@@ -82,4 +82,18 @@ class PageController extends Controller
         $data->title = 'TeaCode | Feedback';
         return view('pages.feedback');
     }
+
+    public function rules(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Rules';
+        return view('pages.rules');
+    }
+
+    public function faq(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | FAQ';
+        return view('pages.faq.index');
+    }
 }
