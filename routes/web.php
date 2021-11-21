@@ -45,7 +45,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::get('/', 'HomeController@home');
 
     // Pages
-    Route::get('/pages/{page}', 'PageController@getPage');
+    Route::get('/p/{page}', 'PageController@getPage');
 
     // Blog
     Route::get('/category/{category}', 'PostController@getPostsByCategory');

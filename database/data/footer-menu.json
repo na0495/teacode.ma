@@ -6,7 +6,7 @@
     },
     {
         "title": "podcast",
-        "slug": "pages/coming-soon",
+        "slug": "p/coming-soon",
         "hidden": true
     },
     {
@@ -28,21 +28,21 @@
     },
     {
         "title": "blog",
-        "slug": "pages/blog",
+        "slug": "p/blog",
         "hidden": true
     },
     {
         "title": "contributors",
-        "slug": "pages/contributors"
+        "slug": "p/contributors"
     },
     {
         "title": "calendar",
-        "slug": "pages/calendar",
+        "slug": "p/calendar",
         "hidden": true
     },
     {
         "title": "resources",
-        "slug": "pages/resources",
+        "slug": "p/resources",
         "hidden": true
     },
     {
@@ -57,12 +57,12 @@
     },
     {
         "title": "privacy",
-        "slug": "pages/privacy",
+        "slug": "p/privacy",
         "hidden": true
     },
     {
         "title": "feedback",
-        "slug": "pages/feedback",
+        "slug": "p/feedback",
         "hidden": true
     }
 

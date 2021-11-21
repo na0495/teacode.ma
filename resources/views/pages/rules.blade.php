@@ -29,11 +29,11 @@
                                 <li>
                                     <p>Before asking for help or helping anyone, please read these sections  :</p>
                                     <ul>
-                                        <li><p><a href="/pages/faq#how-to-help">How to Help ?</a></p></li>
-                                        <li><p><a href="/pages/faq#how-to-ask-for-help">How to Ask for Help ?</a></p></li>
+                                        <li><p><a href="/p/faq#how-to-help">How to Help ?</a></p></li>
+                                        <li><p><a href="/p/faq#how-to-ask-for-help">How to Ask for Help ?</a></p></li>
                                     </ul>
                                 </li>
-                                <li> You can find information and answers for FAQ (Frequently Asked Questions) here <a href="/pages/faq">infos-and-faq</a></li>
+                                <li> You can find information and answers for FAQ (Frequently Asked Questions) here <a href="/p/faq">infos-and-faq</a></li>
                             </ol>
                         </blockquote>
                     </div>

@@ -14,7 +14,7 @@
                             <li>- Put a screenshot of the problem.</li>
                             <li>- Tell us your code or the problematic lines.</li>
                         </ul>
-                    <li> If you want to share code, share it directly (check <a href="/pages/faq#post-code">here</a> to know how), don't upload a file. If the code is too long or there are too many files, give us a link to a GitHub/GitLab/Bitbucket repository or Github Gists ...</li>
+                    <li> If you want to share code, share it directly (check <a href="/p/faq#post-code">here</a> to know how), don't upload a file. If the code is too long or there are too many files, give us a link to a GitHub/GitLab/Bitbucket repository or Github Gists ...</li>
                     <li> Members who can/want to help regularly visit the Help rooms, so when you ask for help, <strong>DO NOT mention someone or everyone</strong> to ask for help personally (unless you've already interacted with that same person. on the same problem to warn him).</li>
                     <li> Do Not Post the same question in multiple channels.</li>
                     <li> You should chat using <span class="text-decoration-underline">#help-chat</span> when you are connected to the <span class="text-decoration-underline">#Help › Voice</span>.</li>
