@@ -1,5 +1,32 @@
 <?php
 
+use App\Models\Event;
+
+if (!function_exists('getNextEvent')) {
+    function getNextEvent()
+    {
+        $events = Event::where(function ($q){
+            $q->whereNull('days_of_week')
+                ->whereDate('start_date', '>=', now());
+            })
+            ->orWhere(function ($q) {
+                $q->whereNotNull('days_of_week')
+                    ->where('end_date', '>=', now());
+            })
+            ->get();
+
+        $events = collect($events)->sortBy(function ($e){
+            if ($e->days_of_week) {
+                $e->_start_date = now()->addDays(7 - now()->diffInDays($e->start_date) % 7)->toDateString();
+            } else {
+                $e->_start_date = $e->start_date;
+            }
+            return $e->_start_date;
+        })->values();
+
+        return count($events) > 0 ? $events[0] : null;
+    }
+}
 
 if (!function_exists('getActions')) {
     function getActions()
