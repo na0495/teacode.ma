@@ -26,7 +26,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
         Route::group(['middleware' => 'auth'], function() {
             Route::get('/actions', 'ActionController@getActions')->name('actions');
-            // Route::get('/insert', 'ApiController@insert');
+            Route::get('/insert', 'ApiController@insert');
             Route::get('/events', 'ActionController@getEvents')->name('events.index');
             Route::get('/events/{event}', 'ActionController@getEvent')->name('events.get');
             Route::post('/events', 'ActionController@addEvent')->name('events.store');
@@ -62,6 +62,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');
+        Route::get('/events/next', 'ApiController@getNextEvent');
     });
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');

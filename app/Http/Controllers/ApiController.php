@@ -57,6 +57,12 @@ class ApiController extends Controller
         return $events;
     }
 
+    public function getNextEvent(Request $request)
+    {
+        $event = getNextEvent();
+        return ['event' => $event];
+    }
+
     public function insert()
     {
         $events = collect(json_decode(\File::get(base_path() . '/database/data/events.json')));
