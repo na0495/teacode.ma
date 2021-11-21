@@ -4,6 +4,9 @@
         padding: 0
 
 #calendar-wrapper
+    min-height: 500px
+    @media (max-width: 700px)
+        min-height: 600px
     .fc-button:first-letter
         text-transform: capitalize
     &.fullscreen
@@ -13,8 +16,21 @@
         right: 0
         bottom: 0
     @media (max-width: 700px)
-        .fc-header-toolbar .fc-toolbar-chunk:nth-child(3)
+        .fc-toolbar-chunk .fc-button
+            padding: 3px 7px
+        // .fc-header-toolbar .fc-toolbar-chunk:nth-child(2)
+        //     display: none
+            // .fc-button-group .fc-button:nth-child(n-1)
+        .fc-dayGridMonth-button
             display: none
+        .fc-header-toolbar .fc-toolbar-chunk:nth-child(3) .fc-listMonth-button
+            display: inline-block!important
+
+    @media (max-width: 576px)
+        .fc-today-button
+            display: none
+        .fc-toolbar-title
+            font-size: 1.5rem
 
 #event-detail
     .modal-content

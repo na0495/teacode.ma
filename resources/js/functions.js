@@ -48,25 +48,17 @@ function initCalendar() {
                 center: 'title',
                 right: 'dayGridMonth,timeGridWeek,listMonth'
             },
-            // titleFormat: { year: 'numeric', month: 'short', day: 'numeric'  },
+            titleFormat: { year: 'numeric', month: '2-digit'},
             themeSystem: 'standard',
             initialDate:  new Date().toISOString(),
             nowIndicator: true,
-            navLinks: true, // can click day/week names to navigate views
+            navLinks: true,
             allDaySlot: false,
             weekNumbers: true,
-            // weekText: '',
             weekNumberFormat: { week: 'numeric' },
-            // dayHeaders: true,
-            // height: '100%',
-            // timeZone: 'UTC+1',
-            // editable: true,
-            // handleWindowResize: true,
-            // aspectRatio: 0.5,
-            // contentHeight: 500,
-            initialView: 'dayGridMonth',
+            initialView: 'timeGridWeek',
             selectable: false,
-            dayMaxEvents: true, // allow "more" link when too many events
+            dayMaxEvents: true,
             events: '/api/events',
             eventClick: function(info) {
                 info.jsEvent.preventDefault();
