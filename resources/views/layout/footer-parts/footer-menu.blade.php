@@ -1,6 +1,6 @@
 <div class="footer-part footer-menu-wrapper container w-100">
     <div class="row">
-        <div class="col-12 col-md-8 col-lg-8 offset-md-2 offset-lg-2">
+        <div class="col-12">
             <div>
                 <ul class="footer-menu list-group list-group-horizontal align-items-start">
                     @foreach ($data->footerMenu as $link)
