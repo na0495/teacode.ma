@@ -39,6 +39,17 @@ class PageController extends Controller
         return view('pages.contributors', ['data' => $data]);
     }
 
+    public function interview(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Book Interview';
+        $data->availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
+        foreach ($data->availabilities as $key => $value) {
+            $value->_date = \Carbon\Carbon::createFromFormat('Y-m-d', $value->date);
+        }
+        return view('pages.book-interview', ['data' => $data]);
+    }
+
     public function calendar(Request $request)
     {
         $data = new \stdClass;

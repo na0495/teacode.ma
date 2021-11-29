@@ -2,7 +2,8 @@
 require('particles.js');
 window.$ = require('jquery');
 // let functions = require('./js');
-import { drawBrandText, initDarkMode, initParticlesJS, initCalendar, initActions } from "./functions";
+import { drawBrandText, initParticlesJS, initCalendar } from "./functions";
+import { initDarkMode, initActions } from "./events";
 
 $(function () {
 
@@ -15,7 +16,6 @@ $(function () {
         drawBrandText();
         initParticlesJS();
         initActions();
-
         initDarkMode();
     } catch (error) {
         console.log(error);

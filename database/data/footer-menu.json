@@ -32,6 +32,10 @@
         "hidden": true
     },
     {
+        "title": "book interview",
+        "slug": "p/interview"
+    },
+    {
         "title": "contributors",
         "slug": "p/contributors"
     },
@@ -65,5 +69,4 @@
         "slug": "p/feedback",
         "hidden": true
     }
-
 ]

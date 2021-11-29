@@ -143,6 +143,29 @@ class ActionController extends Controller
         }
     }
 
+    public function bookInterview(Request $request)
+    {
+        try {
+            $username = $request->input('username');
+            $date = $request->input('date');
+            $cv = $request->file('resume-file');
+            $filename = '' . $username . '_' . $date . '.' . $cv->getClientOriginalExtension();
+            $path = $cv->storeAs('public\\resume\\', $filename);
+            $data = [
+                'message' => 'Booked successfully.',
+                'code' => 200
+            ];
+            return response()->json(['data' => $data], 200);
+        } catch (\Throwable $th) {
+            $data = [
+                'message' => 'Something went wrong.',
+                // 'message' => $th->getMessage(),
+                'code' => 422
+            ];
+            return response()->json(['data' => $data], 422);
+        }
+    }
+
     // public function addContributor(Request $request)
     // {
 
