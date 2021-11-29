@@ -57,6 +57,12 @@ class ApiController extends Controller
         return $events;
     }
 
+    public function getAvailabilities(Request $request)
+    {
+        $availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
+        return $availabilities;
+    }
+
     public function getNextEvent(Request $request)
     {
         $event = getNextEvent();

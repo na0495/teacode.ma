@@ -63,6 +63,8 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');
         Route::get('/events/next', 'ApiController@getNextEvent');
+        Route::get('/availabilities', 'ApiController@getAvailabilities');
+        Route::post('/interview', 'ActionController@bookInterview')->name('interview.store');
     });
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');
