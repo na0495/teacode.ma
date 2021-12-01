@@ -1,5 +1,7 @@
 @extends('layout.page')
-
+@section('js-before')
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcoEWwdAAAAAGp8RuoEUul7QmcPmz83bTOYv5Fa"></script>
+@endsection
 @section('page-content')
     <div class="container book-interview">
         <div class="row mt-5">
@@ -17,7 +19,7 @@
                             <div class="input-group flex-nowrap mb-4">
                                 <span class="input-group-text" id="addon-wrapping">@</span>
                                 <input id="username" type="text" class="form-control masked" placeholder="username#1234" name="username"
-                                    aria-label="Username" aria-describedby="addon-wrapping" required>
+                                    aria-label="Username" aria-describedby="addon-wrapping">
                             </div>
                         </div>
                         <div class="dates mb-4">
@@ -26,7 +28,7 @@
                                 @foreach ($data->availabilities as $key => $item)
                                 <li class="list-group-item p-1 pb-0">
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <input class="form-check-input m-0 me-2" type="radio" name="date" id="key-{{ $key }}" value="{{ $item->date }}" required>
+                                        <input class="form-check-input m-0 me-2" type="radio" name="date" id="key-{{ $key }}" value="{{ $item->date }}">
                                         <label class="form-check-label" for="key-{{ $key }}">
                                             <span>{{ $item->_date->format('D j F') }}</span>
                                             <span>|</span>
@@ -40,9 +42,15 @@
                         <div class="mb-4">
                             <label for="formFile" class="form-label h5 file-box" id="file-box">
                                 <span class="file-box-txt">Drop your resume here to upload</span>
-                                <input class="form-control d-none" type="file" name="resume-file" id="formFile" accept=".pdf, .docx, .doc" required>
+                                <input class="form-control d-none" type="file" name="resume-file" id="formFile" accept=".pdf, .docx, .doc">
                             </label>
                         </div>
+                        {{-- <div class="reCaptcha">
+                            <button class="g-recaptcha form-control btn tc-blue-bg booking-btn"
+                                data-sitekey="6LcoEWwdAAAAAGp8RuoEUul7QmcPmz83bTOYv5Fa"
+                                data-callback='onSubmit'
+                                data-action='submit'>Submit</button>
+                        </div> --}}
                         <div class="btn-actions mb-4">
                             <button type="submit" class="form-control btn tc-blue-bg booking-btn">Submit</button>
                         </div>

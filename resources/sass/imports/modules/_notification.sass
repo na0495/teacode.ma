@@ -2,14 +2,16 @@
 .loaderCalcul
     z-index: 10000
     position: fixed
-    bottom: 20px
-    left: 20px
+    bottom: 10px
+    left: 10px
     display: flex
     flex-direction: column
     row-gap: 10px
+    @media (max-width: 500px)
+        right: 10px
 
     .alert-box
-        padding: 0.75rem
+        padding: 0.5rem
         display: flex
         justify-content: space-between
         margin-bottom: 0!important

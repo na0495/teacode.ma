@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Event;
 use Illuminate\Http\Request;
+use App\Http\Requests\BookInterviewRequest;
 
 class ActionController extends Controller
 {
@@ -143,13 +144,17 @@ class ActionController extends Controller
         }
     }
 
-    public function bookInterview(Request $request)
+    public function bookInterview(BookInterviewRequest $request)
     {
         try {
             $username = $request->input('username');
             $date = $request->input('date');
             $cv = $request->file('resume-file');
             $filename = '' . $username . '_' . $date . '.' . $cv->getClientOriginalExtension();
+            $captcha = $request->input('g-recaptcha');
+            if (!$captcha) {
+                throw new \Exception('Please check the the captcha form.', -1);
+            }
             $path = $cv->storeAs('public\\resume\\', $filename);
             $data = [
                 'message' => 'Booked successfully.',
@@ -157,12 +162,13 @@ class ActionController extends Controller
             ];
             return response()->json(['data' => $data], 200);
         } catch (\Throwable $th) {
-            $data = [
-                'message' => 'Something went wrong.',
-                // 'message' => $th->getMessage(),
-                'code' => 422
-            ];
-            return response()->json(['data' => $data], 422);
+            $data = [ 'code' => 422 ];
+            if ($th->getCode() == -1) {
+                $data['message'] = $th->getMessage();
+            } else {
+                $data['message'] = 'Something went wrong';
+            }
+            return response()->json(['data' => $data], 400);
         }
     }
 

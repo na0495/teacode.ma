@@ -110,36 +110,63 @@ function initActions() {
         let element = $('.loaderCalcul')
         element.empty().append(loader).removeClass('d-none');
 
-        $.ajax({
-            method: 'POST',
-            url: '/api/interview',
-            data: form_data,
-            processData: false,
-            contentType: false,
-            success: function (response) {
-                console.log(response);
-                const loader = `<div class="alert alert-success alert-box" role="alert">
-                                    <div class="alert-txt-wrapper">
-                                        <i class="far fa-check-circle medium-text"></i>
-                                        <div class="loader-text">${response.data.message}</div>
-                                    </div>
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                </div>`;
-                let element = $('.loaderCalcul')
-                element.empty().append(loader).removeClass('d-none');
-            },
-            error: function (jqXHR, textStatus, errorThrown){
-                console.log(jqXHR, textStatus, errorThrown);
-                const loader = `<div class="alert alert-danger alert-box" role="alert">
-                                        <div class="alert-txt-wrapper">
-                                            <i class="fas fa-exclamation-circle medium-text"></i>
-                                            <div class="loader-text">${jqXHR.responseJSON.data.message}</div>
-                                        </div>
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                    </div>`;
-                let element = $('.loaderCalcul')
-                element.empty().append(loader).removeClass('d-none');
-            }
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LcoEWwdAAAAAGp8RuoEUul7QmcPmz83bTOYv5Fa', {action: 'homepage'}).then(function(token) {
+                // pass the token to the backend script for verification
+                form_data.append("g-recaptcha", token);
+                $.ajax({
+                    method: 'POST',
+                    url: '/api/interview',
+                    data: form_data,
+                    processData: false,
+                    contentType: false,
+                    success: function (response) {
+                        console.log(response);
+                        const loader = `<div class="alert alert-success alert-box" role="alert">
+                                            <div class="alert-txt-wrapper">
+                                                <i class="far fa-check-circle medium-text"></i>
+                                                <div class="loader-text">${response.data.message}</div>
+                                            </div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>`;
+                        let element = $('.loaderCalcul')
+                        element.empty().append(loader).removeClass('d-none');
+                    },
+                    error: function (jqXHR, textStatus, errorThrown){
+                        console.log(jqXHR, textStatus, errorThrown);
+                        let message = 'Something went wrong';
+                        if (jqXHR.responseJSON.errors) {
+                            let errors = Object.values(jqXHR.responseJSON.errors);
+                            let element = $('.loaderCalcul')
+                            element.empty()
+                            for (let err of errors) {
+                                message = err[0]
+                                const loader = `<div class="alert alert-danger alert-box" role="alert">
+                                                <div class="alert-txt-wrapper">
+                                                    <i class="fas fa-exclamation-circle medium-text"></i>
+                                                    <div class="loader-text">${message}</div>
+                                                </div>
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                            </div>`;
+                                element.append(loader)
+                            }
+                            element.removeClass('d-none');
+                            return;
+                        } else if (jqXHR.responseJSON.data.message) {
+                            message = jqXHR.responseJSON.data.message;
+                        }
+                        const loader = `<div class="alert alert-danger alert-box" role="alert">
+                                                <div class="alert-txt-wrapper">
+                                                    <i class="fas fa-exclamation-circle medium-text"></i>
+                                                    <div class="loader-text">${message}</div>
+                                                </div>
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                            </div>`;
+                        let element = $('.loaderCalcul')
+                        element.empty().append(loader).removeClass('d-none');
+                    }
+                });
+            });
         });
         return false;
     });
