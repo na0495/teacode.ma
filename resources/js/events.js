@@ -141,7 +141,7 @@ function initActions() {
                             element.empty()
                             for (let err of errors) {
                                 message = err[0]
-                                const loader = `<div class="alert alert-danger alert-box" role="alert">
+                                const loader = `<div class="alert alert-primary alert-box" role="alert">
                                                 <div class="alert-txt-wrapper">
                                                     <i class="fas fa-exclamation-circle medium-text"></i>
                                                     <div class="loader-text">${message}</div>
@@ -155,7 +155,7 @@ function initActions() {
                         } else if (jqXHR.responseJSON.data.message) {
                             message = jqXHR.responseJSON.data.message;
                         }
-                        const loader = `<div class="alert alert-danger alert-box" role="alert">
+                        const loader = `<div class="alert alert-primary alert-box" role="alert">
                                                 <div class="alert-txt-wrapper">
                                                     <i class="fas fa-exclamation-circle medium-text"></i>
                                                     <div class="loader-text">${message}</div>
