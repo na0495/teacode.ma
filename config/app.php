@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Biscolab\ReCaptcha\ReCaptchaServiceProvider::class,
         /*
          * Application Service Providers...
          */

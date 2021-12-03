@@ -5,6 +5,8 @@
 <link rel="preload" href="{{ asset('/assets/fonts/istokweb.woff2') }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ asset('/assets/fonts/UntitledSansWeb-Bold.woff2') }}" as="font" type="font/woff2" crossorigin>
 
+@yield('meta-extra')
+
 @yield('css-before')
 <link href="{{ asset('/css/externals.css') }}" rel="preload" as="style">
 <link href="{{ asset('/css/externals.css') }}" rel="stylesheet">

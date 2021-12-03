@@ -23,10 +23,12 @@ class BookInterviewRequest extends FormRequest
      */
     public function rules()
     {
+        $availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
         return [
-            'username' => 'required|max:100',
-            'date' => 'required|date|after:now',
-            'resume-file' => 'required|mimes:pdf,doc,docx'
+            'email' => 'required|email',
+            'date' => 'required|date|in:' . implode(',', array_column($availabilities, 'date')),
+            'resume-file' => 'nullable|mimes:pdf,doc,docx|max:3000',
+            'g-recaptcha-response' => 'recaptcha'
         ];
     }
 
@@ -38,13 +40,15 @@ class BookInterviewRequest extends FormRequest
     public function messages()
     {
         return [
-            'username.required' => 'The <span class=text-decoration-underline>discord username</span> is required',
-            'username.max' => 'The <span class=text-decoration-underline>discord username</span> must be less than 100 characters',
+            'email.required' => 'The <span class=text-decoration-underline>email</span> is required',
+            'email.email' => 'The <span class=text-decoration-underline>email</span> must be a valid email address',
             'date.required' => 'The <span class=text-decoration-underline>availability date</span> is required',
             'date.date' => 'The given <span class=text-decoration-underline>date</span> is not valid',
-            'date.after' => 'The <span class=text-decoration-underline>availability date</span> must be one of the input choices',
-            'resume-file.required' => 'The <span class=text-decoration-underline>resume file</span> is required',
-            'resume-file.mimes' => 'The <span class=text-decoration-underline>resume file</span> must be a file of type: pdf, doc, docx',
+            'date.in' => 'The <span class=text-decoration-underline>availability date</span> must be one of the input choices',
+            // 'resume-file.required' => 'The <span class=text-decoration-underline>CV file</span> is required',
+            'resume-file.mimes' => 'The <span class=text-decoration-underline>CV file</span> must be a file of type: pdf, doc, docx',
+            'resume-file.max' => 'The <span class=text-decoration-underline>CV file</span> must have a size of 3Mb or less',
+            'g-recaptcha-response.recaptcha' => 'The <span class=text-decoration-underline>reCaptcha</span> is expired or was not provided',
         ];
     }
 }

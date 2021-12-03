@@ -147,15 +147,20 @@ class ActionController extends Controller
     public function bookInterview(BookInterviewRequest $request)
     {
         try {
-            $username = $request->input('username');
+            $email = $request->input('email') ?? 'None';
             $date = $request->input('date');
             $cv = $request->file('resume-file');
             $filename = '' . $username . '_' . $date . '.' . $cv->getClientOriginalExtension();
             $captcha = $request->input('g-recaptcha');
-            if (!$captcha) {
-                throw new \Exception('Please check the the captcha form.', -1);
+            if ($cv) {
+                $filename = time() . '.' . $cv->getClientOriginalExtension();
+                $path = $cv->storeAs('public\\resume\\', $filename);
+            } else {
+                $filename = time() . '.txt';
+                $file = fopen(storage_path('app/public/resume/') . $filename, "w");
+                fwrite($file, $email . ' | ' . $date);
+                fclose($file);
             }
-            $path = $cv->storeAs('public\\resume\\', $filename);
             $data = [
                 'message' => 'Booked successfully.',
                 'code' => 200
