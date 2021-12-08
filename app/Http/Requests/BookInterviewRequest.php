@@ -28,7 +28,7 @@ class BookInterviewRequest extends FormRequest
             'email' => 'required|email',
             'date' => 'required|date|in:' . implode(',', array_column($availabilities, 'date')),
             'resume-file' => 'nullable|mimes:pdf,doc,docx|max:3000',
-            'g-recaptcha-response' => 'recaptcha'
+            // 'g-recaptcha-response' => 'recaptcha'
         ];
     }
 

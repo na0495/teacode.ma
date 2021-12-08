@@ -6,10 +6,20 @@
     <div class="container book-interview">
         <div class="row mt-5">
             <div class="col-12">
-                <h2 class="text-center tc-blue-dark-1 mb-5">Book Interview</h2>
+                <h2 class="text-center tc-blue-dark-1 mb-3">
+                    Book a <a href="https://www.talentlyft.com/en/resources/what-is-mock-interview"
+                        target="_blank" class="text-decoration-underline tc-blue-dark-1">Mock Interview</a></h2>
             </div>
         </div>
         <div class="row mt-3 mb-5">
+            <div class="col-12 col-md-8 offset-md-2 text-center">
+                <div class="intro mb-4">
+                    <p class="h5">
+                        <span class="d-block" dir="rtl">إلى كنتي باغي تدرب على les entretiens عمر هاد الفورم</span>
+                        <span class="d-block" dir="rtl">باش تعرف شوف هاد الرابط <a href="https://www.talentlyft.com/en/resources/what-is-mock-interview" target="_blank">Mock Interview</a></span>
+                    </p>
+                </div>
+            </div>
             <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
                 <div class="availabilities">
                     <form id="booking-form" action="{{ route('interview.store') }}" method="post" enctype="multipart/form-data">
@@ -28,11 +38,11 @@
                                 @foreach ($data->availabilities as $key => $item)
                                 <li class="list-group-item p-1 pb-0">
                                     <div class="d-flex justify-content-center align-items-center">
-                                        <input class="form-check-input m-0 me-2" type="radio" name="date" id="key-{{ $key }}" value="{{ $item->date }}" required>
+                                        <input class="form-check-input m-0 me-2" type="radio" name="date" id="key-{{ $key }}" value="{{ $item->day }}" required>
                                         <label class="form-check-label" for="key-{{ $key }}">
-                                            <span>{{ $item->_date->format('D j F') }}</span>
+                                            <span>{{ $item->day }}</span>
                                             <span>|</span>
-                                            <span>{{ $item->start }} - {{ $item->end }}</span>
+                                            <span>{{ $item->day_ar }}</span>
                                         </label>
                                     </div>
                                 </li>
@@ -45,12 +55,9 @@
                                 <input class="form-control d-none" type="file" name="resume-file" id="resume-file" accept=".pdf, .docx, .doc">
                             </label>
                         </div>
-                        {{-- <div class="reCaptcha">
-                            <button class="g-recaptcha form-control btn tc-blue-bg booking-btn"
-                                data-sitekey="6LcoEWwdAAAAAGp8RuoEUul7QmcPmz83bTOYv5Fa"
-                                data-callback='onSubmit'
-                                data-action='submit'>Submit</button>
-                        </div> --}}
+                        <div class="mb-4 position-relative">
+                            {!! htmlFormSnippet() !!}
+                        </div>
                         <div class="btn-actions mb-4">
                             <button type="submit" class="form-control btn tc-blue-bg booking-btn">Submit</button>
                         </div>

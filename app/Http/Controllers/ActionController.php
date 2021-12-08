@@ -150,15 +150,13 @@ class ActionController extends Controller
             $email = $request->input('email') ?? 'None';
             $date = $request->input('date');
             $cv = $request->file('resume-file');
-            $filename = '' . $username . '_' . $date . '.' . $cv->getClientOriginalExtension();
-            $captcha = $request->input('g-recaptcha');
             if ($cv) {
                 $filename = time() . '.' . $cv->getClientOriginalExtension();
                 $path = $cv->storeAs('public\\resume\\', $filename);
             } else {
                 $filename = time() . '.txt';
                 $file = fopen(storage_path('app/public/resume/') . $filename, "w");
-                fwrite($file, $email . ' | ' . $date);
+                fwrite($file, $email . "\n" . $date);
                 fclose($file);
             }
             $data = [

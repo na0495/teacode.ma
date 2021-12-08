@@ -1,16 +1,10 @@
 [
     {
-        "date": "2021-12-09",
-        "start": "21:00",
-        "end": "22:00",
-        "url": "https://discord.gg/vKu2fkPqjY",
-        "title": "Mock Interview"
+        "day": "Sundays",
+        "day_ar": "أيام الأحد"
     },
     {
-        "date": "2021-12-12",
-        "start": "21:00",
-        "end": "22:00",
-        "url": "https://discord.gg/vKu2fkPqjY",
-        "title": "Mock Interview"
+        "day": "Thursdays",
+        "day_ar": "أيام الخميس"
     }
 ]

@@ -44,9 +44,6 @@ class PageController extends Controller
         $data = new \stdClass;
         $data->title = 'TeaCode | Book Interview';
         $data->availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
-        foreach ($data->availabilities as $key => $value) {
-            $value->_date = \Carbon\Carbon::createFromFormat('Y-m-d', $value->date);
-        }
         return view('pages.book-interview', ['data' => $data]);
     }
 
