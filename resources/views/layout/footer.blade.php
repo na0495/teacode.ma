@@ -1,5 +1,5 @@
 <footer class="page-footer">
-    <div class="container-fluid footer text-center">
+    <div class="container page-footer-wrapper footer text-center">
         @include('layout.footer-parts.footer-menu')
         <hr class="footer-separator">
         @include('layout.footer-parts.extra-data')
