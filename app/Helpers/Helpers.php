@@ -98,6 +98,7 @@ if (!function_exists('getLinks')) {
             'patreon' => 'https://www.patreon.com/teacodema',
             'paypal' => 'https://www.paypal.me/drissboumlik',
 
+            'interview' => 'https://docs.google.com/forms/d/e/1FAIpQLScwnhgc85gG4vBxq8d0uTxlBkvX6bR4LNcuI7_DNz9WEk0NTw/viewform',
             'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
 
             // Specific links
