@@ -3,7 +3,7 @@
 use App\Models\Event;
 
 if (!function_exists('getNextEvent')) {
-    function getNextEvent()
+    function getNextEvent($only_public = false)
     {
         $events = Event::where(function ($q){
             $q->whereNull('days_of_week')
@@ -12,8 +12,12 @@ if (!function_exists('getNextEvent')) {
             ->orWhere(function ($q) {
                 $q->whereNotNull('days_of_week')
                     ->where('end_date', '>=', now());
-            })
-            ->get();
+            });
+        if ($only_public) {
+            $events = $events->where('is_private', 0);
+        }
+        $events = $events->get();
+
 
         $events = collect($events)->sortBy(function ($e){
             if ($e->days_of_week) {

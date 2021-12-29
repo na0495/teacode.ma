@@ -13,6 +13,11 @@
                 </a>
             </div>
             <nav class="nav d-flex justify-content-center">
+                @isset($menu)
+                    @foreach ($menu as $item)
+                        <a class="menu-item p-2 text-capitalize" target="_blank" href="/{{ $item->slug }}">{{ $item->title }}</a>
+                    @endforeach
+                @endisset
                 @guest
                     @if (Route::has('login'))
                         <a class="menu-item p-2 text-capitalize" href="{{ route('login') }}">

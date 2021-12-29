@@ -11,8 +11,11 @@ class ActionController extends Controller
     public function getActions(Request $request)
     {
         try {
+            $data = new \stdClass;
+            $data->title = 'TeaCode | Actions';
+            $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $actions = getActions();
-            return view('pages.actions.index', ['actions' => $actions]);
+            return view('pages.actions.index', ['actions' => $actions, 'menu' => $menu, 'data' => $data]);
         } catch (\Throwable $th) {
             throw $th;
         }
@@ -21,8 +24,11 @@ class ActionController extends Controller
     public function getEvents(Request $request)
     {
         try {
+            $data = new \stdClass;
+            $data->title = 'TeaCode | Events list';
+            $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $events = Event::orderBy('start_date', 'desc')->get();
-            return view('pages.actions.events', ['events' => $events]);
+            return view('pages.actions.events', ['events' => $events, 'menu' => $menu, 'data' => $data]);
         } catch (\Throwable $th) {
             throw $th;
         }
@@ -31,8 +37,9 @@ class ActionController extends Controller
     public function getEvent(Request $request, Event $event)
     {
         try {
+            $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $actions = getActions();
-            return view('pages.actions.index', ['actions' => $actions, 'event' => $event]);
+            return view('pages.actions.index', ['actions' => $actions, 'event' => $event, 'menu' => $menu]);
         } catch (\Throwable $th) {
             throw $th;
         }
@@ -66,6 +73,7 @@ class ActionController extends Controller
                     'days_of_week' => $data['days_of_week'],
                     'url' => $data['url'],
                     'title' => $data['title'],
+                    'is_private' => isset($data['is_private']) ? 1 : 0,
                     'extended_props' => isset($extended_props) ? json_decode(json_encode($extended_props)) : null
                 ]);
             } else {
@@ -78,6 +86,7 @@ class ActionController extends Controller
                     'text_color' => $data['text_color'],
                     'url' => $data['url'],
                     'title' => $data['title'],
+                    'is_private' => isset($data['is_private']) ? 1 : 0,
                     'extended_props' => isset($extended_props) ? json_decode(json_encode($extended_props)) : null
                 ]);
             }

@@ -21,6 +21,7 @@ class Event extends Model
         'text_color',
         'days_of_week',
         'extended_props',
+        'is_private'
     ];
 
     protected $casts = [

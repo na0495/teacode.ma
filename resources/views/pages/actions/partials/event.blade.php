@@ -16,6 +16,10 @@
         <label for="exampleColorInput" class="form-label">Color picker</label>
         <input type="color" class="form-control" id="text_color" name="text_color" value="{{ $event->text_color ?? old('text_color') }}"/>
         <input type="text" class="form-control" id="days_of_week" name="days_of_week" placeholder="Days of week" value="{{ isset($event) && $event->days_of_week ? implode(',', $event->days_of_week) : old('days_of_week') }}" />
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" name="is_private" id="is_private" {{ isset($event) && $event->is_private ? 'checked' : '' }}>
+            <label class="form-check-label" for="is_private">Private</label>
+        </div>
         <div class="extended_props_wrapper">
             <label for="extended_props" class="form-label">Extended Props <button type="button" class="p-0 ms-2 btn btn-default add-extended_props fs-4"><i class="fas fa-plus-circle"></i></button></label>
             @if(isset($event) && isset($event->extended_props))

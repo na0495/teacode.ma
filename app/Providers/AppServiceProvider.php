@@ -37,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
                 $view->data = new \stdClass;
             }
 
-            $view->data->banner = getNextEvent();
+            $view->data->banner = getNextEvent(true);
             if ($view->data->banner) {
                 $view->data->banner->title = strlen($view->data->banner->title) > 40 ? \Str::substr($view->data->banner->title, 0, 40).'...' : $view->data->banner->title;
             }

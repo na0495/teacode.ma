@@ -1,0 +1,18 @@
+[
+    {
+        "title": "actions",
+        "slug": "_admin/actions"
+    },
+    {
+        "title": "events",
+        "slug": "_admin/events"
+    },
+    {
+        "title": "sitemap",
+        "slug": "sitemap"
+    },
+    {
+        "title": "generateSitemap",
+        "slug": "generateSitemap"
+    }
+]
