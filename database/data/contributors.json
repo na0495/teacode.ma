@@ -11,7 +11,7 @@
     },
     {
         "fullname": "saad",
-        "role": "helper",
+        "role": "staff team",
         "slug": "egon"
     },
     {
@@ -21,8 +21,28 @@
     },
     {
         "fullname": "taha omar",
-        "role": "helper",
+        "role": "staff team",
         "slug": "satisfy"
+    },
+    {
+        "fullname": "Omar",
+        "role": "host",
+        "slug": "omarbelkady"
+    },
+    {
+        "fullname": "Hafsa",
+        "role": "host",
+        "slug": "hafsacactus"
+    },
+    {
+        "fullname": "Fatima Zahra",
+        "role": "host",
+        "slug": "fatimazahra"
+    },
+    {
+        "fullname": "Maryam",
+        "role": "host",
+        "slug": "maryam"
     },
     {
         "fullname": "ayoub",
@@ -33,10 +53,6 @@
         "fullname": "essalhi",
         "role": "helper",
         "slug": "essalhi"
-    },  {
-        "fullname": "mohammed",
-        "role": "helper",
-        "slug": "mymik"
     },
     {
         "fullname": "yasser",
@@ -55,7 +71,7 @@
     },
     {
         "fullname": "oussama",
-        "role": "host",
+        "role": "helper",
         "slug": "wildric"
     },
     {
@@ -64,8 +80,18 @@
         "slug": "ali"
     },
     {
+        "fullname": "Souphiane",
+        "role": "helper",
+        "slug": "souphiane"
+    },
+    {
+        "fullname": "Amine",
+        "role": "helper",
+        "slug": "amine"
+    },
+    {
         "fullname": "yacouri",
-        "role": "contributor",
+        "role": "helper",
         "slug": "yacouri"
     },
     {
