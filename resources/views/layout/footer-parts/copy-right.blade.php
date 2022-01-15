@@ -3,7 +3,7 @@
         <div class="col-lg-6 offset-lg-3 col-12 copyright-txt mb-2">
             <div class="copy-right">
                 <span class="copy-right-txt">
-                    <i class="far fa-copyright"></i> TeaCode {{ now()->year }}. All rights reserved
+                    <i class="far fa-copyright"></i> TeaCode 2021 - {{ now()->year }}. All rights reserved
                 </span>
             </div>
         </div>
