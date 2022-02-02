@@ -122,6 +122,7 @@ class ActionController extends Controller
                     'days_of_week' => $data['days_of_week'],
                     'url' => $data['url'],
                     'title' => $data['title'],
+                    'is_private' => isset($data['is_private']) ? true : false,
                     'extended_props' => isset($extended_props) ? json_decode(json_encode($extended_props)) : null
                 ]);
             } else {
@@ -134,6 +135,7 @@ class ActionController extends Controller
                     'text_color' => $data['text_color'] == '#000000' ? null : $data['text_color'],
                     'url' => $data['url'],
                     'title' => $data['title'],
+                    'is_private' => isset($data['is_private']) ? true : false,
                     'extended_props' => isset($extended_props) ? json_decode(json_encode($extended_props)) : null
                 ]);
             }

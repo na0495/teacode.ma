@@ -24,6 +24,7 @@ class CreateEventsTable extends Migration
             $table->string('background_color')->nullable();
             $table->string('text_color')->nullable();
             $table->json('days_of_week')->nullable();
+            $table->boolean('is_private')->default(true);
             $table->json('extended_props')->nullable();
             $table->timestamps();
             $table->softDeletes();
