@@ -73,23 +73,21 @@ if (!function_exists('getLinks')) {
             'how-to' => 'https://youtu.be/uNFwkNjNkYc',
             'howto' => 'https://youtu.be/uNFwkNjNkYc',
             'about' => 'https://youtu.be/uNFwkNjNkYc',
-            'discord' => 'https://discord.gg/vKu2fkPqjY',
-            'join' => 'https://discord.gg/vKu2fkPqjY',
+            'discord' => 'https://discord.gg/bjQYevbEfY',
+            'join' => 'https://discord.gg/bjQYevbEfY',
 
             // Activities
-            'workshops' => 'https://discord.gg/vKu2fkPqjY',
-            'communication' => 'https://discord.gg/vKu2fkPqjY',
-            'communication-en' => 'https://discord.gg/vKu2fkPqjY',
-            'communication-fr' => 'https://discord.gg/vKu2fkPqjY',
-            'hangouts' => 'https://discord.gg/vKu2fkPqjY',
-            'pair-programming' => 'https://discord.gg/vKu2fkPqjY',
-            'coding-challenges' => 'https://discord.gg/vKu2fkPqjY',
-            'mock-interview' => 'https://discord.gg/vKu2fkPqjY',
+            'workshops' => 'https://discord.gg/bjQYevbEfY',
+            'communication' => 'https://discord.gg/bjQYevbEfY',
+            'communication-en' => 'https://discord.gg/bjQYevbEfY',
+            'communication-fr' => 'https://discord.gg/bjQYevbEfY',
+            'hangouts' => 'https://discord.gg/bjQYevbEfY',
+            'pair-programming' => 'https://discord.gg/bjQYevbEfY',
+            'coding-challenges' => 'https://discord.gg/bjQYevbEfY',
+            'mock-interview' => 'https://discord.gg/bjQYevbEfY',
 
             // Bot Project
             'teabot' => 'https://replit.com/@drissboumlik/teabot',
-            'teabot-test' => 'https://replit.com/@drissboumlik/teabot-test',
-            'bot-project' => 'https://teacodema.notion.site/24eed2b9e3b04433b7275d7ad406581e',
 
             // Social links
             'facebook' => 'https://facebook.com/teacode.ma',
