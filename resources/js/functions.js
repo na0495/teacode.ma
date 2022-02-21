@@ -1,8 +1,4 @@
-import { Calendar } from '@fullcalendar/core';
-import interactionPlugin from '@fullcalendar/interaction';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import timeGridPlugin from '@fullcalendar/timegrid';
-import listPlugin from '@fullcalendar/list';
+require('particles.js');
 import 'bootstrap';
 
 function drawBrandText() {
@@ -19,133 +15,6 @@ function drawBrandText() {
     console.log(text);
 }
 
-function initCalendar(calendarEl) {
-    if (calendarEl) {
-        var calendar = new Calendar(calendarEl, {
-            plugins: [interactionPlugin, dayGridPlugin, timeGridPlugin, listPlugin],
-            headerToolbar: {
-                left: 'prev,next today',
-                center: 'title',
-                right: 'dayGridMonth,timeGridWeek,listMonth'
-            },
-            titleFormat: { year: 'numeric', month: '2-digit'},
-            themeSystem: 'standard',
-            initialDate:  new Date().toISOString(),
-            nowIndicator: true,
-            navLinks: true,
-            allDaySlot: false,
-            weekNumbers: true,
-            weekNumberFormat: { week: 'numeric' },
-            initialView: 'timeGridWeek',
-            selectable: false,
-            dayMaxEvents: true,
-            events: '/api/events',
-            eventClick: function(info) {
-                info.jsEvent.preventDefault();
-                let event = info.event
-                $('#event-detail .modal-body').empty();
-                let date = event.start.toLocaleString([], {day: 'numeric', weekday: 'short', year: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit'});
-                let url = event.url.length <= 50 ?  event.url : event.url.substring(0, 50) + '...';
-                let dom = `<div class="event-info event-title">
-                                <div class="event-icon"><i class="fas fa-dot-circle"></i></div>
-                                <div class="event-text"><span>${event.title}</span></div>
-                            </div>
-                            <div class="event-info event-date">
-                                <div class="event-icon"><i class="fas fa-calendar-alt"></i></div>
-                                <div class="event-text"><span>${date}</span></div>
-                            </div>
-                            <div class="event-info event-url">
-                                <div class="event-icon"><i class="fas fa-link"></i></div>
-                                <div class="event-text"><span><a href="${event.url}" target="_blank">${url}</a></span></div>
-                            </div>`;
-                if (event.extendedProps.video) {
-                    dom += `<div class="event-info event-video">
-                                <div class="event-icon"><i class="fab fa-youtube"></i></div>
-                                <div class="event-text"><span><a href="${event.extendedProps.video}" target="_blank">Watch the record</a></span></div>
-                            </div>`;
-                }
-                if (event.extendedProps?.description) {
-                    dom += `<div class="event-info event-description">
-                                <div class="event-icon"><i class="far fa-file-alt"></i></div>
-                                <div class="event-text"><span>${event.extendedProps.description.replaceAll('\\n', '<br/>').replaceAll('\n', '<br/>')}</span></div>
-                            </div>`;
-                }
-                $('#event-detail .modal-body').append(dom);
-                $('#event-detail').addClass('d-block show in animate__fadeIn').removeClass('animate__fadeOut');
-            },
-        });
-        calendar.render()
-        // calendar.setOption('height', '100%');
-
-        $('#event-detail .close').on('click', function (e) {
-            // console.log('child', e.currentTarget, e.target);
-            $('#event-detail').addClass('animate__fadeOut').removeClass('animate__fadeIn');
-            setTimeout(() => {
-                $('#event-detail').removeClass('d-block show in');
-            }, 300);
-        });
-
-        $('#event-detail').on('click', function (e) {
-            if (e.currentTarget == e.target || $(e.target)[0] == $('.close i')[0]) {
-                $('#event-detail').addClass('animate__fadeOut').removeClass('animate__fadeIn');
-                setTimeout(() => {
-                    $('#event-detail').removeClass('d-block show in');
-                }, 300);
-            }
-        });
-    }
-}
-
-function initActions() {
-    $('.banner-close').on('click', function () {
-        $('.banner').remove();
-    });
-    $('.event').on('click', '.add-extended_props', function (){
-        let index = $('.extended_props_row').length;
-        let dom = `<div class="row extended_props_row">
-                        <div class="col-5"><input type="text" class="form-control" name="extended_props[${index}][]" placeholder="Field name"/></div>
-                        <div class="col-6"><input type="text" class="form-control" name="extended_props[${index}][]" placeholder="Field value"/></div>
-                        <div class="col-1 remove-extended_props"><i class="fas fa-minus-circle"></i></div>
-                    </div>`;
-        $('.extended_props_wrapper').append(dom);
-    });
-    $('.event').on('click', '.remove-extended_props', function (){
-        $(this).parent('.extended_props_row').remove();
-    });
-    $('.event').on('click', '.update-event', function (e) {
-        let data = $('.event form').serializeArray();
-        $.ajax({
-            method: 'PUT',
-            url: '/_admin/events/' + $(this).data('id'),
-            data: data,
-            success: function (response) {
-                console.log(response);
-                alert('Updated');
-            },
-            error: function (jqXHR, textStatus, errorThrown){
-                console.log(jqXHR, textStatus, errorThrown);
-                alert('Error');
-            }
-        });
-    });
-    $('.event').on('click', '.delete-event', function (e) {
-        // e.preventDefault();
-        $.ajax({
-            method: 'DELETE',
-            url: '/_admin/events/' + $(this).data('id'),
-            success: function (response) {
-                console.log(response);
-                history.back();
-                alert('Deleted');
-            },
-            error: function (jqXHR, textStatus, errorThrown){
-                console.log(jqXHR, textStatus, errorThrown);
-                alert('Error');
-            }
-        });
-    });
-}
-
 function initParticlesJS() {
     if ($('#particles-js').length) {
         // setTimeout(() => {
@@ -155,5 +24,45 @@ function initParticlesJS() {
     }
 }
 
+function setCookie(name, value) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = name + "=" + value + ";" + expires + ";path=/";
+}
 
-export { drawBrandText, initParticlesJS, initCalendar }
+function toggleDarkMode(button, isActive, _body) {
+    if (isActive) {
+        _body.addClass('dark-mode').removeClass('light-mode');
+        button.addClass('dark-mode').removeClass('light-mode');
+        $('.icon-mode').addClass('dark-mode').removeClass('light-mode');
+        setCookie('mode', 'dark');
+    } else {
+        _body.removeClass('dark-mode').addClass('light-mode');
+        button.removeClass('dark-mode').addClass('light-mode');
+        $('.icon-mode').removeClass('dark-mode').addClass('light-mode');
+        setCookie('mode', 'light');
+    }
+}
+
+function initDarkMode() {
+    let _body = $(document.body);
+    $(document).on('click', '.toggle-dark-mode', function () {
+        let _this = $(this);
+        let _isActive = !_body.hasClass('dark-mode');
+        // let _isActive = localStorage.getItem('isDarkModeActive');
+        _this.addClass('pushed');
+        setTimeout(() => {
+            _this.removeClass('pushed');
+        }, 300);
+        toggleDarkMode(_this, _isActive, _body);
+    });
+}
+
+function initGlobalActions() {
+    $('.banner-close').on('click', function () {
+        $('.banner').remove();
+    });
+}
+
+export { drawBrandText, initParticlesJS, initDarkMode, initGlobalActions }

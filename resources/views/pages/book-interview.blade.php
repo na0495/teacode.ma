@@ -2,6 +2,9 @@
 @section('meta-extra')
     {!! ReCaptcha::htmlScriptTagJsApi() !!}
 @endsection
+@section('js-after')
+    <script defer src="{{ asset('/js/admin.app.js') }}"></script>
+@endsection
 @section('page-content')
     <div class="container book-interview">
         <div class="row mt-5">

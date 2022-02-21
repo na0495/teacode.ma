@@ -1,21 +1,12 @@
-// window._ = require('lodash');
-require('particles.js');
 window.$ = require('jquery');
-// let functions = require('./js');
-import { drawBrandText, initParticlesJS, initCalendar } from "./functions";
-import { initDarkMode, initActions } from "./events";
+import { drawBrandText, initParticlesJS, initDarkMode, initGlobalActions } from "./functions";
 
 $(function () {
 
     try {
-        $.ajaxSetup({
-            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}
-        });
-        var calendarEl = document.getElementById('calendar-wrapper');
-        initCalendar(calendarEl);
+        initGlobalActions();
         drawBrandText();
         initParticlesJS();
-        initActions();
         initDarkMode();
     } catch (error) {
         console.log(error);
