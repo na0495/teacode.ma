@@ -32,7 +32,8 @@
                             <div class="col-lg-6 col-md-5 activity-img">
                                 <div class="img-wrapper">
                                     {{-- @include('pages.index-parts.svg-includes.' . $activity->slug) --}}
-                                    <img class="img-fluid w-md-75 m-auto d-block" src="{{ asset('/assets/img/activities/' . $activity->slug . '.svg') }}" alt="">
+                                    <img class="img-fluid w-md-75 m-auto d-block" src="{{ asset('/assets/img/activities/' . $activity->slug . '.svg') }}"
+                                        alt="{{ $activity->title }}" height="210" width="210">
                                 </div>
                             </div>
                         </div>
