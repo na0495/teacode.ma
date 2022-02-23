@@ -47,12 +47,12 @@ class PageController extends Controller
         return view('pages.book-interview', ['data' => $data]);
     }
 
-    public function calendar(Request $request)
-    {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | Calendar';
-        return view('pages.calendar', ['data' => $data]);
-    }
+    // public function calendar(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->title = 'TeaCode | Calendar';
+    //     return view('pages.calendar', ['data' => $data]);
+    // }
 
     public function resources(Request $request, $page)
     {
