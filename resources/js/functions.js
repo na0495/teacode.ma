@@ -68,25 +68,36 @@ function initGlobalActions() {
 
 function generateCode(){
     editor();
-    output();
+    setTimeout(() => {
+        reRun();
+    }, 500);
+    initCodeEvent();
+}
+
+function initCodeEvent(){
     $('.btn-edit').on('click', function () {
         let _this = $(this);
         setTimeout(() => {
             _this.attr('disabled', false);
             editor();
         }, 100);
-        _this.removeClass('pushed').attr('disabled', true);
+        _this.attr('disabled', true);
     });
     $('.btn-run').on('click', function () {
-        let _this = $(this);
-        $('.body-loading').removeClass('d-none');
-        setTimeout(() => {
-            _this.attr('disabled', false);
-            $('.body-loading').addClass('d-none');
-            output();
-        }, 1000);
-        _this.removeClass('pushed').attr('disabled', true);
+        reRun($(this));
     });
+}
+
+function reRun(btn = null){
+    $('.body-loading').removeClass('d-none');
+    $('.about-code .output-wrapper .body-container .lines').addClass('d-none');
+    setTimeout(() => {
+        if (btn) btn.attr('disabled', false);
+        $('.body-loading').addClass('d-none');
+        $('.about-code .output-wrapper .body-container .lines').removeClass('d-none');
+        output();
+    }, 1000);
+    if (btn) btn.removeClass('pushed').attr('disabled', true);
 }
 
 function editor() {
@@ -99,8 +110,8 @@ function editor() {
     for(let i = 0; i < limit; i++) {
         let maxPadding = 5, minPadding = 1
         let paddingLeft = i ? Math.round(minPadding + Math.random() *(maxPadding -  minPadding)) : i;
-        editorBody.append(`<div class="line-code ${i}" style="padding-left: ${paddingLeft*10}px"></div>`);
-        let x = editorBody.children(`:nth-child(${(i+1)})`);
+        editorBody.append(`<div id="line-code-${i}" class="line-code line-code-${i} _opacity-0" style="padding-left: ${paddingLeft*10}px"></div>`);
+        let lineCode = editorBody.find(`#line-code-${i}`);
         let maxCodeItem = 5, minCodeItem = 2;
         let j = Math.round(minCodeItem + Math.random() * (maxCodeItem - minCodeItem));
         let _colors = [...colors];
@@ -108,9 +119,17 @@ function editor() {
             var color = _colors[Math.floor(Math.random()*_colors.length)];
             let maxWidth = 70, minWidth = 15;
             let width = Math.round(minWidth + Math.random() * (maxWidth - minWidth));
-            x.append(`<span class="line-code-item" style="background-color:${color}; width:${width}px"></span>`)
+            lineCode.append(`<span id="line-code-${i}-item-${_i}" class="line-code-item line-code-${i}-item-${_i}" style="background-color:${color}; width:0px"></span>`);
+            let lineCodeItem = lineCode.find(`#line-code-${i}-item-${_i}`);
+            setTimeout(() => {
+                lineCodeItem.css('width', `${width}px`);
+            }, 100 * (i + _i));
             _colors = _colors.filter(c => c !== color);
         }
+
+        // setTimeout(() => {
+        //     lineCode.removeClass('opacity-0').addClass('animate__animated animate__slideInLeft');
+        // }, 100 * i);
     }
 }
 function output() {
@@ -119,16 +138,21 @@ function output() {
     let limit = 5;
     let _colors = [{color: '#C54242', iconClass: 'far fa-times-circle'},
                     {color: '#3F8854', iconClass: 'far fa-check-circle'},
-                    {color: '#F4C009', iconClass: 'fas fa-exclamation-triangle'}];
+                    // {color: '#F4C009', iconClass: 'fas fa-exclamation-triangle'},
+                    {color: '#3F8854', iconClass: 'far fa-check-circle'},];
     for (let i = 0; i < limit; i++) {
-        var item = _colors[Math.floor(Math.random()*_colors.length)];
-        let line = `<div class="line-output">
+        var item = _colors[Math.floor(Math.random() * _colors.length)];
+        let line = `<div id="line-output-${i}" class="line-output line-output-${i} opacity-0">
                         <div class="line-icon">
                             <i class="${item.iconClass}" style="color:${item.color}"></i>
                         </div>
                         <div class="line-text" style="background-color:${item.color}"></div>
                     </div>`;
         outputBody.append(line);
+        let lineOutput = outputBody.find(`#line-output-${i}`);
+        setTimeout(() => {
+            lineOutput.addClass('animate__animated animate__zoomIn').removeClass('opacity-0');
+        }, 150 * i);
     }
 }
 

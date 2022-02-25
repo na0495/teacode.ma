@@ -39,8 +39,7 @@
     border-radius: 5px
     padding: 2px
     margin: 0 20px 0 0
-    &:hover
-        z-index: 1000
+    z-index: 1000
     @media (max-width: 992px)
         transform: translateY(-50%) scale(0.7)
     @media (max-width: 768px)
@@ -51,6 +50,7 @@
         height: 15px
         white-space: nowrap
         .line-code-item
+            transition: width .3s linear
             position: relative
             height: 13px
             display: inline-block
@@ -59,7 +59,7 @@
 
     .ide-wrapper
         width: 500px
-        transform: rotate3d(0.5, -0.866, 0, 15deg) rotateZ(-1deg)
+        transform: rotate3d(0.5, -0.866, 0, 15deg) rotateZ(-1deg) scale(1.4) // test
         // background: $tc-blue-dark-3
         flex-direction: column
         // width: 100%
@@ -80,18 +80,23 @@
                 .btn-actions
                     display: flex
                     column-gap: 10px
-                .btn-run, .btn-edit
-                    height: 100%
-                    color: #fff
-                    padding: 0 15px
-                    display: flex
-                    align-items: center
-                    justify-content: center
-                    border: none
-                    &.pushed
-                        animation: pushed 0.7s linear infinite
-                    &:active
-                        box-shadow: inset 1px 2px 5px $tc-black
+                    .btn-action
+                        top: -1px
+                        left: -1px
+                        position: relative
+                        height: 100%
+                        color: #fff
+                        padding: 0 15px
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        border: none
+                        &.pushed
+                            animation: pushed 0.7s linear infinite
+                        &:active
+                            top: 0
+                            left: 0
+                            box-shadow: inset 1px 2px 5px $tc-blue-dark-4
             .body .body-container
                 position: relative
                 padding: 10px
@@ -159,7 +164,7 @@
         .brand-slogan, .welcome-message *
             text-align: left!important
         .welcome-message .btn-actions
-            justify-content: start
+            justify-content: flex-start
 .brand-slogan
     text-align: left //center
     font-family: Untitled-Sans
@@ -189,7 +194,7 @@
 
     .btn-actions
         display: flex
-        justify-content: start //center
+        justify-content: flex-start //center
         column-gap: 1.5rem
         *
             color: $tc-white

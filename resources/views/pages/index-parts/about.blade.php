@@ -4,12 +4,12 @@
         <div class="section about-header">
             <div class="">
                 <div class="row _justify-content-center _align-items-center mb-3">
-                    <div class="col-11 col-md-12 col-lg-10 offset-lg-1">
+                    <div class="col-11 col-md-12 col-lg-10">
                         <h3 class="brand-slogan">Turning <span>Tea</span> into <span>Code</span></h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-11 col-md-12 col-lg-10 offset-lg-1">
+                    <div class="col-11 col-md-12 col-lg-10">
                         <div class="welcome-message">
                             <div class="welcome-message-wrapper tc-black-almost">
                                 {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
@@ -44,10 +44,10 @@
                 <div class="ide-wrapper d-flex">
                     <div class="ide-section editor-wrapper d-flex">
                         <div class="header">
-                            <div class="txt bold">Editor</div>
+                            <div class="txt bold text-capitalize">editor</div>
                             <div class="btn-actions">
-                                <button class="btn-edit text-capitalize tc-blue-bg pushed">edit</button>
-                                <button class="btn-run text-capitalize tc-green-light-bg pushed">run</button>
+                                <button class="btn-action btn-edit text-capitalize tc-blue-bg">edit</button>
+                                <button class="btn-action btn-run text-capitalize tc-green-light-bg _pushed">run</button>
                             </div>
                         </div>
                         <div class="body">
@@ -56,7 +56,7 @@
                         <div class="footer"></div>
                     </div>
                     <div class="ide-section output-wrapper d-flex">
-                        <div class="header"><div class="txt bold">Console</div></div>
+                        <div class="header"><div class="txt bold text-capitalize">output</div></div>
                         <div class="body">
                             <div class="body-container">
                                 <div class="body-loading d-none">
