@@ -1,5 +1,5 @@
 window.$ = require('jquery');
-import { drawBrandText, initParticlesJS, initDarkMode, initGlobalActions } from "./functions";
+import { drawBrandText, initParticlesJS, initDarkMode, initGlobalActions, generateCode } from "./functions";
 
 $(function () {
 
@@ -8,6 +8,9 @@ $(function () {
         drawBrandText();
         initParticlesJS();
         initDarkMode();
+        setTimeout(() => {
+            generateCode();
+        }, 500);
     } catch (error) {
         console.log(error);
     }
