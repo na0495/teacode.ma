@@ -47,7 +47,7 @@
                             <div class="txt bold text-capitalize">editor</div>
                             <div class="btn-actions">
                                 <button class="btn-action btn-edit text-capitalize tc-blue-bg">edit</button>
-                                <button class="btn-action btn-run text-capitalize tc-green-bg _pushed">run</button>
+                                <button class="btn-action btn-run text-capitalize tc-green-bg pushed">run</button>
                             </div>
                         </div>
                         <div class="body">
