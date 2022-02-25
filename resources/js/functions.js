@@ -152,7 +152,7 @@ function output() {
         let lineOutput = outputBody.find(`#line-output-${i}`);
         setTimeout(() => {
             lineOutput.addClass('animate__animated animate__zoomIn').removeClass('opacity-0');
-        }, 150 * i);
+        }, 100 * i);
     }
 }
 
