@@ -80,7 +80,7 @@ function initCodeEvent(){
         setTimeout(() => {
             _this.attr('disabled', false);
             editor();
-        }, 100);
+        }, 500);
         _this.attr('disabled', true);
     });
     $('.btn-run').on('click', function () {
@@ -107,15 +107,15 @@ function editor() {
     editorBody.empty();
     let colors = ['#48aca2', '#5A395A', '#5E5EFB', '#78C078'];
     let limit = 10;
-    for(let i = 0; i < limit; i++) {
+    for(let i = 1; i <= limit; i++) {
         let maxPadding = 5, minPadding = 1
-        let paddingLeft = i ? Math.round(minPadding + Math.random() *(maxPadding -  minPadding)) : i;
-        editorBody.append(`<div id="line-code-${i}" class="line-code line-code-${i} _opacity-0" style="padding-left: ${paddingLeft*10}px"></div>`);
+        let paddingLeft = (i != 1) ? Math.round(minPadding + Math.random() * (maxPadding -  minPadding)) : 0;
+        editorBody.append(`<div id="line-code-${i}" class="line-code line-code-${i}" style="padding-left: ${paddingLeft * 10}px"></div>`);
         let lineCode = editorBody.find(`#line-code-${i}`);
         let maxCodeItem = 5, minCodeItem = 2;
         let j = Math.round(minCodeItem + Math.random() * (maxCodeItem - minCodeItem));
         let _colors = [...colors];
-        for (let _i = 0; _i < j; _i++) {
+        for (let _i = 1; _i <= j; _i++) {
             var color = _colors[Math.floor(Math.random()*_colors.length)];
             let maxWidth = 70, minWidth = 15;
             let width = Math.round(minWidth + Math.random() * (maxWidth - minWidth));
@@ -140,7 +140,7 @@ function output() {
                     {color: '#3F8854', iconClass: 'far fa-check-circle'},
                     // {color: '#F4C009', iconClass: 'fas fa-exclamation-triangle'},
                     {color: '#3F8854', iconClass: 'far fa-check-circle'},];
-    for (let i = 0; i < limit; i++) {
+    for (let i = 1; i <= limit; i++) {
         var item = _colors[Math.floor(Math.random() * _colors.length)];
         let line = `<div id="line-output-${i}" class="line-output line-output-${i} opacity-0">
                         <div class="line-icon">
