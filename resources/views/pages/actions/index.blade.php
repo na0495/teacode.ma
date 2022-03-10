@@ -1,5 +1,7 @@
 @extends('pages.actions.app')
-
+@section('js-after')
+    <script defer src="{{ asset('/js/admin.app.js') }}"></script>
+@endsection
 @section('actions-content')
     <div class="row mt-5">
         <div class="col-12">
