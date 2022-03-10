@@ -114,7 +114,7 @@ class ActionController extends Controller
                     $extended_props[$prop[0]] = $x;
                 }
             }
-            if ($data['days_of_week']) {
+            if (key_exists('days_of_week', $data)) {
                 $data['days_of_week'] = array_map(function ($i) {
                     return (int)$i;
                 }, explode(',', $data['days_of_week']));
