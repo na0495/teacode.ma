@@ -21,3 +21,5 @@
 
 <link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
 <link rel="apple-touch-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
+
+@yield('meta-extra')
