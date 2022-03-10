@@ -6,10 +6,6 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    private $gotoController;
-    public function __construct(GotoController $gotoController) {
-        $this->gotoController = $gotoController;
-    }
 
     public function getPage(Request $request, $page)
     {
@@ -39,13 +35,13 @@ class PageController extends Controller
         return view('pages.contributors', ['data' => $data]);
     }
 
-    public function interview(Request $request)
-    {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | Book Interview';
-        $data->availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
-        return view('pages.book-interview', ['data' => $data]);
-    }
+    // public function interview(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->title = 'TeaCode | Book Interview';
+    //     $data->availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
+    //     return view('pages.book-interview', ['data' => $data]);
+    // }
 
     // public function calendar(Request $request)
     // {
@@ -76,32 +72,32 @@ class PageController extends Controller
         return view('pages.terms-of-use', ['data' => $data]);
     }
 
-    public function comingSoon(Request $request)
-    {
-        $data = new \stdClass;
-        $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
-        $data->title = 'TeaCode | Coming Soon ...';
-        return view('pages.coming-soon', ['data' => $data]);
-    }
+    // public function comingSoon(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->activities = json_decode(\File::get(base_path() . '/database/data/activities.json'));
+    //     $data->title = 'TeaCode | Coming Soon ...';
+    //     return view('pages.coming-soon', ['data' => $data]);
+    // }
 
-    public function feedback(Request $request)
-    {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | Feedback';
-        return view('pages.feedback');
-    }
+    // public function feedback(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->title = 'TeaCode | Feedback';
+    //     return view('pages.feedback');
+    // }
 
-    public function rules(Request $request)
-    {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | Rules';
-        return view('pages.rules');
-    }
+    // public function rules(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->title = 'TeaCode | Rules';
+    //     return view('pages.rules');
+    // }
 
-    public function faq(Request $request)
-    {
-        $data = new \stdClass;
-        $data->title = 'TeaCode | FAQ';
-        return view('pages.faq.index');
-    }
+    // public function faq(Request $request)
+    // {
+    //     $data = new \stdClass;
+    //     $data->title = 'TeaCode | FAQ';
+    //     return view('pages.faq.index');
+    // }
 }
