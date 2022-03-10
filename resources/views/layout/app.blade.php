@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!-- External Addons-->
         @include('addons.google-analytics')
 
+        <!-- Addons-->
         @include('addons.brand-text')
         @include('layout.header-parts.head-meta')
 
