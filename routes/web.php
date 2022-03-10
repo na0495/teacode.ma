@@ -28,6 +28,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
             Route::get('/actions', 'ActionController@getActions')->name('actions');
             Route::get('/insert', 'ApiController@insert');
             Route::get('/events', 'ActionController@getEvents')->name('events.index');
+            Route::get('/calendar', 'ActionController@calendar');
             Route::get('/events/{event}', 'ActionController@getEvent')->name('events.get');
             Route::post('/events', 'ActionController@addEvent')->name('events.store');
             Route::put('/events/{event}', 'ActionController@updateEvent')->name('events.update');
