@@ -67,6 +67,9 @@ function initGlobalActions() {
 }
 
 function generateCode(){
+    if (document.body.offsetWidth <= 751) {
+        return;
+    }
     editor();
     setTimeout(() => {
         reRun();
@@ -105,7 +108,7 @@ function editor() {
     aboutCode.css('transition', 'all 0.5s ease').removeClass('hidden-small')
     let editorBody = aboutCode.find('.editor-wrapper .body-container');
     editorBody.empty();
-    let colors = ['#48aca2', '#5A395A', '#5E5EFB', '#78C078'];
+    let colors = ['#48aca2','#BE8A28','#5A395A','#5E5EFB','#78C078'];
     let limit = 10;
     for(let i = 1; i <= limit; i++) {
         let maxPadding = 5, minPadding = 1
