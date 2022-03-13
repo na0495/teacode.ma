@@ -66,8 +66,8 @@ function initGlobalActions() {
     });
 }
 
-function generateCode(){
-    if (document.body.offsetWidth <= 751) {
+function generateCode() {
+    if (window.innerWidth <= 768) {
         return;
     }
     editor();
