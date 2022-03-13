@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-11 col-md-12 col-lg-10">
+                    <div class="col-12">
                         <div class="welcome-message">
                             <div class="welcome-message-wrapper tc-black-almost">
                                 {{-- <div class="welcome text-capitalize"><span>welcome</span></div> --}}
