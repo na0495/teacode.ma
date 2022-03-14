@@ -5,7 +5,7 @@
                 <a href="/">
                     <span class="text-uppercase brand-text">teac</span>
                     <div class="logo logo-brand position-relative d-inline-block">
-                        <img src="{{ asset('/assets/img/teacode/teacode_circle_200.png') }}" width="30" height="30"
+                        <img src="{{ asset('/assets/img/teacode/logo.png') }}" width="30" height="30"
                         class="logo turn img-fluid square-25" alt="Logo">
                     </div>
                     <span class="text-uppercase brand-text">de</span>

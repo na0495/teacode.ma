@@ -19,7 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:alt" content="Main picture">
 
-<link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
-<link rel="apple-touch-icon" href="{{ asset('/assets/img/teacode/teacode_circle.ico') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('/assets/img/teacode/logo.ico') }}">
+<link rel="apple-touch-icon" href="{{ asset('/assets/img/teacode/logo.ico') }}">
 
 @yield('meta-extra')
