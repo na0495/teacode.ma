@@ -20,7 +20,10 @@ mix
     .sass('resources/sass/app.sass', 'public/css')
     .purgeCss({
         extend: {
-            content: [path.join(__dirname, 'database/data/**/*.json')],
+            content: [path.join(__dirname, 'database/data/**/*.json'),
+                        path.join(__dirname, 'resources/js/**/*.js'),
+                        path.join(__dirname, 'node_modules/fullcalendar/main.min.js')
+                    ],
         },
     })
     // .postCss()
