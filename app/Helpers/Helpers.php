@@ -100,9 +100,11 @@ if (!function_exists('getLinks')) {
             'patreon' => 'https://www.patreon.com/teacodema',
             'paypal' => 'https://www.paypal.me/drissboumlik',
 
+            // Ineraction Links
             'interview' => 'https://docs.google.com/forms/d/e/1FAIpQLScwnhgc85gG4vBxq8d0uTxlBkvX6bR4LNcuI7_DNz9WEk0NTw/viewform',
             'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
-
+            // Preview Link
+            'preview' => 'https://preview.teacode.ma',
             // Specific links
             'email' => 'mailto:contact@teacode.ma?subject=TeaCode : ',
             // 'email' => 'mailto:info@spatie.be?subject=A%20good%20match%21&body=Tell%20us%20as%20much%20as%20you%20can%20about%0A-%20your%20online%20project%0A-%20your%20planning%0A-%20your%20budget%0A-%20%E2%80%A6%0A%0AAnything%20that%20helps%20us%20to%20start%20straightforward%21',
