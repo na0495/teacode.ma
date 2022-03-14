@@ -9,7 +9,6 @@ This is the official repository for the TeaCode Community website
 
 - Website : [https://teacode.ma](https://teacode.ma/)
 - Discord : [https://teacode.ma/join](https://teacode.ma/join)
-- Linktree : [https://linktr.ee/teacode.ma](https://linktr.ee/teacode.ma)
 - Facebook Group : [https://teacode.ma/facebook-group](https://facebook.com/groups/teacode.ma)
 - Facebook Page : [https://teacode.ma/facebook](https://facebook.com/teacode.ma)
 - YouTube : [https://teacode.ma/youtube](https://youtube.com/teacodema/)
