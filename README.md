@@ -17,7 +17,7 @@ This is the official repository for the TeaCode Community website
 - Twitter : [https://teacode.ma/twitter](https://twitter.com/teacodema)
 - Linkedin : [https://teacode.ma/linkedin](https://linkedin.com/company/teacode.ma)
 - Github : [https://teacode.ma/github](https://github.com/teacodema)
-- Email : **[contact@teacode.ma](mailto:contact@teacode.ma)**
+- Email : [contact@teacode.ma](mailto:contact@teacode.ma)
 - How To **Support us** 💜
   - PayPal : [https://teacode.ma/paypal](https://paypal.me/drissboumlik)
   - Patreon : [https://teacode.ma/patreon](https://patreon.com/teacodema/)
