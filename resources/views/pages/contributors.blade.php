@@ -14,9 +14,9 @@
                         <div class="feature-img mb-2">
                             <div class="image">
                                 <img class="w-100 m-auto d-block"
-                                src="{{ $contributor->image }}" alt="" title={{  $contributor->slug }} loading="lazy">
+                                src="{{ $contributor->image }}" alt="" title={{  $contributor->role }} loading="lazy">
                             </div>
-                            {{-- <div class="contributor-badge">{{ $contributor->badge }}</div> --}}
+                            <div class="contributor-badge">{{ $contributor->badge }}</div>
                         </div>
                         <div class="text-data text-center">
                             <div class="fullname text-capitalize white-space-nowrap">{{ $contributor->fullname }}</div>
