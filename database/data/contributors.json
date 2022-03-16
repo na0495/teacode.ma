@@ -1,28 +1,38 @@
 [
     {
         "fullname": "driss boumlik",
-        "role": "founder",
+        "role": "staff",
         "slug": "drissboumlik"
     },
     {
-        "fullname": "abdelhalim lakfifi",
-        "role": "staff team",
-        "slug": "461dou"
+        "fullname": "Maryam",
+        "role": "staff",
+        "slug": "maryam"
     },
     {
         "fullname": "saad",
-        "role": "staff team",
+        "role": "staff",
         "slug": "egon"
     },
     {
         "fullname": "tariq",
-        "role": "staff team",
+        "role": "staff",
         "slug": "odachi"
     },
     {
         "fullname": "taha omar",
-        "role": "staff team",
+        "role": "staff",
         "slug": "satisfy"
+    },
+    {
+        "fullname": "Hafsa",
+        "role": "staff",
+        "slug": "hafsacactus"
+    },
+    {
+        "fullname": "abdelhalim lakfifi",
+        "role": "staff",
+        "slug": "461dou"
     },
     {
         "fullname": "Omar",
@@ -30,19 +40,14 @@
         "slug": "omarbelkady"
     },
     {
-        "fullname": "Hafsa",
-        "role": "host",
-        "slug": "hafsacactus"
-    },
-    {
         "fullname": "Fatima Zahra",
         "role": "host",
         "slug": "fatimazahra"
     },
     {
-        "fullname": "Maryam",
+        "fullname": "youssef",
         "role": "host",
-        "slug": "maryam"
+        "slug": "takanume"
     },
     {
         "fullname": "ayoub",
@@ -88,5 +93,15 @@
         "fullname": "yacouri",
         "role": "helper",
         "slug": "yacouri"
+    },
+    {
+        "fullname": "anas",
+        "role": "helper",
+        "slug": "alesley"
+    },
+    {
+        "fullname": "souphiane",
+        "role": "helper",
+        "slug": "souphiane"
     }
 ]

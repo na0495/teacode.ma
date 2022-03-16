@@ -29,9 +29,10 @@ class PageController extends Controller
                                         // $contributor->color =  getColorRole($contributor->role);
                                         $contributor->image = getContributorImage($contributor, $key);
                                         $contributor->badge = getContributorBadge($contributor);
+                                        $contributor->role_badge = "{$contributor->role} {$contributor->badge}";
                                         return $contributor;
-                                    })->shuffle()->values();
-
+                                    })->values();
+        $data->contributors = $data->contributors->groupBy('role_badge');
         return view('pages.contributors', ['data' => $data]);
     }
 
