@@ -158,7 +158,7 @@ if (!function_exists('getContributorBadge')) {
         $badges = [
             'founder' => '💠',
             'staff' => '🍂',
-            'host' => '🎙',
+            'host' => '🎤',
             'helper' => '🍃',
         ];
         return $badges[$contributor->role];
