@@ -103,6 +103,8 @@ if (!function_exists('getLinks')) {
             // Ineraction Links
             'interview' => 'https://docs.google.com/forms/d/e/1FAIpQLScwnhgc85gG4vBxq8d0uTxlBkvX6bR4LNcuI7_DNz9WEk0NTw/viewform',
             'form' => 'https://docs.google.com/forms/d/e/1FAIpQLScfvQBS4fIO7bFx5u2TfXlflPRyvd5z1aSozOCKs3hnz9MfCA/viewform',
+            'apply' => 'https://docs.google.com/forms/d/e/1FAIpQLScLQzCNId6LgFpMgpk3-xatL8TBn8nVPF7oWZCPBnqKpvdh2Q/viewform',
+
             // Preview Link
             'preview' => 'https://preview.teacode.ma',
             // Specific links
