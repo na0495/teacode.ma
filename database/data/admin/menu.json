@@ -8,6 +8,10 @@
         "slug": "_admin/events"
     },
     {
+        "title": "calendar",
+        "slug": "_admin/calendar"
+    },
+    {
         "title": "sitemap",
         "slug": "sitemap"
     },
