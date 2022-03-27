@@ -176,11 +176,11 @@
                 ]
             },
             {
-                "django": "django",
+                "title": "django",
                 "slug": "django",
                 "links": [
                     {
-                        "title": "django youtube channel",
+                        "title": "django youtube",
                         "slug": "",
                         "href": "https://www.youtube.com/c/veryacademy"
                     }
