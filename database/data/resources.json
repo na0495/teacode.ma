@@ -89,7 +89,7 @@
                         "href": "https://www.w3schools.com/js/default.asp"
                     },
                     {
-                        "title": "JavaScript youtube channel (Fireship)",
+                        "title": "Fireship",
                         "slug": "",
                         "href": "https://www.youtube.com/c/Fireship"
                     }
@@ -205,7 +205,7 @@
                         "href": "https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
                     },
                     {
-                        "title": "Python core SoloLearn course",
+                        "title": "Python core SoloLearn",
                         "slug": "",
                         "href": "https://www.sololearn.com/learning/1073/"
                     },
@@ -221,7 +221,7 @@
                 "slug": "django",
                 "links": [
                     {
-                        "title": "Django youtube",
+                        "title": "Very Academy",
                         "slug": "",
                         "href": "https://www.youtube.com/c/veryacademy"
                     },
