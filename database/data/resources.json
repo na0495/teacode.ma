@@ -174,6 +174,17 @@
                         "href": "https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
                     }
                 ]
+            },
+            {
+                "django": "django",
+                "slug": "django",
+                "links": [
+                    {
+                        "title": "django youtube channel",
+                        "slug": "",
+                        "href": "https://www.youtube.com/c/veryacademy"
+                    }
+                ]
             }
         ]
     }
