@@ -82,6 +82,37 @@
                         "title": "js the right way",
                         "slug": "",
                         "href": "https://jstherightway.org/"
+                    },
+                    {
+                        "title": "w3schools JavaScript",
+                        "slug": "",
+                        "href": "https://www.w3schools.com/js/default.asp"
+                    },
+                    {
+                        "title": "JavaScript youtube channel (Fireship)",
+                        "slug": "",
+                        "href": "https://www.youtube.com/c/Fireship"
+                    }
+                ]
+            },
+            {
+                "title": "react",
+                "slug": "react",
+                "items": [
+                    {
+                        "title": "react official resources",
+                        "slug": "",
+                        "href": "https://reactjs.org/community/courses.html"
+                    },
+                    {
+                        "title": "react SoloLearn",
+                        "slug": "",
+                        "href": "https://www.sololearn.com/learning/1097"
+                    },
+                    {
+                        "title": "react tutorial",
+                        "slug": "",
+                        "href": "https://dev.to/search?q=react%20tutorial"
                     }
                 ]
             }
@@ -172,6 +203,16 @@
                         "title": "NeuralNine",
                         "slug": "",
                         "href": "https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
+                    },
+                    {
+                        "title": "Python core SoloLearn course",
+                        "slug": "",
+                        "href": "https://www.sololearn.com/learning/1073/"
+                    },
+                    {
+                        "title": "w3schools Python",
+                        "slug": "",
+                        "href": "https://www.w3schools.com/python/default.asp"
                     }
                 ]
             },
@@ -180,9 +221,24 @@
                 "slug": "django",
                 "links": [
                     {
-                        "title": "django youtube",
+                        "title": "Django youtube",
                         "slug": "",
                         "href": "https://www.youtube.com/c/veryacademy"
+                    },
+                    {
+                        "title": "Real python django blogs",
+                        "slug": "",
+                        "href": "https://realpython.com/search?q=django"
+                    },
+                    {
+                        "title": "Medium django blogs",
+                        "slug": "",
+                        "href": "https://medium.com/tag/django"
+                    },
+                    {
+                        "title": "Django docs",
+                        "slug": "",
+                        "href": "https://www.djangoproject.com/start/"
                     }
                 ]
             }
