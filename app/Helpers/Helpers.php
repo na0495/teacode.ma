@@ -42,10 +42,6 @@ if (!function_exists('getActions')) {
                 'slug' => 'event',
                 'header' => 'Event Form',
             ],
-            [
-                'slug' => 'contributor',
-                'header' => 'Contributor Form',
-            ]
         ];
         return $actions;
     }

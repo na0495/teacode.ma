@@ -21,12 +21,12 @@ class ActionController extends Controller
         }
     }
 
-     public function calendar(Request $request)
-     {
-         $data = new \stdClass;
-         $data->title = 'TeaCode | Calendar';
-         return view('pages.actions.calendar', ['data' => $data]);
-     }
+    public function calendar(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Calendar';
+        return view('pages.actions.calendar', ['data' => $data]);
+    }
 
     public function getEvents(Request $request)
     {
