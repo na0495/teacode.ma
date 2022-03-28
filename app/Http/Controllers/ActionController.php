@@ -46,7 +46,9 @@ class ActionController extends Controller
         try {
             $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $actions = getActions();
-            return view('pages.actions.index', ['actions' => $actions, 'event' => $event, 'menu' => $menu]);
+            $data = new \stdClass;
+            $data->title = $event->title;
+            return view('pages.actions.index', ['data' => $data, 'actions' => $actions, 'event' => $event, 'menu' => $menu]);
         } catch (\Throwable $th) {
             throw $th;
         }
