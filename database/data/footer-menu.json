@@ -44,6 +44,11 @@
         "slug": "p/resources"
     },
     {
+        "title": "mock interview",
+        "slug": "interview",
+        "target": "_blank"
+    },
+    {
         "title": "rules",
         "slug": "rules",
         "target": "_blank"
@@ -62,10 +67,5 @@
         "title": "feedback",
         "slug": "p/feedback",
         "hidden": true
-    },
-    {
-        "title": "roadmaps",
-        "slug": "roadmaps",
-        "target": "_blank"
     }
 ]
