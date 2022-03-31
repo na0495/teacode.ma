@@ -15,18 +15,18 @@ class ActionController extends Controller
             $data->title = 'TeaCode | Actions';
             $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $actions = getActions();
-            return view('pages.actions.index', ['actions' => $actions, 'menu' => $menu, 'data' => $data]);
+            return view('pages.admin.index', ['actions' => $actions, 'menu' => $menu, 'data' => $data]);
         } catch (\Throwable $th) {
             throw $th;
         }
     }
 
-     public function calendar(Request $request)
-     {
-         $data = new \stdClass;
-         $data->title = 'TeaCode | Calendar';
-         return view('pages.actions.calendar', ['data' => $data]);
-     }
+    public function calendar(Request $request)
+    {
+        $data = new \stdClass;
+        $data->title = 'TeaCode | Calendar';
+        return view('pages.admin.calendar', ['data' => $data]);
+    }
 
     public function getEvents(Request $request)
     {
@@ -35,7 +35,7 @@ class ActionController extends Controller
             $data->title = 'TeaCode | Events list';
             $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $events = Event::orderBy('start_date', 'desc')->get();
-            return view('pages.actions.events', ['events' => $events, 'menu' => $menu, 'data' => $data]);
+            return view('pages.admin.events', ['events' => $events, 'menu' => $menu, 'data' => $data]);
         } catch (\Throwable $th) {
             throw $th;
         }
@@ -46,7 +46,7 @@ class ActionController extends Controller
         try {
             $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
             $actions = getActions();
-            return view('pages.actions.index', ['actions' => $actions, 'event' => $event, 'menu' => $menu]);
+            return view('pages.admin.index', ['actions' => $actions, 'event' => $event, 'menu' => $menu]);
         } catch (\Throwable $th) {
             throw $th;
         }
