@@ -1,4 +1,4 @@
-@extends('pages.actions.app')
+@extends('pages.admin.app')
 @section('js-after')
     <script defer src="{{ asset('/js/admin.app.js') }}"></script>
 @endsection
@@ -22,7 +22,7 @@
                         <div id="{{ $action['slug'] }}" class="accordion-collapse collapse {{ $i ? '' : 'show' }}" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                @include('pages.actions.partials.' . $action['slug'])
+                                @include('pages.admin.partials.' . $action['slug'])
                             </div>
                         </div>
                     </div>

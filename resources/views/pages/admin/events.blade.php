@@ -1,4 +1,4 @@
-@extends('pages.actions.app')
+@extends('pages.admin.app')
 
 @section('actions-content')
     <div class="row mt-5">
