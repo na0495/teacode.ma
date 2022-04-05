@@ -306,5 +306,27 @@
                 ]
             }
         ]
+    },
+    {
+        "title": "security",
+        "slug": "security",
+        "items": [
+            {
+                "title": "authentication",
+                "slug": "authentication",
+                "links": [
+                    {
+                        "title": "owasp top ten",
+                        "slug": "",
+                        "href": "https://owasp.org/www-project-top-ten/#"
+                    },
+                    {
+                        "title": "authentication fundamentals",
+                        "slug": "",
+                        "href": "https://www.youtube.com/watch?v=2PPSXonhIck"
+                    }
+                ]
+            }
+        ]
     }
 ]
