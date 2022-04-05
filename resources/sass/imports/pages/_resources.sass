@@ -58,8 +58,6 @@
                                     line-height: 16px
                                     content: counter(a) "." counter(b)
 
-$colors: $tc-blue-dark-1, $tc-green-light, $tc-blue-dark-1
-
 .section
     .section-header
         position: relative
@@ -78,12 +76,21 @@ $colors: $tc-blue-dark-1, $tc-green-light, $tc-blue-dark-1
         *
             color: $tc-white
 
-    @for $i from 1 through length($colors)
-        $color: nth($colors, $i)
-        &:nth-child(#{$i}) .section-header
-            background-color: $color
-            &:before
-                border-color: transparent transparent transparent $color
+    &:nth-child(odd) .section-header
+        background-color: $tc-blue-dark-1
+        &:before
+            border-color: transparent transparent transparent $tc-blue-dark-1
+    &:nth-child(even) .section-header
+        background-color: $tc-green-light
+        &:before
+            border-color: transparent transparent transparent $tc-green-light
+    // $colors: $tc-blue-dark-1, $tc-green-light, $tc-blue-dark-1
+    // @for $i from 1 through length($colors)
+    //     $color: nth($colors, $i)
+    //     &:nth-child(#{$i}) .section-header
+    //         background-color: $color
+    //         &:before
+    //             border-color: transparent transparent transparent $color
 
     //&:nth-child(1) .section-header
     //    background-color: $tc-blue
