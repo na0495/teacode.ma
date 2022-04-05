@@ -228,22 +228,6 @@
                         "href": "https://wanago.io/courses/api-with-nestjs/"
                     }
                 ]
-            },
-            {
-                "title": "security",
-                "slug": "security",
-                "links": [
-                    {
-                        "title": "owasp top ten",
-                        "slug": "",
-                        "href": "https://owasp.org/www-project-top-ten/#"
-                    },
-                    {
-                        "title": "authentication fundamentals",
-                        "slug": "",
-                        "href": "https://www.youtube.com/watch?v=2PPSXonhIck"
-                    }
-                ]
             }
         ]
     },
@@ -264,7 +248,7 @@
                         "title": "mongodb guidelines",
                         "slug": "",
                         "href": "https://www.thecodebuzz.com/mongo-db-naming-conventions-standards-guidelines/"
-                    },
+                    }
                 ]
             },
             {
@@ -280,7 +264,7 @@
                         "title": "postgresql guidelines",
                         "slug": "",
                         "href": "https://www.sqlstyle.guide/"
-                    },
+                    }
                 ]
             }
         ]
@@ -302,7 +286,7 @@
                         "title": "uml",
                         "slug": "",
                         "href": "https://www.uml.org/"
-                    },
+                    }
                 ]
             }
         ]
