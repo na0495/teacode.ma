@@ -84,6 +84,33 @@
                         "href": "https://jstherightway.org/"
                     }
                 ]
+            },
+            {
+                "title": "typescript",
+                "slug": "typescript",
+                "links": [
+                    {
+                        "title": "clean code",
+                        "slug": "",
+                        "href": "https://github.com/labs42io/clean-code-typescript"
+                    }
+                ]
+            },
+            {
+                "title": "angular",
+                "slug": "angular",
+                "links": [
+                    {
+                        "title": "angular docs",
+                        "slug": "",
+                        "href": "https://angular.io/"
+                    },
+                    {
+                        "title": "angular tutorials",
+                        "slug": "",
+                        "href": "https://blog.angular-university.io/"
+                    }
+                ]
             }
         ]
     },
@@ -183,6 +210,104 @@
                         "title": "Very Academy",
                         "slug": "",
                         "href": "https://www.youtube.com/c/veryacademy"
+                    }
+                ]
+            },
+            {
+                "title": "nestjs",
+                "slug": "nestjs",
+                "links": [
+                    {
+                        "title": "nestjs docs",
+                        "slug": "",
+                        "href": "https://docs.nestjs.com/"
+                    },
+                    {
+                        "title": "nestjs tutorial",
+                        "slug": "",
+                        "href": "https://wanago.io/courses/api-with-nestjs/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "databases",
+        "slug": "databases",
+        "items": [
+            {
+                "title": "mongodb",
+                "slug": "mongodb",
+                "links": [
+                    {
+                        "title": "mongodb university",
+                        "slug": "",
+                        "href": "https://university.mongodb.com/"
+                    },
+                    {
+                        "title": "mongodb guidelines",
+                        "slug": "",
+                        "href": "https://www.thecodebuzz.com/mongo-db-naming-conventions-standards-guidelines/"
+                    }
+                ]
+            },
+            {
+                "title": "postgre sql",
+                "slug": "postgre-sql",
+                "links": [
+                    {
+                        "title": "postgresql tutorials",
+                        "slug": "",
+                        "href": "https://www.postgresqltutorial.com/"
+                    },
+                    {
+                        "title": "postgresql guidelines",
+                        "slug": "",
+                        "href": "https://www.sqlstyle.guide/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "software architecture",
+        "slug": "software-architecture",
+        "items": [
+            {
+                "title": "modeling",
+                "slug": "modeling",
+                "links": [
+                    {
+                        "title": "c4model",
+                        "slug": "",
+                        "href": "https://c4model.com/"
+                    },
+                    {
+                        "title": "uml",
+                        "slug": "",
+                        "href": "https://www.uml.org/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "security",
+        "slug": "security",
+        "items": [
+            {
+                "title": "authentication",
+                "slug": "authentication",
+                "links": [
+                    {
+                        "title": "owasp top ten",
+                        "slug": "",
+                        "href": "https://owasp.org/www-project-top-ten/#"
+                    },
+                    {
+                        "title": "authentication fundamentals",
+                        "slug": "",
+                        "href": "https://www.youtube.com/watch?v=2PPSXonhIck"
                     }
                 ]
             }
