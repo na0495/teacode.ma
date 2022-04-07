@@ -1,6 +1,6 @@
 @extends('pages.admin.app')
 
-@section('actions-content')
+@section('admin-content')
     <div class="row mt-5">
         <div class="col-12">
             <h1 class="text-center mb-5">Events</h1>

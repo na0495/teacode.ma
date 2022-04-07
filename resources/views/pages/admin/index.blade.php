@@ -2,7 +2,7 @@
 @section('js-after')
     <script defer src="{{ asset('/js/admin.app.js') }}"></script>
 @endsection
-@section('actions-content')
+@section('admin-content')
     <div class="row mt-5">
         <div class="col-12">
             <h1 class="text-center mb-5">Actions</h1>

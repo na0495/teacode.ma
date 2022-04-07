@@ -1,6 +1,6 @@
-@extends('layout.page')
+@extends('pages.admin.app')
 
-@section('page-content')
+@section('admin-content')
     <div class="assets">
         <div class="row mt-5">
             <div class="col-12">
@@ -12,8 +12,8 @@
                 <div id='assets-wrapper'>
                     <div class="row">
                         @foreach ($files as $file)
-                            <div class="col-4 mb-4">
-                                <img src="{{ asset($file->webPath) }}" class="img-fluid rounded" alt="">
+                            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                                <img src="{{ asset($file->webPath) }}" class="img-thumbnail rounded" alt="">
                             </div>
                         @endforeach
                     </div>

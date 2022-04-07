@@ -1,8 +1,8 @@
-@extends('layout.page')
+@extends('pages.admin.app')
 @section('js-after')
     <script defer src="{{ asset('/js/admin.app.js') }}"></script>
 @endsection
-@section('page-content')
+@section('admin-content')
     <div class="calendar">
         <div class="row mt-5">
             <div class="col-12">
