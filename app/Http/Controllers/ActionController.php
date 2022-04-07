@@ -25,7 +25,8 @@ class ActionController extends Controller
     {
         $data = new \stdClass;
         $data->title = 'TeaCode | Calendar';
-        return view('pages.admin.calendar', ['data' => $data]);
+        $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
+        return view('pages.admin.calendar', ['data' => $data, 'menu' => $menu]);
     }
 
     public function getEvents(Request $request)
@@ -166,12 +167,20 @@ class ActionController extends Controller
     public function getAssets(Request $request, $type)
     {
         try {
-            $path = public_path() . '/assets/shared/img/' . $type;
-            $files = \File::files($path);
-            foreach ($files as $file) {
-                $file->webPath = str_replace(base_path() . '\public\\', '', $file->getRealPath());
+            $base_path = base_path();
+            try {
+                $path = public_path() . '/../../assets/shared/img/' . $type;
+                $_base_path = str_replace('base', '', $base_path);
+                $files = \File::files($path);
+            } catch (\Throwable $th) {
+                $path = public_path() . '/assets/shared/img/' . $type;
+                $_base_path = $base_path . '\public\\';
+                $files = \File::files($path);
             }
-            $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
+            foreach ($files as $file) {
+                $file->webPath = str_replace($_base_path, '', $file->getRealPath());
+            }
+            $menu = json_decode(\File::get($base_path . '/database/data/admin/menu.json'));
             $data = new \stdClass;
             $data->title = 'Assets';
             return view('pages.admin.assets', ['data' => $data, 'files' => $files, 'menu' => $menu]);
