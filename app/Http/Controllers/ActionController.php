@@ -163,39 +163,20 @@ class ActionController extends Controller
         }
     }
 
-    public function bookInterview(BookInterviewRequest $request)
+    public function getAssets(Request $request, $type)
     {
         try {
-            $email = $request->input('email') ?? 'None';
-            $date = $request->input('date');
-            $cv = $request->file('resume-file');
-            if ($cv) {
-                $filename = time() . '.' . $cv->getClientOriginalExtension();
-                $path = $cv->storeAs('public\\resume\\', $filename);
-            } else {
-                $filename = time() . '.txt';
-                $file = fopen(storage_path('app/public/resume/') . $filename, "w");
-                fwrite($file, $email . "\n" . $date);
-                fclose($file);
+            $path = public_path() . '/assets/shared/img/' . $type;
+            $files = \File::files($path);
+            foreach ($files as $file) {
+                $file->webPath = str_replace(base_path() . '\public\\', '', $file->getRealPath());
             }
-            $data = [
-                'message' => 'Booked successfully.',
-                'code' => 200
-            ];
-            return response()->json(['data' => $data], 200);
+            $menu = json_decode(\File::get(base_path() . '/database/data/admin/menu.json'));
+            $data = new \stdClass;
+            $data->title = 'Assets';
+            return view('pages.admin.assets', ['data' => $data, 'files' => $files, 'menu' => $menu]);
         } catch (\Throwable $th) {
-            $data = [ 'code' => 422 ];
-            if ($th->getCode() == -1) {
-                $data['message'] = $th->getMessage();
-            } else {
-                $data['message'] = 'Something went wrong';
-            }
-            return response()->json(['data' => $data], 400);
+            throw $th;
         }
     }
-
-    // public function addContributor(Request $request)
-    // {
-
-    // }
 }

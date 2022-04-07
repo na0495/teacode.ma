@@ -25,6 +25,7 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
         Route::post('/login', 'Auth\LoginController@login')->name('login');
 
         Route::group(['middleware' => 'auth'], function() {
+            Route::get('/assets/{type}', 'ActionController@getAssets');
             Route::get('/actions', 'ActionController@getActions')->name('actions');
             Route::get('/insert', 'ApiController@insert');
             Route::get('/events', 'ActionController@getEvents')->name('events.index');
