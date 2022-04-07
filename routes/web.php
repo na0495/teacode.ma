@@ -27,14 +27,12 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
         Route::group(['middleware' => 'auth'], function() {
             Route::get('/assets/{type}', 'ActionController@getAssets');
             Route::get('/actions', 'ActionController@getActions')->name('actions');
-            Route::get('/insert', 'ApiController@insert');
             Route::get('/events', 'ActionController@getEvents')->name('events.index');
             Route::get('/calendar', 'ActionController@calendar');
             Route::get('/events/{event}', 'ActionController@getEvent')->name('events.get');
             Route::post('/events', 'ActionController@addEvent')->name('events.store');
             Route::put('/events/{event}', 'ActionController@updateEvent')->name('events.update');
             Route::delete('/events/{event}', 'ActionController@destroyEvent')->name('events.delete');
-            // Route::post('/contributors', 'ActionController@addContributor');
             Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
         });
     });
@@ -65,8 +63,6 @@ Route::middleware('cache.headers:public;max_age=15811200;etag')->group(function 
     Route::group(['prefix' => 'api'], function () {
         Route::get('/events', 'ApiController@getEvents');
         Route::get('/events/next', 'ApiController@getNextEvent');
-        Route::get('/availabilities', 'ApiController@getAvailabilities');
-        Route::post('/interview', 'ActionController@bookInterview')->name('interview.store');
     });
 
     Route::any('/{var}', 'HomeController@home')->where('var', '.*');

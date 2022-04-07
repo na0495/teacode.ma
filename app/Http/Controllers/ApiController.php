@@ -57,59 +57,9 @@ class ApiController extends Controller
         return $events;
     }
 
-    public function getAvailabilities(Request $request)
-    {
-        $availabilities = json_decode(\File::get(base_path() . '/database/data/interview-availability.json'));
-        return $availabilities;
-    }
-
     public function getNextEvent(Request $request)
     {
         $event = getNextEvent();
         return ['event' => $event];
-    }
-
-    public function insert()
-    {
-        $events = collect(json_decode(\File::get(base_path() . '/database/data/events.json')));
-        $data = [];
-        Event::query()->delete();
-        $events->map(function ($e) use (&$data) {
-            try {
-                if (isset($e->start)) {
-                    $item = [
-                        'title' => $e->title,
-                        'url' => $e->url,
-                        'start_date' => explode(' ', $e->start)[0],
-                        'start_time' => explode(' ', $e->start)[1],
-                        'end_time' => explode(' ', $e->start)[1],
-                        'end_date' => explode(' ', $e->start)[0],
-                        'background_color' => $e->backgroundColor ?? null,
-                        'text_color' => $e->textColor ?? null,
-                        'extended_props' => isset($e->extendedProps) ? json_encode($e->extendedProps) : null,
-                    ];
-                } else {
-                    $item = [
-                        'title' => $e->title,
-                        'url' => $e->url,
-                        'start_date' => $e->startRecur,
-                        'start_time' => $e->startTime,
-                        'end_time' => $e->endTime,
-                        'end_date' => $e->endRecur,
-                        'days_of_week' => json_encode($e->daysOfWeek),
-                        'background_color' => $e->backgroundColor ?? null,
-                        'text_color' => $e->textColor ?? null,
-                        'extended_props' => isset($e->extendedProps) ? json_encode($e->extendedProps) : null,
-                    ];
-                }
-                $data[] = $item;
-                Event::insert($item);
-            } catch (\Throwable $th) {
-                throw $th;
-                dd($e, $th->getLine());
-                throw $th;
-            }
-        });
-        return $data;
     }
 }
