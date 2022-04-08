@@ -61,6 +61,9 @@ function initCalendar(calendarEl) {
                 center: 'title',
                 right: 'dayGridMonth,timeGridWeek,listMonth'
             },
+            slotMinTime: '09:00',
+            slotMaxTime: '23:59',
+            firstDay: 1,
             titleFormat: { year: 'numeric', month: '2-digit'},
             themeSystem: 'standard',
             initialDate:  new Date().toISOString(),
@@ -69,7 +72,7 @@ function initCalendar(calendarEl) {
             allDaySlot: false,
             weekNumbers: true,
             weekNumberFormat: { week: 'numeric' },
-            initialView: 'dayGridMonth',
+            initialView: 'timeGridWeek',
             selectable: false,
             dayMaxEvents: true,
             events: '/api/events',
