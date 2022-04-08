@@ -69,7 +69,7 @@ function initCalendar(calendarEl) {
             allDaySlot: false,
             weekNumbers: true,
             weekNumberFormat: { week: 'numeric' },
-            initialView: 'timeGridWeek',
+            initialView: 'dayGridMonth',
             selectable: false,
             dayMaxEvents: true,
             events: '/api/events',
