@@ -21,9 +21,13 @@ if (!function_exists('getNextEvent')) {
 
         $events = collect($events)->sortBy(function ($e){
             if ($e->days_of_week) {
-                $diff = now()->diffInDays($e->start_date);
+                $diff = now()->diffInDays($e->start_date, false);
                 $days = $diff % 7 == 0 ? 0 : 7 - $diff % 7;
-                $e->_start_date = now()->addDays($days)->toDateString();
+                if ($diff > 0) {
+                    $e->_start_date = $e->start_date;
+                } else {
+                    $e->_start_date = now()->addDays($days)->toDateString();
+                }
             } else {
                 $e->_start_date = $e->start_date;
             }
