@@ -75,10 +75,10 @@
             "text": "<p class='mb-2 capitalize-first-letter'>A mock interview is a simulation that allows you to <span class='key-word white-space-nowrap'>work</span> on verbal/nonverbal communication skills and become <span class='key-word white-space-nowrap'>familiar</span> with interview settings, here is how :</p>",
             "listType": "ol",
             "list": [
-                "choose an interviewer <span class='key-word white-space-nowrap'>by asking</span> the server members.",
-                "choose/share a <span class='key-word white-space-nowrap'>job offer</span> as example with the interviewer and <span class='key-word white-space-nowrap'>start</span> the interview.",
-                "share your <span class='key-word white-space-nowrap'>resume</span> with the interviewer (use screen sharing, shared link ... etc).",
-                "take your time <span class='key-word white-space-nowrap'>answering</span> questions.",
+                "Visit this <a href='/interview' target='_blank' class='text-decoration-underline'>link</a> and  <span class='key-word white-space-nowrap'>fill</span> the form.",
+                "Be  <span class='key-word white-space-nowrap'>present</span> on the chosen date/time be prepared.",
+                "Be kind and polite and more important  <span class='key-word white-space-nowrap'>relaxed</span>.",
+                " <span class='key-word white-space-nowrap'>Take</span> your time answering questions.",
                 "the interviewer will <span class='key-word white-space-nowrap'>review</span> the mock interview with you at the end."
             ]
         }
