@@ -16,24 +16,25 @@ if (!function_exists('getNextEvent')) {
         if ($only_public) {
             $events = $events->where('is_private', 0);
         }
-        $events = $events->get();
+        $events = $events->select(['id', 'title', 'start_date', 'days_of_week'])->get();
 
 
         $events = collect($events)->sortBy(function ($e){
             if ($e->days_of_week) {
                 $diff = now()->diffInDays($e->start_date, false);
-                $days = $diff % 7 == 0 ? 0 : 7 - $diff % 7;
                 if ($diff > 0) {
                     $e->_start_date = $e->start_date;
                 } else {
+                    $diff = abs($diff);
+                    $days = $diff % 7 == 0 ? 0 : 7 - $diff % 7;
                     $e->_start_date = now()->addDays($days)->toDateString();
                 }
             } else {
                 $e->_start_date = $e->start_date;
             }
+            unset($e->days_of_week);
             return $e->_start_date;
         })->values();
-
         return count($events) > 0 ? $events[0] : null;
     }
 }
